@@ -6,6 +6,9 @@
 Data wrangling for fun and profit
 =================================
 
+Welcome to DataPatterns.org, a collection of tips and tricks for data work.
+
+
 Contents:
 
 .. toctree::
@@ -19,3 +22,4 @@ Some proposed chapters:
  * Storing data 
  * Cleaning up 
  * Presenting tables
+
