@@ -1,1 +1,0 @@
-Search.setIndex({objects:{},terms:{profit:0,wrangl:0,datapattern:0,content:0,fun:0,data:0},objtypes:{},titles:["DataPatterns: data wrangling for fun and profit"],objnames:{},filenames:["index"]})
