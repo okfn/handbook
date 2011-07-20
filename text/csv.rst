@@ -40,3 +40,22 @@ values at once. At this stage you have several options:
    which can also be used without the remainder of the library.
 
 .. _`NestedVariables`: http://formencode.org/Validator.html#http-html-form-input
+
+
+OT: Table Extraction Stages
+---------------------------
+
+What stages are required to convert tabular files from various sources into
+something that can be further processed (e.g. uploaded to the webstore)?
+
+See also: https://bitbucket.org/johnglover/ckanext-qa/src/80d7f1a047fc/ckanext/qa/lib/transform/
+
+ #. Detect the file format
+ #. Select the sheet (if supported)
+ #. Iterate over rows correctly, yielding cells
+ #. Detect the header column (if present)
+ #. Detect column data types
+ #. Pad missing values
+ #. Detect the end of data (vs. EOF)
+
+

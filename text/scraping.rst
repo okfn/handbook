@@ -54,6 +54,19 @@ threads. Imagine the following program::
 The benefit of using a generator here is that it can later be replaced with a 
 more advanced call, such as a thread manager picking items from a queue.
 
+As a more comprehensive example, here is an index collecting function for the 
+CORDIS database mentioned above:
+
+.. literalinclude:: ../examples/cordis.py
+   :pyobject: get_index
+
+Note that this is not beautiful code by any means, but it is sufficiently
+functional and solves the problem.
+
+
+## Choosing your elements
+-------------------------
+
 
 
 
