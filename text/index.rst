@@ -44,14 +44,7 @@ both for the interesting things that we can learn from it, but also because
 virtually any imaginable data problem applies to it: incompleteness, corruption,
 strange formats or sheer size.
 
-
-
-Contents:
-
-.. toctree::
-   :maxdepth: 2
-
-   scraping
+Table of contents: :ref:`toc`.
 
 Some proposed chapters:
 
