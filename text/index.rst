@@ -3,18 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to datapatterns's documentation!
-========================================
+Data wrangling for fun and profit
+=================================
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
-Indices and tables
-==================
+Some proposed chapters:
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+ * Types of data
+ * Setting up a working environment 
+ * Scraping things
+ * Storing data 
+ * Cleaning up 
+ * Presenting tables
