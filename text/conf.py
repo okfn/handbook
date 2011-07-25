@@ -95,9 +95,9 @@ sys.path.append(os.path.abspath('_themes'))
 html_theme_path = ['_themes']
 html_theme = 'flask'
 
-#html_theme_options = {
-#    'index_logo':   'data.png'
-#    }
+html_theme_options = {
+        'index_logo': False
+    }
 html_use_modindex = False
 html_sidebars = {
     '**':       ['sidebarlogo.html', 'localtoc.html', 'relations.html',

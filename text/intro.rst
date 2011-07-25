@@ -1,20 +1,15 @@
-Data wrangling for fun and profit
-=================================
 
-Welcome to **DataPatterns.org**, a collection of tips and tricks for data 
-work. This collection is not an finished document but a collection of 
-opinions and evolving best practices. The purpose is not to present all 
-available options and technologies but to pick one and follow it through.
-DataPatterns is also a collaborative effort: if you have some good hacks and 
-would like to share them, please contribute a patch to the `DataPatterns 
-repository`_
+Introduction
+============
 
-.. _DataPatterns repository: https://github.com/okfn/datapatterns
 
-**Note on the use of the term 'pattern':** The term pattern has developed a 
-very specific meaning in software engineering. While we use the term in this 
-sense, the tricks presented are not defined as a pattern using any of the 
-formal templates that have developed for software design patterns.
+Note on the term 'pattern'
+--------------------------
+
+The term pattern has developed a very specific meaning in software 
+engineering. While we use the term in this sense, the tricks 
+presented are not defined as a pattern using any of the formal 
+templates that have developed for software design patterns.
 
 Target audience
 ---------------

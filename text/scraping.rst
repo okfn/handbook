@@ -20,7 +20,57 @@ In general, the following problems are common when scraping data:
 ##: Parse HTML
 --------------
 
+One of the fantastic aspects of the web is that most web 
+pages are little trees of data that wait to be harvested. If you are 
+not familiar with the basics of `HTML`_, `XML`_ and the `XPath`_ 
+query language, invest a few moments to learn about each.
 
+.. _`HTML`: http://en.selfhtml.org/
+.. _`XML`: http://www.xml.com/pub/a/98/10/guide0.html
+.. _`XPath`: http://lxml.de/xpathxslt.html#xpath
+
+To learn about HTML in practice, use the `debugging toolbar`_ in your 
+browser. With the increasing use of dynamic page content (Ajax and JavaScript 
+frameworks), looking at a web page's HTML source is becoming less helpful: 
+you need to be able to inspect the rendered document object. Firefox's Firebug
+used to be the tool of choice for this, but nowadays the toolbars in Safari and 
+Chrome are equally useful. Make a habit of peeking under the hood whenever you 
+discover something technically weird or interesting on the web.
+
+.. _`debugging toolbar`: http://getfirebug.com/
+
+To parse HTML or XML in Python, use `lxml`_. The libary offers simple ways to 
+parse and traverse documents, both via generic XPath queries and through a custom 
+interface. Extended HTML5 support is available via `html5lib`_ which can be used 
+as a plugin to lxml. In the past, `BeautifulSoup`_ was very popular amongst 
+scrapers for HTML handling, but lxml has since caught up regarding support 
+for broken markup and is an order of magnitude faster, so BeautifulSoup has been 
+discontinued as a project.
+
+.. _`lxml`: http://lxml.de
+.. _`html5lib`: http://code.google.com/p/html5lib/
+.. _`BeautifulSoup`: http://www.crummy.com/software/BeautifulSoup/
+
+The basic steps for reading an HTML page are trivial::
+
+  >>> from lxml import html
+  >>> doc = html.parse('http://www.google.com/')
+  >>> elem = doc.find('//div[@id="searchform"]//center/input[1]')
+  >>> print elem.get('value')
+  I'm Feeling Lucky
+
+Note that we import the html parser rather than the XML one (lxml.etree). Both 
+offer the ``parse()`` convenience function that accepts either a file object or
+an URL. The ``find()`` method uses lxml-style XPath and has two siblings, 
+``findall()`` and ``findtext()`` which together are the main tools of lxml tree
+traversal.
+
+**Note**: While some people `prefer to use regular expressions`_ to parse HTML, this 
+is generally a bad idea unless you know exactly what you are doing. Most of 
+the time using a proper HTML parser will result in much more readable and 
+stable code.
+
+.. _`prefer to use regular expressions`: http://stackoverflow.com/questions/4231382/regular-expression-pattern-not-matching-anywhere-in-string/4234491#4234491
 
 ##: Index and Item
 ------------------
