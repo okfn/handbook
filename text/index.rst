@@ -29,7 +29,31 @@ Some proposed chapters:
  * Types of data
  * Setting up a working environment 
  * Scraping things
- * Storing data 
- * Cleaning up 
- * Presenting tables
- * Doing PDF
+   * HTML
+   * Index & Item
+   * Page Elements
+   * Have a cookie
+   * Put it somewhere (MongoDB)
+   * Put it somewhere else (SQLite)
+   * Take a peek inside
+ * Storing data
+   * Webstore
+   * Metadata & CKAN 
+ * Extracting things & cleanup
+   * PDF
+   * Text Normalization
+   * Calais and Auto-Tagging
+ * Entities
+   * NLP/NER basics
+   * MDM/Codesheets
+   * Google Spreadsheet Normalization
+   * OpenCorporates.com Recon 
+   * Helmut 
+   * GeoNames
+ * Graphs
+   * RDF and Linked Data 
+   * NetworkX
+   * graphviz
+   * Gephi
+ * Mapping (invite)
+ * Dataviz (invite)
