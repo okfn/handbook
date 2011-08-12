@@ -7,8 +7,11 @@ Set up a working environment
  * ipython, ipdb
  * lxml
  * csvkit
+ * tablib
+ * pandas
 
 
-
+ * saucebrush
+ * valedictory
 
 
