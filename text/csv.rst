@@ -16,8 +16,8 @@ Things that are not true about CSV:
  * The first column contains column headings.
  * All rows have the same number of columns.
 
-## Folding nested values into CSV
----------------------------------
+Folding nested values into CSV
+------------------------------
 
 About halfway through producing a CSV export, you usually realize that the 
 data does not neatly lend itself to be serialized into a single table: a 
