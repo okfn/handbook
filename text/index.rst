@@ -22,6 +22,7 @@ repository`_
    intro
    workingenv
    scraping
+   howtogetdata
    csv
 
 Some proposed chapters:
@@ -29,31 +30,47 @@ Some proposed chapters:
  * Types of data
  * Setting up a working environment 
  * Scraping things
+
    * HTML
    * Index & Item
    * Page Elements
-   * Have a cookie
+   * Have a cookie (State)
+   * Threading / FlockScrape?
+   * Caching: HTTP and Local
    * Put it somewhere (MongoDB)
    * Put it somewhere else (SQLite)
    * Take a peek inside
+
  * Storing data
+
    * Webstore
+   * JSONdir
    * Metadata & CKAN 
+
  * Extracting things & cleanup
+
+   * Regexen
    * PDF
+   * OCR/ocropus
+   * Date parsing
+   * Refine / Refine as a Server
    * Text Normalization
    * Calais and Auto-Tagging
+
  * Entities
+
    * NLP/NER basics
    * MDM/Codesheets
    * Google Spreadsheet Normalization
    * OpenCorporates.com Recon 
    * Helmut 
    * GeoNames
+
  * Graphs
+
    * RDF and Linked Data 
    * NetworkX
-   * graphviz
-   * Gephi
+   * graphviz + Gephi
+
  * Mapping (invite)
  * Dataviz (invite)
