@@ -17,8 +17,8 @@ In general, the following problems are common when scraping data:
  * Blocking of bulk access.
  * Use of outdated server technologies and inappropriate data formats.
 
-##: Parse HTML
---------------
+Parse HTML
+----------
 
 One of the fantastic aspects of the web is that most web 
 pages are little trees of data that wait to be harvested. If you are 
@@ -72,8 +72,8 @@ stable code.
 
 .. _`prefer to use regular expressions`: http://stackoverflow.com/questions/4231382/regular-expression-pattern-not-matching-anywhere-in-string/4234491#4234491
 
-##: Index and Item
-------------------
+Index and Item
+--------------
 
 A very common pattern in scraping is to make a distinction between an index of
 items and the items detail page. For example, lets have a look at the `CORDIS`_ 
@@ -114,9 +114,8 @@ Note that this is not beautiful code by any means, but it is sufficiently
 functional and solves the problem.
 
 
-## Choosing your elements
--------------------------
+Choosing your elements
+----------------------
 
-
-
+.. todo: add this section
 
