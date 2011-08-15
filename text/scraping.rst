@@ -119,3 +119,22 @@ Choosing your elements
 
 .. todo: add this section
 
+Caching HTTP requests
+---------------------
+
+.. todo: link to httplib2
+
+Threading your scraper
+----------------------
+
+One particularly useful tool for speeding up your scraper is spreading the 
+retrieval over various threads that operate in parallel. While this is 
+useful, it also means you must take care not to overload the server and to 
+cause a denial-of-service attack. Running a scraper with more than 15-20 
+threads should only be tried against large, well-cached systems.
+
+The easiest way to thread your scraper is using the index and item pattern
+described above: your index scraper function will generate a task queue and 
+a set of worker threads will handle each item on that queue.
+
+.. literalinclude:: ../examples/threads.py
