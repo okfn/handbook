@@ -25,6 +25,17 @@ Glossary
     from a specific source, BitTorrent allows peers to download 
     from each other.
 
+  CSV
+    Comma Separated Variables. A very simple, open format for tabular data
+    which can be exported and imported by all spreadsheet applications and is
+    easily manipulable with command line tools.
+
+  curl
+    http://curl.haxx.se/ - a command line tool for transferring data to and
+    from online systems over standard internet protocols including FTP and
+    HTTP. Very powerful and great for working with :term:`Web API` s from the
+    command line.
+
   DAP
     See :term:`Data Access Protocol`.
   

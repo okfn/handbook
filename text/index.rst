@@ -20,10 +20,11 @@ repository`_
    :maxdepth: 2
   
    intro
-   workingenv
    scraping
-   howtogetdata
    csv
+   datahub
+   howtogetdata
+   workingenv
 
 Some proposed chapters:
 
