@@ -43,6 +43,10 @@ Glossary
     A system that allows outsiders to be granted access to databases 
     without overloading either system.
 
+  etherpad
+    A piece of software for collaborative real-time editing of text. See
+    http://etherpad.org/.
+
   Attribution Licence
     A licence that requires attributing the original source
     of the licensed material.
