@@ -21,6 +21,7 @@ repository`_
   
    intro
    scraping
+   liberating-html-tables
    csv
    datahub
    howtogetdata
