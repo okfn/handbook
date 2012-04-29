@@ -97,6 +97,7 @@ html_theme = 'sphinx-theme-okfn'
 
 html_theme_options = {
         'logo_icon': 'http://assets.okfn.org/p/datapatterns/img/datapatterns-header-logo.png'
+        'google_analytics_id': 'UA-8271754-43'
     }
 html_use_modindex = False
 html_sidebars = {
