@@ -40,8 +40,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'datapatterns'
-copyright = u'2011, Open Knowledge Foundation'
+project = u'Data Patterns'
+copyright = u'&copy; 2011, Open Knowledge Foundation'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -93,15 +93,14 @@ pygments_style = 'sphinx'
 # a list of builtin themes.
 sys.path.append(os.path.abspath('_themes'))
 html_theme_path = ['_themes']
-html_theme = 'flask'
+html_theme = 'sphinx-theme-okfn'
 
 html_theme_options = {
-        'index_logo': False
+        'logo_icon': 'http://assets.okfn.org/p/datapatterns/img/datapatterns-header-logo.png'
     }
 html_use_modindex = False
 html_sidebars = {
-    '**':       ['sidebarlogo.html', 'localtoc.html', 'relations.html',
-                 'sourcelink.html', 'searchbox.html']
+    '**':       ['sidebarlogo.html', 'globaltoc.html']
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
