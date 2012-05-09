@@ -23,9 +23,11 @@ repository`_
    scraping
    liberating-html-tables
    csv
+   geocoding
    datahub
    howtogetdata
    workingenv
+   ref/visualization
 
 Some proposed chapters:
 
