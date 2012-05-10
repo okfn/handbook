@@ -40,8 +40,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Data Patterns'
-copyright = u'&copy; 2011, Open Knowledge Foundation'
+project = u"Data Wranglers' Handbook" 
+copyright = u'&copy; 2011-2012, Open Knowledge Foundation'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
