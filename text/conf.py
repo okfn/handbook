@@ -40,7 +40,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u"Data Wranglers' Handbook" 
+project = u"Data Wrangling Handbook" 
 copyright = u'&copy; 2011-2012, Open Knowledge Foundation'
 
 # The version info for the project you're documenting, acts as replacement for
