@@ -1,19 +1,29 @@
-=====================================================
-Wrangling a Dataset with the DataHub and its Webstore
-=====================================================
+===================================
+Publishing a Dataset on the DataHub
+===================================
 
-Your need: get a dataset together and make it available online.
+This tutorial will show you how to publish a dataset online using the DataHub.
 
-We're going to show a quick and easy way to do this using the DataHub_ and
-either Google Docs or the DataHub Webstore_.
+Along the way you may get to do a bit of data wrangling (finding, cleaning and
+fixing up data).
 
 .. note:
 
-  We will assume below that the data can ultimately take a tabular like form but this is by no means required to use the DataHub_
+  We will assume below that the data can ultimately take a tabular like form
+  but this is by no means required to use the DataHub_
 
-.. _Webstore: http://github.com/okfn/webstore
-.. _DataHub: http://thedatahub.org/
-.. _CKAN: http://ckan.org/
+.. _DataHub: http://datahub.io/
+
+Step 0 - Identify a Dataset to Use
+==================================
+
+For this purposes of this tutorial you will want to have some raw data which
+you want to put up on the DataHub. If you don't have one to hand we suggest you
+just use some of the raw data from this `Gold Prices Dataset`_ on the DataHub
+(just pretend you dug it up somewhere on the Internet!).
+
+.. _Gold Prices Dataset: http://datahub.io/dataset/gold-prices
+
 
 Step 1 - Boot a DataHub Dataset
 ===============================
@@ -29,7 +39,7 @@ dataset at this point is doing 2 things:
 
 In addition to a title, add a short description to your dataset, and any other
 relevant links, tags etca. If you don't have the data yet, add a tag of the
-form `todo.getthedata`.
+form `todo.getdata`.
 
 You may also want to boot a document (such as :term:`etherpad`, or text file)
 which will serve as your scratchpad and :term:`README` where you can record
@@ -44,7 +54,9 @@ offline b) many people like using their favourite text editor!
 Step 2 - Get the Data
 =====================
 
-*Note: step 2 and 3 will often occur in parallel.*
+.. note:
+
+   Step 2 and 3 will often occur in parallel.*
 
 Start digging for the data. This isn't our subject here so we leave the details
 to you. What we do suggest is you upload or links to data you find in your
@@ -69,16 +81,15 @@ The result of this process should be a spreadsheet representing our 'refined' da
 Step 4 - Add refined data to your dataset
 =========================================
 
-1. Create a :term:`CSV` file (this is much preferred as a format to e.g. a excel file)
+1. Create a :term:`CSV` or Excel file (CSV is much preferred as a format to e.g. a excel file)
 
-2. Either the data to the DataHub.
+2. Add the data to the DataHub. Just upload the file directly to the DataHub -
+   go to Resources in edit section and then choose 'Upload a File'.
    
-   * Either: (Best) Upload it to the Webstore (see next item) and then add
-     Resource entry in the Resources section of your DataHub dataset linking to
-     your Webstore file
-
-   * Just upload the file directly to the DataHub - go to Resources in edit
-     section and then choose 'Upload a File'
+   * If you are using Google Docs you can get a CSV link directly from Google
+     Docs. Go to File -> Publish to the Web. Hit Start Publishing and select
+     CSV. Choose the relevant sheet and then copy the url. Then use that URL
+     when creating your Data Resource on the DataHub.
 
 .. note::
 
@@ -86,24 +97,4 @@ Step 4 - Add refined data to your dataset
     DataHub dataset linking to the google doc. (NB: if you do this, ensure that you
     have made your google doc publicly accessible and that you have *also*
     published it to the web -- see file menu -> publish to the web).
-
-
-Upload to the Webstore
-----------------------
-
-The easiest way to do this at present is to use the command line tool
-:term:`curl`. You will also need your DataHub API key (see your account page).
-
-Peform the following on the command line::
-
-  curl --data-binary @myfile.csv -H "Authorization: {datahub-api-key}" -i -H "Content-type: text/csv" -X PUT http://webstore.thedatahub.org/{user-name}/{db-name}/{table-name}
-
-Values in '{...}' should be replaced with a value your choose.
-
-  * {table-name}: suggest using `data` as a standard default
-  * {db-name}: suggest using the same name as your DataHub dataset
-
-If you want to delete the table in order to re upload it do::
-
-  curl -H "Authorization: {datahub-api-key}" -i -X DELETE http://webstore.thedatahub.org/{user-name}/{db-name}/{table-name}
 
