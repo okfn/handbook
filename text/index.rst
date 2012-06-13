@@ -14,16 +14,118 @@ Wrangling Handbook git repository`_
 
 .. _Data Wrangling Handbook git repository: https://github.com/okfn/datapatterns
 
+Introduction
+------------
+
 .. toctree::
    :maxdepth: 2
   
-   intro
+  intro
+
+Overview of Concepts, Tools and Technologies
+--------------------------------------------
+
+.. toctree::
+   :maxdepth: 2
+  
+   csv
+   workingenv
+
+* SQL, JSON, CSV ...
+* Types of Data
+
+  * Web
+  * Text
+  * Structured Documents
+  * Databases
+  * Scientific Data
+
+* Programming Basics
+* Advanced Programming
+
+How to find stuff! (aka Discovery and Acquisition)
+--------------------------------------------------
+
+.. toctree::
+   :maxdepth: 2
+  
+   howtogetdata
+
+* Searching and Finding
+* Crowd Sourcing
+
+  * Manual Digitisation
+  * Bulk Digitsation
+
+Extraction
+----------
+
+.. toctree::
+   :maxdepth: 2
+  
    scraping
    liberating-html-tables
-   csv
+
+* Scraping and Parsing
+* Automation
+* Natural Language Processing
+* Data Pipes
+* OCR
+* Other potential sections? Regexen / PDF / OCR/ocropus / Refine / Refine as a Server / Text Normalization / Calais and Auto-Tagging
+
+Cleaning, Transforming & Integrating
+------------------------------------
+
+.. toctree::
+   :maxdepth: 2
+  
    geocoding
    datahub
-   howtogetdata
-   workingenv
    ref/visualization
+
+* Data Formats and Standards
+* Data Granularity
+* Using Refernce Data
+* Merge / Join
+* Mapping
+* Handling Manual Corrections
+* Normalisation
+* Entity Uniqueness
+* Treating Duplicates
+* Indexing and Optimisation
+* Handling Changing Dimensions
+* Concept Modelling
+* Fuzzy Matching
+
+Storing and publishing data
+---------------------------
+
+.. toctree::
+   :maxdepth: 2
+  
+   datahub
+
+* Publishing Online
+* Bulk storage versus structured storage
+
+Analysis
+--------
+
+* Visualisation and Plotting
+* Sorting, Filtering and Pivoting
+* Regression
+* Visualisation Method Selection - list of tools in DWH
+* Map Geo-Tagging - short section in DWH
+* Other potential sections: NetworkX / graphviz + Gephi / Mapping / Dataviz (invite)
+
+Presentation
+------------
+
+.. toctree::
+   :maxdepth: 2
+  
+   ref/visualization
+
+* Viz
+* Mapping ...
 
