@@ -1,26 +1,35 @@
-=================================
-Data wrangling for fun and profit
-=================================
+=======================================
+Welcome to the Data Wrangling Handbook!
+=======================================
 
-Welcome to the **Data Wrangling Handbook**.
+The Data Wrangling Handbook is a companion text to the `School of Data`_. It's
+function is something like a traditional textbook - it will provide the detail
+and background theory to support the School of Data courses and challenges.
 
-This handbook is not a finished document but a collection of opinions and
-evolving best practices. The purpose is not to present all available options
-and technologies but to pick one and follow it through.
+The Data Wrangling Handbook is currently in an early stage of development. Over
+the coming months we intend to write more chapters and flesh out this skeleton
+with content and detail. We also hope to expand and improve upon this basic
+outline, so if there's a section that you currently feel is missing, please do
+let us know!
 
-The Handbook is also a collaborative effort: if you have a recipe, a tool or a
-howto and would like to share them, please contribute a patch to the `Data
-Wrangling Handbook git repository`_
+The Data Wrangling Handbook is a collaborative endeavour, and we welcome all
+feedback and contributions. To contribute to the Data Wrangling Handbook you
+can:
 
-.. _Data Wrangling Handbook git repository: https://github.com/okfn/datapatterns
+* Edit directly on the `Data Wrangling Github Repository`_
+* Submit an issue to our `issue tracker`_
+* Write a new contribution - you can do this in the format and editor of your choice (Google Docs, Open Office, Word, Latex ...) and then email it to schoolofdata [@] okfn.org
+* Email us ideas and suggestions at schoolofdata [@] okfn.org 
+* Send tweets to `@SchoolOfData`_
 
-Introduction
-------------
+The Data Wrangling Handbook should be accessible to all learners. If you
+stumble across an unexplained term or a concept that requires more explanation,
+please do get in touch.
 
-.. toctree::
-   :maxdepth: 2
-  
-  intro
+.. _School of Data: http://schoolofdata.org/
+.. _Data Wrangling Github Repository: https://github.com/okfn/datawrangling
+.. _@SchoolOfData: http://twitter.com/SchoolOfData
+.. _issue tracker: https://github.com/okfn/datawrangling/issues
 
 Overview of Concepts, Tools and Technologies
 --------------------------------------------
