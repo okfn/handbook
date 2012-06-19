@@ -2,7 +2,7 @@
 Welcome to the Data Wrangling Handbook!
 =======================================
 
-The Data Wrangling Handbook is a companion text to the `School of Data`_. It's
+The Data Wrangling Handbook is a companion text to the `School of Data`_. Its
 function is something like a traditional textbook - it will provide the detail
 and background theory to support the School of Data courses and challenges.
 
