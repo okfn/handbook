@@ -19,9 +19,24 @@ Things that are not true about CSV:
 
 Before you process CSV files
 ----------------------------
+It is advisable to deal with CSV encoding and quoting issues early 
+in your workflow.
 
-*  quoting
-*  encoding
+If there's a chance that your CSV file contains non-English words, or English
+proper names such as surnames or placenames, then you should verify that
+the data is in the character set encoding that you expect, e.g., UTF-8 or
+ISO-8859-1. Otherwise, convert it to the encoding you work in, using iconv.
+GNU iconv is limited to converting files which will fit in the RAM available
+on your machine and which contain data in a single character set encoding.
+
+There are multiple methods for quoting the markers which delimit fields
+and lines in CSV files. The tool which generated your CSV files may have
+done so such that they are unreadable by other computer programmes.
+In particular, a naive CSV implementation may have left backslashes or
+double quotes near the edges of fields in way that Excel will ignore but
+which are unacceptable to stricter systems such as databases. Try to
+identify these issues early; they may be trivially fixable with basic
+UNIX tools such as 'tr' and 'sed'.
 
 CSV options
 -----------
@@ -33,20 +48,19 @@ CSV options
 
 Exporting from a relational database to CSV
 -------------------------------------------
+* MySQL (server-side): SELECT INTO OUTFILE
+* postgres: COPY 'table_name' TO STDOUT WITH ...
+* sqlite: .dump
+* DB2: EXPORT COLSEP=0x09 SELECT * FROM schema.table;
+* SQL Server: bcp
 
-*  mysql
-*  postgres
-* sql server
-* sqlite
-* db2
+Import CSV to a relational database
+-----------------------------------
 
-csv -> sql
-----------
-
-* mysql
-* postgres
-* sqlite3
-* python
+* MySQL: LOAD DATA LOCAL INFILE '/path/to/file.csv' INTO TABLE 'table_name' FIELDS SEPARATED BY '\t' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES; SHOW WARNINGS;
+* postgres: COPY 'table_name' FROM '/path/to/file.csv' WITH ... 
+* sqlite3: .mode ; .import
+* python: .executemany()
 
 Exporting CSV from spreadsheets
 -------------------------------
