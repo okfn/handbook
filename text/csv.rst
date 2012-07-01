@@ -41,6 +41,14 @@ UNIX tools such as 'tr' and 'sed'.
 CSV options
 -----------
 
+The markers for lines and fields differ between CSV files. There are
+four of them: line terminators, field separators, field quotes, and escape
+markers.
+
+CSV files comprise a set of lines. Each line is followed by a
+termination marker, including the final line. Within each line there
+are fields.
+
 *  field separator
 *  field quoting (delimiter and policy)
 *  line separator (at end of every line)
