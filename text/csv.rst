@@ -16,6 +16,51 @@ Things that are not true about CSV:
  * The first column contains column headings.
  * All rows have the same number of columns.
 
+
+Before you process CSV files
+----------------------------
+
+*  quoting
+*  encoding
+
+CSV options
+-----------
+
+*  field separator
+*  field quoting (delimiter and policy)
+*  line separator (at end of every line)
+
+
+Exporting from a relational database to CSV
+-------------------------------------------
+
+*  mysql
+*  postgres
+* sql server
+* sqlite
+* db2
+
+csv -> sql
+----------
+
+* mysql
+* postgres
+* sqlite3
+* python
+
+Exporting CSV from spreadsheets
+-------------------------------
+* Excel gotchas
+* Refine gotchas
+* Gnumeric gotchas
+
+
+programming
+-----------
+* python csv module
+* awk
+
+
 Folding nested values into CSV
 ------------------------------
 
