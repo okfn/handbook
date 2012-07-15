@@ -31,12 +31,236 @@ please do get in touch.
 .. _@SchoolOfData: http://twitter.com/SchoolOfData
 .. _issue tracker: https://github.com/okfn/datawrangling/issues
 
-Overview of Concepts, Tools and Technologies
---------------------------------------------
+=======================================
+Part I: Introduction; Getting Started
+=======================================
+
+Introduction to Data
+---------------------
 
 .. toctree::
    :maxdepth: 2
+
+* What is Data?
+   
+  * quantitative, qualitative, discrete, continuous, categorical
+
+* Examples of Data
+
+  * web
+  * text
+  * structured documents
+  * databases
+  * scientific
+  * geographical
+
+* Data Formats
+
+  * CSV
+  * JSON
+  * XML
+  * Databases
+
+* Data Quality
+   
+  * provenance
+  * trust
+  * collection methodology
+
+* Data Ethics
+
+  * privacy
+  * more???
+
+* Data Citizenship
+
+  * share your data (i.e. datahub)
+  * keep a record of your wrangling
+  * metadata !!!!
+
+Introduction to Tools
+---------------------
+
+.. toctree::
+   :maxdepth: 2
+
+* Spreadsheet
+   
+  * Google Docs
+  * Excel
+  * Open Office??
+
+* Databases
+
+  * Relational (mySQL, MS Access)
+  * noSQL (mongoDB, couchDB)
+
+* Wrangling & Analysis
+
+  * Spreadsheets
+  * Fusion Tables
+  * Google Refine
+  * Python
+  * R
+
+* Visualization & Communication
+
+  * Software
+  * Hosted
+  * Libraries
+  * Flash
+  * Python
+  * Java
+  * R
   
+=======================================
+Part II: The Data Pipeline
+=======================================
+
+Finding Data
+---------------------
+
+.. toctree::
+   :maxdepth: 3
+
+* Data Sources
+   
+  * Online - list of "trustworthy" sources by category
+      
+    * government
+    * science
+    * social science
+    * literature
+    * sports
+    * art
+    * etc
+   
+  * Online - APIs
+      
+    * introduce the idea
+    * examples
+
+  * Online - Scraping
+
+    * introduce the idea
+    * examples
+
+  * Crowdsourcing
+
+    * manual / bulk digitization
+
+  * Offline
+      
+    * interviews, ethnography, government docs, library collections, more??
+
+* Wrangling
+
+  * Extraction
+   
+    * selection, download
+    * scraping & parsing in detail
+
+  * Cleaning
+
+    * The Table - Rows and Columns
+    * Unicode & Special Characters
+    * missing values
+    * granularity
+    * uniqueness
+    * duplicates
+    * manual correction
+    * more.....
+
+  * Transforming
+
+    * Normalization
+    * more.....
+
+  * Merging
+
+    * SUPER IMPORTANT
+
+  * Storing & Publishing
+  
+    * datahub
+    * online
+    * bulk vs. structured
+
+* Analysis
+
+  * Investigating the Shape of Data - The Basics
+  
+    * count
+    * min, max, range
+    * mean, median, mode
+    * quartiles
+    * outliers
+    * variance, standard deviation
+    * histogram
+    * scatterplots
+
+  * Simple Statistical Techniques
+
+    * filtering
+    * pivoting
+    * plotting 
+    * regression
+    * more???
+
+  * Advanced Statistical Techniques
+
+    * Data Mining Techniques
+    * more????
+
+* Communicating Data
+
+  * "Story"
+
+  * Visualization
+
+  * Watch Out!!! Common Misinterpretations of Data
+
+
+=======================================================
+Part III: The "Secrets" - Tips & Tricks of the Trade
+=======================================================
+
+This is always the best part, right??? :-)
+
+Recipes
+---------------------
+
+.. toctree::
+   :maxdepth: 2
+
+* Liberating HTML Data Tables
+  
+  * Screenscraping HTML Tables Using Google Spreadsheets
+
+* Liberating Data from Microsoft Access Databases
+
+Tips
+---------------------
+
+.. toctree::
+   :maxdepth: 1
+
+* tips??
+
+
+
+
+
+
+
+
+
+
+
+======================================================
+OLDER OUTLINE, to be incorporated into above outline:
+======================================================
+
    csv
    workingenv
 
