@@ -59,7 +59,6 @@ Introduction to Data
   * CSV
   * JSON
   * XML
-   rdf
   * Databases
   
 * Data Quality
