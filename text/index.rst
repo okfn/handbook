@@ -219,6 +219,10 @@ Finding Data
 
   * Visualization
 
+   ref/visualization
+
+
+
   * Mapping
 
   * Watch Out!!! Common Misinterpretations of Data
