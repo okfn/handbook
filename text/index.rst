@@ -59,6 +59,7 @@ Introduction to Data
   * CSV
   * JSON
   * XML
+   rdf
   * Databases
   * RDF
   
@@ -261,6 +262,9 @@ Tips
 ======================================================
 OLDER OUTLINE, to be incorporated into above outline:
 ======================================================
+
+.. toctree::
+   :maxdepth: 2
 
    csv
    workingenv
