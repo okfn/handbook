@@ -60,7 +60,8 @@ Introduction to Data
   * JSON
   * XML
   * Databases
-
+  * RDF
+  
 * Data Quality
    
   * provenance
