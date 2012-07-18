@@ -55,12 +55,10 @@ Introduction to Data
   * geographical
 
 * Data Formats
-.. toctree::
-   :maxdepth: 2
+
   * CSV
   * JSON
   * XML
-   rdf
   * Databases
   * RDF
   
