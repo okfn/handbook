@@ -59,7 +59,7 @@ Introduction to Data
   * CSV
   * JSON
   * XML
-      rdf
+   rdf
   * Databases
   * RDF
   
