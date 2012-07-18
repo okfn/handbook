@@ -61,7 +61,6 @@ Introduction to Data
   * XML
 rdf
   * Databases
-  * RDF
   
 * Data Quality
    
