@@ -56,10 +56,10 @@ Introduction to Data
 
 * Data Formats
 
-    rdf
   * CSV
   * JSON
   * XML
+    rdf
   * Databases
   
 * Data Quality
