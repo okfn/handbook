@@ -56,7 +56,7 @@ Introduction to Data
 
 * Data Formats
 
-    rdf
+  rdf
   * CSV
   * JSON
   * XML
