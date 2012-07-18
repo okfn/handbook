@@ -59,6 +59,7 @@ Introduction to Data
   * CSV
   * JSON
   * XML
+   rdf
   * Databases
 
 * Data Quality
@@ -260,6 +261,9 @@ Tips
 ======================================================
 OLDER OUTLINE, to be incorporated into above outline:
 ======================================================
+
+.. toctree::
+   :maxdepth: 2
 
    csv
    workingenv
