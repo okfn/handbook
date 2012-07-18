@@ -234,11 +234,10 @@ Recipes
 .. toctree::
    :maxdepth: 2
 
-* Liberating HTML Data Tables
+   liberating-html-tables
+   liberating-access-databases
   
   * Screenscraping HTML Tables Using Google Spreadsheets
-
-* Liberating Data from Microsoft Access Databases
 
 Tips
 ---------------------
