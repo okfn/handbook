@@ -237,7 +237,6 @@ Recipes
    liberating-html-tables
    liberating-access-databases
   
-  * Screenscraping HTML Tables Using Google Spreadsheets
 
 Tips
 ---------------------
