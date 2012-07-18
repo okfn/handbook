@@ -56,7 +56,7 @@ Introduction to Data
 
 * Data Formats
 
-   rdf
+    rdf
   * CSV
   * JSON
   * XML
@@ -218,6 +218,8 @@ Finding Data
   * "Story"
 
   * Visualization
+
+  * Mapping
 
   * Watch Out!!! Common Misinterpretations of Data
 
