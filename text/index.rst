@@ -68,7 +68,7 @@ Introduction to Data
   * provenance
   * trust
   * collection methodology
-  * 'data quality draft'_
+  * `data quality draft`_
 
 * Data Ethics
 
