@@ -38,9 +38,6 @@ Part I: Introduction; Getting Started
 Introduction to Data
 ---------------------
 
-.. toctree::
-   :maxdepth: 2
-
 * What is Data?
    
   * quantitative, qualitative, discrete, continuous, categorical
@@ -60,13 +57,18 @@ Introduction to Data
   * JSON
   * XML
   * Databases
-  * RDF
+
+.. toctree::
+   :maxdepth: 2
+
+   rdf
   
 * Data Quality
    
   * provenance
   * trust
   * collection methodology
+  * `data quality outline`_
 
 * Data Ethics
 
@@ -76,7 +78,7 @@ Introduction to Data
 * Data Citizenship
 
   * share your data (i.e. datahub)
-  * keep a record of your wrangling
+  * Your Data Notebook: keep a record of your wrangling
   * metadata !!!!
 
 Introduction to Tools
@@ -95,6 +97,7 @@ Introduction to Tools
 
   * Relational (mySQL, MS Access)
   * noSQL (mongoDB, couchDB)
+  * `databases outline`_
 
 * Wrangling & Analysis
 
@@ -118,6 +121,8 @@ Introduction to Tools
 Part II: The Data Pipeline
 =======================================
 
+(Make sure to discuss keeping a data notebook throughout this process.)
+
 Finding Data
 ---------------------
 
@@ -126,7 +131,7 @@ Finding Data
 
 * Data Sources
    
-  * Online - list of "trustworthy" sources by category
+  * Online - a curated list of "trustworthy" sources by category - not guaranteed - see Data Quality
       
     * government
     * science
@@ -219,11 +224,27 @@ Finding Data
 
   * Visualization
 
+   ref/visualization
+
+
+
+  * Mapping
+
   * Watch Out!!! Common Misinterpretations of Data
 
 
 =======================================================
-Part III: The "Secrets" - Tips & Tricks of the Trade
+Part III: Case Studies
+=======================================================
+
+.. toctree::
+   :maxdepth: 2
+
+* Weather data: `weather data case study draft`_
+
+
+=======================================================
+Part IV: The "Secrets" - Tips & Tricks of the Trade
 =======================================================
 
 This is always the best part, right??? :-)
@@ -234,11 +255,9 @@ Recipes
 .. toctree::
    :maxdepth: 2
 
-* Liberating HTML Data Tables
+   liberating-html-tables
+   liberating-access-databases
   
-  * Screenscraping HTML Tables Using Google Spreadsheets
-
-* Liberating Data from Microsoft Access Databases
 
 Tips
 ---------------------
@@ -366,12 +385,6 @@ Presentation
 * Viz
 * Mapping ...
 
-Recipes
--------
-
-.. toctree::
-   :maxdepth: 2
-
-   liberating-html-tables
-   liberating-access-databases
-
+.. _data quality outline: https://docs.google.com/document/d/13IkiZfd3OR7PxPED58Cw3giB3HMjHprayODoVCseOow/edit
+.. _databases outline: https://docs.google.com/document/d/1TrCuVla9cSdaWx8_vzeuS_gGQDYIuewRXJOq9cXFFf4/edit
+.. _weather data case study draft: https://docs.google.com/document/d/1aU3Aphvw1rs3roUj9dWQvNYge_wK_VdFEyUw24JEWjg/edit
