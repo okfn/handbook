@@ -68,7 +68,7 @@ Introduction to Data
   * provenance
   * trust
   * collection methodology
-  * `data quality draft`_
+  * `data quality outline`_
 
 * Data Ethics
 
@@ -97,6 +97,7 @@ Introduction to Tools
 
   * Relational (mySQL, MS Access)
   * noSQL (mongoDB, couchDB)
+  * `databases outline`_
 
 * Wrangling & Analysis
 
@@ -374,4 +375,5 @@ Presentation
 * Viz
 * Mapping ...
 
-.. _data quality draft: https://docs.google.com/document/d/13IkiZfd3OR7PxPED58Cw3giB3HMjHprayODoVCseOow/edit
+.. _data quality outline: https://docs.google.com/document/d/13IkiZfd3OR7PxPED58Cw3giB3HMjHprayODoVCseOow/edit
+.. _databases outline: https://docs.google.com/document/d/1TrCuVla9cSdaWx8_vzeuS_gGQDYIuewRXJOq9cXFFf4/edit
