@@ -95,7 +95,7 @@ Introduction to Tools
 
 * Databases
 
-  * Relational (mySQL, MS Access, sqlite)
+  * Relational (mySQL, MS Access)
   * noSQL (mongoDB, couchDB)
   * `databases outline`_
 
