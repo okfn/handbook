@@ -131,7 +131,7 @@ Finding Data
 
 * Data Sources
    
-  * Online - list of "trustworthy" sources by category
+  * Online - a curated list of "trustworthy" sources by category - not guaranteed - see Data Quality
       
     * government
     * science
@@ -234,7 +234,17 @@ Finding Data
 
 
 =======================================================
-Part III: The "Secrets" - Tips & Tricks of the Trade
+Part III: Case Studies
+=======================================================
+
+.. toctree::
+   :maxdepth: 2
+
+* Weather data: `weather data case study draft`_
+
+
+=======================================================
+Part IV: The "Secrets" - Tips & Tricks of the Trade
 =======================================================
 
 This is always the best part, right??? :-)
@@ -377,3 +387,4 @@ Presentation
 
 .. _data quality outline: https://docs.google.com/document/d/13IkiZfd3OR7PxPED58Cw3giB3HMjHprayODoVCseOow/edit
 .. _databases outline: https://docs.google.com/document/d/1TrCuVla9cSdaWx8_vzeuS_gGQDYIuewRXJOq9cXFFf4/edit
+.. _weather data case study draft: https://docs.google.com/document/d/1aU3Aphvw1rs3roUj9dWQvNYge_wK_VdFEyUw24JEWjg/edit
