@@ -75,7 +75,7 @@ Introduction to Data
 * Data Citizenship
 
   * share your data (i.e. datahub)
-  * keep a record of your wrangling
+  * Your Data Notebook: keep a record of your wrangling
   * metadata !!!!
 
 Introduction to Tools
@@ -116,6 +116,8 @@ Introduction to Tools
 =======================================
 Part II: The Data Pipeline
 =======================================
+
+(Make sure to discuss keeping a data notebook throughout this process.)
 
 Finding Data
 ---------------------
