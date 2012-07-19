@@ -66,6 +66,7 @@ Introduction to Data
   * provenance
   * trust
   * collection methodology
+  * 'data quality draft'_
 
 * Data Ethics
 
@@ -371,3 +372,4 @@ Presentation
 * Viz
 * Mapping ...
 
+_data quality draft: https://docs.google.com/document/d/13IkiZfd3OR7PxPED58Cw3giB3HMjHprayODoVCseOow/edit
