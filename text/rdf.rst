@@ -154,3 +154,110 @@ HTML, etc). For example, the same results in JSON are similar to this::
     ]
    }
   }
+
+  
+Using SPARQL results with JavaScript
+====================================
+
+This the results can be used also to fill a webpage. For example, if we want to include a list of chilean poets in a webpage, we execute the following code (based on jQuery)::
+
+  <html>
+  <head>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+      <script type="text/javascript">
+      $(document).ready(function() {
+         var q='PREFIX dcterms: <http://purl.org/dc/terms/>\
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
+                PREFIX dbp: <http://dbpedia.org/ontology/>\
+                \
+                SELECT ?poet ?poetName WHERE{\
+                       ?poet dcterms:subject <http://dbpedia.org/resource/Category:Chilean_poets>;\
+                              rdfs:label ?poetName .\
+                FILTER (LANG(?poetName) = "en")\
+                }';
+                
+         $.ajax({
+           dataType: 'jsonp',
+           data: {
+              query: q,
+              format: 'application/sparql-results+json'   // We specify we want the results as a JSON object
+              },
+           url: 'http://dbpedia.org/sparql',
+           success: function(data){
+            $(data.results.bindings).each(function(i, item){              
+              $("#poetTable").append("<tr><td><a href='"+item.poet.value+"'>"+item.poetName.value+"</a></td>");
+             });
+           }
+         });
+      });
+    </script>
+  </head>
+  <body>
+    <table id="poetTable">
+    <tr><th>Poet name</th></tr>
+    </table>
+  </body>
+  </html>
+  
+
+Using SPARQL results with Python
+================================
+
+
+`SPARQL Wrapper <http://sparql-wrapper.sourceforge.net/>`_ is a SPARQL client written in python that can be used to query SPARQL endpoints using Python. The interface is very simple and clean::
+
+  from SPARQLWrapper import SPARQLWrapper, JSON
+  
+  sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+  sparql.setQuery("""
+  PREFIX dcterms: <http://purl.org/dc/terms/>
+  PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+  SELECT ?poet ?poetName WHERE{
+       ?poet dcterms:subject <http://dbpedia.org/resource/Category:Chilean_poets>;
+              rdfs:label ?poetName .
+       FILTER (LANG(?poetName) = "en")
+  }
+  """)
+  sparql.setReturnFormat(JSON)
+  results = sparql.query().convert()
+  
+  for result in results["results"]["bindings"]:
+      print("%s's DBpedia URI is %s" % (result["poetName"]["value"], result["poet"]["value"]))
+      
+      
+References and further reading
+******************************
+
+* `RDF Primer <http://www.w3.org/TR/rdf-primer/>`_, is a good introduction to RDF
+* `RDF Schema specification <http://www.w3.org/TR/rdf-schema/>`_ provides tools to create new vocabularies
+* `A well detailed presentation on Semantic Web and Linked Data <http://www.bbc.co.uk/blogs/radiolabs/s5/linked-data/s5.html>`_
+* `RDFa <http://rdfa.info/>`_ is a specification to add RDF embedded in HTML
+
+
+Tools
+*****
+
+* `RDF Validator <http://www.w3.org/RDF/Validator/>`_ check your RDF doesn't have errors
+* `SparQled <http://sindicetech.com/sindice-suite/sparqled/>`_ is an interacrive SPARQL editor
+* `Marbles <http://marbles.sourceforge.net/>`_ is a RDF/Linked Data explorer
+* `visualRDF <http://graves.cl/visualRDF/>`_ provides a graphical visualization of RDF graphs
+
+Libraries
+*********
+
+* Java
+    * `Jena <http://jena.apache.org/>`_
+    * `Sesame <http://www.openrdf.org/>`_
+* Python
+    * `RDFLib <https://github.com/RDFLib/rdflib>`_
+    * `SPARQL Wrapper <http://sparql-wrapper.sourceforge.net/>`_
+* Ruby
+    * `Linked Data for Ruby <http://rdf.rubyforge.org/>`_
+* PHP
+    * `ARC2 <https://github.com/semsol/arc2/wiki/>`_ parses and serializes RDF, provides a SPARQL endpoint (using MySQL as a backend) and much more
+    * `RAP <http://www4.wiwiss.fu-berlin.de/bizer/rdfapi/>`_ an API for RDF
+* C
+    * `Redland RDF Libraries <http://librdf.org/>`_
+* Scala
+    * `Scardf <http://code.google.com/p/scardf/>`_
+    
