@@ -38,9 +38,6 @@ Part I: Introduction; Getting Started
 Introduction to Data
 ---------------------
 
-.. toctree::
-   :maxdepth: 2
-
 * What is Data?
    
   * quantitative, qualitative, discrete, continuous, categorical
@@ -60,6 +57,11 @@ Introduction to Data
   * JSON
   * XML
   * Databases
+
+.. toctree::
+   :maxdepth: 2
+
+   rdf
   
 * Data Quality
    
