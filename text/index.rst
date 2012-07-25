@@ -99,13 +99,10 @@ Introduction to Tools
   * noSQL (mongoDB, couchDB)
   * `databases outline`_
 
-* Wrangling & Analysis
-
-  * Spreadsheets
-  * Fusion Tables
-  * Google Refine
-  * Python
-  * R
+.. toctree::
+   :maxdepth: 2
+  
+   wrangling-and-analysis
 
 * Visualization & Communication
 
