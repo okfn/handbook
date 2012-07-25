@@ -1,5 +1,8 @@
-Data Wrangling and Analysis
-===========================
+Wrangling & Analysis
+====================
+
+Spreadsheets
+-----------
 
 Fusion Tables
 -------------
