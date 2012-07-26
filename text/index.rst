@@ -31,31 +31,10 @@ please do get in touch.
 .. _@SchoolOfData: http://twitter.com/SchoolOfData
 .. _issue tracker: https://github.com/okfn/datawrangling/issues
 
-=======================================
-Part I: Introduction; Getting Started
-=======================================
-
-Introduction to Data
----------------------
-
 .. toctree::
-   :maxdepth: 2
-   
-   part1/introduction-to-data/what-is-data
-   part1/introduction-to-data/examples-of-data
-   part1/introduction-to-data/data-formats
-   part1/introduction-to-data/data-quality
+   :maxdepth: 3
 
-* Data Ethics
-
-  * privacy
-  * more???
-
-* Data Citizenship
-
-  * share your data (i.e. datahub)
-  * Your Data Notebook: keep a record of your wrangling
-  * metadata !!!!
+   part1/index.rst
 
 Introduction to Tools
 ---------------------
