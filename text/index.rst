@@ -38,9 +38,10 @@ Part I: Introduction; Getting Started
 Introduction to Data
 ---------------------
 
-* What is Data?
+.. toctree::
+   :maxdepth: 2
    
-  * quantitative, qualitative, discrete, continuous, categorical
+   part1/introduction-to-data/what-is-data
 
 * Examples of Data
 
@@ -61,7 +62,7 @@ Introduction to Data
 .. toctree::
    :maxdepth: 2
 
-   rdf
+   part1/introduction-to-data/rdf
   
 * Data Quality
    
@@ -102,7 +103,7 @@ Introduction to Tools
 .. toctree::
    :maxdepth: 2
   
-   wrangling-and-analysis
+   part1/introduction-to-tools/wrangling-and-analysis
 
 * Visualization & Communication
 
@@ -237,7 +238,7 @@ Part III: Case Studies
 .. toctree::
    :maxdepth: 2
 
-* Weather data: `weather data case study draft`_
+   part3/weather-data
 
 
 =======================================================
@@ -252,9 +253,9 @@ Recipes
 .. toctree::
    :maxdepth: 2
 
-   liberating-html-tables
-   liberating-access-databases
-   archiving-twitter
+   part4/recipes/liberating-html-tables
+   part4/recipes/liberating-access-databases
+   part4/recipes/archiving-twitter
   
 
 Tips
@@ -266,7 +267,14 @@ Tips
 * tips??
 
 
+=====================================================
+Appendix
+=====================================================
 
+.. toctree::
+    :maxdepth: 2
+    
+    glossary
 
 
 
@@ -385,4 +393,3 @@ Presentation
 
 .. _data quality outline: https://docs.google.com/document/d/13IkiZfd3OR7PxPED58Cw3giB3HMjHprayODoVCseOow/edit
 .. _databases outline: https://docs.google.com/document/d/1TrCuVla9cSdaWx8_vzeuS_gGQDYIuewRXJOq9cXFFf4/edit
-.. _weather data case study draft: https://docs.google.com/document/d/1aU3Aphvw1rs3roUj9dWQvNYge_wK_VdFEyUw24JEWjg/edit
