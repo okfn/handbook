@@ -42,27 +42,8 @@ Introduction to Data
    :maxdepth: 2
    
    part1/introduction-to-data/what-is-data
-
-* Examples of Data
-
-  * web
-  * text
-  * structured documents
-  * databases
-  * scientific
-  * geographical
-
-* Data Formats
-
-  * CSV
-  * JSON
-  * XML
-  * Databases
-
-.. toctree::
-   :maxdepth: 2
-
-   part1/introduction-to-data/rdf
+   part1/introduction-to-data/examples-of-data
+   part1/introduction-to-data/data-formats
   
 * Data Quality
    
