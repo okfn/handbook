@@ -44,13 +44,7 @@ Introduction to Data
    part1/introduction-to-data/what-is-data
    part1/introduction-to-data/examples-of-data
    part1/introduction-to-data/data-formats
-  
-* Data Quality
-   
-  * provenance
-  * trust
-  * collection methodology
-  * `data quality outline`_
+   part1/introduction-to-data/data-quality
 
 * Data Ethics
 
