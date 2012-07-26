@@ -1,8 +1,8 @@
 Data Formats
-============
+************
 
 CSV: Lingua Data
-----------------
+================
 
 People love CSV (Comma-Separated Values) for its simplicity: it stores tables
 in plain text files, one row per line with the first row defining column
@@ -21,7 +21,7 @@ Things that are not true about CSV:
 
 
 Before you process CSV files
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------
 It is advisable to deal with CSV encoding and quoting issues early 
 in your workflow.
 
@@ -42,7 +42,7 @@ identify these issues early; they may be trivially fixable with basic
 UNIX tools such as 'tr' and 'sed'.
 
 CSV options
-^^^^^^^^^^^
+-----------
 
 The markers for lines and fields differ between CSV files. There are
 four of them: line terminators, field separators, field quotes, and escape
@@ -58,7 +58,7 @@ are fields.
 
 
 Exporting from a relational database to CSV
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------------------
 * MySQL (server-side): SELECT INTO OUTFILE
 * postgres: COPY 'table_name' TO STDOUT WITH ...
 * sqlite: .dump
@@ -66,7 +66,7 @@ Exporting from a relational database to CSV
 * SQL Server: bcp
 
 Import CSV to a relational database
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------------
 
 * MySQL: LOAD DATA LOCAL INFILE '/path/to/file.csv' INTO TABLE 'table_name' FIELDS SEPARATED BY '\t' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES; SHOW WARNINGS;
 * postgres: COPY 'table_name' FROM '/path/to/file.csv' WITH ... 
@@ -74,20 +74,20 @@ Import CSV to a relational database
 * python: .executemany()
 
 Exporting CSV from spreadsheets
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------
 * Excel gotchas
 * Refine gotchas
 * Gnumeric gotchas
 
 
 programming
-^^^^^^^^^^^
+-----------
 * python csv module
 * awk
 
 
 Folding nested values into CSV
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------
 
 About halfway through producing a CSV export, you usually realize that the 
 data does not neatly lend itself to be serialized into a single table: a 
@@ -113,23 +113,23 @@ values at once. At this stage you have several options:
 
 
 JSON
-----
+====
 
 XML
----
+===
 
 Databases
----------
+=========
 
 
 RDF
----
+===
 .. sectionauthor:: Alvaro Graves <alvaro@graves.cl>
 
 This chapter shows how to use data available in RDF (Resource Description Framework)
 
 (Very) brief description of what is RDF
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------------
 
 The Resource Description Framework is a W3C specification to describe information 
 on the Web. It is a graph-based language that uses **URIs** (Universal Resource Identifier)
@@ -166,7 +166,7 @@ URIs, blank nodes, literals, etc.
 
 
 Obtaining data from SPARQL endpoints
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------------
 
 Data in RDF can be obtained as `Dereferenceable URIs
 <http://en.wikipedia.org/wiki/Dereferenceable_URI>`_ but in most of the cases,
@@ -357,7 +357,7 @@ References and further reading
 
 
 Tools
-^^^^^
+-----
 
 * `RDF Validator <http://www.w3.org/RDF/Validator/>`_ check your RDF doesn't have errors
 * `SparQled <http://sindicetech.com/sindice-suite/sparqled/>`_ is an interacrive SPARQL editor
@@ -365,7 +365,7 @@ Tools
 * `visualRDF <http://graves.cl/visualRDF/>`_ provides a graphical visualization of RDF graphs
 
 Libraries
-^^^^^^^^^
+---------
 
 * Java
     * `Jena <http://jena.apache.org/>`_
