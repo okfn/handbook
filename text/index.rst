@@ -32,42 +32,10 @@ please do get in touch.
 .. _issue tracker: https://github.com/okfn/datawrangling/issues
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
 
    part1/index.rst
 
-Introduction to Tools
----------------------
-
-.. toctree::
-   :maxdepth: 2
-
-* Spreadsheet
-   
-  * Google Docs
-  * Excel
-  * Open Office??
-
-* Databases
-
-  * Relational (mySQL, MS Access, sqlite)
-  * noSQL (mongoDB, couchDB)
-  * `databases outline`_
-
-.. toctree::
-   :maxdepth: 2
-  
-   part1/introduction-to-tools/wrangling-and-analysis
-
-* Visualization & Communication
-
-  * Software
-  * Hosted
-  * Libraries
-  * Flash
-  * Python
-  * Java
-  * R
   
 =======================================
 Part II: The Data Pipeline
