@@ -1,4 +1,5 @@
 TODO:
 
 *Find parts belonging to the old outline and merge it to new parts
-*Indexing the new structure within the main toctree.
+*Update the CSS so it displays the toctree nicer - e.q. different levels
+different style.
