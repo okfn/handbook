@@ -36,57 +36,9 @@ please do get in touch.
 
    part1/index.rst
    part2/index.rst
-
-=======================================================
-Part III: Case Studies
-=======================================================
-
-.. toctree::
-   :maxdepth: 2
-
-   part3/weather-data
-
-
-=======================================================
-Part IV: The "Secrets" - Tips & Tricks of the Trade
-=======================================================
-
-This is always the best part, right??? :-)
-
-Recipes
----------------------
-
-.. toctree::
-   :maxdepth: 2
-
-   part4/recipes/liberating-html-tables
-   part4/recipes/liberating-access-databases
-   part4/recipes/archiving-twitter
-  
-
-Tips
----------------------
-
-.. toctree::
-   :maxdepth: 1
-
-* tips??
-
-
-=====================================================
-Appendix
-=====================================================
-
-.. toctree::
-    :maxdepth: 2
-    
-    glossary
-
-
-
-
-
-
+   part3/index.rst
+   part4/index.rst
+   appendix/index.rst
 
 
 ======================================================
@@ -96,6 +48,8 @@ OLDER OUTLINE, to be incorporated into above outline:
 .. toctree::
    :maxdepth: 2
 
+   old/intro
+   data-wrangling-intro
    workingenv
 
 * SQL, JSON, CSV ...
@@ -127,12 +81,6 @@ How to find stuff! (aka Discovery and Acquisition)
 Extraction
 ----------
 
-.. toctree::
-   :maxdepth: 2
-  
-   scraping
-   liberating-html-tables
-
 * Scraping and Parsing
 * Automation
 * Natural Language Processing
@@ -147,8 +95,6 @@ Cleaning, Transforming & Integrating
    :maxdepth: 2
   
    geocoding
-   datahub
-   ref/visualization
 
 * Data Formats and Standards
 * Data Granularity
@@ -170,8 +116,6 @@ Storing and publishing data
 .. toctree::
    :maxdepth: 2
   
-   datahub
-
 * Publishing Online
 * Bulk storage versus structured storage
 
@@ -191,7 +135,6 @@ Presentation
 .. toctree::
    :maxdepth: 2
   
-   ref/visualization
 
 * Viz
 * Mapping ...
