@@ -50,4 +50,16 @@ Where to get it and how to install
 How to install additional modules
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Version Control
+---------------
 
+
+A short history of Version Control
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+Introduction to Git
+^^^^^^^^^^^^^^^^^^^
+
+Collaborating using Git
+^^^^^^^^^^^^^^^^^^^^^^^
