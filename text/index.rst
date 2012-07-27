@@ -96,7 +96,6 @@ OLDER OUTLINE, to be incorporated into above outline:
 .. toctree::
    :maxdepth: 2
 
-   csv
    workingenv
 
 * SQL, JSON, CSV ...

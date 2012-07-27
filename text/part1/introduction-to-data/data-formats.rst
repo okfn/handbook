@@ -155,7 +155,7 @@ simply by adding more triples
 Graphically what we have is a graph where each URI can be linked to others of
 can be given values in different values.
 
-.. figure::  images/rdfBasicGraph.png
+.. figure::  ./images/rdfBasicGraph.png
 
 Further Reading
 ^^^^^^^^^^^^^^^
@@ -183,25 +183,25 @@ list all the people in a SPARQL endpoint by executing the following query::
 
 
 Lets analyze this query: First, the reserved word ``SELECT`` defines that we want to bind the results to the
- variables described using the question mark (``?person`` and ``?name``). After
- the ``WHERE`` reserved word we describe the *graph patterns* we want to
- specify. The first patterns contains a variable ``?person``, a predicate that 
- says that this variable is of a certain type and an object which represents the class "Person". Then, this can be translated as "something that is of type Person".
+variables described using the question mark (``?person`` and ``?name``). After
+the ``WHERE`` reserved word we describe the *graph patterns* we want to
+specify. The first patterns contains a variable ``?person``, a predicate that 
+says that this variable is of a certain type and an object which represents the class "Person". Then, this can be translated as "something that is of type Person".
  
- The second pattern indicates that the same thing we want to retrieve **must
- also** have a predicate http://xmlns.com/foaf/0.1/name (which associates a
- resource with its name).
+The second pattern indicates that the same thing we want to retrieve **must
+also** have a predicate http://xmlns.com/foaf/0.1/name (which associates a
+resource with its name).
  
- In simple terms, we ask for "something that is of type Person and it also has a
- name". The results will be delivered in the variables described between the
- ``SELECT`` and ``WHERE`` reserved words. It is important to note that it is not
- necessary to retrieve all the variables described in the graph patterns.
+In simple terms, we ask for "something that is of type Person and it also has a
+name". The results will be delivered in the variables described between the
+``SELECT`` and ``WHERE`` reserved words. It is important to note that it is not
+necessary to retrieve all the variables described in the graph patterns.
  
- Simplifying SPARQL's syntax
- ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Simplifying SPARQL's syntax
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
  
  
- The previous query can have a simpler syntax, first by using prefixes::
+The previous query can have a simpler syntax, first by using prefixes::
  
   PREFIX foaf: <http://xmlns.com/foaf/0.1/>
   PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
