@@ -1,5 +1,4 @@
 TODO:
 
 *Find parts belonging to the old outline and merge it to new parts
-*Restructuring of the directory text to match outline
-*Adapting the build scripts to deal with the new directory structure
+*Indexing the new structure within the main toctree.
