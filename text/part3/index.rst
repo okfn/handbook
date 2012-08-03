@@ -7,3 +7,4 @@ Part III: Case Studies
     :maxdepth: 3
     
     weather-data
+    google-storage
