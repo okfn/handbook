@@ -1,6 +1,9 @@
 ===================================
-Publishing a Dataset on the DataHub
+Storing & Publishing
 ===================================
+
+Publishing a Dataset on the DataHub
+-----------------------------------
 
 This tutorial will show you how to publish a dataset online using the DataHub.
 
@@ -15,7 +18,7 @@ fixing up data).
 .. _DataHub: http://datahub.io/
 
 Step 0 - Identify a Dataset to Use
-==================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 For this purposes of this tutorial you will want to have some raw data which
 you want to put up on the DataHub. If you don't have one to hand we suggest you
@@ -26,7 +29,7 @@ just use some of the raw data from this `Gold Prices Dataset`_ on the DataHub
 
 
 Step 1 - Boot a DataHub Dataset
-===============================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Create a Dataset on the DataHub_. Do not worry if you have not, yet, got the
 raw data -- it is still a good idea to create the dataset entry now. Creating a
@@ -52,7 +55,7 @@ forget having a separate local document -- however a) you may be working
 offline b) many people like using their favourite text editor!
 
 Step 2 - Get the Data
-=====================
+^^^^^^^^^^^^^^^^^^^^^
 
 .. note:
 
@@ -63,7 +66,7 @@ to you. What we do suggest is you upload or links to data you find in your
 DataHub dataset (even if it's just PDF!).
 
 Step 3 - Wrangle the Data
-=========================
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Now you've found raw data it's time to get it in stanard machine readable form.
 We're going to focus on a tabular, spreadsheet style setup here though this may
@@ -79,7 +82,7 @@ We suggest two approaches:
 The result of this process should be a spreadsheet representing our 'refined' data.
 
 Step 4 - Add refined data to your dataset
-=========================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Create a :term:`CSV` or Excel file (CSV is much preferred as a format to e.g. a excel file)
 
@@ -97,4 +100,11 @@ Step 4 - Add refined data to your dataset
     DataHub dataset linking to the google doc. (NB: if you do this, ensure that you
     have made your google doc publicly accessible and that you have *also*
     published it to the web -- see file menu -> publish to the web).
+
+Online
+------
+
+Bulk vs. Structured
+-------------------
+
 
