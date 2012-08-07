@@ -62,7 +62,7 @@ Exporting from a relational database to CSV
 * MySQL (server-side): SELECT INTO OUTFILE
 * postgres: COPY 'table_name' TO STDOUT WITH ...
 * sqlite: .dump
-* DB2: EXPORT COLSEP=0x09 SELECT * FROM schema.table;
+* DB2: EXPORT COLDEL=0x09 SELECT * FROM schema.table;
 * SQL Server: bcp
 
 Import CSV to a relational database
