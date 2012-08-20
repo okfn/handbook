@@ -101,7 +101,7 @@ html_theme_options = {
     }
 html_use_modindex = False
 html_sidebars = {
-    '**':       ['globaltoc.html']
+    '**':       ['relations.html','globaltoc.html']
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
