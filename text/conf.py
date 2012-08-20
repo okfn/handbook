@@ -101,7 +101,7 @@ html_theme_options = {
     }
 html_use_modindex = False
 html_sidebars = {
-    '**':       ['localtoc.html', 'globaltoc.html']
+    '**':       ['globaltoc.html']
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -189,7 +189,7 @@ htmlhelp_basename = 'datapatternsdoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'datapatterns.tex', u'datapatterns Documentation',
+  ('index', 'datawrangling-handbook.tex', u'Data Wrangling Handbook',
    u'Open Knowledge Foundation', 'manual'),
 ]
 
@@ -222,7 +222,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'datapatterns', u'datapatterns Documentation',
+    ('index', 'datawrangling', u'Data Wrangling Handbook',
      [u'Open Knowledge Foundation'], 1)
 ]
 
@@ -230,7 +230,7 @@ man_pages = [
 # -- Options for Epub output ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'datapatterns'
+epub_title = u'Data Wrangling Handbook'
 epub_author = u'Open Knowledge Foundation'
 epub_publisher = u'Open Knowledge Foundation'
 epub_copyright = u'2011, Open Knowledge Foundation'
