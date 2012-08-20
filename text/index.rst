@@ -32,7 +32,7 @@ please do get in touch.
 .. _issue tracker: https://github.com/okfn/datawrangling/issues
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
 
    part1/index.rst
    part2/index.rst
