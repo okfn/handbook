@@ -40,104 +40,102 @@ please do get in touch.
    part4/index.rst
    appendix/index.rst
 
+..
+    ======================================================
+    OLDER OUTLINE, to be incorporated into above outline:
+    ======================================================
 
-======================================================
-OLDER OUTLINE, to be incorporated into above outline:
-======================================================
-
-.. toctree::
-   :maxdepth: 2
 
    old/intro
    data-wrangling-intro
    workingenv
 
-* SQL, JSON, CSV ...
-* Types of Data
+    * SQL, JSON, CSV ...
+    * Types of Data
 
-  * Web
-  * Text
-  * Structured Documents
-  * Databases
-  * Scientific Data
+      * Web
+      * Text
+      * Structured Documents
+      * Databases
+      * Scientific Data
 
-* Programming Basics
-* Advanced Programming
+    * Programming Basics
+    * Advanced Programming
 
-How to find stuff! (aka Discovery and Acquisition)
---------------------------------------------------
+    How to find stuff! (aka Discovery and Acquisition)
+    --------------------------------------------------
 
-.. toctree::
-   :maxdepth: 2
+    .. toctree::
+    :maxdepth: 2
   
-   howtogetdata
+    howtogetdata
 
-* Searching and Finding
-* Crowd Sourcing
+    * Searching and Finding
+    * Crowd Sourcing
 
-  * Manual Digitisation
-  * Bulk Digitsation
+    * Manual Digitisation
+    * Bulk Digitsation
 
-Extraction
-----------
+    Extraction
+    ----------
 
-* Scraping and Parsing
-* Automation
-* Natural Language Processing
-* Data Pipes
-* OCR
-* Other potential sections? Regexen / PDF / OCR/ocropus / Refine / Refine as a Server / Text Normalization / Calais and Auto-Tagging
+    * Scraping and Parsing
+    * Automation
+    * Natural Language Processing
+    * Data Pipes
+    * OCR
+    * Other potential sections? Regexen / PDF / OCR/ocropus / Refine / Refine as a Server / Text Normalization / Calais and Auto-Tagging
 
-Cleaning, Transforming & Integrating
-------------------------------------
+    Cleaning, Transforming & Integrating
+    ------------------------------------
 
-.. toctree::
-   :maxdepth: 2
+    .. toctree::
+    :maxdepth: 2
   
    geocoding
 
-* Data Formats and Standards
-* Data Granularity
-* Using Refernce Data
-* Merge / Join
-* Mapping
-* Handling Manual Corrections
-* Normalisation
-* Entity Uniqueness
-* Treating Duplicates
-* Indexing and Optimisation
-* Handling Changing Dimensions
-* Concept Modelling
-* Fuzzy Matching
+    * Data Formats and Standards
+    * Data Granularity
+    * Using Refernce Data
+    * Merge / Join
+    * Mapping
+    * Handling Manual Corrections
+    * Normalisation
+    * Entity Uniqueness
+    * Treating Duplicates
+    * Indexing and Optimisation
+    * Handling Changing Dimensions
+    * Concept Modelling
+    * Fuzzy Matching
 
-Storing and publishing data
----------------------------
+    Storing and publishing data
+    ---------------------------
 
-.. toctree::
-   :maxdepth: 2
+    .. toctree::
+    :maxdepth: 2
   
-* Publishing Online
-* Bulk storage versus structured storage
+    * Publishing Online
+    * Bulk storage versus structured storage
 
-Analysis
---------
+    Analysis
+    --------
 
-* Visualisation and Plotting
-* Sorting, Filtering and Pivoting
-* Regression
-* Visualisation Method Selection - list of tools in DWH
-* Map Geo-Tagging - short section in DWH
-* Other potential sections: NetworkX / graphviz + Gephi / Mapping / Dataviz (invite)
+    * Visualisation and Plotting
+    * Sorting, Filtering and Pivoting
+    * Regression
+    * Visualisation Method Selection - list of tools in DWH
+    * Map Geo-Tagging - short section in DWH
+    * Other potential sections: NetworkX / graphviz + Gephi / Mapping / Dataviz (invite)
 
-Presentation
-------------
+    Presentation
+    ------------
 
-.. toctree::
-   :maxdepth: 2
+    .. toctree::
+    :maxdepth: 2
   
 
-* Viz
-* Mapping ...
+    * Viz
+    * Mapping ...
 
-.. _data quality outline: https://docs.google.com/document/d/13IkiZfd3OR7PxPED58Cw3giB3HMjHprayODoVCseOow/edit
-.. _databases outline: https://docs.google.com/document/d/1TrCuVla9cSdaWx8_vzeuS_gGQDYIuewRXJOq9cXFFf4/edit
+    .. _data quality outline: https://docs.google.com/document/d/13IkiZfd3OR7PxPED58Cw3giB3HMjHprayODoVCseOow/edit
+    .. _databases outline: https://docs.google.com/document/d/1TrCuVla9cSdaWx8_vzeuS_gGQDYIuewRXJOq9cXFFf4/edit
