@@ -31,6 +31,9 @@ please do get in touch.
 .. _@SchoolOfData: http://twitter.com/SchoolOfData
 .. _issue tracker: https://github.com/okfn/datawrangling/issues
 
+#################
+Table of Contents
+#################
 .. toctree::
    :maxdepth: 3
 
