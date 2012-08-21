@@ -22,7 +22,8 @@ can:
 * Email us ideas and suggestions at schoolofdata [@] okfn.org 
 * Send tweets to `@SchoolOfData`_
 
-The Data Wrangling Handbook should be accessible to all learners. If you
+The Data Wrangling Handbook should be accessible to all learners. It comes
+with a :doc:`appendix/glossary` explaining the important terms and concepts. If you
 stumble across an unexplained term or a concept that requires more explanation,
 please do get in touch.
 
