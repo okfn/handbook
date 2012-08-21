@@ -26,9 +26,12 @@ Glossary
     from each other.
 
   CSV
-    Comma Separated Variables. A very simple, open format for tabular data
+    Comma Separated Values. A very simple, open format for tabular data
     which can be exported and imported by all spreadsheet applications and is
     easily manipulable with command line tools.
+  
+  Comma-seperated Values
+    See :term:`CSV`
 
   curl
     http://curl.haxx.se/ - a command line tool for transferring data to and
@@ -61,9 +64,6 @@ Glossary
   Web API
     An :term:`API` that is designed to work over the Internet.
 
-  Share-alike License
-   See :term:`Share-alike Licence`.
-
   Share-alike Licence
     A licence that requires users of a work to provide the content 
     under the same or similar conditions as the original.
@@ -77,9 +77,6 @@ Glossary
     licencing restrictions. Can also be interpreted to mean standards 
     which are developed in a vendor-neutral manner.
     
-  Anonymization
-   See :term:`Anonymisation`.
-
   Anonymisation
     The process of treating data such that it cannot be used for the 
     identification of individuals.
