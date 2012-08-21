@@ -1,4 +1,3 @@
-.. _glossary: 
 ========
 Glossary
 ========
@@ -52,9 +51,6 @@ Glossary
     A licence that requires attributing the original source
     of the licensed material.
   
-  Attribution License
-    See :term:`Attribution Licence`.
-
   API
     See :term:`Application Programming Interface`.
 
