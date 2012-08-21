@@ -1,7 +1,7 @@
-.. sectionauthor:: Tony Hirst (psychemedia@twitter)
 
 Liberating HTML Data Tables
 ===========================
+.. sectionauthor:: Tony Hirst (psychemedia on Twitter)
 
 It's not uncommon to see small data sets published on the web using an HTML table element. If you have a quick click around Wikipedia, you're likely to find a wide variety of examples. Some sites will use Javascript libraries to enhance the presentation or usability of a table, for example, by making columns sortable; but most of the time, we are faced with a flat HTML table, and the data locked in it.
 

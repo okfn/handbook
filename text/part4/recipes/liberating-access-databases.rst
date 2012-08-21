@@ -1,8 +1,8 @@
-.. sectionauthor:: Rufus Pollock (rufuspollock@twitter)
 
 ===============================================
 Liberating Data from Microsoft Access Databases
 ===============================================
+.. sectionauthor:: Rufus Pollock (rufuspollock on Twitter)
 
 Use the `mdbtools library`_. On Ubuntu / Debian you can install this via::
 
