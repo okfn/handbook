@@ -33,12 +33,16 @@ try what you just learned or get a more interactive introduction try the
 Reference
 ---------
 * `Google Docs Spreadsheet function list`_
+* `Google Docs keyboard shortcuts`_
+* `Google Docs Spreadsheet help`_
 
 .. _Knight Digital Media Center: http://multimedia.journalism.berkeley.edu/
 .. _extensive tutorial on google docs spreadsheet: http://multimedia.journalism.berkeley.edu/tutorials/spreadsheets/
 .. _school of data basic data wrangling challenge: TBD
 .. _Google Docs Spreadsheet function list: https://support.google.com/docs/bin/static.py?hl=en&topic=25273&page=table.cs
 .. _Google docs: http://docs.google.com
+.. _Google Docs keyboard shortcuts: http://support.google.com/docs/bin/answer.py?hl=en&answer=181110
+.. _Google Docs Spreadsheet help: http://support.google.com/docs/bin/topic.py?hl=en&topic=1360901&parent=1360868&ctx=topic
 
 
 
