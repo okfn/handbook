@@ -35,6 +35,7 @@ Reference
 * `Google Docs Spreadsheet function list`_
 * `Google Docs keyboard shortcuts`_
 * `Google Docs Spreadsheet help`_
+* `Pivot tables in Google Spreadsheet`_ (video)
 
 .. _Knight Digital Media Center: http://multimedia.journalism.berkeley.edu/
 .. _extensive tutorial on google docs spreadsheet: http://multimedia.journalism.berkeley.edu/tutorials/spreadsheets/
@@ -43,6 +44,7 @@ Reference
 .. _Google docs: http://docs.google.com
 .. _Google Docs keyboard shortcuts: http://support.google.com/docs/bin/answer.py?hl=en&answer=181110
 .. _Google Docs Spreadsheet help: http://support.google.com/docs/bin/topic.py?hl=en&topic=1360901&parent=1360868&ctx=topic
+.. _Pivot tables in Google Spreadsheet: http://www.youtube.com/watch?feature=player_embedded&v=giuD7KSmock
 
 
 
