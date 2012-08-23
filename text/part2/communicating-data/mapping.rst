@@ -57,7 +57,7 @@ This example HTML and javascript makes use of the open source mapping javascript
 In the javascript code we see how to initialise a map object which will appear within a div on your HTML page. A LonLat object is created to represent the centre point of the map. Try playing with the latitude, longitude values. A call to �transform� sorts out the projections, and we use this same location to place a marker.
 
 
-
-Geo-locations Latitude and Longitude
-------------------------------------
+..
+    Geo-locations Latitude and Longitude
+    ------------------------------------
 

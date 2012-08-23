@@ -1,13 +1,13 @@
+..
+    ===============================
+    Advanced Statistical Techniques
+    ===============================
 
-===============================
-Advanced Statistical Techniques
-===============================
+    Data Mining
+    -----------
 
-Data Mining
------------
+    Bayesian Statistics
+    -------------------
 
-Bayesian Statistics
--------------------
-
-More
-----
+    More
+    ----

@@ -1,28 +1,28 @@
+..
+    =============================
+    Cleaning
+    =============================
 
-=============================
-Cleaning
-=============================
+    The Table - Rows and Columns
+    ----------------------------
 
-The Table - Rows and Columns
-----------------------------
+    Unicode & Special Characters
+    ----------------------------
 
-Unicode & Special Characters
-----------------------------
+    Missing Values
+    --------------
 
-Missing Values
---------------
+    Granularity
+    -----------
 
-Granularity
------------
+    Uniqueness
+    ----------
 
-Uniqueness
-----------
+    Duplicates
+    ----------
 
-Duplicates
-----------
+    Manual Correction
+    -----------------
 
-Manual Correction
------------------
-
-More ....
----------
+    More ....
+    ---------

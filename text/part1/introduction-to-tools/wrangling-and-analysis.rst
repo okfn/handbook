@@ -1,65 +1,63 @@
-Wrangling & Analysis
-====================
+..
+    Wrangling & Analysis
+    ====================
 
-Spreadsheets
------------
+    Fusion Tables
+    -------------
 
-Fusion Tables
--------------
+    Google Refine
+    -------------
 
-Google Refine
--------------
+    Python
+    ------
 
-Python
-------
+    Introduction
+    ^^^^^^^^^^^^
 
-Introduction
-^^^^^^^^^^^^
+    What is Python and Why do you want to use it?
 
-What is Python and Why do you want to use it?
+    Installation
+    ^^^^^^^^^^^^
 
-Installation
-^^^^^^^^^^^^
+    Where to get it and how to install it
 
-Where to get it and how to install it
+    PIP
+    ^^^
 
-PIP
-^^^
+    What is PIP and how to install python packages?
 
-What is PIP and how to install python packages?
+    IPython
+    ^^^^^^^
 
-IPython
-^^^^^^^
-
-Why you might want to use IPython as well
+    Why you might want to use IPython as well
 
 
-R
--
+    R
+    -
 
-Introduction
-^^^^^^^^^^^^
+    Introduction
+    ^^^^^^^^^^^^
 
-What is R and Why do you want to use it?
+    What is R and Why do you want to use it?
 
-Installation
-^^^^^^^^^^^^
+    Installation
+    ^^^^^^^^^^^^
 
-Where to get it and how to install
+    Where to get it and how to install
 
-How to install additional modules
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    How to install additional modules
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Version Control
----------------
-
-
-A short history of Version Control
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    Version Control
+    ---------------
 
 
-Introduction to Git
-^^^^^^^^^^^^^^^^^^^
+    A short history of Version Control
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Collaborating using Git
-^^^^^^^^^^^^^^^^^^^^^^^
+
+    Introduction to Git
+    ^^^^^^^^^^^^^^^^^^^
+
+    Collaborating using Git
+    ^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,17 +1,17 @@
+..
+    ===========================
+    Crowdsourcing
+    ===========================
 
-===========================
-Crowdsourcing
-===========================
+    Manual / Bulk Digitization
+    --------------------------
 
-Manual / Bulk Digitization
---------------------------
+    Tools
+    -----
 
-Tools
------
+    Pybossa
 
-Pybossa
+    Plattforms
+    ----------
 
-Plattforms
-----------
-
-Amazon Mech turk? 
+    Amazon Mech turk? 

@@ -1,17 +1,18 @@
-What is Data?
-*************
+..
+    What is Data?
+    *************
 
-Quantitative Data
-=================
+    Quantitative Data
+    =================
 
-Qualitative Data
-================
+    Qualitative Data
+    ================
 
-Discrete Data
-=============
+    Discrete Data
+    =============
 
-Continuous Data
-===============
+    Continuous Data
+    ===============
 
-Categorical Data
-================
+    Categorical Data
+    ================

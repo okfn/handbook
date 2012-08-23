@@ -101,10 +101,11 @@ Step 4 - Add refined data to your dataset
     have made your google doc publicly accessible and that you have *also*
     published it to the web -- see file menu -> publish to the web).
 
-Online
-------
+..
+    Online
+    ------
 
-Bulk vs. Structured
--------------------
+    Bulk vs. Structured
+    -------------------
 
 

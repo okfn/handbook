@@ -1,19 +1,19 @@
+..
+    =============================
+    Simple Statistical Techniques
+    =============================
 
-=============================
-Simple Statistical Techniques
-=============================
+    Filtering
+    ---------
 
-Filtering
----------
+    Pivoting
+    --------
 
-Pivoting
---------
+    Plotting
+    --------
 
-Plotting
---------
+    Regression
+    ----------
 
-Regression
-----------
-
-More
-----
+    More
+    ----

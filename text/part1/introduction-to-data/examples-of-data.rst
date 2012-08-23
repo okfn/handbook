@@ -1,21 +1,22 @@
-================
-Examples of Data
-================
+..
+    ================
+    Examples of Data
+    ================
 
-Web
----
+    Web
+    ---
 
-Text
-----
+    Text
+    ----
 
-Structured Documents
---------------------
+    Structured Documents
+    --------------------
 
-Databases
----------
+    Databases
+    ---------
 
-Scientific
-----------
+    Scientific
+    ----------
 
-Geographical
-------------
+    Geographical
+    ------------

@@ -1,25 +1,25 @@
+..
+    =======================================
+    Online - a curated list of Sources
+    =======================================
 
-=======================================
-Online - a curated list of Sources
-=======================================
+    Government
+    ----------
 
-Government
-----------
+    Science
+    -------
 
-Science
--------
+    Social Science
+    --------------
 
-Social Science
---------------
+    Literature
+    ----------
 
-Literature
-----------
+    Sports
+    ------
 
-Sports
-------
+    Art
+    ---
 
-Art
----
-
-Etc
----
+    Etc
+    ---

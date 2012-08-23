@@ -1,9 +1,10 @@
-***********
-Data Ethics
-***********
+.. 
+    ***********
+    Data Ethics
+    ***********
 
-Privacy
-=======
+    Privacy
+    =======
 
-More
-====
+    More
+    ====

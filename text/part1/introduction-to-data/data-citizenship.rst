@@ -1,17 +1,18 @@
-****************
-Data Citizenship
-****************
+.. 
+    ****************
+    Data Citizenship
+    ****************
 
-Share your data!
-================
+    Share your data!
+    ================
 
-datahub.io
-----------
+    datahub.io
+    ----------
 
-Your Notebook
-=============
+    Your Notebook
+    =============
 
-How to keep a record of your wrangling
+    How to keep a record of your wrangling
 
-Metadata
-========
+    Metadata
+    ========

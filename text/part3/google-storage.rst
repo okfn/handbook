@@ -1,9 +1,11 @@
-=====================================
-Retrieving Data from Google Storage
-=====================================
+..
+    =====================================
+    Retrieving Data from Google Storage
+    =====================================
 
-Measurement lab
+    Measurement lab
 
-https://developers.google.com/storage/docs/gspythonlibrary
+    gsutils
+    https://developers.google.com/storage/docs/gspythonlibrary
 
 

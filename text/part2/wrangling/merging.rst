@@ -1,9 +1,9 @@
+..
+    ================
+    Merging
+    ================
 
-================
-Merging
-================
-
-SUPER IMPORTANT
----------------
+    SUPER IMPORTANT
+    ---------------
 
 .. whyever this is super important :)

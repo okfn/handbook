@@ -1,7 +1,7 @@
+..
+    =============================================
+    Watch Out! Common Misinterpretations of Data
+    =============================================
 
-=============================================
-Watch Out! Common Misinterpretations of Data
-=============================================
-
-Correlation != Causation
-------------------------
+    Correlation != Causation
+    ------------------------

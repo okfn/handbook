@@ -112,14 +112,15 @@ values at once. At this stage you have several options:
 .. _`NestedVariables`: http://formencode.org/Validator.html#http-html-form-input
 
 
-JSON
-====
+.. 
+    JSON
+    ====
 
-XML
-===
+    XML
+    ===
 
-Databases
-=========
+    Databases
+    =========
 
 
 RDF

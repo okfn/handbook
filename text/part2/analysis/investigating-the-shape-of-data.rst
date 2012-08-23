@@ -1,30 +1,30 @@
+..
+    ==========================================
+    Investigating the Shape of Data
+    ==========================================
 
-==========================================
-Investigating the Shape of Data
-==========================================
+    This chapter introduces the Basics of Analysis
 
-This chapter introduces the Basics of Analysis
+    Count
+    -----
 
-Count
------
+    Min, Max, Range
+    ---------------
 
-Min, Max, Range
----------------
+    Mean, Median, Mode
+    ------------------
 
-Mean, Median, Mode
-------------------
+    Quartiles
+    ---------
 
-Quartiles
----------
+    Outliers
+    --------
 
-Outliers
---------
+    Variance, Standard Deviation, MAD
+    ---------------------------------
 
-Variance, Standard Deviation, MAD
----------------------------------
+    Histogram
+    ---------
 
-Histogram
----------
-
-Scatterplots
-------------
+    Scatterplots
+    ------------
