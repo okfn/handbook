@@ -114,15 +114,15 @@ Note that this is not beautiful code by any means, but it is sufficiently
 functional and solves the problem.
 
 
-Choosing your elements
-----------------------
+..
+    Choosing your elements
+    ----------------------
+     todo: add this section
 
-.. todo: add this section
+    Caching HTTP requests
+    ---------------------
 
-Caching HTTP requests
----------------------
-
-.. todo: link to httplib2
+    todo: link to httplib2
 
 Threading your scraper
 ----------------------
