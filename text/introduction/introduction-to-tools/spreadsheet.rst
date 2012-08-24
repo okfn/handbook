@@ -39,7 +39,7 @@ Reference
 
 .. _Knight Digital Media Center: http://multimedia.journalism.berkeley.edu/
 .. _extensive tutorial on Google docs spreadsheet: http://multimedia.journalism.berkeley.edu/tutorials/spreadsheets/
-.. _school of data basic data wrangling challenge: TBD
+.. _school of data basic data wrangling challenge: https://p2pu.org/en/groups/data-cleaning-and-basic-spreadsheet-skills/
 .. _Google Docs Spreadsheet function list: https://support.google.com/docs/bin/static.py?hl=en&topic=25273&page=table.cs
 .. _Google docs: http://docs.google.com
 .. _Google Docs keyboard shortcuts: http://support.google.com/docs/bin/answer.py?hl=en&answer=181110
