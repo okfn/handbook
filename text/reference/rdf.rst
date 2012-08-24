@@ -31,7 +31,7 @@ simply by adding more triples
 Graphically what we have is a graph where each URI can be linked to others of
 can be given values in different values.
 
-.. figure::  ./images/rdfBasicGraph.png
+.. figure:: http://farm9.staticflickr.com/8301/7850931064_33a5aedb7c_o_d.png
 
 Further Reading
 ^^^^^^^^^^^^^^^

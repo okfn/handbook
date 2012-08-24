@@ -50,7 +50,7 @@ Create a new file called 'mymap.html', paste the following into it, save and the
 
 You should see a map with marker:
 
-.. image:: ./images/mapping-screenshot.jpg
+.. image:: http://farm8.staticflickr.com/7279/7850933238_e0c24a29bb_o_d.jpg
 
   
 This example HTML and javascript makes use of the open source mapping javascript mapping library called 'OpenLayers' and the open licensed maps from OpenStreetMap.org
