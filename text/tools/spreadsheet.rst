@@ -29,6 +29,12 @@ This is a solid introduction into the spreadsheets. If you want to
 try what you just learned or get a more interactive introduction try the
 `School of Data basic data wrangling challenge`_. 
 
+Sorting and Filtering Data
+--------------------------
+
+Pivot Tables
+------------
+
 Reference
 ---------
 * `Google Docs Spreadsheet function list`_
