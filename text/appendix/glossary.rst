@@ -17,6 +17,13 @@ Glossary
     documents are not machine readable. Computers can display the text 
     nicely, but have great difficulty understanding the context that 
     surrounds the text.
+  
+  Readme
+    A file (usually named ``README`` or ``README.txt``) that explains new
+    users what the current directory or set of files is about. This is very
+    commonly found in open source software projects and is considered good
+    practice to be included with various publications (including datasets).
+    The file usually contains a short description of what to expect.
 
   BitTorrent
     BitTorrent is a protocol for distributing the bandwith for 
@@ -24,6 +31,24 @@ Glossary
     participating in the transfer. Rather than downloading a file 
     from a specific source, BitTorrent allows peers to download 
     from each other.
+  
+  JSON
+    JavaScript Object Notation. A common format to exchange data.
+    Although it is derived from Javascript, libraries to parse JSON data
+    exist for many programming languages. Its compact style and ease of use
+    has made it widespread.
+
+  GeoJSON
+    GeoJSON is a format for encoding a variety of geographic data
+    structures. It is based on the :term:`JSON` specification. More
+    documentation can be found on http://www.geojson.org
+
+  Geocoding
+    From Geographical Coding. Describes the practice of attaching
+    geographical coordinates to items. 
+
+  Geocode
+    see :term:`Geocoding`
 
   CSV
     Comma Separated Values. A very simple, open format for tabular data

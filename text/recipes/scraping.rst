@@ -107,7 +107,7 @@ more advanced call, such as a thread manager picking items from a queue.
 As a more comprehensive example, here is an index collecting function for the 
 CORDIS database mentioned above:
 
-.. literalinclude:: ../examples/cordis.py
+.. literalinclude:: ../../examples/cordis.py
    :pyobject: get_index
 
 Note that this is not beautiful code by any means, but it is sufficiently
@@ -137,4 +137,4 @@ The easiest way to thread your scraper is using the index and item pattern
 described above: your index scraper function will generate a task queue and 
 a set of worker threads will handle each item on that queue.
 
-.. literalinclude:: ../examples/threads.py
+.. literalinclude:: ../../examples/threads.py

@@ -7,5 +7,8 @@ techniques.
 
 .. toctree::
     :maxdepth: 2
+
+    csv
+    rdf
     geocoding
     visualization

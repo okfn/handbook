@@ -48,13 +48,17 @@ Create a new file called 'mymap.html', paste the following into it, save and the
   </body>
   </html>
 
-You should see a map with marker!
+You should see a map with marker:
 
-..TODO: screenshot image
+.. image:: ./images/mapping-screenshot.jpg
+
   
 This example HTML and javascript makes use of the open source mapping javascript mapping library called 'OpenLayers' and the open licensed maps from OpenStreetMap.org
 
-In the javascript code we see how to initialise a map object which will appear within a div on your HTML page. A LonLat object is created to represent the centre point of the map. Try playing with the latitude, longitude values. A call to �transform� sorts out the projections, and we use this same location to place a marker.
+In the javascript code we see how to initialise a map object which will
+appear within a div on your HTML page. A LonLat object is created to
+represent the centre point of the map. Try playing with the latitude,
+longitude values. A call to ``transform`` sorts out the projections, and we use this same location to place a marker.
 
 
 ..

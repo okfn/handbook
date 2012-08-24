@@ -12,31 +12,18 @@ with content and detail. We also hope to expand and improve upon this basic
 outline, so if there's a section that you currently feel is missing, please do
 let us know!
 
-The Data Wrangling Handbook is a collaborative endeavour, and we welcome all
-feedback and contributions. To contribute to the Data Wrangling Handbook you
-can:
-
-* Edit directly on the `Data Wrangling Github Repository`_
-* Submit an issue to our `issue tracker`_
-* Write a new contribution - you can do this in the format and editor of your choice (Google Docs, Open Office, Word, Latex ...) and then email it to schoolofdata [@] okfn.org
-* Email us ideas and suggestions at schoolofdata [@] okfn.org 
-* Send tweets to `@SchoolOfData`_
-
 The Data Wrangling Handbook should be accessible to all learners. It comes
 with a :doc:`appendix/glossary` explaining the important terms and concepts. If you
 stumble across an unexplained term or a concept that requires more explanation,
 please do get in touch.
 
 .. _School of Data: http://schoolofdata.org/
-.. _Data Wrangling Github Repository: https://github.com/okfn/datawrangling
-.. _@SchoolOfData: http://twitter.com/SchoolOfData
-.. _issue tracker: https://github.com/okfn/datawrangling/issues
 
 #################
 Table of Contents
 #################
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
    introduction/index.rst
    tools/index.rst
