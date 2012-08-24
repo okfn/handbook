@@ -24,9 +24,8 @@ as integration of Google search into the spreadsheet.
 Getting Started
 ---------------
 
-Several tutorials exist for Google docs spreadsheet. The `Knight Digital
-Media Center`_ has an `extensive tutorial on Google docs spreadsheet`_.
-This is a solid introduction into the spreadsheet function. If you want to
+The Knight Digital Media Center has an `extensive tutorial on Google docs spreadsheet`_.
+This is a solid introduction into the spreadsheets. If you want to
 try what you just learned or get a more interactive introduction try the
 `School of Data basic data wrangling challenge`_. 
 

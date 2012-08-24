@@ -38,10 +38,10 @@ Table of Contents
 .. toctree::
    :maxdepth: 3
 
-   part1/index.rst
-   part2/index.rst
-   part3/index.rst
-   part4/index.rst
+   introduction/index.rst
+   tools/index.rst
+   recipes/index.rst
+   reference/index.rst
    appendix/index.rst
 
 ..
