@@ -3,7 +3,7 @@ What is Data?
 =========================
 .. sectionauthor:: Michael Bauer (@mihi_tr on twitter)
 
-.. figure:: http://farm7.staticflickr.com/6182/6111010039_b1f2b1ebb2_d.jpg
+.. figure:: http://farm9.staticflickr.com/8301/7871270682_ded37461a0_o_d.jpg
     :align: right
     :alt: Balls a picture by flickr user Kaptain Kobold
 
