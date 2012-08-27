@@ -1,5 +1,5 @@
 =========================
-What is Data
+What is Data?
 =========================
 .. sectionauthor:: Michael Bauer (@mihi_tr on twitter)
 
