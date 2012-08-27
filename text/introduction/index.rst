@@ -15,7 +15,8 @@ data (mostly harmless) and remember: **Don't Panic!**
 
 .. toctree::
     :maxdepth: 2
-
+    
+    what-is-data
     contribute
 
 ..
