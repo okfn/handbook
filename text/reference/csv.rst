@@ -70,17 +70,17 @@ Import CSV to a relational database
 * sqlite3: .mode ; .import
 * python: .executemany()
 
-Exporting CSV from spreadsheets
--------------------------------
-* Excel gotchas
-* Refine gotchas
-* Gnumeric gotchas
+.. Exporting CSV from spreadsheets
+    -------------------------------
+    * Excel gotchas
+    * Refine gotchas
+    * Gnumeric gotchas
 
 
-programming
------------
-* python csv module
-* awk
+    programming
+    -----------
+    * python csv module
+    * awk
 
 
 Folding nested values into CSV
