@@ -17,6 +17,7 @@ find out!
     scraping.rst
     liberating-access-databases.rst
     archiving-twitter.rst
+    accessing-data-from-google-storage.rst
     sql-for-data-manipulation.rst
     sql-tips.rst
     publishing-data-on-the-datahub.rst
