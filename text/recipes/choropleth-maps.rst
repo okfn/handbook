@@ -131,9 +131,8 @@ color scale, you can do this in your definition for series::
     }]}
 
 The above code changes to a Grey scale color code. You can add multiple
-intermediate steps if needed.
-
-
+intermediate steps if needed. You can see the finished result as a github
+page here: http://mihi-tr.github.com/example-choropleth-map/
 
 
 
