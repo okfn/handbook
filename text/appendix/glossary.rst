@@ -116,3 +116,23 @@ Glossary
     Tab-seperated values (TSV) are a very common form of text file
     format for sharing tabular data. The format is extremely simple
     and highly :term:`machine-readable`.
+    
+  Taxonomy
+    Classification. Taxonomy refers to hierarchical classification of
+    things. One of the best known is the Linnean classification of species
+    - still used today to classify all living beeings.
+
+  Qualitative Data
+    Qualitative data is data telling you something about qualities: e.q.
+    description, colors etc. Interviews count as qualitative data
+
+  Quantitative Data
+    Quantitative data tells you something about a measure or
+    quantification. Such as the quantity of things you have, the size (if
+    measured) etc.
+  
+  Crowdsourcing
+    Mockup from crowd and outsourcing: Having a lot of people do simple
+    tasks to complete the whole work.
+
+
