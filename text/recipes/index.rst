@@ -22,3 +22,4 @@ find out!
     sql-tips.rst
     publishing-data-on-the-datahub.rst
     mapping
+    choropleth-maps
