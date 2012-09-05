@@ -134,5 +134,7 @@ Glossary
   Crowdsourcing
     Mockup from crowd and outsourcing: Having a lot of people do simple
     tasks to complete the whole work.
-
-
+  
+  Choropleth Map
+    A choropleth map is a map where value are encoded onto regions using
+    colormapping. The whole region is colored using the underlying value.
