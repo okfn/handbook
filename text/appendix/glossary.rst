@@ -138,3 +138,24 @@ Glossary
   Choropleth Map
     A choropleth map is a map where value are encoded onto regions using
     colormapping. The whole region is colored using the underlying value.
+
+  Average
+    The arithmetic mean of a set of values. Calculated by summing up all
+    values and then dividing by the number of values.
+  
+  Normal Distribution
+    The normal (or Gaussian) distribution is a continuous probability
+    distribution with a bell shaped curve. 
+
+  Median
+    The median is defined as the value where 50% of values in a range will
+    be below, 50% of values above the value. 
+
+  Quartiles
+    Quartiles are the values where 25,50 and 75% of values in a range are
+    below the given value. 
+
+  Percentiles
+    Percentiles are a value where n% of values are below in a given range.
+    e.q. the 5th percentile: 5 percent of values are lower than this value.
+
