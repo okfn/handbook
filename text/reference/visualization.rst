@@ -40,7 +40,9 @@ JavaScript-Libraries
 ====================
 
 * d3js_  - SVG graphing and viz - Free - Open Source
+
   * Rickshaw_ - Excellent wrapper around d3.js - Free - Open Source
+
 * `JavaScript InfoVis Toolkit`_ - Treemap, Hierarchy, Line charts - Free - Open Source (BSD)
 * processingjs_ - JavaScript port of Processing
 * Raphaël_ - Library for creating interactive, cross-browser SVG graphics - Free - Open Source (MIT)
