@@ -16,6 +16,7 @@ import pywordpress
 import itertools
 from pyquery import PyQuery
 import re
+import pprint
 
 # TODO: deal with utf8 encoding
 def prepare_html(fileobj):
