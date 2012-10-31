@@ -44,12 +44,14 @@ def prepare_html(fileobj):
     
     out=out.html()
     # replace .html with / and index.html with simple ./
-    pattern = '(href=".[^"]*)index\.html"'
+    pattern = '(internal" href=".[^"]*)index\.html"'
     out = re.sub(pattern, '\\1"', out)
-    pattern = 'href="index\.html"'
+    pattern = 'internal" href="index\.html"'
     out = re.sub(pattern, 'href="./"', out)
-    pattern = '(href="[^"]*).html"'
+    pattern = '(internal" href="[^"]*).html"'
     out = re.sub(pattern, '\\1/"', out)
+    pattern = '(internal" href="[^"]*).html#([^"]*)"'
+    out = re.sub(pattern, '\\1/#\\2"', out)
 
     return (out, title)
 
