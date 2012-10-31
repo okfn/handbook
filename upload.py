@@ -20,7 +20,7 @@ import pprint
 
 # TODO: deal with utf8 encoding
 def prepare_html(fileobj):
-    pq=PyQuery("".join([i.strip() for i in fileobj]))
+    pq=PyQuery(" ".join([i.strip() for i in fileobj]))
 
     out = PyQuery(pq("div.content").outerHtml() )
     # TODO: do we want to extract the title
