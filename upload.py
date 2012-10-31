@@ -13,6 +13,8 @@ file - see https://github.com/rgrp/pywordpress
 import os
 import optparse
 import pywordpress
+import itertools
+import re
 
 # TODO: deal with utf8 encoding
 def prepare_html(fileobj):
@@ -56,6 +58,7 @@ def upload(wordpress_site_url='', handbook_path='/handbook/'):
     '''
     pages = {}
     for (root, dirs, files) in os.walk('build/html'):
+        files=itertools.ifilter(lambda x: re.search(".html$",x),files)
         if '_sources' in root:
             continue
         for f in files:
