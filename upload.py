@@ -22,7 +22,7 @@ import pprint
 def prepare_html(fileobj):
     pq=PyQuery("".join(fileobj))
 
-    out = PyQuery(pq("div.content").html() )
+    out = PyQuery(pq("div.content").outerHtml() )
     # TODO: do we want to extract the title
     # Do we want title at all?
     toc=pq("div.toc ul.current").outerHtml()
@@ -30,7 +30,7 @@ def prepare_html(fileobj):
       title= pq("div.section h1")[0].text
       if toc:
         out("div.section h1").after(toc)
-      pq("div.section h1").remove()  
+      out("div.section h1").remove()  
     else:
       title=""
 
