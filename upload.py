@@ -30,6 +30,7 @@ def prepare_html(fileobj):
       title= pq("div.section h1")[0].text
       if toc:
         out("div.section h1").after(toc)
+      pq("div.section h1").remove()  
     else:
       title=""
 
