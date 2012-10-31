@@ -1,0 +1,1 @@
+pywordpress==0.1
