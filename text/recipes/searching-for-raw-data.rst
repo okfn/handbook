@@ -1,5 +1,6 @@
 Searching for raw data
 ======================
+.. sectionauthor: Tim McNamara
 
 So you want data. But, you would like to use tools that you are already
 familiar with. That way, you can focus on areas of most interest to you:
@@ -58,7 +59,7 @@ look for both::
 
   (filetype:csv | filetype:tsv)
 
-his will return many results that look they do on your hard drive:
+his will return many results that look like they do on your hard drive:
 ``http://www.example.com/results.csv``. Unfortunately, many dynamic websites
 do not use file extensions. Instead, they will do something like this:
 ``http://www.example.com/results?format=csv``. The ``filetype:`` operator will miss
