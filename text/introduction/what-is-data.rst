@@ -18,12 +18,14 @@ data points we have is they are used for golf. Golf is a category of sport, so t
 ball in a taxonomy. But there is more to them right? We have the color:
 “white”, the condition “used” - both qualitative data. They all have a size
 and there is a certain number of them (quantitative). They probably have
-some value (Since this picture is of a market) and so on. You see even
-unremarkable objects have a lot of data attached. You too: you have a name
+some value (Since this picture is of a market) and so on.
+
+Thus, you can see that even
+unremarkable objects like used golf balls have a lot of data attached!
+
+And this is true of you too: you have a name
 (most people have given and family names) a date of birth, weight, height,
-nationality etc. All these things are data. Every day more and more data is
-created. Be it because you surf on the web, someone takes a picture or does
-scientific research.
+nationality etc. All these things are data.
 
 From Data to Information to Knowledge
 -------------------------------------
@@ -47,7 +49,9 @@ A diameter of 43mm doesn't
 tell us much, it only is meaningful when we compare it to other things. In sports often there are
 regulations of sizes for used equipment. The minimum size of a golf ball to
 be used in competitions is 42.67mm. Good, we can use that golf ball in a
-competition: This is information! But it still is not knowledge.  Knowledge
-is created when the information is learned, applied and understood. For
-example when you are a skilled golf Player and you learned how different
-attributes of a golf ball make the ball behave differently when played
+competition: This is information!
+
+But it still is not knowledge. Knowledge is created when the information is
+learned, applied and understood. For example, when you are a skilled golfer,
+you would learn how different attributes of a golf ball make the ball behave
+differently when used.

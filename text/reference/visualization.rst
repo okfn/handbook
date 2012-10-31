@@ -1,15 +1,16 @@
-==============================
-Visualization: Tools Reference
-==============================
+========================
+Visualization: Reference
+========================
 
-Visual representation is a time-tested way of making large, complex bodies of
-information manageable – whether in the form of maps, timelines, graphs, or
-charts. Emerging digital technologies have revolutionised what is possible in
-this domain.
+Visual representation – whether in the form of maps, timelines, graphs, or
+charts -- is a time-tested way of making bodies of data, whether large or
+small, manageable and understandable. Emerging digital technologies have
+revolutionised what is possible in this domain.
 
-This page documents open-source software for visualisation.
+This page is a selective list of (mostly) open-source tools that can be used
+for visualisation.
 
-See also: `open-visualisation mailing list`_.
+You may also want to consult the `open-visualisation mailing list`_.
 
 .. _open-visualisation mailing list: http://lists.okfn.org/cgi-bin/mailman/listinfo/open-visualisation 
 
@@ -20,11 +21,6 @@ Other listings:
 
 * http://the.taoofmac.com/space/infoviz
 * http://datavisualization.ch/tools/13-javascript-libraries-for-visualizations
-
-Field meanings:
-
-* Ratings go from 1-5
-* Active goes from 1-3 (1 = inactive, 3 = very active)
 
 Hosted
 ======
@@ -44,20 +40,26 @@ JavaScript-Libraries
 ====================
 
 * d3js_  - SVG graphing and viz - Free - Open Source
+
+  * Rickshaw_ - Excellent wrapper around d3.js - Free - Open Source
+
 * `JavaScript InfoVis Toolkit`_ - Treemap, Hierarchy, Line charts - Free - Open Source (BSD)
 * processingjs_ - JavaScript port of Processing
 * Raphaël_ - Library for creating interactive, cross-browser SVG graphics - Free - Open Source (MIT)
 * Flot_ - Charting (Bar, Pie, Line) - Free - Open Source (BSD)
+* Flotr2_ - Canvas Based Charting - Free - Open Source (BSD)
 * jqPlot_ - Charting Library for jQuery - Free - Open Source (MIT/GPL)
-* jsviz_ - discontinued
+* sigmajs_ - Network Visualization - Free - Open Source
 
 .. _Raphaël: http://raphaeljs.com/ 
-.. _jsviz: http://code.google.com/p/jsviz/
 .. _processingjs: http://ejohn.org/blog/processingjs 
 .. _JavaScript InfoVis Toolkit: http://thejit.org/
 .. _d3js: http://d3js.org
 .. _Flot: http://code.google.com/p/flot/
 .. _jqPlot: http://www.jqplot.com/
+.. _Rickshaw: http://code.shutterstock.com/rickshaw/
+.. _Flotr2: http://humblesoftware.com/flotr2/
+.. _sigmajs: http://sigmajs.org/
 
 
 Flash
