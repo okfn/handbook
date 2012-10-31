@@ -13,6 +13,7 @@ find out!
     :maxdepth: 3
 
     howtogetdata.rst
+    searching-for-raw-data.rst
     liberating-html-tables.rst
     scraping.rst
     liberating-access-databases.rst
