@@ -14,18 +14,14 @@ import os
 import optparse
 import pywordpress
 import itertools
+from pyquery import PyQuery
 import re
 
 # TODO: deal with utf8 encoding
 def prepare_html(fileobj):
-    data = fileobj.read()
+    pq=PyQuery("".join(fileobj))
 
-    # just pull out the main content
-    start = data.index('<div class="content">')
-    end = data.index('<div class="well sidebar-nav">')
-    out = data[start:end]
-    # strip last 2 lines
-    out = '\n'.join(out.split('\n')[:-2])
+    out = pq("div.content").html() 
 
     # TODO: do we want to extract the title
     # Do we want title at all?
@@ -36,7 +32,6 @@ def prepare_html(fileobj):
     # out = '\n'.join(lines[:4] + [ '[toc]' ] + lines[4:])
 
     # now various regex
-    import re
 
     # replace .html with / and index.html with simple ./
     pattern = '(href=".[^"]*)index\.html"'
