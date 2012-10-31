@@ -26,6 +26,10 @@ def prepare_html(fileobj):
 
     # TODO: do we want to extract the title
     # Do we want title at all?
+    if pq("div.section h1"):
+      title= pq("div.section h1")[0].text
+    else:
+      title=""
 
     # TODO: insert toc (??)
     # insert after h1 on 4th ine
@@ -42,7 +46,7 @@ def prepare_html(fileobj):
     pattern = '(href="[^"]*).html"'
     out = re.sub(pattern, '\\1/"', out)
 
-    return out
+    return (out, title)
 
 def upload(wordpress_site_url='', handbook_path='/handbook/'):
     '''Convert and upload built sphinx content to destination site
@@ -69,9 +73,10 @@ def upload(wordpress_site_url='', handbook_path='/handbook/'):
             # everything has a trailing '/' e.g. /handbook/introduction/
             if not urlpath.endswith('/'):
                 urlpath += '/'
-            out = prepare_html(open(path))
+            (out, title) = prepare_html(open(path))
+            print title
             pages[urlpath] = {
-                'title': urlpath.split('/')[-1].capitalize(),
+                'title': title,
                 'description': out
             }
 
