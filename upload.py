@@ -22,22 +22,26 @@ import pprint
 def prepare_html(fileobj):
     pq=PyQuery("".join(fileobj))
 
-    out = pq("div.content").html() 
-
+    out = PyQuery(pq("div.content").html() )
     # TODO: do we want to extract the title
     # Do we want title at all?
+    toc=pq("div.toc ul.current").outerHtml()
     if pq("div.section h1"):
       title= pq("div.section h1")[0].text
+      if toc:
+        out("div.section h1").after(toc)
     else:
       title=""
 
     # TODO: insert toc (??)
+
     # insert after h1 on 4th ine
     # lines = out.split('\n')
     # out = '\n'.join(lines[:4] + [ '[toc]' ] + lines[4:])
 
     # now various regex
-
+    
+    out=out.html()
     # replace .html with / and index.html with simple ./
     pattern = '(href=".[^"]*)index\.html"'
     out = re.sub(pattern, '\\1"', out)
@@ -74,7 +78,6 @@ def upload(wordpress_site_url='', handbook_path='/handbook/'):
             if not urlpath.endswith('/'):
                 urlpath += '/'
             (out, title) = prepare_html(open(path))
-            print title
             pages[urlpath] = {
                 'title': title,
                 'description': out
