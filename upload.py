@@ -31,13 +31,13 @@ def strip_if_not_pre(lines):
       pre=False
     if ispre.search(line):
       pre=True
-    yield line if pre else line.strip()  
+    yield line if pre else line.strip() + " "
     line=lines.next()  
 
 # TODO: deal with utf8 encoding
 def prepare_html(fileobj):
     """ prepares the html for wordpress pages """
-    pq=PyQuery(" ".join(strip_if_not_pre(fileobj))) 
+    pq=PyQuery("".join(strip_if_not_pre(fileobj))) 
 
     out = PyQuery(pq("div.content").outerHtml() )
     # TODO: do we want to extract the title
