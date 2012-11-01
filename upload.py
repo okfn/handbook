@@ -18,9 +18,26 @@ from pyquery import PyQuery
 import re
 import pprint
 
+
+def strip_if_not_pre(lines):
+  """strip line feeds if not in a <pre>"""
+  lines=(i for i in lines) # convert lines to a generator 
+  pre=False
+  ispre=re.compile("<pre>")
+  ispreout=re.compile("</pre>")
+  line=lines.next()
+  while line:
+    if ispreout.search(line):
+      pre=False
+    if ispre.search(line):
+      pre=True
+    yield line if pre else line.strip()  
+    line=lines.next()  
+
 # TODO: deal with utf8 encoding
 def prepare_html(fileobj):
-    pq=PyQuery(" ".join([i.strip() for i in fileobj]))
+    """ prepares the html for wordpress pages """
+    pq=PyQuery(" ".join(strip_if_not_pre(fileobj))) 
 
     out = PyQuery(pq("div.content").outerHtml() )
     # TODO: do we want to extract the title
