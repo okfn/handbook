@@ -42,11 +42,8 @@ def prepare_html(fileobj):
     out = PyQuery(pq("div.content").outerHtml() )
     # TODO: do we want to extract the title
     # Do we want title at all?
-    toc=pq("div.toc ul.current").outerHtml()
     if pq("div.section h1"):
       title= pq("div.section h1")[0].text
-      if toc:
-        out("div.section h1").after(toc)
       out("div.section h1").remove()  
     else:
       title=""
