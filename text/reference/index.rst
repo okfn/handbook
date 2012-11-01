@@ -9,6 +9,6 @@ techniques.
     :maxdepth: 2
 
     csv
-    rdf
+    rdf-reference
     geocoding
     visualization
