@@ -27,10 +27,10 @@ def strip_if_not_pre(lines):
   ispreout=re.compile("</pre>")
   line=lines.next()
   while line:
-    if ispreout.search(line):
-      pre=False
     if ispre.search(line):
       pre=True
+    if ispreout.search(line):
+      pre=False
     yield line if pre else line.strip() + " "
     line=lines.next()  
 
