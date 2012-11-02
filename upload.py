@@ -42,9 +42,21 @@ def prepare_html(fileobj):
     out = PyQuery(pq("div.content").outerHtml() )
     # TODO: do we want to extract the title
     # Do we want title at all?
+    if out("div.section"):
+      out("div.section")[0].set("itemscope","true")
+      out("div.section")[0].set("itemtype","http://schema.org/WebPage")
+    if out("div.section > p > em"):
+      out("div.section > p > em")[0].set("itemprop","author")
+    if out("div.section p"):  
+      if out("div.section > p > em"):
+        out("div.section p")[1].set("itemprop","description") 
+      else:  
+        out("div.section p")[0].set("itemprop","description") 
     if pq("div.section h1"):
       title= pq("div.section h1")[0].text
-      out("div.section h1").remove()  
+      out("div.section h1").css("display","none")
+      " set schema.org microdata for sharing "
+      out("div.section h1")[0].set("itemprop","name") 
     else:
       title=""
 
