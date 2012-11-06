@@ -159,3 +159,7 @@ Glossary
     Percentiles are a value where n% of values are below in a given range.
     e.q. the 5th percentile: 5 percent of values are lower than this value.
 
+  Scraping
+    The process of extracting data in :term:`machine-readable` formats of
+    non-pure data sources eg.: webpages or PDF documents. Often prefixed
+    with the source (web-scraping PDF-scraping).
