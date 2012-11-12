@@ -16,8 +16,8 @@ fixing up data).
 Step 0 - Identify a Dataset to Use
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-For this purposes of this tutorial you will want to have some raw data which
-you want to put up on the DataHub. If you don't have one to hand we suggest you
+For the purposes of this tutorial you will want to have some raw data which
+you want to put up on the DataHub. If you don't have one on hand, we suggest you
 just use some of the raw data from this `Gold Prices Dataset`_ on the DataHub
 (just pretend you dug it up somewhere on the Internet!).
 
@@ -58,7 +58,7 @@ Step 2 - Get the Data
    Step 2 and 3 will often occur in parallel.*
 
 Start digging for the data. This isn't our subject here so we leave the details
-to you. What we do suggest is you upload or links to data you find in your
+to you. What we do suggest is you upload or link to data you find in your
 DataHub dataset (even if it's just PDF!).
 
 Step 3 - Wrangle the Data
