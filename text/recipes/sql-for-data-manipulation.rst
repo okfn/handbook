@@ -23,8 +23,7 @@ Now that we have all of the data at our disposal, we need a way to extract it.
 We can use the SQL language to easily manipulate the data we need. My data is
 stored in the [SQLite3](http://www.sqlite.org) database.
 .
-[SQLite3 has its own command line shell](http://www.sqlite.org/sqlite.html)
-that that's very easy to install on Ubuntu:
+[SQLite3 has its own command line shell](http://www.sqlite.org/sqlite.html) that's very easy to install on Ubuntu:
 
     $ sudo apt-get install sqlite3
 
@@ -50,7 +49,7 @@ far fewer. Take a look at this query::
   2357
 
 The addition of WHERE clauses allows us to filter the result. While the fact
-that we've lost half of our data wont affect the training exercise, it does
+that we've lost half of our data won't affect the training exercise, it does
 demonstrate some of the issues of using real-world data. The effect is
 magnified as we ask for even cleaner data::
 
