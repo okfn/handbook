@@ -78,7 +78,7 @@ Index and Item
 A very common pattern in scraping is to make a distinction between an index of
 items and the items detail page. For example, lets have a look at the `CORDIS`_ 
 database, a listing of research projects funded by the European Commission. 
-When you run an empty search on the database, you will recieve a list of 
+When you run an empty search on the database, you will receive a list of 
 projects with very few details on each item. Clicking on a project name will
 give you a details page with a description, contact details etc.
 
