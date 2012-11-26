@@ -72,7 +72,7 @@ Scraping
 
 Remember, the website is the API. If a site provides information full
 information on its pages, but only offers you a limited access via its
-search page.
+search page you can scrape it to release it's data.
 
 Structure of a scraper
 ----------------------
@@ -106,9 +106,9 @@ Clean the HTML
 ^^^^^^^^^^^^^^
 
 HTML you find on the web can be atrocious. Here's a quick function that 
-can help. We make use of the `lxml`_ library. It'svery good at 
+can help. We make use of the `lxml`_ library. It's very good at 
 understanding broken HTML and will render a perfectly-formed page for 
-your extractor functions to
+your extractor functions. 
 
 You may be concerned that this is computationally wasteful. This is 
 true, but it can reduce lots of the irritation of extracting specific
@@ -280,7 +280,7 @@ General tips
   confidence of building a few scrapers, learn how to optimise 
   performance. Given that you are using lots of external resources,
   there will be lots of latency involved. This means that your scraper's
-  performance by using asynchronous programming.
+  performance increases by using asynchronous programming.
 
 
 Types of scrapers
@@ -315,7 +315,7 @@ Types of scrapers
   Regular expressions to look for common patterns in the text. One of 
   the easiest template extraction systems is `scrapemark`_. While it
   is not the most computationally efficient, using template systems
-  requires far less manual work to get going with. This can le
+  requires far less manual work to get going with. 
 
 :Machine-learning:
   Machine-learning packages work by training a model of example pages,
