@@ -163,3 +163,17 @@ Glossary
     The process of extracting data in :term:`machine-readable` formats of
     non-pure data sources eg.: webpages or PDF documents. Often prefixed
     with the source (web-scraping PDF-scraping).
+
+  Categorical Data
+    Data that helps put things into categories. Eg.: Country names, Groups,
+    Conditions, Tags
+
+  Discrete Data
+    Numerical Data that, if you plot all possible values, has gaps in it.
+    Eg. the count of things (there are no 1.5 children). Compare to
+    :term:`Continuous Data`
+
+  Continuous Data
+    Numerical data that, if you plot all possible values, has no gaps. Eg.
+    Sizes (you can be 155.55 or 155.56cm tall etc.) Compare to
+    :term:`Discrete Data`
