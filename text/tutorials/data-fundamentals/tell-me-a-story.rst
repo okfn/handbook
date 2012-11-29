@@ -1,5 +1,5 @@
 Tell me a story: Working out what's interesting in your data
-========================================
+============================================================
 
 Introduction
 --------------
