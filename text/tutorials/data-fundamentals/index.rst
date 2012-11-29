@@ -11,3 +11,4 @@ don't worry were there to guide you through.
   :maxdepth: 2
 
   what-is-data
+  finding-data
