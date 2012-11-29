@@ -14,4 +14,5 @@ don't worry were there to guide you through.
   finding-data
   sort-and-filter
   data-to-diagrams
+  common-misconceptions
   tell-me-a-story
