@@ -108,7 +108,7 @@ A clear stable increase in health care costs since 2002? Not quite. Notice how b
 Correlation is not causation
 ----------------------------
 
-.. figure:: https://lh4.googleusercontent.com/6N0ljgzNF4hNrfC7O3TtBrK2pe5wHbIrzKmR9BhwGHye_mFy1__0KoB5WilOwQN3dbXLSv5VFEqk8vs5JeYWcBz9sflW99C-dAB2yFAI8KUlZKNH_Xub
+.. figure:: http://imgs.xkcd.com/comics/correlation.png
 
    by XKCD
 
