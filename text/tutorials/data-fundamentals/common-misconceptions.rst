@@ -13,11 +13,15 @@ The average trap
 
 Have you ever read a sentence like: “The average european drinks 1 litre of beer per day”? Did you ask yourself who this mysterious “average european” was and where you could meet him? Bad news: you can’t. He or she doesn’t exist. In some countries, people drink more wine than beer. How about people who don’t drink alcohol at all? And children? Do they drink 1 litre per day too? Clearly this statement is misleading. So how did this number come together? 
 
-People who make these kind of claims usually get hold of a large number: e.g. every year 109 billion liters of beer is consumed in Europe. They then simply divide that figure by the number of days per year and the total population of Europe, and then blare out the exciting news. We did the same thing two modules ago when we divided healthcare expenditure by population. Does this mean that all people spend that much money? No. It means that some spend less and some spend more - what we did was to find the average.The average makes a lot of sense - if data is normally distributed. Normal distribution is the classic bell shaped curve.
+People who make these kind of claims usually get hold of a large number: e.g. every year 109 billion liters of beer is consumed in Europe. They then simply divide that figure by the number of days per year and the total population of Europe, and then blare out the exciting news. We did the same thing two modules ago when we divided healthcare expenditure by population. Does this mean that all people spend that much money? No. It means that some spend less and some spend more - what we did was to find the `average`_.The `average`_ makes a lot of sense - if data is `normally distributed`_. Normal distribution is the classic bell shaped curve.
+  
 
   .. image:: http://farm9.staticflickr.com/8301/7899098946_4839cc2ed3_b_d.jpg
  
-The image above shows three different normal distributions. They all have the same average. And yet they are clearly different.What the average doesn’t tell you is the range of data. 
+The image above shows three different normal distributions. They all have the same `average`_. And yet they are clearly different.What the average doesn’t tell you is the range of data. 
+
+.. _average: http://schoolofdata.org/handbook/en/latest/appendix/glossary.html#term-average
+.. _normally distributed: http://schoolofdata.org/handbook/en/latest/appendix/glossary.html#term-normal-distribution
 
 Most of the time we do not deal with normal distributions either: take e.g. income. The average income (something frequently reported) would suggest that half of the people would earn less and half of them would earn more than the average. This is wrong. In most countries, many more people earn below the average salary than above it. How? Incomes are not normally distributed. They show a peak around a certain level and then have a long tail towards large salaries. 
 
@@ -35,17 +39,25 @@ Now add 1€ to each of their salaries (2€, 3€....11€). What is the averag
 
 Now go back to the original salaries (1€, 2€, 3€ etc) and add 10€ only to the very top salary (so you have 1€, 2€, 3€... 9€, 20€). What’s the average now? 
 
-Economists recognise this and have added another value. The “GINI-Coefficient” tells you something about the distribution of income. The “GINI-Coefficient is a little complicated to calculate and beyond the scope of this basic introduction. However, it is worth knowing it exists. A lot of information gets lost when we only calculate an average. Keep your eyes peeled as you read the news and browse online. 
+Economists recognise this and have added another value. The “ `GINI-Coefficient`_ ” tells you something about the distribution of income. The “GINI-Coefficient is a little complicated to calculate and beyond the scope of this basic introduction. However, it is worth knowing it exists. A lot of information gets lost when we only calculate an average. Keep your eyes peeled as you read the news and browse online. 
+
+.. _GINI-Coefficient: http://en.wikipedia.org/wiki/Gini_coefficient
+
+
 
 **Task:** Can you spot examples of where the use of the average is problematic? 
 
 ``More than just your average...``
 
-So if we’re not to use the average - what should we use? There are various other measures which can be used to give a simple mean figure some more context.
+So if we’re not to use the `average`_ - what should we use? There are various other measures which can be used to give a simple mean figure some more context.
 
 * Combine the average figure with the range; e.g say range 20-5000 with an average of 50. Take our beer example: it would be slightly better to say 0-5 litres a day  with an average of 1 litre.
-* Use the median: the median is the value right in the middle where 50% of values are above and 50% of values are below. For the median income it holds true that 50% of people earn less and 50% of people earn more. 
-* Use quartiles or percentiles: Quartiles are like the median but for 25,50 and 75%. Percentiles are the same but for varying percent ranges (usually 10% steps.) This gives us way more information than the average - it also tells us something about the distribution of data (e.q. do 1% of the people really hold 80% of the wealth?)
+* Use the `median`_: the median is the value right in the middle where 50% of values are above and 50% of values are below. For the median income it holds true that 50% of people earn less and 50% of people earn more. 
+* Use `quartiles`_ or `percentiles`_: Quartiles are like the median but for 25,50 and 75%. Percentiles are the same but for varying percent ranges (usually 10% steps.) This gives us way more information than the average - it also tells us something about the distribution of data (e.q. do 1% of the people really hold 80% of the wealth?)
+
+.. _average: http://schoolofdata.org/handbook/en/latest/appendix/glossary.html#term-average
+.. _quartiles: http://schoolofdata.org/handbook/en/latest/appendix/glossary.html#term-quartiles
+.. _percentiles: http://schoolofdata.org/handbook/en/latest/appendix/glossary.html#term-percentiles
 
 Size matters
 ------------
@@ -73,8 +85,8 @@ The simple “reflect the size” rule becomes even more difficult in 2 dimensio
 
 Answer: The diagram on the right.
 
-Remember the formula for calculating the area of a circle? (Area = πr² If this doesn’t look familiar, see here). In the left hand diagram, the radius of A (r) was doubled. This means that the total area goes up by a scale factor of four! This is wrong. If B is to represent a number twice the size of A, we need the area of B to be double the area of A. To correctly calculate this, we need to adjust the length of the radius by ⎷2. This gives us a realistic change in size. 
-
+Remember the formula for calculating the area of a circle? (Area = πr² If this doesn’t look familiar, see `here`_). In the left hand diagram, the radius of A (r) was doubled. This means that the total area goes up by a scale factor of four! This is wrong. If B is to represent a number twice the size of A, we need the area of B to be double the area of A. To correctly calculate this, we need to adjust the length of the radius by ⎷2. This gives us a realistic change in size. 
+.. _here: http://www.mathsisfun.com/geometry/circle-area.html
 
 Time will tell?
 ---------------
@@ -91,7 +103,9 @@ Correlation is not causation
   .. image:: https://lh4.googleusercontent.com/6N0ljgzNF4hNrfC7O3TtBrK2pe5wHbIrzKmR9BhwGHye_mFy1__0KoB5WilOwQN3dbXLSv5VFEqk8vs5JeYWcBz9sflW99C-dAB2yFAI8KUlZKNH_Xub
 by XKCD
 
-This misunderstanding is so common and well known that it has its own wikipedia article. There is nothing more to say about this. Simply because two data points show changes that can be correlated, it doesn’t mean that one causes the other. 
+This misunderstanding is so common and well known that it has its own `wikipedia article`_. There is nothing more to say about this. Simply because two data points show changes that can be correlated, it doesn’t mean that one causes the other. 
+.. _wikipedia article: http://en.wikipedia.org/wiki/Correlation_does_not_imply_causation
+
 
 Context, context, context
 --------------------------
@@ -115,8 +129,8 @@ It’s tempting to answer that there is a 99% chance that this person stole some
 
 In your store you’ll have honest customers and shoplifters. However, the honest customers outnumber the thiefs:: there are 10,000 honest customers and just 1 thief. If all of them pass in front of your alarm, the alarm will sound 101 times. 1% of the time, it will mistakenly identify a honest customer as a thief - so it will sound 100 times. 99% of the time, it will correctly recognise that a shoplifter is a shoplifter. So it will probably sound once when your thief does walk past. But of the 101 times it sounds, only 1 time will there actually be a shoplifter in your store. So the chance that a person is *actually* a thief when it sounds is just below 1% (0.99%, if you want to be picky). 
 
-Overestimating the probability if something is reported positive in such a scenario is called the base rate fallacy. This explains why airport searches and other methods of mass screening always will turn up lots of false positives. 
-
+Overestimating the probability if something is reported positive in such a scenario is called the `base rate fallacy`_. This explains why airport searches and other methods of mass screening always will turn up lots of false positives. 
+.. _base rate falacy: http://en.wikipedia.org/wiki/Base_rate_fallacy
 
 Summary
 -------
