@@ -55,7 +55,7 @@ Glossary
     which can be exported and imported by all spreadsheet applications and is
     easily manipulable with command line tools.
   
-  Comma-seperated Values
+  Comma-separated Values
     See :term:`CSV`
 
   curl
@@ -112,18 +112,18 @@ Glossary
   Intellectual property rights
     Monopolies granted to individuals for intellectual creations.
 
-  Tab-seperated values
-    Tab-seperated values (TSV) are a very common form of text file
+  Tab-separated values
+    Tab-separated values (TSV) are a very common form of text file
     format for sharing tabular data. The format is extremely simple
     and highly :term:`machine-readable`.
     
   Taxonomy
     Classification. Taxonomy refers to hierarchical classification of
     things. One of the best known is the Linnean classification of species
-    - still used today to classify all living beeings.
+    - still used today to classify all living beings.
 
   Qualitative Data
-    Qualitative data is data telling you something about qualities: e.q.
+    Qualitative data is data telling you something about qualities: e.g.
     description, colors etc. Interviews count as qualitative data
 
   Quantitative Data
@@ -132,7 +132,7 @@ Glossary
     measured) etc.
   
   Crowdsourcing
-    Mockup from crowd and outsourcing: Having a lot of people do simple
+    Mashup of crowd and outsourcing: Having a lot of people do simple
     tasks to complete the whole work.
   
   Choropleth Map
@@ -152,28 +152,28 @@ Glossary
     be below, 50% of values above the value. 
 
   Quartiles
-    Quartiles are the values where 25,50 and 75% of values in a range are
+    Quartiles are the values where 25, 50 and 75% of values in a range are
     below the given value. 
 
   Percentiles
     Percentiles are a value where n% of values are below in a given range.
-    e.q. the 5th percentile: 5 percent of values are lower than this value.
+    e.g. the 5th percentile: 5 percent of values are lower than this value.
 
   Scraping
     The process of extracting data in :term:`machine-readable` formats of
-    non-pure data sources eg.: webpages or PDF documents. Often prefixed
+    non-pure data sources e.g.: webpages or PDF documents. Often prefixed
     with the source (web-scraping PDF-scraping).
 
   Categorical Data
-    Data that helps put things into categories. Eg.: Country names, Groups,
+    Data that helps put things into categories. E.g.: Country names, Groups,
     Conditions, Tags
 
   Discrete Data
     Numerical Data that, if you plot all possible values, has gaps in it.
-    Eg. the count of things (there are no 1.5 children). Compare to
+    E.g. the count of things (there are no 1.5 children). Compare to
     :term:`Continuous Data`
 
   Continuous Data
-    Numerical data that, if you plot all possible values, has no gaps. Eg.
+    Numerical data that, if you plot all possible values, has no gaps. E.g.
     Sizes (you can be 155.55 or 155.56cm tall etc.) Compare to
     :term:`Discrete Data`

@@ -31,8 +31,8 @@ Edited directories
 
 One of the `largest directories of open data repositories`_ is provided 
 by the `Open Access Directory`_. Its collection is mostly focused on 
-scientific or research data and is curated by topic area. Topics covered 
-the directory include archaeology, astronomy, biology, chemistry, 
+scientific or research data and is curated by topic area. Topics covered
+in the directory include archaeology, astronomy, biology, chemistry, 
 computer science, energy, environmental sciences, earth sciences,
 linguistics, marine sciences, medicine, physics and social sciences.
 
@@ -72,7 +72,7 @@ Scraping
 
 Remember, the website is the API. If a site provides information full
 information on its pages, but only offers you a limited access via its
-search page you can scrape it to release it's data.
+search page you can scrape it to release its data.
 
 Structure of a scraper
 ----------------------
@@ -134,7 +134,7 @@ Converting yes/no to Boolean values
 
 Computers are far better at interpreting Boolean values when they are 
 consistently provided. Irrespective of the programming language, normalising
-these values will make any automatic comparisions much richer::
+these values will make any automatic comparisons much richer::
 
     def to_bool(yes_no, none_to_false=True):
         """
@@ -162,7 +162,7 @@ these values will make any automatic comparisions much richer::
 Converting numbers to the correct type
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you're extracting number from HTML tables, they will each be 
+If you're extracting numbers from HTML tables, they will each be 
 represented as a `string` or Unicode, even though it would be 
 more sensible to treat as integers or floating point numbers:: 
 
@@ -303,7 +303,7 @@ Types of scrapers
 
   Most modern libraries, such as `lxml`_ accept CSS selectors. So, in
   Python to extract content from the  `<title>` tag, you do something
-  similiar to `page.cssselect('title')[0].text`.
+  similar to `page.cssselect('title')[0].text`.
 
   `XPath`_, the XML Path Language, is a fuller way to select elements 
    from XML and XML-like documents, such as HTML. As with CSS, it uses 
@@ -431,8 +431,8 @@ Dealing with JavaScript
 -----------------------
 
 JavaScript can be a pain for scrapers. JavaScript is often used to alter the
-DOM when pages after the page has been created. This means that the page you
-see in an internet browser is different that the page your scrapers see.
+DOM on pages after they have been created. This means that the page you
+see in an Internet browser is different that the page your scrapers see.
 
 There are a few different approaches to dealing with this process. We will
 briefly outline them, then go through the easiest option.
@@ -526,11 +526,11 @@ Digging deeper
 
 One of the better free tools is called `pdftohtml`_. It generates an HTML 
 version of the document, which can then be processed by tools that you 
-are used to. It does a good job of understanding the layout 
+are used to. It does a good job of understanding the layout.
 
-It is possible to circumvent in PDF documents. The PDF viewer `xpdf`_ 
-provides this be default. This allows you to print or extract content 
-that may be otherwise prevented through securirty measures.
+It is possible to circumvent security measures in PDF documents. The PDF 
+viewer `xpdf`_ provides this by default. This allows you to print or extract 
+content that may be otherwise prevented through security measures.
 
 
 Optical Character Recognition
@@ -551,7 +551,7 @@ the `ocrfeeder` package. To get a feel for how to use it, there is a
 Building an OCR pipeline
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-OCR involves create a programming conveyor belt of tools. The whole process
+OCR involves creating a conveyor belt of programming tools. The whole process
 can include several steps:
 
   * Cleaning the content
@@ -598,7 +598,7 @@ Crowdsourcing
 -------------
 
 The open source project, `TaskMeUp`_ is designed to allow you to distribute jobs
-between hundreds of of participants. If you have a project that could benefit 
+between hundreds of participants. If you have a project that could benefit 
 from being reviewed by human eyes, this may be an option for you.
 
 Alternatively, there are a small number of commercial firms providing this 
@@ -630,7 +630,7 @@ Be part of the open data community
 
 When scraping open data, you should use `ScraperWiki`. ScraperWiki
 allows people to cooperatively build scrapers. They will also take care of 
-rerunning your scraper periodicly so that new data are added.
+rerunning your scraper periodically so that new data are added.
 
 By being part of the community, you increase your profile, learn much more 
 and benefit from people fixing your scraper when it breaks.
@@ -641,7 +641,7 @@ Learn async programming
 Network programming is inherently wasteful in many ways. Your processor is
 consistently waiting for things to arrive from other parts of the world.
 Therefore, you can speed up the processing steps of your scrapers significantly
-if you take the time to learn asyncronous programming.
+if you take the time to learn asynchronous programming.
 
 
 .. _ScraperWiki: http://www.scraperwiki.com/

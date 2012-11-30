@@ -59,7 +59,7 @@ look for both::
 
   (filetype:csv | filetype:tsv)
 
-his will return many results that look like they do on your hard drive:
+This will return many results that look like they do on your hard drive:
 ``http://www.example.com/results.csv``. Unfortunately, many dynamic websites
 do not use file extensions. Instead, they will do something like this:
 ``http://www.example.com/results?format=csv``. The ``filetype:`` operator will miss
@@ -104,7 +104,7 @@ A reminder about copyright
 --------------------------
 Remember, you probably shouldn’t be distributing the files that you find.
 There’s the possibility that you will be infringing copyright. Stick to
-publishing the analysis or visualisations the data. Those are your creative
+publishing the analysis or visualisations of the data. Those are your creative
 works. They don’t count as derived works. Copyright protects the expression
 of facts, not the facts themselves.
 
@@ -113,7 +113,7 @@ Summary
 
 * ``filetype:csv`` is the most likely way to get raw data quickly
 * ``inurl:csv`` will reveal even more sources, but will return false positives
-* ``site:.govt.uk`` restricts the results to websites from the British government
+* ``site:.gov.uk`` restricts the results to websites from the British government
 * ``ext:xml`` returns formats that are not indexed by filetype operator
 
 .. _government department’s web visualisation tool of Sydney’s “Air Quality Index” (AQI): http://www.environment.nsw.gov.au/aqms/aqi.htm

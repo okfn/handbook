@@ -22,7 +22,7 @@ Getting the workable data out of the database
 Now that we have all of the data at our disposal, we need a way to extract it.
 We can use the SQL language to easily manipulate the data we need. My data is
 stored in the [SQLite3](http://www.sqlite.org) database.
-.
+
 [SQLite3 has its own command line shell](http://www.sqlite.org/sqlite.html) that's very easy to install on Ubuntu:
 
     $ sudo apt-get install sqlite3
@@ -242,7 +242,7 @@ Databases also generally know quite a bit about dates. For example, the followin
 
 This example is a little bit messier than the others. That's probably because
 of the <code>strftime</code> function that's inserted there.
-<code>strftime</code> is a function that take a <b>str</b>ing and
+<code>strftime</code> is a function that takes a <b>str</b>ing and
 <b>f</b>ormats it to time. We are using <code>'%s'</code> as the format,
 telling the function to convert things to seconds.
 
@@ -312,7 +312,7 @@ a spreadsheet program, sometimes it can be hard to retrace your steps. It's
 sometimes even harder to describe to other people how you've come to a result.
 
 **No loops!** Once you get the hang of it, programming in SQL can be a lot
-easier than preforming similar operations in languages. You no longer need to
+easier than performing similar operations in languages. You no longer need to
 spend a great deal of time worrying about complex control structures.  
 
 **Databases are everywhere.** While NoSQL databases are increasingly being
