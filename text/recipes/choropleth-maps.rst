@@ -6,7 +6,7 @@ Choropleth maps are a common kind of map. In this type of map a region is
 colored according to a value. They are fairly simple to create. In this
 recipe we will create a html/javascript based choropleth map from worldbank
 data. The HTML and JavaScript used for this example can be found in
-`github`_
+`github`_.
 
 
 Downloading the necessary JavaScript libraries
@@ -56,7 +56,7 @@ code to initialize the map::
     $(document).ready(init);    
     
 
-include the script you just created after all the scripts in the header
+Include the script you just created after all the scripts in the header
 have been loaded.
 
 Displaying data
@@ -66,7 +66,7 @@ The map we just created still has no values associated to the countries.
 Jvectormap adds values as so called "series". the series we want to create
 is a region series. So let's extend our JavaScript file. First let's create
 some data. A series consists of a JavaScript object where 2 letter country
-codes are the key and the value is the value for displaying. e.q. this
+codes are the key and the value is the value for displaying. e.g. this
 could be::
     
     var data={"GB":20, "IN":11, "CN":17, "US":9, "AU":25};

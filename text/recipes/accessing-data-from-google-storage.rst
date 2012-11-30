@@ -11,7 +11,7 @@ How to find files
 -----------------
 
 To find files without the need of a sign in, you'll need to know the
-initial "bucket" the data is in. "Bucket" is just googles term for folder.
+initial "bucket" the data is in. "Bucket" is just Google's term for folder.
 For example measurement-lab data is in "gs://m-lab/".
 
 Listing the content of a bucket
@@ -33,7 +33,7 @@ Once you identified the object you want to download simply use::
     gsutil cp <object> .
 
 to copy it into the current directory. If you want to copy the contents of
-a bucket (and it's sub-buckets), simply type::
+a bucket (and its sub-buckets), simply type::
     
     gs cp -R <bucket> .
 

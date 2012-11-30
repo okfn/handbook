@@ -30,7 +30,7 @@ nationality etc. All these things are data.
 From Data to Information to Knowledge
 -------------------------------------
 
-Data on it’s own is not very useful. In the example above: We
+Data on its own is not very useful. In the example above: We
 extracted some data out of the golf balls that by itself is meaningless.
 To do something with it it first needs to be collected. Let’s do this in
 the simple table below:
@@ -40,7 +40,7 @@ Color            White
 Category         Sport - Golf
 Condition        Used
 Diameter         43mm
-Price (per ball) $0.5 (AUD)
+Price (per ball) $0.50 (AUD)
 ================ ==================
 
 Each of the data values are by itself rather meaningless as well. To create

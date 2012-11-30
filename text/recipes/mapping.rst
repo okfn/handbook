@@ -53,7 +53,7 @@ You should see a map with marker:
 .. image:: http://farm8.staticflickr.com/7279/7850933238_e0c24a29bb_o_d.jpg
 
   
-This example HTML and javascript makes use of the open source mapping javascript mapping library called 'OpenLayers' and the open licensed maps from OpenStreetMap.org
+This example HTML and javascript makes use of the open source mapping javascript mapping library called 'OpenLayers' and the open licensed maps from OpenStreetMap.org.
 
 In the javascript code we see how to initialise a map object which will
 appear within a div on your HTML page. A LonLat object is created to

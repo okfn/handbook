@@ -25,7 +25,7 @@ Autocompletion works a treat, so finish off the expression and add in the URL an
 
 .. image:: http://farm9.staticflickr.com/8438/7850932674_ef1514b761_o_d.jpg
 
-*=ImportHtml("http://en.wikipedia.org/wiki/List_of_largest_United_Kingdom_settlements_by_population","table",1)*
+*=importHTML("http://en.wikipedia.org/wiki/List_of_largest_United_Kingdom_settlements_by_population","table",1)*
 
 As if by magic, a data table appears in the spreadsheet, pulled in directly from the Wikipedia page:
 
