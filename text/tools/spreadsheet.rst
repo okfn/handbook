@@ -31,8 +31,8 @@ as integration of Google search into the spreadsheet.
 Getting Started
 ---------------
 
-The Knight Digital Media Center has an `extensive tutorial on Google docs spreadsheet`_.
-This is a solid introduction into the spreadsheets. If you want to
+The Knight Digital Media Center has an `extensive tutorial on Google docs spreadsheets`_.
+This is a solid introduction to spreadsheets. If you want to
 try what you just learned or get a more interactive introduction try the
 `School of Data basic data wrangling challenge`_. 
 
@@ -40,7 +40,7 @@ Sorting Data
 ------------
 
 One thing you frequently want to do with your spreadsheet is sorting data.
-If you don't know how, don't worry we'll walk you through.
+If you don't know how, don't worry, we'll walk you through.
 
 .. figure:: http://farm8.staticflickr.com/7252/7851175836_d6f6722234_o_d.jpg
     :alt: making a copy of a google-doc spreadsheet
@@ -49,7 +49,7 @@ If you don't know how, don't worry we'll walk you through.
     Making a copy of a google doc spreadsheet
 
 First grab our `sample spreadsheet`_ and copy it. Do this by clicking the
-"file" menu and "make a copy". This will result in a new spreadsheet, this
+"File" menu and "Make a copy". This will result in a new spreadsheet, this
 is your personal copy you can edit and play around with. Don't worry: you
 can't break anything. If you get stuck or mess the spreadsheet up: just
 make a new copy. 
@@ -87,7 +87,7 @@ will open a Popup
 The popup will present several sort options to you. Make sure that if your
 selection contains title rows check the box named "Data has header row".
 This will allow you to select the column you want to sort with by title. If
-you click on "Sort" your the popup will be closed and your data sorted. Pay
+you click on "Sort" the popup will be closed and your data sorted. Pay
 attention to always mark the complete dataset: otherwise just the selected
 columns will be sorted - this might not be what you want to acheive.
 

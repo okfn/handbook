@@ -23,7 +23,7 @@ http://open.mapquestapi.com/nominatim/v1/
 Geo-Googledocs
 ==============
 
-* Google docs app script allowing you to do the following with your google docs
+* Google docs app script allowing you to do the following with your Google docs
   spreadsheet:
 
   * Export to :term:`GeoJSON`
