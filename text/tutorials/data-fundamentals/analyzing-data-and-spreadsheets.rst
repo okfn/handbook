@@ -81,22 +81,21 @@ Now that you have a sense of how spreadsheet formula work, here's a quick introd
 
 These are all 'basic maths functions' - the kind of things you would find on a simple calculator. 
 
-+--------+------------------------------------------------------------------+
-| Symbol | What it does                                                     |
-+========+==================================================================+
-|    =   | Tells your spreadsheet that you are writing a formula. This is   | 
-|        | the first thing that should go in your formula cell. (NOTE: A    |
-|        | spreadsheet assumes that \*everything\* that begins with an '='  |
-|        | is a formula... so be careful how you use it!)                   |
-+--------+------------------------------------------------------------------+
-|    +   | Add                                                              |
-+--------+------------------------------------------------------------------+
-|    -   | Subtract                                                         |
-+--------+------------------------------------------------------------------+
-|    *   | Multiply (this would be 'x' on a calculator)                     |
-+--------+------------------------------------------------------------------+
-|    /   | Divide (this would be '÷' on a calculator)                       |
-+--------+------------------------------------------------------------------+
+``=``
+  Tells your spreadsheet that you are writing a formula. This is the |      first thing that should go in your formula cell. (NOTE: A spreadsheet assumes that *everything* that begins with an '=' is a formula... so be careful how you use it!)
+
+``+``
+  Add
+
+``-`` 
+  Subtract
+
+``*``
+  Multiply (this would be 'x' on a calculator)
+
+``/``
+  Divide (this would be '÷' on a calculator)
+
 
 It is worth remembering that basic maths rules about the order of functions apply. For example, the formula  =3+5*2 will give you 13, **NOT** 16. If you're not sure why or can't quite remember the rules, check out `this basic introduction`_. If you want to change the order of function you'll need parentheses: Formulas inside parentheses will be evaluated before any other formula. If you want the formula above to result in 16 you'll need to type: =(3+5)*2.
 
@@ -127,7 +126,7 @@ In the original data, public, private and total healthcare expenditure is expres
   ($2461666315 * 6.009337744) / 100
 
 #. With a spreadsheet formula, we don't have to worry about all the numbers - you just need to enter the cells. So the formula you are going to need is:
-  =E3 * H3 / 100
+  =E3\*H3/100
   (where cell E3 contains Afghanistan's GDP in 2001, and cell H3 contains private health expenditure in Afghanistan in 2001).
 
 #. Drag this formula all the way down the column and hey presto! You should have calculated the private health expenditure in $ for every country for the past 10 years. Much quicker than doing all the sums yourself!
@@ -138,17 +137,17 @@ Answer: In the same way as we could drag the formula down the column and the spr
 
 Try just dragging it across for a moment. Can you see the problem? The spreadsheet automatically moves \*all\* the cells its looking at one column to the right. So whereas before we had:
 
-=E3 * H3 / 100
+=E3\*H3/100
 
 we now have
 
-=F3 * I3 / 100
+=F3\*I3/100
 
 ...but GDP is still in column E, so this formula is not the one we want.
 
 To 'fix' a column or row, all you need to do is add '$' in front of the section you want to fix. So, if you adapt your original formula to
 
-=$E3 * H3 / 100
+=$E3\*H3/100
 
 you should be able to drag it over to the right without any problems. 
 
@@ -208,7 +207,7 @@ In the next walkthrough we will create a complex formula. We will do so with an 
 
   .. image:: http://farm9.staticflickr.com/8189/8076432091_46b551a5fe_m.jpg
 
-#. we got a missing problem right in the first value: Afghanistan's GDP is missing for the year 2000. 
+#. We got a missing problem right in the first value: Afghanistan's GDP is missing for the year 2000. 
 #. Think about our goal. What we want to achieve: if either of the values we are multiplying (in this case, GDP or health expenditure) is \*not\* a number (probably because the value is missing), we don't want to display the total. 
 #. To put it another way: \*Only if\* a value for both GDP and healthcare expenditure is present should the spreadsheet carry out the calculation; otherwise it should leave the cell blank. 
 #. The formula to express this condition is 'IF'. (You can find an overview on formulas like this on the `google doc help`_.)
@@ -218,15 +217,15 @@ In the next walkthrough we will create a complex formula. We will do so with an 
 
 #. In our case we know parts (2) and (3). (2) is the formula we used above - this is the calculation we want to carry out if both values are present in the spreadsheet.
 
-  =IF(Condition, **$E3 * H3 / 100**, Value if condition is false)
+  =IF(Condition, **$E3\* H3/100**, Value if condition is false)
 
 #. (3) is a blank - if the numbers aren't there, we don't want to display anything, so we fill in that value with nothing at all.
 
-  =IF(Condition, $E3 * H3 / 100,)
+  =IF(Condition, $E3\*H3/100,)
 
 #. So now we just need to work out (1), the condition. 
 
-  =IF(**Condition**, $E3 * G3 / 100,)
+  =IF(**Condition**, $E3\*G3/100,)
 
 #. Remember that we want the condition to be that BOTH the GDP and healthcare expenditure values are a number. The formula to see whether a cell is a number is: ISNUMBER. 
 #. This is another one of those little formulas that you should try playing with! If you type =ISNUMBER(F2) and F2 is an empty field, it will say FALSE. If there is a number it will say TRUE. Handy isn't it?
@@ -250,9 +249,9 @@ In the next walkthrough we will create a complex formula. We will do so with an 
 
 #. Phew! So now we can put parts (1), (2) and (3) from above all together in one big formula, using 'IF'
 
-  =IF(**Condition**, $E2 * H2 / 100,)
+  =IF(**Condition**, $E2\*H2/100,)
 
-  =IF(**AND(ISNUMBER($E2),ISNUMBER(H2))**, $E2 * H2 / 100,)
+  =IF(**AND(ISNUMBER($E2),ISNUMBER(H2))**, $E2\*H2/100,)
 
 #. Try it out: enter it to the first row of the first column of the calculation and paste it to all the other places. It should leave the cells empty.
 
@@ -269,8 +268,8 @@ Summary & Further Reading
 
 In this module we had an in depth view on analysis. We explored our dataset looking at the range of data. We further took a leap into conditional formulas to handle missing values and developed a quite complex formula step by step. Finally we touched on the subject of normalizing data to compare entities.
 
-*. `Google Spreadsheets Function List`_
-*. `Introduction to Boolean Logic at the Wikiversity`_
+#. `Google Spreadsheets Function List`_
+#. `Introduction to Boolean Logic at the Wikiversity`_
 
 .. _Google Spreadsheets Function List: https://support.google.com/docs/bin/static.py?hl=en&topic=25273&page=table.cs
 .. _Introduction to Boolean Logic at the Wikiversity: http://en.wikiversity.org/wiki/Introduction_to_boolean_logic
