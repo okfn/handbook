@@ -46,7 +46,7 @@ Formulas are what helped spreadsheets become an important tool. But how do they 
 
 Once you have your own copy of the data (try adding 'working copy' or similar after the original name), create a new sheet within your spreadsheet. This is for you to mess around with whilst you learn about formulae. 
 
-  .. image:: first.png
+  .. image:: http://farm9.staticflickr.com/8451/7976288997_702625e887_m.jpg
 
 Now move across to the "Total fruits sold" column. Start in the first row. It's time to write a formula...
 
