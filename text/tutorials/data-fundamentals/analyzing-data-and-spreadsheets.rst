@@ -20,12 +20,13 @@ Look at the data we imported: This is worldbank data containing GDP, population,
 **Task**: Brainstorm ideas. What could you investigate using this data?  
 
 Here are some ideas we came up with:
-* How much (in $) is spent on health care in total in each country?
-* How much (in $) is spent per capita in each country? 
-* In which country is the most spent per person? In which country is the least spent? What is the average for each continent? For the world?
-* What is the relationship between public and private health expenditure in each country? Where do citizens spend more (private expenditure)? Where does the state spend more (public expenditure)?
-* Is there a relationship between expenditure on health care and average life expectancy?
-* Does it make any difference if the expenditure is public or private?
+*. How much (in $) is spent on health care in total in each country?
+*. How much (in $) is spent per capita in each country? 
+*. In which country is the most spent per person? In which country is the least spent? What is the average for each continent? For the world?
+*. What is the relationship between public and private health expenditure in each country? Where do citizens spend more (private expenditure)? Where does the state spend more (public expenditure)?
+*. Is there a relationship between expenditure on health care and average life expectancy?
+*. Does it make any difference if the expenditure is public or private?
+
 
 NOTE: With these last two questions, you have to be really careful. Even if you find a connection, it doesn't necessarily have to be causal! For example: imagine there was a sudden outbreak of the plague. It's not always fatal, but many people who contract it will die. Public healthcare expenditure might go up. Life expectancy drops right down. That doesn't mean that your healthcare system has suddenly become less efficient! You always have to be \*REALLY\* careful about the conclusions you draw from this kind of data... but it can still be interesting to calculate the figures.
 
@@ -57,11 +58,11 @@ Now move across to the "Total fruits sold" column. Start in the first row. It's 
 #. Each formula in a spreadsheet starts with '='
 #. Enter '=' and select the first cell you want to add. Notice how the cell reference appears in the formula?
 
-  .. image:: http://farm9.staticflickr.com/8179/8073780056_70efef5b17_m.jpg
+   .. image:: http://farm9.staticflickr.com/8179/8073780056_70efef5b17_m.jpg
 
 #. now type + and select the second cell you want to add
 
-  .. image:: http://farm9.staticflickr.com/8173/8073780166_cba8154efa_m.jpg
+   .. image:: http://farm9.staticflickr.com/8173/8073780166_cba8154efa_m.jpg
 
 #. Press "Enter" or "tab" 
 #. The formula disappears and is replaced by the value.
@@ -70,7 +71,7 @@ Now move across to the "Total fruits sold" column. Start in the first row. It's 
 #. Copy the formula you have just written (using "ctrl"+"c") and paste it into the cell below (using "ctrl"+"v"), you will get the sum of the two numbers on the row below. 
 #. Alternatively click on the lower right corner of the cell (the blue square), and drag the formula down to the bottom of the column. Watch the 'total' column update. Feels like magic!
 
-  .. image:: http://farm9.staticflickr.com/8176/8073780244_9bb881c2d2_m.jpg
+   .. image:: http://farm9.staticflickr.com/8176/8073780244_9bb881c2d2_m.jpg
 
 **Task**: Create a formula to calculate the total amount of apples, plums and fruit sold during the week.
 
@@ -167,23 +168,23 @@ Now let's go to our first step of analysis. One thing that is very interesting t
 **Walkthrough**: Minimum and Maximum Values
 #. Open a new sheet. Do so by clicking the "+" in the lower left corner
 
-  .. image:: http://farm9.staticflickr.com/8322/8074120798_3b158e6377_m.jpg
+   .. image:: http://farm9.staticflickr.com/8322/8074120798_3b158e6377_m.jpg
 
 #. Leave the first column in the first row blank, in the second column enter '=' to tell the spreadsheet you will be using a formula. 
 #. Switch back to the sheet with your worldbank dataset.
 #. Select the first column that has numerical data on the sheet where your data lives.
   
-  .. image:: http://farm9.staticflickr.com/8041/8074136559_f012a1f897_m.jpg
+   .. image:: http://farm9.staticflickr.com/8041/8074136559_f012a1f897_m.jpg
 
 #. press enter and you will see the name in the first sheet: magic. Why do we do it like this and not simply copy and paste? This will automatically change the headings if you change your headings (e.g. you move columns around or rename things). 
 #. Now the first column is going to be what you calculate: type Minimum in the second row first column (A2) for the minimum value. 
 #. In the cell right next to it type '=MIN(' (MIN is the formula for minimum)
 
-  .. image:: http://farm9.staticflickr.com/8173/8074138256_8771c7aa59_m.jpg
+   .. image:: http://farm9.staticflickr.com/8173/8074138256_8771c7aa59_m.jpg
 
 #. Go back to the other sheet to select the first column with numerical data - to select the whole column click on the grey area with the column letter.
 
-  .. image:: http://farm9.staticflickr.com/8038/8074152513_bd5650840e_m.jpg
+   .. image:: http://farm9.staticflickr.com/8038/8074152513_bd5650840e_m.jpg
 
 #. Close the brackets by typing ')'. 
 #. You should now see the minimum value in that field. 
@@ -205,7 +206,7 @@ In the next walkthrough we will create a complex formula. We will do so with an 
 #. To deal with empty cells we have to fix parts of our calculation formulas in the worldbank datasheet
 #. To start - create a mock spreadsheet to play with data. Copy the first few rows of the worldbank dataset into it so you'll have a start. To validate our formulas try to remove values in some of the rows.
 
-  .. image:: http://farm9.staticflickr.com/8189/8076432091_46b551a5fe_m.jpg
+   .. image:: http://farm9.staticflickr.com/8189/8076432091_46b551a5fe_m.jpg
 
 #. We got a missing problem right in the first value: Afghanistan's GDP is missing for the year 2000. 
 #. Think about our goal. What we want to achieve: if either of the values we are multiplying (in this case, GDP or health expenditure) is \*not\* a number (probably because the value is missing), we don't want to display the total. 
@@ -230,12 +231,12 @@ In the next walkthrough we will create a complex formula. We will do so with an 
 #. Remember that we want the condition to be that BOTH the GDP and healthcare expenditure values are a number. The formula to see whether a cell is a number is: ISNUMBER. 
 #. This is another one of those little formulas that you should try playing with! If you type =ISNUMBER(F2) and F2 is an empty field, it will say FALSE. If there is a number it will say TRUE. Handy isn't it?
 
-  .. image:: http://farm9.staticflickr.com/8326/8076431832_1b47fcf367_m.jpg
+   .. image:: http://farm9.staticflickr.com/8326/8076431832_1b47fcf367_m.jpg
 
 #. We want a formula that will only be calculated if both GDP \*and\* healthcare expenditure are actual numbers. 
 #. We need to combine the results of both ISNUMBER(GDP) and ISNUMBER(healthcare expenditure) together. The formula to do so is AND. This will simply say 'TRUE' if both of them are TRUE (i.e. both of them numbers) or FALSE if either one or both of them is FALSE.
 
-  .. image:: http://farm9.staticflickr.com/8332/8076444273_08d0ff0842_m.jpg
+   .. image:: http://farm9.staticflickr.com/8332/8076444273_08d0ff0842_m.jpg
 
 #. Which is exactly what we need. So our condition will be:
 
@@ -245,7 +246,7 @@ In the next walkthrough we will create a complex formula. We will do so with an 
 
   AND(ISNUMBER($E3),ISNUMBER(H3)) 
 
-  .. image:: http://farm9.staticflickr.com/8186/8076443230_8ef7b909e6_m.jpg
+   .. image:: http://farm9.staticflickr.com/8186/8076443230_8ef7b909e6_m.jpg
 
 #. Phew! So now we can put parts (1), (2) and (3) from above all together in one big formula, using 'IF'
 
@@ -255,7 +256,7 @@ In the next walkthrough we will create a complex formula. We will do so with an 
 
 #. Try it out: enter it to the first row of the first column of the calculation and paste it to all the other places. It should leave the cells empty.
 
-  .. image:: http://farm9.staticflickr.com/8185/8076469857_3c5153582f_m.jpg
+   .. image:: http://farm9.staticflickr.com/8185/8076469857_3c5153582f_m.jpg
 
 If you look at the data you will quickly find out that countries with higher number of people spend more on healthcare than countries with lower number of people. Intuitive isn't it. So how to compare the countries more directly? Break it down to healthcare expenditure per person! This step is called normalization and is a step often done when comparing different entities - such as countries etc. 
 
