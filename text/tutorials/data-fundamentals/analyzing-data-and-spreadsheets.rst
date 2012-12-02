@@ -20,6 +20,7 @@ Look at the data we imported: This is worldbank data containing GDP, population,
 **Task**: Brainstorm ideas. What could you investigate using this data?  
 
 Here are some ideas we came up with:
+
 * How much (in $) is spent on health care in total in each country?
 * How much (in $) is spent per capita in each country? 
 * In which country is the most spent per person? In which country is the least spent? What is the average for each continent? For the world?
@@ -121,16 +122,31 @@ If you didn't manage it, here's how to work out the formula you need.
 
 **Walkthrough**: Calculating healthcare expenditure
 In the original data, public, private and total healthcare expenditure is expressed as a % of GDP. The GDP is already given in US$. To work out the expenditure in US$ from these two facts is just one step.
-#. Math recap: If you have the percentage and the value it is associated with you can calculate the value of the percentage. e.g. let's say 25% of people in a town of 1000 inhabitants are below 15 years - you can calculate the number of inhabitants by: 25*1000/100 - 250 people in the town are below 15 years old. (For more thorough explanation of percentages check out `BBC Skillswise`_.
-#. Let's start by looking at the very first complete row (NB: spot the gap! we don't have the data for Afghanistan's GDP in 2000. just be aware of this for now - we will talk in more detail about gaps in data later). The first complete row is Afghanistan in 2001. 
-#. In 2001, Afghanistan's GDP was $2461666315. Their private healthcare expenditure was 6.009337744% of this. So the calculation you need to do is: 
-  ($2461666315 * 6.009337744) / 100
+#. Math recap: If you have the percentage and the value it is associated with
+   you can calculate the value of the percentage. e.g. let's say 25% of people
+   in a town of 1000 inhabitants are below 15 years - you can calculate the
+   number of inhabitants by: 25*1000/100 - 250 people in the town are below 15
+   years old. (For more thorough explanation of percentages check out `BBC 
+   Skillswise`_.
+#. Let's start by looking at the very first complete row (NB: spot the gap! we 
+   don't have the data for Afghanistan's GDP in 2000. just be aware of this for
+   now - we will talk in more detail about gaps in data later). The first 
+   complete row is Afghanistan in 2001.
+#. In 2001, Afghanistan's GDP was $2461666315. Their private healthcare 
+   expenditure was 6.009337744% of this. So the calculation you need to do is:
 
-#. With a spreadsheet formula, we don't have to worry about all the numbers - you just need to enter the cells. So the formula you are going to need is:
-  =E3\*H3/100
-  (where cell E3 contains Afghanistan's GDP in 2001, and cell H3 contains private health expenditure in Afghanistan in 2001).
+($2461666315 * 6.009337744) / 100
 
-#. Drag this formula all the way down the column and hey presto! You should have calculated the private health expenditure in $ for every country for the past 10 years. Much quicker than doing all the sums yourself!
+#. With a spreadsheet formula, we don't have to worry about all the numbers -
+   you just need to enter the cells. So the formula you are going to need is:
+
+=E3\*H3/100
+
+(where cell E3 contains Afghanistan's GDP in 2001, and cell H3 contains private health expenditure in Afghanistan in 2001).
+
+#. Drag this formula all the way down the column and hey presto! You should
+   have calculated the private health expenditure in $ for every country for 
+   the past 10 years. Much quicker than doing all the sums yourself!
 
 **Task**: Can you work out the formula for public health expenditure and total health expenditure? Note: There is an easier way than writing a new formula every time!
 
