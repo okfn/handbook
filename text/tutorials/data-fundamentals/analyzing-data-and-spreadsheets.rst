@@ -1,14 +1,18 @@
+.. _analyzing-top:
+
 'But what does it mean?': Analyzing data (& spreadsheets continued)
 ===================================================================
 
-'But what does it mean?': Analysing data (& spreadsheets continued)
-Introduction
-Formulas
-Too fast
-A quick introduction to common spreadsheet symbols
-Calculating more Values
-How to deal with empty cells
-Minimum and Maximum Values
+:ref:`analyzing-top`
+:ref:`an-introduction`
+:ref:`an-formulas`
+:ref:`an-quick-intro`
+:ref:`an-worldbank`
+:ref:`an-minimum`
+:ref:`an-empty-cells`
+:ref:`an-summary`
+
+.. _an-introduction:
 
 Introduction
 ------------
@@ -21,12 +25,12 @@ Look at the data we imported: This is worldbank data containing GDP, population,
 
 Here are some ideas we came up with:
 
-* How much (in $) is spent on health care in total in each country?
-* How much (in $) is spent per capita in each country? 
-* In which country is the most spent per person? In which country is the least spent? What is the average for each continent? For the world?
-* What is the relationship between public and private health expenditure in each country? Where do citizens spend more (private expenditure)? Where does the state spend more (public expenditure)?
-* Is there a relationship between expenditure on health care and average life expectancy?
-* Does it make any difference if the expenditure is public or private?
+ * How much (in $) is spent on health care in total in each country?
+ * How much (in $) is spent per capita in each country? 
+ * In which country is the most spent per person? In which country is the least spent? What is the average for each continent? For the world?
+ * What is the relationship between public and private health expenditure in each country? Where do citizens spend more (private expenditure)? Where does the state spend more (public expenditure)?
+ * Is there a relationship between expenditure on health care and average life expectancy?
+ * Does it make any difference if the expenditure is public or private?
 
 
 NOTE: With these last two questions, you have to be really careful. Even if you find a connection, it doesn't necessarily have to be causal! For example: imagine there was a sudden outbreak of the plague. It's not always fatal, but many people who contract it will die. Public healthcare expenditure might go up. Life expectancy drops right down. That doesn't mean that your healthcare system has suddenly become less efficient! You always have to be \*REALLY\* careful about the conclusions you draw from this kind of data... but it can still be interesting to calculate the figures.
@@ -34,6 +38,8 @@ NOTE: With these last two questions, you have to be really careful. Even if you 
 There are many more questions that could be answered using this data. Many of them relate closely to current policy debates. For example, if my country were debating its health care spending right now, I could use this data to explore how spending in my country has changed over time, and begin to understand how my country compares to others. 
 
 .. _here:  https://docs.google.com/spreadsheet/ccc?key=0AlgwwPNEvkP7dHZxU3h2YkczdFdMYnJmTVQzcE54a2c#gid=2
+
+.. _an-formulas:
 
 Formulas
 --------
@@ -77,6 +83,8 @@ Now move across to the "Total fruits sold" column. Start in the first row. It's 
 
 **Task**: Create a formula to calculate the total amount of apples, plums and fruit sold during the week.
 
+.. _an-quick-intro:
+
 A quick introduction to common spreadsheet symbols
 --------------------------------------------------
 
@@ -109,6 +117,8 @@ What if you wanted to add more numbers? You could always add them manually using
 
 .. _this basic introduction: http://www.mathsisfun.com/operation-order-bodmas.html
 
+.. _an-worldbank:
+
 Calculating more Values with Worldbank Data
 -------------------------------------------
 
@@ -121,7 +131,9 @@ In our original data, we have three columns related to health expenditure; 'heal
 If you didn't manage it, here's how to work out the formula you need.
 
 **Walkthrough**: Calculating healthcare expenditure
+
 In the original data, public, private and total healthcare expenditure is expressed as a % of GDP. The GDP is already given in US$. To work out the expenditure in US$ from these two facts is just one step.
+
 #. Math recap: If you have the percentage and the value it is associated with
    you can calculate the value of the percentage. e.g. let's say 25% of people
    in a town of 1000 inhabitants are below 15 years - you can calculate the
@@ -158,7 +170,7 @@ Try just dragging it across for a moment. Can you see the problem? The spreadshe
 
 we now have
 
-=F3\*I3/100
+=F3*I3/100
 
 ...but GDP is still in column E, so this formula is not the one we want.
 
@@ -175,6 +187,8 @@ So now, with one simple formula, you can calculate the actual expenditure of pub
 **Task**: Find out how many US$ is spent on healthcare per person.
 
 .. _BBC Skillswise:  http://www.bbc.co.uk/skillswise/topic/percentages
+
+.. _an-minimum:
 
 Minimum and Maximum Values
 --------------------------
@@ -210,6 +224,7 @@ Now let's go to our first step of analysis. One thing that is very interesting t
 
 **Task**:  Calculate the average and median values for all the columns
 
+.. _an-empty-cells:
 
 How to deal with empty cells
 ----------------------------
@@ -229,22 +244,14 @@ In the next walkthrough we will create a complex formula. We will do so with an 
 #. Think about our goal. What we want to achieve: if either of the values we are multiplying (in this case, GDP or health expenditure) is \*not\* a number (probably because the value is missing), we don't want to display the total. 
 #. To put it another way: \*Only if\* a value for both GDP and healthcare expenditure is present should the spreadsheet carry out the calculation; otherwise it should leave the cell blank. 
 #. The formula to express this condition is 'IF'. (You can find an overview on formulas like this on the `google doc help`_.)
-#. The formula asks us to fill out the three things: (1) Condition, (2) value if the condition is true, (3) value if the condition is false. 
-
+#. The formula asks us to fill out the three things: (1) Condition, (2) value if the condition is true, (3) value if the condition is false.
   =IF(Condition, Value if condition is true, Value if condition is false)
-
 #. In our case we know parts (2) and (3). (2) is the formula we used above - this is the calculation we want to carry out if both values are present in the spreadsheet.
-
   =IF(Condition, **$E3\* H3/100**, Value if condition is false)
-
 #. (3) is a blank - if the numbers aren't there, we don't want to display anything, so we fill in that value with nothing at all.
-
   =IF(Condition, $E3\*H3/100,)
-
 #. So now we just need to work out (1), the condition. 
-
   =IF(**Condition**, $E3\*G3/100,)
-
 #. Remember that we want the condition to be that BOTH the GDP and healthcare expenditure values are a number. The formula to see whether a cell is a number is: ISNUMBER. 
 #. This is another one of those little formulas that you should try playing with! If you type =ISNUMBER(F2) and F2 is an empty field, it will say FALSE. If there is a number it will say TRUE. Handy isn't it?
 
@@ -280,6 +287,8 @@ If you look at the data you will quickly find out that countries with higher num
 **TASK**: What is the formula for health care expenditure per capita? Can you modify it so it's only calculated when both values are present?
 
 .. _google doc help: https://support.google.com/docs/bin/static.py?hl=en&topic=25273&page=table.cs
+
+.. _an-summary:
 
 Summary & Further Reading
 -------------------------
