@@ -245,13 +245,13 @@ In the next walkthrough we will create a complex formula. We will do so with an 
 #. To put it another way: \*Only if\* a value for both GDP and healthcare expenditure is present should the spreadsheet carry out the calculation; otherwise it should leave the cell blank. 
 #. The formula to express this condition is 'IF'. (You can find an overview on formulas like this on the `google doc help`_.)
 #. The formula asks us to fill out the three things: (1) Condition, (2) value if the condition is true, (3) value if the condition is false.
-  =IF(Condition, Value if condition is true, Value if condition is false)
+   =IF(Condition, Value if condition is true, Value if condition is false)
 #. In our case we know parts (2) and (3). (2) is the formula we used above - this is the calculation we want to carry out if both values are present in the spreadsheet.
-  =IF(Condition, **$E3\* H3/100**, Value if condition is false)
+   =IF(Condition, **$E3\* H3/100**, Value if condition is false)
 #. (3) is a blank - if the numbers aren't there, we don't want to display anything, so we fill in that value with nothing at all.
-  =IF(Condition, $E3\*H3/100,)
+   =IF(Condition, $E3\*H3/100,)
 #. So now we just need to work out (1), the condition. 
-  =IF(**Condition**, $E3\*G3/100,)
+   =IF(**Condition**, $E3\*G3/100,)
 #. Remember that we want the condition to be that BOTH the GDP and healthcare expenditure values are a number. The formula to see whether a cell is a number is: ISNUMBER. 
 #. This is another one of those little formulas that you should try playing with! If you type =ISNUMBER(F2) and F2 is an empty field, it will say FALSE. If there is a number it will say TRUE. Handy isn't it?
 
@@ -262,7 +262,7 @@ In the next walkthrough we will create a complex formula. We will do so with an 
    .. image:: http://farm9.staticflickr.com/8332/8076444273_08d0ff0842_m.jpg
 #. Which is exactly what we need. So our condition will be:
 
-  AND(ISNUMBER(gdp),ISNUMBER(healthcare expenditure))
+   AND(ISNUMBER(gdp),ISNUMBER(healthcare expenditure))
 #. Or, to use our cells from before
 
    AND(ISNUMBER($E3),ISNUMBER(H3)) 
