@@ -20,12 +20,12 @@ Look at the data we imported: This is worldbank data containing GDP, population,
 **Task**: Brainstorm ideas. What could you investigate using this data?  
 
 Here are some ideas we came up with:
-*. How much (in $) is spent on health care in total in each country?
-*. How much (in $) is spent per capita in each country? 
-*. In which country is the most spent per person? In which country is the least spent? What is the average for each continent? For the world?
-*. What is the relationship between public and private health expenditure in each country? Where do citizens spend more (private expenditure)? Where does the state spend more (public expenditure)?
-*. Is there a relationship between expenditure on health care and average life expectancy?
-*. Does it make any difference if the expenditure is public or private?
+* How much (in $) is spent on health care in total in each country?
+* How much (in $) is spent per capita in each country? 
+* In which country is the most spent per person? In which country is the least spent? What is the average for each continent? For the world?
+* What is the relationship between public and private health expenditure in each country? Where do citizens spend more (private expenditure)? Where does the state spend more (public expenditure)?
+* Is there a relationship between expenditure on health care and average life expectancy?
+* Does it make any difference if the expenditure is public or private?
 
 
 NOTE: With these last two questions, you have to be really careful. Even if you find a connection, it doesn't necessarily have to be causal! For example: imagine there was a sudden outbreak of the plague. It's not always fatal, but many people who contract it will die. Public healthcare expenditure might go up. Life expectancy drops right down. That doesn't mean that your healthcare system has suddenly become less efficient! You always have to be \*REALLY\* careful about the conclusions you draw from this kind of data... but it can still be interesting to calculate the figures.
@@ -52,6 +52,7 @@ Once you have your own copy of the data (try adding 'working copy' or similar af
 Now move across to the "Total fruits sold" column. Start in the first row. It's time to write a formula...
 
 **Walkthrough**: your first formula
+
 #. Get the example data from here and create a copy.
 #. Let's calculate the total of fruits sold.
 #. To start, move to the first row.
@@ -64,11 +65,11 @@ Now move across to the "Total fruits sold" column. Start in the first row. It's 
 
    .. image:: http://farm9.staticflickr.com/8173/8073780166_cba8154efa_m.jpg
 
-#. Press "Enter" or "tab" 
+#. Press "Enter" or "tab"
 #. The formula disappears and is replaced by the value.
 #. Try changing the number in one of the original cells (apples or plums) you should see the value in total update automatically.
-#. You can type each formula individually, but it also possible to cut and paste or drag formulas across a range of cells. 
-#. Copy the formula you have just written (using "ctrl"+"c") and paste it into the cell below (using "ctrl"+"v"), you will get the sum of the two numbers on the row below. 
+#. You can type each formula individually, but it also possible to cut and paste or drag formulas across a range of cells.
+#. Copy the formula you have just written (using "ctrl"+"c") and paste it into the cell below (using "ctrl"+"v"), you will get the sum of the two numbers on the row below.
 #. Alternatively click on the lower right corner of the cell (the blue square), and drag the formula down to the bottom of the column. Watch the 'total' column update. Feels like magic!
 
    .. image:: http://farm9.staticflickr.com/8176/8073780244_9bb881c2d2_m.jpg
@@ -110,8 +111,7 @@ What if you wanted to add more numbers? You could always add them manually using
 Calculating more Values with Worldbank Data
 -------------------------------------------
 
-Now that you've got to grips with the basics of spreadsheet formula, let's go back to our worldbank dataset.
-The first thing we wanted to calculate how much money (in US$) is spent on healthcare per country and year. Let's get started!
+Now that you've got to grips with the basics of spreadsheet formula, let's go back to our worldbank dataset. The first thing we wanted to calculate how much money (in US$) is spent on healthcare per country and year. Let's get started!
 
 In our original data, we have three columns related to health expenditure; 'health expenditure (private)', 'health expenditure (public)' and 'health expenditure (total)'. So you're going to need to add three new columns to the right of the spreadsheet to do your calculations. Give them each a heading; perhaps 'health expenditure (private) in $' etc.
 
@@ -120,7 +120,7 @@ In our original data, we have three columns related to health expenditure; 'heal
 If you didn't manage it, here's how to work out the formula you need.
 
 **Walkthrough**: Calculating healthcare expenditure
-In the original data, public, private and total healthcare expenditure is expressed as a % of GDP. The GDP is already given in US$. To work out the expenditure in US$ from these two facts is just one step. 
+In the original data, public, private and total healthcare expenditure is expressed as a % of GDP. The GDP is already given in US$. To work out the expenditure in US$ from these two facts is just one step.
 #. Math recap: If you have the percentage and the value it is associated with you can calculate the value of the percentage. e.g. let's say 25% of people in a town of 1000 inhabitants are below 15 years - you can calculate the number of inhabitants by: 25*1000/100 - 250 people in the town are below 15 years old. (For more thorough explanation of percentages check out `BBC Skillswise`_.
 #. Let's start by looking at the very first complete row (NB: spot the gap! we don't have the data for Afghanistan's GDP in 2000. just be aware of this for now - we will talk in more detail about gaps in data later). The first complete row is Afghanistan in 2001. 
 #. In 2001, Afghanistan's GDP was $2461666315. Their private healthcare expenditure was 6.009337744% of this. So the calculation you need to do is: 
@@ -203,6 +203,7 @@ Did you notice some of the minimum values are 0? Do you really believe there are
 In the next walkthrough we will create a complex formula. We will do so with an iterative process  - this means one little formula at the time. If you follow us through you'll notice you can create quite complex formulas and results simply step by step.
 
 **Walkthrough**: Dealing with empty cells.
+
 #. To deal with empty cells we have to fix parts of our calculation formulas in the worldbank datasheet
 #. To start - create a mock spreadsheet to play with data. Copy the first few rows of the worldbank dataset into it so you'll have a start. To validate our formulas try to remove values in some of the rows.
 
