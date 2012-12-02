@@ -25,12 +25,12 @@ Look at the data we imported: This is worldbank data containing GDP, population,
 
 Here are some ideas we came up with:
 
- * How much (in $) is spent on health care in total in each country?
- * How much (in $) is spent per capita in each country? 
- * In which country is the most spent per person? In which country is the least spent? What is the average for each continent? For the world?
- * What is the relationship between public and private health expenditure in each country? Where do citizens spend more (private expenditure)? Where does the state spend more (public expenditure)?
- * Is there a relationship between expenditure on health care and average life expectancy?
- * Does it make any difference if the expenditure is public or private?
+* How much (in $) is spent on health care in total in each country?
+* How much (in $) is spent per capita in each country? 
+* In which country is the most spent per person? In which country is the least spent? What is the average for each continent? For the world?
+* What is the relationship between public and private health expenditure in each country? Where do citizens spend more (private expenditure)? Where does the state spend more (public expenditure)?
+* Is there a relationship between expenditure on health care and average life expectancy?
+* Does it make any difference if the expenditure is public or private?
 
 
 NOTE: With these last two questions, you have to be really careful. Even if you find a connection, it doesn't necessarily have to be causal! For example: imagine there was a sudden outbreak of the plague. It's not always fatal, but many people who contract it will die. Public healthcare expenditure might go up. Life expectancy drops right down. That doesn't mean that your healthcare system has suddenly become less efficient! You always have to be \*REALLY\* careful about the conclusions you draw from this kind of data... but it can still be interesting to calculate the figures.
@@ -147,14 +147,14 @@ In the original data, public, private and total healthcare expenditure is expres
 #. In 2001, Afghanistan's GDP was $2461666315. Their private healthcare 
    expenditure was 6.009337744% of this. So the calculation you need to do is:
 
-($2461666315 * 6.009337744) / 100
+   ($2461666315 * 6.009337744) / 100
 
 #. With a spreadsheet formula, we don't have to worry about all the numbers -
    you just need to enter the cells. So the formula you are going to need is:
 
-=E3\*H3/100
+   =E3\*H3/100
 
-(where cell E3 contains Afghanistan's GDP in 2001, and cell H3 contains private health expenditure in Afghanistan in 2001).
+   (where cell E3 contains Afghanistan's GDP in 2001, and cell H3 contains private health expenditure in Afghanistan in 2001).
 
 #. Drag this formula all the way down the column and hey presto! You should
    have calculated the private health expenditure in $ for every country for 
@@ -166,21 +166,21 @@ Answer: In the same way as we could drag the formula down the column and the spr
 
 Try just dragging it across for a moment. Can you see the problem? The spreadsheet automatically moves \*all\* the cells its looking at one column to the right. So whereas before we had:
 
-=E3\*H3/100
+  =E3*H3/100
 
 we now have
 
-=F3*I3/100
+  =F3*I3/100
 
 ...but GDP is still in column E, so this formula is not the one we want.
 
 To 'fix' a column or row, all you need to do is add '$' in front of the section you want to fix. So, if you adapt your original formula to
 
-=$E3\*H3/100
+  =$E3*H3/100
 
 you should be able to drag it over to the right without any problems. 
 
-**Tip**: It can be a little confusing getting used to the $ command at first. If this is the first time you've come across it, we suggest you spend some time playing around and seeing what it can do. Go back to your 'play' spreadsheet, make up some numbers, and experiment! Try for example =$B2 * C2 vs =B$2 * C2, drag it around, and see what difference that makes. The best way to get comfortable with formulae is to use them! 
+**Tip**: It can be a little confusing getting used to the $ command at first. If this is the first time you've come across it, we suggest you spend some time playing around and seeing what it can do. Go back to your 'play' spreadsheet, make up some numbers, and experiment! Try for example =$B2*C2 vs =B$2*C2, drag it around, and see what difference that makes. The best way to get comfortable with formulae is to use them! 
 
 So now, with one simple formula, you can calculate the actual expenditure of public, private and public+private healthcare, in every country, for the past ten years. Spreadsheets are pretty powerful things..
 
@@ -256,28 +256,23 @@ In the next walkthrough we will create a complex formula. We will do so with an 
 #. This is another one of those little formulas that you should try playing with! If you type =ISNUMBER(F2) and F2 is an empty field, it will say FALSE. If there is a number it will say TRUE. Handy isn't it?
 
    .. image:: http://farm9.staticflickr.com/8326/8076431832_1b47fcf367_m.jpg
-
 #. We want a formula that will only be calculated if both GDP \*and\* healthcare expenditure are actual numbers. 
 #. We need to combine the results of both ISNUMBER(GDP) and ISNUMBER(healthcare expenditure) together. The formula to do so is AND. This will simply say 'TRUE' if both of them are TRUE (i.e. both of them numbers) or FALSE if either one or both of them is FALSE.
 
    .. image:: http://farm9.staticflickr.com/8332/8076444273_08d0ff0842_m.jpg
-
 #. Which is exactly what we need. So our condition will be:
 
   AND(ISNUMBER(gdp),ISNUMBER(healthcare expenditure))
+#. Or, to use our cells from before
 
-#. or, to use our cells from before
-
-  AND(ISNUMBER($E3),ISNUMBER(H3)) 
-
+   AND(ISNUMBER($E3),ISNUMBER(H3)) 
    .. image:: http://farm9.staticflickr.com/8186/8076443230_8ef7b909e6_m.jpg
 
 #. Phew! So now we can put parts (1), (2) and (3) from above all together in one big formula, using 'IF'
 
-  =IF(**Condition**, $E2\*H2/100,)
+   =IF(**Condition**, $E2\*H2/100,)
 
-  =IF(**AND(ISNUMBER($E2),ISNUMBER(H2))**, $E2\*H2/100,)
-
+   =IF(**AND(ISNUMBER($E2),ISNUMBER(H2))**, $E2\*H2/100,)
 #. Try it out: enter it to the first row of the first column of the calculation and paste it to all the other places. It should leave the cells empty.
 
    .. image:: http://farm9.staticflickr.com/8185/8076469857_3c5153582f_m.jpg
