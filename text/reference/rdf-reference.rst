@@ -19,7 +19,7 @@ Elements: The first one identifies a *subject* (the resource that is being
 described), the second describes the *predicate*, a type of relation or attribute the subject has. Finally, the third describes
 the *object*, which is the value or resource associated to the subject via the
 predicate. For example, if we want to say that "the prefered name for Tim
-Bernes-Lee is 'Tim'" we can create the following triple:
+Berners-Lee is 'Tim'" we can create the following triple:
 
  <http://www.w3.org/People/Berners-Lee/card#i> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tim"
 
@@ -58,7 +58,7 @@ list all the people in a SPARQL endpoint by executing the following query::
  }
 
 
-Lets analyze this query: First, the reserved word ``SELECT`` defines that we want to bind the results to the
+Let's analyze this query: First, the reserved word ``SELECT`` defines that we want to bind the results to the
 variables described using the question mark (``?person`` and ``?name``). After
 the ``WHERE`` reserved word we describe the *graph patterns* we want to
 specify. The first patterns contains a variable ``?person``, a predicate that 
@@ -100,12 +100,12 @@ to write it twice. We can use a semicolon for every pattern except the last one
   }
     
   
-Example: Querying information about chilean poets
+Example: Querying information about Chilean poets
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 An importan source of RDF is `DBpedia <http://dbpedia.org>`_, a project focused
 on extracting data from Wikipedia and publish it as RDF.
-We can create a query to obtain the name of chilean poets by querying::
+We can create a query to obtain the name of Chilean poets by querying::
   
   PREFIX dcterms: <http://purl.org/dc/terms/>
   PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -115,7 +115,7 @@ We can create a query to obtain the name of chilean poets by querying::
        FILTER (LANG(?poetName) = "en")
   }
   
-The ``FILTER`` operator forces to obtain only the names in english, avoiding names in other languages. You can go to DBpedia's SPARQL endpoint (http://dbpedia.org/sparql) and execute
+The ``FILTER`` operator forces to obtain only the names in English, avoiding names in other languages. You can go to DBpedia's SPARQL endpoint (http://dbpedia.org/sparql) and execute
 the query. The result should be something similar to
   
 +--------------------------------------------------+-------------------------+
@@ -131,7 +131,7 @@ the query. The result should be something similar to
 +--------------------------------------------------+-------------------------+
 
 
-In most SPARQL endpoints, it is possible the format of the results (XML, JSON,
+In most SPARQL endpoints, it is possible to choose the format of the results (XML, JSON,
 HTML, etc). For example, the same results in JSON are similar to this::
   
   
@@ -157,7 +157,7 @@ HTML, etc). For example, the same results in JSON are similar to this::
 Using SPARQL results with JavaScript
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This the results can be used also to fill a webpage. For example, if we want to include a list of chilean poets in a webpage, we execute the following code (based on jQuery)::
+Thus the results can be used also to fill a webpage. For example, if we want to include a list of Chilean poets in a webpage, we execute the following code (based on jQuery)::
 
   <html>
   <head>
@@ -202,7 +202,7 @@ Using SPARQL results with Python
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-`SPARQL Wrapper <http://sparql-wrapper.sourceforge.net/>`_ is a SPARQL client written in python that can be used to query SPARQL endpoints using Python. The interface is very simple and clean::
+`SPARQL Wrapper <http://sparql-wrapper.sourceforge.net/>`_ is a SPARQL client written in Python that can be used to query SPARQL endpoints using Python. The interface is very simple and clean::
 
   from SPARQLWrapper import SPARQLWrapper, JSON
   
@@ -236,7 +236,7 @@ Tools
 -----
 
 * `RDF Validator <http://www.w3.org/RDF/Validator/>`_ check your RDF doesn't have errors
-* `SparQled <http://sindicetech.com/sindice-suite/sparqled/>`_ is an interacrive SPARQL editor
+* `SparQled <http://sindicetech.com/sindice-suite/sparqled/>`_ is an interactive SPARQL editor
 * `Marbles <http://marbles.sourceforge.net/>`_ is a RDF/Linked Data explorer
 * `visualRDF <http://graves.cl/visualRDF/>`_ provides a graphical visualization of RDF graphs
 

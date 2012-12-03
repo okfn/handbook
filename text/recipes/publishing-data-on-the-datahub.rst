@@ -37,7 +37,7 @@ dataset at this point is doing 2 things:
   record notes and links as you go along.
 
 In addition to a title, add a short description to your dataset, and any other
-relevant links, tags etca. If you don't have the data yet, add a tag of the
+relevant links, tags etc. If you don't have the data yet, add a tag of the
 form `todo.getdata`.
 
 You may also want to boot a document (such as :term:`etherpad`, or text file)
@@ -64,7 +64,7 @@ DataHub dataset (even if it's just PDF!).
 Step 3 - Wrangle the Data
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Now you've found raw data it's time to get it in stanard machine readable form.
+Now you've found raw data it's time to get it in standard machine readable form.
 We're going to focus on a tabular, spreadsheet style setup here though this may
 not always be appropriate for your data (for example, it may be good for
 geodata).
@@ -95,7 +95,7 @@ Step 4 - Add refined data to your dataset
     If using google doc the simplest option is just to create a Resource in your
     DataHub dataset linking to the google doc. (NB: if you do this, ensure that you
     have made your google doc publicly accessible and that you have *also*
-    published it to the web -- see file menu -> publish to the web).
+    published it to the web -- see File menu -> Publish to the web).
 
 ..
     Online
