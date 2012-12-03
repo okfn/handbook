@@ -15,6 +15,7 @@ don't worry were there to guide you through.
   what-is-data
   finding-data
   sort-and-filter
+  analyzing-data
   data-to-diagrams
   common-misconceptions
   tell-me-a-story
