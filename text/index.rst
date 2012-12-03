@@ -26,7 +26,7 @@ Table of Contents
    :maxdepth: 2
 
    introduction/index.rst
-   tutorials/data-fundamentals/index.rst
+   courses/index.rst
    tools/index.rst
    recipes/index.rst
    reference/index.rst

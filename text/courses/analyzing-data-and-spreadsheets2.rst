@@ -13,12 +13,12 @@ Look at the data we imported: This is worldbank data containing GDP, population,
 
 Here are some ideas we came up with:
 
-1. How much (in $) is spent on health care in total in each country?
-2. How much (in $) is spent per capita in each country? 
-3. In which country is the most spent per person? In which country is the least spent? What is the average for each continent? For the world?
-4. What is the relationship between public and private health expenditure in each country? Where do citizens spend more (private expenditure)? Where does the state spend more (public expenditure)?
-5. Is there a relationship between expenditure on health care and average life expectancy?
-6. Does it make any difference if the expenditure is public or private?
+#. How much (in $) is spent on health care in total in each country?
+#. How much (in $) is spent per capita in each country? 
+#. In which country is the most spent per person? In which country is the least spent? What is the average for each continent? For the world?
+#. What is the relationship between public and private health expenditure in each country? Where do citizens spend more (private expenditure)? Where does the state spend more (public expenditure)?
+#. Is there a relationship between expenditure on health care and average life expectancy?
+#. Does it make any difference if the expenditure is public or private?
 
 **NOTE:**
  With these last two questions, you have to be really careful. Even if you find a connection, it doesn’t necessarily have to be causal! For example: imagine there was a sudden outbreak of the plague. It’s not always fatal, but many people who contract it will die. Public healthcare expenditure might go up. Life expectancy drops right down. That doesn’t mean that your healthcare system has suddenly become less efficient! You always have to be *REALLY* careful about the conclusions you draw from this kind of data... but it can still be interesting to calculate the figures
@@ -43,18 +43,24 @@ Now move across to the “Total fruits sold” column. Start in the first row. I
 **Walkthrough:**
  your first formula
 
-1. Get the `example data <https://docs.google.com/spreadsheet/ccc?key=0AlgwwPNEvkP7dFBxSFp1c096V19zNnI2TF9yLWVUMkE#gid=0>`_ and create a copy.
-2. Let’s calculate the total of fruits sold.
-3. To start, move to the first row.
-4. Each formula in a spreadsheet starts with ``=``
-5. Enter ``=`` and select the first cell you want to add. Notice how the cell reference appears in the formula?
-6. now type ``+`` and select the second cell you want to add
-7. Press **“Enter”** or **“tab”**
-8. The formula disappears and is replaced by the value.
-9. Try changing the number in one of the original cells (apples or plums) you should see the value in total update automatically.
-10. You can type each formula individually, but it also possible to cut and paste or drag formulas across a range of cells. 
-11. Copy the formula you have just written (using **“ctrl”**+**”c”**) and paste it into the cell below (using **“ctrl”**+**”v”**), you will get the sum of the two numbers on the row below. 
-12. Alternatively click on the lower right corner of the cell (the blue square), and drag the formula down to the bottom of the column. Watch the ``‘total’`` column update. Feels like magic!
+#. Get the `example data <https://docs.google.com/spreadsheet/ccc?key=0AlgwwPNEvkP7dFBxSFp1c096V19zNnI2TF9yLWVUMkE#gid=0>`_ and create a copy.
+#. Let’s calculate the total of fruits sold.
+#. To start, move to the first row.
+#. Each formula in a spreadsheet starts with ``=``
+#. Enter ``=`` and select the first cell you want to add. Notice how the cell reference appears in the formula?
+
+   .. image:: http://farm9.staticflickr.com/8179/8073780056_05b170a958_o_d.png
+#. now type ``+`` and select the second cell you want to add
+
+   .. image:: http://farm9.staticflickr.com/8173/8073780166_59fb9bcaa0_o_d.png
+#. Press **“Enter”** or **“tab”**
+#. The formula disappears and is replaced by the value.
+
+   .. image:: http://farm9.staticflickr.com/8176/8073780244_836ef3f299_o_d.png
+#. Try changing the number in one of the original cells (apples or plums) you should see the value in total update automatically.
+#. You can type each formula individually, but it also possible to cut and paste or drag formulas across a range of cells. 
+#. Copy the formula you have just written (using **“ctrl”**+**”c”**) and paste it into the cell below (using **“ctrl”**+**”v”**), you will get the sum of the two numbers on the row below. 
+#. Alternatively click on the lower right corner of the cell (the blue square), and drag the formula down to the bottom of the column. Watch the ``‘total’`` column update. Feels like magic!
 
 
 **Task:**
@@ -155,19 +161,27 @@ Now let’s go to our first step of analysis. One thing that is very interesting
 **Walthrough:**
  Minimum and Maximum Values
 
-1. Open a new sheet. Do so by clicking the “+” in the lower left corner
-2. Leave the first column in the first row blank, in the second column enter ``=`` to tell the spreadsheet you will be using a formula. 
-3. Switch back to the sheet with your worldbank dataset.
-4. Select the first column that has numerical data on the sheet where your data lives. 
-5. press enter and you will see the name in the first sheet: magic. Why do we do it like this and not simply copy and paste? This will automatically change the headings if you change your headings (e.q. you move columns around or rename things). 
-6. Now the first column is going to be what you calculate: type Minimum in the second row first column (A2) for the minimum value. 
-7. In the cell right next to it type ``=MIN(`` (MIN is the formula for minimum)
-8.  Go back to the other sheet to select the first column with numerical data - to select the whole column click on the grey area with the column letter. 
-9. Close the brackets by typing ``)``. 
-10. You should now see the minimum value in that field. 
-11. Now do the same for Maximum in the third row. Once you are done, just mark the three values in the second row (the formula for maximum is =max() )
-12. See the blue square in the right lower corner? Grab it and pull it right. Release it and if you still not have all columns, carry on until you have all values. 
-13. This way you created a table with the minima and maxima of each of the columns.
+#. Open a new sheet. Do so by clicking the “+” in the lower left corner
+
+   .. image:: http://farm9.staticflickr.com/8322/8074120798_3d93affac2_o_d.png
+#. Leave the first column in the first row blank, in the second column enter ``=`` to tell the spreadsheet you will be using a formula. 
+#. Switch back to the sheet with your worldbank dataset.
+#. Select the first column that has numerical data on the sheet where your data lives. 
+
+   .. image:: http://farm9.staticflickr.com/8041/8074136559_b4bff47e8d_o_d.png
+#. press enter and you will see the name in the first sheet: magic. Why do we do it like this and not simply copy and paste? This will automatically change the headings if you change your headings (e.q. you move columns around or rename things). 
+#. Now the first column is going to be what you calculate: type Minimum in the second row first column (A2) for the minimum value. 
+#. In the cell right next to it type ``=MIN(`` (MIN is the formula for minimum)
+    
+   .. image:: http://farm9.staticflickr.com/8173/8074138256_a28c26e012_o_d.png
+#. Go back to the other sheet to select the first column with numerical data - to select the whole column click on the grey area with the column letter. 
+
+   .. image:: http://farm9.staticflickr.com/8038/8074152513_ec168d9411_o_d.png
+#. Close the brackets by typing ``)``. 
+#. You should now see the minimum value in that field. 
+#. Now do the same for Maximum in the third row. Once you are done, just mark the three values in the second row (the formula for maximum is =max() )
+#. See the blue square in the right lower corner? Grab it and pull it right. Release it and if you still not have all columns, carry on until you have all values. 
+#. This way you created a table with the minima and maxima of each of the columns.
 
 **Task:**
   Calculate the average and median values for all the columns
@@ -181,49 +195,56 @@ In the next walkthrough we will create a complex formula. We will do so with an 
 **Waltkthrough:**
  Dealing with empty cells.
 
-1. To deal with empty cells we have to fix parts of our calculation formulas in the worldbank datasheet
-2. To start - create a mock spreadsheet to play with data. Copy the first few rows of the worldbank dataset into it so you’ll have a start. To validate our formulas try to remove values in some of the rows.
-3. we got a missing problem right in the first value: Afghanistans GDP is missing for the year 2000. 
-4. Think about our goal. What we want to achieve: if either of the values we are multiplying (in this case, GDP or health expenditure) is **not** a number (probably because the value is missing), we don’t want to display the total. 
-5. To put it another way: **Only if** a value for both GDP and healthcare expenditure is present should the spreadsheet carry out the calculation; **otherwise** it should leave the cell blank. 
-6. The formula to express this condition is ‘IF’. (You can find an overview on formulas like this on the `google doc help <https://support.google.com/docs/bin/static.py?hl=en&topic=25273&page=table.cs>`__.) 
-7. The formula asks us to fill out the three things: (1) Condition, (2) value if the condition is true, (3) value if the condition is false. 
+#. To deal with empty cells we have to fix parts of our calculation formulas in the worldbank datasheet
+#. To start - create a mock spreadsheet to play with data. Copy the first few rows of the worldbank dataset into it so you’ll have a start. To validate our formulas try to remove values in some of the rows.
 
-``=IF(Condition, Value if condition is true, Value if condition is false)``
+   .. figure:: http://farm9.staticflickr.com/8189/8076432091_46b551a5fe_b_d.jpg
+#. we got a missing problem right in the first value: Afghanistans GDP is missing for the year 2000. 
+#. Think about our goal. What we want to achieve: if either of the values we are multiplying (in this case, GDP or health expenditure) is **not** a number (probably because the value is missing), we don’t want to display the total. 
+#. To put it another way: **Only if** a value for both GDP and healthcare expenditure is present should the spreadsheet carry out the calculation; **otherwise** it should leave the cell blank. 
+#. The formula to express this condition is ‘IF’. (You can find an overview on formulas like this on the `google doc help <https://support.google.com/docs/bin/static.py?hl=en&topic=25273&page=table.cs>`__.) 
+#. The formula asks us to fill out the three things: (1) Condition, (2) value if the condition is true, (3) value if the condition is false. 
 
-8. In our case we know parts (2) and (3). (2) is the formula we used above  this is the calculation we want to carry out if both values are present in the spreadsheet.
+   ``=IF(Condition, Value if condition is true, Value if condition is false)``
 
-``=IF(Condition, $E3*H3/100, Value if condition is false)``
+#. In our case we know parts (2) and (3). (2) is the formula we used above  this is the calculation we want to carry out if both values are present in the spreadsheet.
 
-9. (3) is a blank - if the numbers aren’t there, we don’t want to display anything, so we fill in that value with nothing at all.
+   ``=IF(Condition, $E3*H3/100, Value if condition is false)``
 
-``=IF(Condition, $E3*H3/100,)``
+#. (3) is a blank - if the numbers aren’t there, we don’t want to display anything, so we fill in that value with nothing at all.
 
-10. So now we just need to work out (1), the condition. 
+   ``=IF(Condition, $E3*H3/100,)``
 
-``=IF(Condition, $E3*G3/100,)``
+#. So now we just need to work out (1), the condition. 
 
-11. Remember that we want the condition to be that BOTH the GDP and healthcare expenditure values are a number. The formula to see whether a cell is a number is: ``ISNUMBER``. 
-12. This is another one of those little formulas that you should try playing with! If you type ``=ISNUMBER(F2)`` and ``F2`` is an empty field, it will say ``FALSE``. If there is a number it will say ``TRUE``. Handy isn’t it?
-13. We want a formula that will only be calculated if both GDP *and* healthcare expenditure are actual numbers. 
-14. We need to combine the results of both ``ISNUMBER(GDP)`` and ``ISNUMBER(healthcare expenditure)`` together. The formula to do so is AND. This will simply say ``TRUE`` if both of them are ``TRUE`` (i.e. both of them numbers) or ``FALSE`` if either one or both of them is ``FALSE``. 
+   ``=IF(Condition, $E3*G3/100,)``
 
-15. Which is exactly what we need. So our condition will be:
+#. Remember that we want the condition to be that BOTH the GDP and healthcare expenditure values are a number. The formula to see whether a cell is a number is: ``ISNUMBER``. 
+#. This is another one of those little formulas that you should try playing with! If you type ``=ISNUMBER(F2)`` and ``F2`` is an empty field, it will say ``FALSE``. If there is a number it will say ``TRUE``. Handy isn’t it?
 
-``AND(ISNUMBER(gdp),ISNUMBER(healthcare expenditure))``
+   .. image:: http://farm9.staticflickr.com/8326/8076431832_5de5ce1dd2_o_d.png
+#. We want a formula that will only be calculated if both GDP *and* healthcare expenditure are actual numbers. 
+#. We need to combine the results of both ``ISNUMBER(GDP)`` and ``ISNUMBER(healthcare expenditure)`` together. The formula to do so is AND. This will simply say ``TRUE`` if both of them are ``TRUE`` (i.e. both of them numbers) or ``FALSE`` if either one or both of them is ``FALSE``. 
 
-16. or, to use our cells from before
+   .. image:: http://farm9.staticflickr.com/8332/8076444273_f554a395cc_o_d.png
+#. Which is exactly what we need. So our condition will be:
 
-``AND(ISNUMBER($E3),ISNUMBER(H3))`` 
+   ``AND(ISNUMBER(gdp),ISNUMBER(healthcare expenditure))``
 
+#. or, to use our cells from before
 
-17. Phew! So now we can put parts (1), (2) and (3) from above all together in one big formula, using ‘IF’
+   ``AND(ISNUMBER($E3),ISNUMBER(H3))`` 
 
-``=IF(Condition, $E2*H2/100,)``
+   .. image:: http://farm9.staticflickr.com/8186/8076443230_8ef7b909e6_b_d.jpg
+#. Phew! So now we can put parts (1), (2) and (3) from above all together in one big formula, using ‘IF’
 
-``=IF(AND(ISNUMBER($E2),ISNUMBER(H2)),$E2*H2/100,)``
+   ``=IF(Condition, $E2*H2/100,)``
 
-18. Try it out: enter it to the first row of the first column of the calculation and paste it to all the other places. It should leave the cells empty.
+   ``=IF(AND(ISNUMBER($E2),ISNUMBER(H2)),$E2*H2/100,)``
+
+#. Try it out: enter it to the first row of the first column of the calculation and paste it to all the other places. It should leave the cells empty.
+
+   .. image:: http://farm9.staticflickr.com/8185/8076469857_3c5153582f_b_d.jpg
 
 If you look at the data you will quickly find out that countries with higher number of people spend more on healthcare than countries with lower number of people. Intuitive isn’t it. So how to compare the countries more directly? Break it down to healtcare expenditure per person!. This step is called normalization and is a step often done when comparing different entities - such as countries etc. 
 
