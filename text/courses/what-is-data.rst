@@ -104,4 +104,11 @@ Extra Reading
 1. When you get a new dataset, should you dive in / should you have a hypothesis ready to go? Caelainn Barr, an award winning journalist explains how she approaches new data sources. http://datajournalismhandbook.org/1.0/en/understanding_data_4.html
 2. Overview of `common file formats`_ in the open data handbook.
 
+.. raw:: html
+   
+   <iframe 
+   src="https://docs.google.com/spreadsheet/embeddedform?formkey=dHRmVk45TERQMUo1eUF0eWpiSExhdHc6MQ"
+   width="760" height="984" frameborder="0" marginheight="0"
+   marginwidth="0">Loading...</iframe>
+
 .. _common file formats: http://opendatahandbook.org/en/appendices/file-formats.html
