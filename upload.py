@@ -40,16 +40,16 @@ def prepare_html(fileobj):
     pq=PyQuery("".join(strip_if_not_pre(fileobj))) 
     
     pq("a.headerlink").remove()
-    out = PyQuery(pq("div.content").outerHtml() )
-    # TODO: do we want to extract the title
     # Do we want title at all?
     if pq("div.section h1"):
       title= pq("div.section h1")[0].text
+      pq("div.section h1:first").remove()
     else:
       title=""
 
     # TODO: insert toc (??)
 
+    out = PyQuery(pq("div.content").outerHtml() )
     # insert after h1 on 4th ine
     # lines = out.split('\n')
     # out = '\n'.join(lines[:4] + [ '[toc]' ] + lines[4:])
@@ -57,6 +57,7 @@ def prepare_html(fileobj):
     # now various regex
     
     out=out.html()
+    print out
     # replace .html with / and index.html with simple ./
     pattern = '(internal" href=".[^"]*)index\.html"'
     out = re.sub(pattern, '\\1"', out)
