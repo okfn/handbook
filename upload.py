@@ -38,7 +38,8 @@ def strip_if_not_pre(lines):
 def prepare_html(fileobj):
     """ prepares the html for wordpress pages """
     pq=PyQuery("".join(strip_if_not_pre(fileobj))) 
-
+    
+    pq("a.headerlink").remove()
     out = PyQuery(pq("div.content").outerHtml() )
     # TODO: do we want to extract the title
     # Do we want title at all?
