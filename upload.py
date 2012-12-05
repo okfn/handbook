@@ -56,8 +56,7 @@ def prepare_html(fileobj):
 
     # now various regex
     
-    out=out.html()
-    print out
+    out=out.outerHtml()
     # replace .html with / and index.html with simple ./
     pattern = '(internal" href=".[^"]*)index\.html"'
     out = re.sub(pattern, '\\1"', out)
