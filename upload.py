@@ -66,6 +66,8 @@ def prepare_html(fileobj):
     out = re.sub(pattern, '\\1/"', out)
     pattern = '(internal" href="[^"]*).html#([^"]*)"'
     out = re.sub(pattern, '\\1/#\\2"', out)
+    pattern = '(internal" href="[^"]*/)index/#([^"]*)"'
+    out = re.sub(pattern, '\\1/#\\2"', out)
 
     return (out, title)
 
