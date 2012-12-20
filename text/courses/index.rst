@@ -24,3 +24,11 @@ don't worry were there to guide you through.
   data-to-diagrams
   common-misconceptions
   tell-me-a-story
+
+Advanced Courses
+----------------
+
+.. toctree::
+  :maxdepth: 1
+
+  scraping
