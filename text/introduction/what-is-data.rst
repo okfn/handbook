@@ -23,9 +23,9 @@ some value (Since this picture is of a market) and so on.
 Thus, you can see that even
 unremarkable objects like used golf balls have a lot of data attached!
 
-And this is true of you too: you have a name
-(most people have given and family names) a date of birth, weight, height,
-nationality etc. All these things are data.
+And this is true of you too: you are called by a name (most people have given and 
+family names), given a nationality, measured with weight and height etc. 
+All these attributions are data.
 
 From Data to Information to Knowledge
 -------------------------------------
