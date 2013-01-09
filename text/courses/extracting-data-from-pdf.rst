@@ -5,3 +5,5 @@ Extracting Data from PDFs
 
   <iframe src="http://dump.tentacleriot.eu/extracting-data-from-pdf/index.html" style="width: 680px; height: 500px; border:
   0px;" scrolling="no"></iframe>
+
+Navigate the slideshow with the arrow keys.
