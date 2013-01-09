@@ -32,3 +32,4 @@ Advanced Courses
   :maxdepth: 1
 
   scraping
+  extracting-data-from-pdf
