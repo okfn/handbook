@@ -77,3 +77,10 @@ Of course if you already have a blog or something similar you can share the resu
 Summary
 -----------
 Throughout this course we started out acquiring and storing a dataset in a spreadsheet, exploring it and calculating new values, visualizing and finally telling a story about it. Of course there is much more to data than we covered in this basic course. You won't be on your own though the School of Data is here to help. Now go out, look at what others have done and explore data!
+
+.. raw:: html 
+ 
+   <a href="../" class="btn btn-primary btn-large">You've finished Data
+   Fundamentals
+     <span class="icon-star-empty"></span></a> 
+

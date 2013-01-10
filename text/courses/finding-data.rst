@@ -129,3 +129,9 @@ Extra Reading
 
 .. _Datacatalogs.org: http://datacatalogs.org
 .. _scraperwiki.com: http://scraperwiki.com
+
+.. raw:: html 
+ 
+   <a href="../sort-and-filter/" class="btn btn-primary btn-large">Next 
+     Course<span class="icon-arrow-right"></span></a> 
+

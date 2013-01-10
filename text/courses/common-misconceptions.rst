@@ -147,3 +147,9 @@ Summary
 -------
 
 In this module we reviewed a few common mistakes made when presenting data. When using data as a tool to tell stories or to communicate our issues and results. While we need simplification to understand what the data means - doing it wrong will mislead us. When we present graphical evidence: try to stay true to the data itself. If possible: don’t only release your analysis: release the raw data as well!
+
+.. raw:: html 
+ 
+   <a href="../tell-me-a-story/" class="btn btn-primary btn-large">Next 
+     Course<span class="icon-arrow-right"></span></a> 
+

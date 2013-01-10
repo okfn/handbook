@@ -261,4 +261,8 @@ In this module we had an in depth view on analysis. We explored our dataset look
 2. `Introduction to Boolean Logic at the Wikiversity <http://en.wikiversity.org/wiki/Introduction_to_boolean_logic>`__
 
 
+.. raw:: html 
+ 
+   <a href="../data-to-diagrams/" class="btn btn-primary btn-large">Next 
+     Course<span class="icon-arrow-right"></span></a> 
 

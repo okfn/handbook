@@ -176,3 +176,9 @@ Further reading
 
 * Doing the Line Charts Right by Gregor Aisch: http://vis4.net/blog/posts/doing-the-line-charts-right/
 * Also by Gregor Aisch: Say Goodbye to Red-Green color scales: http://vis4.net/blog/posts/goodbye-redgreen-scales/
+
+.. raw:: html 
+ 
+   <a href="../common-misconceptions/" class="btn btn-primary btn-large">Next 
+     Course<span class="icon-arrow-right"></span></a> 
+
