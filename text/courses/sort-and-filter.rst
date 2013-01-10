@@ -144,7 +144,9 @@ The next thing commonly done with datasets is to filter out the values you don't
 
 Summary
 -------
-In this module we talked about basic spreadsheet skills. We talked about data entry and how to sort and filter data using a spreadsheet program. In the next module we will talk about data analysis and introduce you to formulas.
+In this module we talked about basic spreadsheet skills. We talked about
+data entry and how to sort and filter data using a spreadsheet program. In
+the `next course`_ we will talk about data analysis and introduce you to formulas.
 
 Further Reading and References
 ------------------------------
@@ -152,4 +154,5 @@ Further Reading and References
 #. `Google help`_ on spreadsheets
 
 .. _spreadsheets: http://schoolofdata.org/handbook/tools/spreadsheet/
-.. _Google help: http://support.google.com/drive/bin/topic.py?hl=en&topic=2811806&parent=2811739&ctx=topic
+.. _Google help: http://support.google.com/drive/bin/topic.py?hl=en&topic=2811806&parent=2811739&ctx=topi
+.. _next course: http://schoolofdata.org/handbook/course/analyzing-data/

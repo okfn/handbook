@@ -111,4 +111,9 @@ Extra Reading
    width="760" height="984" frameborder="0" marginheight="0"
    marginwidth="0">Loading...</iframe>
 
+.. raw:: html
+
+  <a href="../finding-data/" class="btn btn-primary btn-large">Next
+  Course<span class="icon-arrow-right"></span></a>
+
 .. _common file formats: http://opendatahandbook.org/en/appendices/file-formats.html
