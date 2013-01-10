@@ -1,11 +1,6 @@
 Courses
 =======
 
-.. raw:: html
-  
-  <iframe width="100%" height="1000px" frameborder="0"
-  src="http://okfnlabs.org/listify/embed.html?url=https%3A%2F%2Fdocs.google.com%2Fspreadsheet%2Fccc%3Fkey%3D0AlgwwPNEvkP7dFJ4S2t2MlpFNTRVX0dtcU5vaGkzNXc%23gid%3D0"></iframe>
-
 Data Fundamentals
 ------------------------
 
