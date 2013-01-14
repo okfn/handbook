@@ -116,7 +116,7 @@ don't worry were there to guide you through.
 
 .. raw:: html
   
-  <div class="hidden">
+  <div class="hidden" style="display: none;">
 
 .. toctree::
   :maxdepth: 1
