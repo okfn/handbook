@@ -57,8 +57,15 @@ I’m always interested in politics - and parliaments websites are great places 
    .. image:: http://farm9.staticflickr.com/8070/8163612170_111f78b9fc_o_d.png
 #. If you hide the columns you’re not interested in, you will end up with a sheet having Constituency, Surname and Name and Party of the MP.
 
+.. raw:: html
+  
+  <div class="well">
 
 **Task:** Find a website with a table and scrape the information from it. Share your result on the datahub.io (make sure to tag your dataset with schoolofdata.org)
+
+.. raw:: html
+  
+  </div>
 
 Detour - a short introduction to HTML
 -------------------------------------
@@ -93,8 +100,16 @@ webpages with it - visit the `School of Webcraft`_ for a gentle introduction.
 
 .. _School of Webcraft: https://p2pu.org/en/schools/school-of-webcraft/
 
+.. raw:: html
+
+  <div class="well">
+
 **Task:** Pick a website and look at the HTML code using Inspect Element. Did you find something interesting?
-        
+
+.. raw:: html
+  
+  </div>
+
 Scraping websites using the Scraper extension for Chrome
 --------------------------------------------------------
 If you are using Google Chrome there is a browser extension for scraping web pages. It’s called “Scraper” and it is easy to use. It will help you scrape a website’s content and upload the results to google docs.
@@ -170,8 +185,15 @@ kinds of data on this is the IMDB (You can also search on sites like
 #. Click on scrape and see how the year is added
 #. See how easily we got information out of a less structured webpage?
 
+.. raw:: html
+  
+  <div class="well">
 
 **Task:** Find a webpage having information you are interested in and scrape it! Don’t forget to post your results on datahub.io.
+
+.. raw:: html
+  
+  </div>
 
 Scraping more than one webpage: Scraperwiki
 -------------------------------------------

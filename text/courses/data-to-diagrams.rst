@@ -87,7 +87,15 @@ So let’s create a column chart from our dataset. It’s not really good style 
 #. If you click on the chart you can move it around. Notice the triangle up
 right? It’s the option menu. Select ``Edit chart`` to change the settings of the chart. Can you change it to a bar chart?
 
+.. raw:: html
+  
+  <div class="well">
+
 **Task:**  Create a column chart with other data from the world bank sheet.
+
+.. raw:: html
+  
+  </div>
 
 Presenting data from categories over time - linecharts
 ------------------------------------------------------
@@ -114,7 +122,15 @@ So let’s create a line chart. Let’s say we want to see how healthcare expend
    .. image:: http://farm9.staticflickr.com/8330/8079886985_49583d3d90_o_d.png
 #. You already know how to manipulate the look of a chart, so go and play around until it looks similar to the chart above!
 
+.. raw:: html
+  
+  <div class="well">
+
 **Task:** compare Luxemburg to the other top spending countries - create a line chart with the different countries on one chart.
+
+.. raw:: html
+  
+  </div>
 
 Showing geographical data - mapping
 -----------------------------------
@@ -136,7 +152,15 @@ The map shows health care expenditure in % of GDP. It allows us to discover find
 #. You’ll see a preview. Play with the settings in customize to change the map, the color-scale etc. 
 #. A note on colors: the red-green scale that is selected by default is not the best scale. So select a different one showing contrasts nicely.
 
+.. raw:: html
+
+  <div class="well">
+
 **Task:** Try another set of data on a choropleth. How does it work?
+
+.. raw:: html
+
+  </div>
 
 Researching interaction between variables - scatterplots 
 --------------------------------------------------------
@@ -162,9 +186,15 @@ So let’s create a scatterplot.
 #. Select the first one, since this is what we want to do. 
 #. And there you go: simply adapt the scatterplot so it looks nice. Don’t forget to label axes. Try to make the dots smaller if there is significant overlap.
 
+.. raw:: html
+  
+  <div class="well">
 
 **Task:** Make a scatterplot comparing other data in the data set. Does it work? Issues, problems, interesting findings?
 
+.. raw:: html
+  
+  </div>
 
 Summary
 -------

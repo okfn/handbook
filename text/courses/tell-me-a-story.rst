@@ -38,13 +38,28 @@ Sometimes you will start out to explore a dataset with a given question in mind.
 #. You can adjust the values for each of the axis and the size. And you can slide through the years.
 #. Click on play and see how the world changes in 10 years.
 
+.. raw:: html
+  
+  <div class="well">
+
 **Task:** Look at life expectancy over total healthcare expenditure per person. Look at Botswana and Swaziland. Do you notice something? What is the story there?
+
+.. raw:: html
+  
+  </div>
 
 Telling the story
 -------------------
 Once you're through the steps: How do you frame your data? How do you provide the context needed? What format are you going to chose? It could be an article, a blog post, an infographic, or an interactive website dedicated to just this problem. The formats vary as do the ways to tell your story. So what format you pick also depends on who you are and what you want to tell. Are you with a NGO and want to use the data for a campaign? Are you a journalist and want to use the data with a story? Are you a researcher trying to make sense of a research data? Or just a curious blogger looking for interesting things? You will have different audiences and different means to tell your story. Don't be afraid to share your work with friends and colleagues early - they can give you great insight on how to improve your presentation and story.
 
+.. raw:: html
+
+  <div class="well">
+
 **Task:** What stories can be told from data above and can you identify additional information or data to 
+.. raw:: html
+  
+  </div>
 
 Publishing our results
 ----------------------

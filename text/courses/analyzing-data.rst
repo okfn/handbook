@@ -8,8 +8,16 @@ Once you have cleaned and filtered your dataset - it’s time for analysis. (In 
 
 Look at the data we imported: This is worldbank data containing GDP, population, health expenditure and life expectancy for the years 2000-2011. Take a moment to have a look at the data. It’s pretty interesting - what could it tell us? 
 
+.. raw:: html
+
+  <div class="well">
+
 **Task:**
  Brainstorm ideas. What could you investigate using this data?  
+
+.. raw:: html
+  
+  </div>
 
 Here are some ideas we came up with:
 
@@ -62,9 +70,16 @@ Now move across to the “Total fruits sold” column. Start in the first row. I
 #. Copy the formula you have just written (using **“ctrl”**+**”c”**) and paste it into the cell below (using **“ctrl”**+**”v”**), you will get the sum of the two numbers on the row below. 
 #. Alternatively click on the lower right corner of the cell (the blue square), and drag the formula down to the bottom of the column. Watch the ``‘total’`` column update. Feels like magic!
 
+.. raw:: html
+
+  <div class="well">
 
 **Task:**
  Create a formula to calculate the total amount of apples, plums and fruit sold during the week.
+
+.. raw:: html
+  
+  </div>
 
 A quick introduction to common spreadsheet symbols
 ==================================================
@@ -93,8 +108,16 @@ Have a go at using these formula in the ‘play sheet’ of your spreadsheet unt
 
 What if you wanted to add more numbers? You could always add them manually using `+` or you could use `SUM` a formula to sum up all the values in the given range. Let’s try to calculate how many apples, plums and total fruit we sold during the week: Go to cell B7 and type ``=SUM(A2:A6)`` this will add the numbers of apples. 
 
+.. raw:: html
+
+  <div class="well">
+
 **Task:** 
  Find out how many plums and total fruit were sold during the week.
+
+.. raw ::html
+
+  </div>
 
  
 Calculating more Values with Worldbank Data
@@ -104,9 +127,16 @@ The first thing we wanted to calculate how much money (in US$) is spent on healt
 
 In our original data, we have three columns related to health expenditure; ‘health expenditure (private)’, ‘health expenditure (public)’ and ‘health expenditure (total)’. So you’re going to need to add three new columns to the right of the spreadsheet to do your calculations. Give them each a heading; perhaps ‘health expenditure (private) in $’ etc.
 
+.. raw:: html
+
+  <div class="well">
 
 **Task:**
  What formula will you need to calculate the amount of private health expenditure in $? See if you can do it yourself! 
+
+.. raw:: html
+  
+  </div>
 
 If you didn’t manage it, here’s how to work out the formula you need.
 
@@ -124,8 +154,16 @@ In the original data, public, private and total healthcare expenditure is expres
 4. With a spreadsheet formula, we don’t have to worry about all the numbers - you just need to enter the cells. So the formula you are going to need is: ``=E3*H3/100`` (where cell E3 contains Afghanistan’s GDP in 2001, and cell H3 contains private health expenditure in Afghanistan in 2001).
 5. Drag this formula all the way down the column and hey presto! You should have calculated the private health expenditure in $ for every country for the past 10 years. Much quicker than doing all the sums yourself!
 
+.. raw:: html
+
+  <div class="well">
+
 **Task:**
  Can you work out the formula for public health expenditure and total health expenditure? Note: There is an easier way than writing a new formula every time!
+
+.. raw:: html
+  
+  </div>
 
 **Answer:**
  In the same way as we could drag the formula down the column and the spreadsheet recognized the pattern and chose the correct cells, we can also drag the formula sideways to the new columns (public health expenditure in $ and total health expenditure in $). BUT we need to make one minor adjustment.
@@ -151,8 +189,16 @@ you should be able to drag it over to the right without any problems.
 
 So now, with one simple formula, you can calculate the actual expenditure of public, private and public+private healthcare, in every country, for the past ten years. Spreadsheets are pretty powerful things..
 
+.. raw:: html
+  
+  <div class="well">
+
 **Task:**
  Find out how many USD ($) is spent on healthcare per person.
+
+.. raw:: html 
+  
+  </div>
 
 Minimum and Maximum Values
 ==========================
@@ -183,8 +229,16 @@ Now let’s go to our first step of analysis. One thing that is very interesting
 #. See the blue square in the right lower corner? Grab it and pull it right. Release it and if you still not have all columns, carry on until you have all values. 
 #. This way you created a table with the minima and maxima of each of the columns.
 
+.. raw:: html
+
+  <div class="well">
+
 **Task:**
   Calculate the average and median values for all the columns
+
+.. raw:: html
+  
+  </div>
 
 How to deal with empty cells
 ============================
@@ -248,9 +302,16 @@ In the next walkthrough we will create a complex formula. We will do so with an 
 
 If you look at the data you will quickly find out that countries with higher number of people spend more on healthcare than countries with lower number of people. Intuitive isn’t it. So how to compare the countries more directly? Break it down to healtcare expenditure per person!. This step is called normalization and is a step often done when comparing different entities - such as countries etc. 
 
-**TASK:**
+.. raw:: html
+
+  <div class="well">
+
+**Task:**
  What is the formula for health care expenditure per capita? Can you modify it so it’s only calculated when both values are present?
 
+.. raw:: html
+  
+  </div>
 
 Summary & Further Reading
 =========================

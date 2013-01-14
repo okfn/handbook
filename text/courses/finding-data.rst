@@ -44,9 +44,16 @@ is building a list of `data sources`_ with your help!
 .. _data repository list: http://oad.simmons.edu/oadwiki/Data_repositories
 .. _datahub.io: http://datahub.io
 
+.. raw:: html
+  
+  <div class="well">
+
 **Task:** Are there any data sources we missed? What kind of data would be
 most interesting to you? Add them to our list of `data sources`_
 
+.. raw:: html
+  
+  </div>
 
 .. _data sources: http://schoolofdata.org/datasources/
 
@@ -106,12 +113,18 @@ We started out with the question how healtcare spending affects life expectancy 
    for the format. Select ``CSV``.
 #. You will then be able to download a file - store and name it in a folder so you remember where it comes from and what it is for.
 
+.. raw:: html
+
+  <div class="well">
 
 **Task:** If you found your own alternative data to answer this question, congratulations! Take a moment to upload it to the datahub.io - and have a browse to see what other School of Data learners have found.
 
 
 **Extension Task:** Explore the web, and see what open data you can find. If you find something really interesting and think of an exciting question it could help to address, tweet it to @SchoolofData - or write a short post for the School of Data blog. 
 
+.. raw:: html
+  
+  </div>
 
 Summary
 -------

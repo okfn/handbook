@@ -23,7 +23,15 @@ In this course we will start with a question and then explore a dataset with thi
 
 The question for these tutorials will be: How does healthcare spending influence life expectancy? 
 
+.. raw:: html
+  
+  <div class="well">
+
 **Task:** Think of a question you would like to answer using data.
+
+.. raw:: html
+  
+  </div>
 
 What is Data?
 -------------
@@ -54,9 +62,15 @@ However there are also other categories that you will most likely encounter:
 
 :term:`Continuous data` is numerical data with a continuous range: e.g. size of the golfballs can be any value (e.q. 10.53mm or 10.54mm but also 10.536mm), or the size of your foot (as opposed to your shoe size, which is discrete): In continuous data, all values are possible with no gaps in between. 
 
+.. raw:: html
+  
+  <div class="well">
 
 **Task:** Take the example of golf balls: can you find data of all different categories? 
 
+.. raw:: html 
+  
+  </div>
 
 From Data to Information to Knowledge.
 --------------------------------------
@@ -90,8 +104,15 @@ something like::
 
 This is way simpler for your computer to understand and can be read directly by spreadsheet software. Note that words have quotes around them: This distinguishes them as text (string values in computer speak) - whereas numbers do not have quotes. It is worth mentioning that there are many more formats out there that are structured and machine readable. 
 
+.. raw:: html
+
+  <div class="well">
+
 **Task:** Think of the last book you read. What data is connected to it and how would you make it structured data?
 
+.. raw:: html
+  
+  </div>
 
 Summary
 -------

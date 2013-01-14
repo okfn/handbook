@@ -37,6 +37,10 @@ The chart shows actual income distribution in US$ for households up to 200,000 U
 
 If the average income rises, it could be because most of the people are earning more. But it could also be that a few people in the top income group are earning way more - both would move the average. 
 
+.. raw:: html
+  
+  <div class="well">
+
 **Task:** If you need some figures to help you think of this, try the following: 
 
 Imagine 10 people. One earns 1€, one earns 2€, one earns 3€... up to 10€. Work out the average salary.
@@ -45,13 +49,24 @@ Now add 1€ to each of their salaries (2€, 3€....11€). What is the averag
 
 Now go back to the original salaries (1€, 2€, 3€ etc) and add 10€ only to the very top salary (so you have 1€, 2€, 3€... 9€, 20€). What’s the average now? 
 
+.. raw:: html
+  
+  </div>
+
 Economists recognise this and have added another value. The “ `GINI-Coefficient`_ ” tells you something about the distribution of income. The “GINI-Coefficient is a little complicated to calculate and beyond the scope of this basic introduction. However, it is worth knowing it exists. A lot of information gets lost when we only calculate an average. Keep your eyes peeled as you read the news and browse online. 
 
 .. _GINI-Coefficient: http://en.wikipedia.org/wiki/Gini_coefficient
 
 
+.. raw:: html
+
+  <div class="well">
 
 **Task:** Can you spot examples of where the use of the average is problematic? 
+
+.. raw:: html
+  
+  </div>
 
 More than just your average...
 ******************************
@@ -72,7 +87,15 @@ In data visualization, size actually matters. Look at the two column charts belo
 
 Imagine the headlines for these two graphs. For the graph on the left, you might read “Health Expenditure in Finland Explodes!”. The graph on the right might come under the headline “Health Expenditure in Finland remains mainly stable”. Now look at the data. It’s the same data presented in two different (incorrect) ways. 
 
+.. raw:: html
+
+  <div class="well">
+
 **Task:** Can you spot the mistakes?
+
+.. raw:: html
+  
+  </div>
 
 In the graph on the left, the data doesn’t start at $0, but somewhere around $3000. This makes the differences appear proportionally much larger - for example, expenditure from 2001-2002 appears to have tripled, at least! In reality, this wasn’t the case.  The square aspect ratio (the graph is the same height as width) of the graph further aggravates the effect. 
 
@@ -88,7 +111,13 @@ The simple “reflect the size” rule becomes even more difficult in 2 dimensio
 
   .. image:: http://farm9.staticflickr.com/8037/7899435168_e13622dc8f_b_d.jpg
 
+.. raw:: html
+  
+  <div class="well">
+
 **Task:** We want to show that B is double the size of A. Which representation is correct? Why?
+
+  </div>
 
 Answer: The diagram on the right.
 
