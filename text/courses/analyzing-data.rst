@@ -328,7 +328,7 @@ Take the following quiz to check your analysis skills.
 
 .. raw:: html
    
-         <iframe src="testmoz.com/109551" width="100%" height="750"
+         <iframe src="http://testmoz.com/109551" width="100%" height="750"
          frameborder="0" marginheight="0"
          marginwidth="0">Loading...</iframe><br/><br/>
 
