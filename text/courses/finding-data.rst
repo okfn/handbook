@@ -143,6 +143,18 @@ Extra Reading
 .. _Datacatalogs.org: http://datacatalogs.org
 .. _scraperwiki.com: http://scraperwiki.com
 
+Quiz
+----
+
+Take the following quiz to check whether you understood where to find data.
+
+.. raw:: html
+   
+      <iframe 
+         src="https://testmoz.com/109502"
+            width="100%" height="750" frameborder="0" marginheight="0"
+               marginwidth="0">Loading...</iframe><br/><br/>
+
 .. raw:: html 
  
    <a href="../sort-and-filter/" class="btn btn-primary btn-large">Next 
