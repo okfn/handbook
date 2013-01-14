@@ -13,9 +13,9 @@ don't worry were there to guide you through.
 .. raw:: html
 
   <ul class="thumbnails">
-    <li class="span4">
+    <li class="span3">
       <div class="thumbnail">
-        <img data-src="http://farm9.staticflickr.com/8301/7871270682_d1da172951_n_d.jpg" alt="">
+        <img src="http://farm9.staticflickr.com/8301/7871270682_d1da172951_q_d.jpg" alt="">
         <h3>What is Data?</h3>
         <p>This course gives a short introduction in the world of data. If
         you start your journey into this wonderful land start here. The
@@ -25,9 +25,10 @@ don't worry were there to guide you through.
         </p>
       </div>
     </li>
-    <li class="span4">
+    <li class="span3">
       <div class="thumbnail">
-        <img data-src="http://farm9.staticflickr.com/8070/8261230486_360a7dc267_o_d.png" alt="">
+        <img
+        src="http://farm9.staticflickr.com/8070/8261230486_360a7dc267_o_d.png" alt="">
         <h3>Finding Data</h3>
         <p>
         Don't know where to start looking for data? This course gives an
@@ -37,10 +38,10 @@ don't worry were there to guide you through.
         </p>
       </div>
     </li>
-    <li class="span4">
+    <li class="span3">
       <div class="thumbnail">
         <img
-        data-src="http://farm9.staticflickr.com/8448/7871786616_ccc3b95497_n_d.jpg" alt="">
+        src="http://farm9.staticflickr.com/8448/7871786616_ccc3b95497_q_d.jpg" alt="">
         <h3>Sort and Filter</h3>
         <p>
         So you found and downloaded your dataset? What now? Sort and Filter
@@ -52,10 +53,10 @@ don't worry were there to guide you through.
         </p>
       </div>
     </li>
-    <li class="span4">
+    <li class="span3">
       <div class="thumbnail">
         <img
-        data-src="http://farm9.staticflickr.com/8326/8076431832_5de5ce1dd2_o_d.png" alt="">
+        src="http://farm9.staticflickr.com/8326/8076431832_1b47fcf367_q_d.jpg" alt="">
         <h3>Basic Analysis</h3>
         <p>
         Wonder how to make sense of the data? Basic Analysis will help you
@@ -66,10 +67,10 @@ don't worry were there to guide you through.
         </p>
       </div>
     </li>
-    <li class="span4">
+    <li class="span3">
       <div class="thumbnail">
         <img
-        data-src="http://farm9.staticflickr.com/8466/8079925578_6ee66193ff_n_d.jpg" alt="">
+        src="http://farm9.staticflickr.com/8466/8079925578_6ee66193ff_q_d.jpg" alt="">
         <h3>From Data to Diagrams</h3>
         <p>
         A picture says more than a thousand words - yeah but how do we turn
@@ -81,10 +82,10 @@ don't worry were there to guide you through.
         </p>
       </div>
     </li>
-    <li class="span4">
+    <li class="span3">
       <div class="thumbnail">
         <img
-        data-src="http://farm9.staticflickr.com/8301/7899098946_4839cc2ed3_n_d.jpg" alt="">
+        src="http://farm9.staticflickr.com/8301/7899098946_4839cc2ed3_q_d.jpg" alt="">
         <h3>Common Misconceptions</h3>
         <p>
         Not everything is easily understood in dataland. In this course we
@@ -96,10 +97,10 @@ don't worry were there to guide you through.
         </p>
       </div>
     </li>
-    <li class="span4">
+    <li class="span3">
       <div class="thumbnail">
         <img
-        data-src="http://farm9.staticflickr.com/8195/8112418106_fac64f623f_o_d.png" alt="">
+        src="http://farm9.staticflickr.com/8195/8112418106_d524233c41_q_d.jpg" alt="">
         <h3>Tell me a Story</h3>
         <p>
         Data alone is meaningless and often boring. To understand it better
