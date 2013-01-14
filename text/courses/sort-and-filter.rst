@@ -157,8 +157,19 @@ Further Reading and References
 .. _Google help: http://support.google.com/drive/bin/topic.py?hl=en&topic=2811806&parent=2811739&ctx=topi
 .. _next course: http://schoolofdata.org/handbook/course/analyzing-data/
 
+Quiz
+----
+Check your sorting and filtering skills with the following quiz.
+
+.. raw:: html
+   
+         <iframe src="https://testmoz.com/109521" width="100%" height="750"
+         frameborder="0" marginheight="0"
+         marginwidth="0">Loading...</iframe><br/><br/>
+
 .. raw:: html 
  
    <a href="../analyzing-data/" class="btn btn-primary btn-large">Next 
      Course<span class="icon-arrow-right"></span></a> 
+
 
