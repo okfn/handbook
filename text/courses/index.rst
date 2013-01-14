@@ -13,7 +13,7 @@ don't worry were there to guide you through.
 .. raw:: html
 
   <ul class="thumbnails">
-    <li class="span3" style="height: 505px;">
+    <li class="span4" style="height: 505px;">
       <div class="thumbnail">
         <img src="http://farm9.staticflickr.com/8301/7871270682_d1da172951_q_d.jpg" alt="">
         <h3>What is Data?</h3>
@@ -25,7 +25,7 @@ don't worry were there to guide you through.
         </p>
       </div>
     </li>
-    <li class="span3" style="height: 505px;">
+    <li class="span4" style="height: 505px;">
       <div class="thumbnail">
         <img
         src="http://farm9.staticflickr.com/8070/8261230486_360a7dc267_o_d.png" alt="">
@@ -38,7 +38,7 @@ don't worry were there to guide you through.
         </p>
       </div>
     </li>
-    <li class="span3" style="height: 505px;">
+    <li class="span4" style="height: 505px;">
       <div class="thumbnail">
         <img
         src="http://farm9.staticflickr.com/8448/7871786616_ccc3b95497_q_d.jpg" alt="">
@@ -53,7 +53,7 @@ don't worry were there to guide you through.
         </p>
       </div>
     </li>
-    <li class="span3" style="height: 505px;">
+    <li class="span4" style="height: 505px;">
       <div class="thumbnail">
         <img
         src="http://farm9.staticflickr.com/8326/8076431832_1b47fcf367_q_d.jpg" alt="">
@@ -67,7 +67,7 @@ don't worry were there to guide you through.
         </p>
       </div>
     </li>
-    <li class="span3" style="height: 505px;">
+    <li class="span4" style="height: 505px;">
       <div class="thumbnail">
         <img
         src="http://farm9.staticflickr.com/8466/8079925578_6ee66193ff_q_d.jpg" alt="">
@@ -82,7 +82,7 @@ don't worry were there to guide you through.
         </p>
       </div>
     </li>
-    <li class="span3" style="height: 505px;">
+    <li class="span4" style="height: 505px;">
       <div class="thumbnail">
         <img
         src="http://farm9.staticflickr.com/8301/7899098946_4839cc2ed3_q_d.jpg" alt="">
@@ -97,7 +97,7 @@ don't worry were there to guide you through.
         </p>
       </div>
     </li>
-    <li class="span3" style="height: 505px;">
+    <li class="span4" style="height: 505px;">
       <div class="thumbnail">
         <img
         src="http://farm9.staticflickr.com/8195/8112418106_d524233c41_q_d.jpg" alt="">
