@@ -321,6 +321,17 @@ In this module we had an in depth view on analysis. We explored our dataset look
 1. `Google Spreadsheets Function List <https://support.google.com/docs/bin/static.py?hl=en&topic=25273&page=table.cs>`__
 2. `Introduction to Boolean Logic at the Wikiversity <http://en.wikiversity.org/wiki/Introduction_to_boolean_logic>`__
 
+Quiz
+----
+
+Take the following quiz to check your analysis skills.
+
+.. raw:: html
+   
+         <iframe src="testmoz.com/109551" width="100%" height="750"
+         frameborder="0" marginheight="0"
+         marginwidth="0">Loading...</iframe><br/><br/>
+
 
 .. raw:: html 
  
