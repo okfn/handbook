@@ -56,7 +56,9 @@ Once you're through the steps: How do you frame your data? How do you provide th
 
   <div class="well">
 
-**Task:** What stories can be told from data above and can you identify additional information or data to 
+**Task:** What stories can be told from data above and can you identify
+additional information or data to tell better stories?
+
 .. raw:: html
   
   </div>
@@ -92,6 +94,14 @@ Of course if you already have a blog or something similar you can share the resu
 Summary
 -----------
 Throughout this course we started out acquiring and storing a dataset in a spreadsheet, exploring it and calculating new values, visualizing and finally telling a story about it. Of course there is much more to data than we covered in this basic course. You won't be on your own though the School of Data is here to help. Now go out, look at what others have done and explore data!
+
+.. raw:: html
+
+         <iframe
+                  src="http://okfnlabs.org/scodaquiz/index.html#data/tell-me-a-story.json"
+                  width="100%" height="850"
+                           frameborder="0" marginheight="0"
+                                    marginwidth="0">Loading...</iframe><br/><br/>
 
 .. raw:: html 
  

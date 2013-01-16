@@ -117,6 +117,8 @@ The simple “reflect the size” rule becomes even more difficult in 2 dimensio
 
 **Task:** We want to show that B is double the size of A. Which representation is correct? Why?
 
+.. raw:: html
+
   </div>
 
 Answer: The diagram on the right.
@@ -129,6 +131,7 @@ Time will tell?
 ---------------
 
 Time lines are also critical when displaying data. Look at the chart below: 
+
 .. image:: http://farm9.staticflickr.com/8178/7899506212_29a422c92c_o_d.png
 
 A clear stable increase in health care costs since 2002? Not quite. Notice how before 2004, there are 1 year steps. After, there is a gap between 2004 and 2007, and 2007 and 2009. This presentation makes us believe that healthcare expenditure increases continuously at the same rate since 2002 - but actually it doesn’t. So if you deal with time lines: make sure that the spacing between the data points are correct! Only then will you be able to see the trends correctly. 
@@ -176,6 +179,15 @@ Summary
 -------
 
 In this module we reviewed a few common mistakes made when presenting data. When using data as a tool to tell stories or to communicate our issues and results. While we need simplification to understand what the data means - doing it wrong will mislead us. When we present graphical evidence: try to stay true to the data itself. If possible: don’t only release your analysis: release the raw data as well!
+
+.. raw:: html
+
+         <iframe
+                  src="http://okfnlabs.org/scodaquiz/index.html#data/common-misconceptions.json"
+                  width="100%" height="850"
+                           frameborder="0" marginheight="0"
+                                    marginwidth="0">Loading...</iframe><br/><br/>
+
 
 .. raw:: html 
  

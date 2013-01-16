@@ -163,7 +163,9 @@ Check your sorting and filtering skills with the following quiz.
 
 .. raw:: html
    
-         <iframe src="https://testmoz.com/109521" width="100%" height="750"
+         <iframe
+         src="http://okfnlabs.org/scodaquiz/index.html#data/sort-and-filter.json"
+         width="100%" height="850"
          frameborder="0" marginheight="0"
          marginwidth="0">Loading...</iframe><br/><br/>
 

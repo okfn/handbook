@@ -134,8 +134,8 @@ categories.
 .. raw:: html
    
    <iframe 
-   src="https://testmoz.com/109467"
-   width="100%" height="750" frameborder="0" marginheight="0"
+   src="http://okfnlabs.org/scodaquiz/index.html#data/what-is-data.json"
+   width="100%" height="850" frameborder="0" marginheight="0"
    marginwidth="0">Loading...</iframe><br/><br/>
 
 .. raw:: html

@@ -151,8 +151,8 @@ Take the following quiz to check whether you understood where to find data.
 .. raw:: html
    
       <iframe 
-         src="https://testmoz.com/109502"
-            width="100%" height="750" frameborder="0" marginheight="0"
+         src="http://okfnlabs.org/scodaquiz/index.html#data/finding-data.json"
+            width="100%" height="850" frameborder="0" marginheight="0"
                marginwidth="0">Loading...</iframe><br/><br/>
 
 .. raw:: html 
