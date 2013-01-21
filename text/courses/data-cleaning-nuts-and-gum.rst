@@ -60,7 +60,7 @@ In his excellent essay “The Art of Spreadsheets” John Raffensperger lists
 * For formulas that are likely to be zero, use Tools, Options, View, and clear the Zero values box. For example: =IF(1, 0, “Attack at dawn.”).
 * Use a formula that returns a blank: =IF(1, “ ”, “Attack at dawn.”).
 * Create a complicated formula that displays the information, but format it as text (with Format, Cells, Number, Text, or just start the cell with a single quotation mark), so the formula is displayed rather than the output.
-*. Format the font with Wingdings: Format, Cells, Font, Wingdings. This displays unintelligible characters.
+* Format the font with Wingdings: Format, Cells, Font, Wingdings. This displays unintelligible characters.
 
 
 Using John Raffensperger's list as inspiration, your task is to mess up the GRAIN data as much as  possible.  Marks will be awarded for:
