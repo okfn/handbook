@@ -114,7 +114,7 @@ And now hurry on to the next installment of this course, The Invisible Man is in
 
 .. raw:: html
   
-  <a href="#" class="btn btn-primary btn-large">Next Course <span
+  <a href="../data-cleaning-invisible-man-in-spreadsheets/" class="btn btn-primary btn-large">Next Course <span
   class="icon-arrow-right"></span></a>
 
 
