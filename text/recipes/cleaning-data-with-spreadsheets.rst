@@ -11,7 +11,8 @@ Introduction
 
 .. figure:: http://farm9.staticflickr.com/8502/8388490769_c3ac0b24f0_o_d.jpg
 
-  Cleaning. Sometimes challenging. Even with the right tools. Image:  “Bath Time” by archer10. Some rights reserved CC-A-SA 2.0.
+  Cleaning. Sometimes challenging. Even with the right tools. Image:  'Bath Time'_ by archer10. Some rights reserved CC-A-SA 2.0.
+_Bath Time: https://secure.flickr.com/photos/22490717@N02/5005068617/
 
 What is this recipe and what do you get out of it?
 __________________________________________________
