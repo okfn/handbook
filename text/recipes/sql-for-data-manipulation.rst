@@ -11,19 +11,19 @@ About the data
 --------------
 
 This article uses some housing price data from New Zealand. Here, you use
-[Trademe](http://www.trademe.co.nz). So I've used Trademe's
-[API](http://developer.trademe.co.nz) to pull out data from a few thousand
+`Trademe`_. So I've used Trademe's `API`_ to pull out data from a few thousand
 properties on the market. Unfortunately, the terms of the API restrict
-redistribution.
+redistribution. However, it is relatively easy to pull down a current list of
+properties for sale and add them to a database.
 
 Getting the workable data out of the database
 ---------------------------------------------
 
-Now that we have all of the data at our disposal, we need a way to extract it.
+Once we have data at our disposal, we need a way to extract information from it.
 We can use the SQL language to easily manipulate the data we need. My data is
-stored in the [SQLite3](http://www.sqlite.org) database.
+stored in the `SQLite3`_ database.
 
-[SQLite3 has its own command line shell](http://www.sqlite.org/sqlite.html) that's very easy to install on Ubuntu:
+`SQLite3 has its own command line shell`_ that's very easy to install on Ubuntu:
 
     $ sudo apt-get install sqlite3
 
@@ -37,7 +37,7 @@ First touch of SQL
 
 Now, let's count up how many houses we were able to extract data from::
 
-  sqlite> <b>SELECT count(*) FROM residentialproperty;</b>
+  sqlite> SELECT count(*) FROM residentialproperty;
   4151
 
 Great. Now, how many of those houses are actually useful for us? Unfortunately,
@@ -45,30 +45,30 @@ far fewer. Take a look at this query::
 
   sqlite> SELECT count(*) 
      ...> FROM residentialproperty 
-     ...> <b>WHERE rateable_value > 0;</b>
+     ...> WHERE rateable_value > 0;
   2357
 
-The addition of WHERE clauses allows us to filter the result. While the fact
+The addition of ``WHERE`` clauses allows us to filter the result. While the fact
 that we've lost half of our data won't affect the training exercise, it does
 demonstrate some of the issues of using real-world data. The effect is
 magnified as we ask for even cleaner data::
 
   sqlite> SELECT count(*)
      ...> FROM residentialproperty 
-     ...> WHERE rateable_value > 0 <b>AND area > 0</b>;
+     ...> WHERE rateable_value > 0 AND area > 0;
   1290
 
-We're only doing univariate logistic regression in this example, so a single
-variable is fine. It's about the extent of the calculus that I can take for the
-moment. 
+Notice that the size of the clean data is one quarter of the size of the 
+original dataset. Teaching you how to deal with missing data is best left
+for another tutorial. For now, let's just use the data we have at hand.
 
 Let's take a look at the data itself, just so you can get a feel for what's
 happening::
 
-  sqlite> <abbr title="We choose which columns we want..."><b>SELECT rateable_value, area, land_area</b></abbr>
+  sqlite> SELECT rateable_value, area, land_area   -- We choose which columns we want...
      ...> FROM residentialproperty
      ...> WHERE rateable_value > 0 AND area > 0
-     ...> <abbr title="...and limit the number of rows to return">LIMIT 10</abbr>;
+     ...> LIMIT 10;                                -- ...and limit the number of rows to return
   360000|183|993
   235000|100|738
   435000|140|725
@@ -82,7 +82,7 @@ happening::
 
 It's hard to make out, but there seems to be a correlation between these
 variables. On the left is the government's valuation (known here as the
-rateable value, as land taxes are known as rates here in New Zealand). The
+rateable value, as land taxes are known as `rates`_ here in New Zealand). The
 middle column is the reported surface area of the dwelling. The right-hand
 column displays the size of the land.
 
@@ -103,7 +103,7 @@ formality is a feature, not a bug.
 Tidying up output
 -----------------
 
-We can improve how this looks, by the way. The sqlite3 utility is somewhat
+We can improve how this looks, by the way. The ``sqlite3`` utility is somewhat
 intimidating, but it's simple once you spend a few moments getting used to it.
 Here are a few useful commands::
 
@@ -143,8 +143,9 @@ Aggregates
 As well as displaying data in raw form, databases also include power to provide
 you summaries of the data::
 
-  > SELECT <abbr title="Functions look like functions from other languages">max(area), avg(area), min(area)</abbr>
-  . FROM residentialproperty WHERE area > 0;
+  > SELECT max(area), avg(area), min(area)
+  . FROM residentialproperty
+  . WHERE area > 0;
   2100            156.927513015619  20        
 
 As always with numeric data manipulation, be careful of values like 0 or 99999.
@@ -152,15 +153,14 @@ Either of those can be a placeholder for an unknown quantity. They will really
 ruin your values. Consider the difference between these two queries::
 
   > SELECT avg(rateable_value) FROM residentialproperty;
-  <b>234629.451698386</b>
+  234629.451698386
 
   > SELECT avg(rateable_value) FROM residentialproperty
   . WHERE rateable_value > 0;
-
   413214.617734408
 
 Databases support a wide range of functions out of the box. Check your
-[database's documentation](http://www.sqlite.org/lang_corefunc.html) for
+`database's documentation <http://www.sqlite.org/lang_corefunc.html>`_ for
 details.
 
 
@@ -171,13 +171,13 @@ If we are looking at categorical data, there are a few handy operations worth
 knowing about. Let's try to find the number of suburbs that are represented in
 our sample::
 
-  > SELECT <b>count(DISTINCT suburb)</b> FROM residentialproperty;
+  > SELECT count(DISTINCT suburb) FROM residentialproperty;
   142
 
-Functions that take a single argument are allowed to include a DISTINCT keyword. Very cunning.
+Functions that take a single argument are allowed to include a ``DISTINCT`` keyword. Very cunning.
 
 Now, what if we would like to see which regions are selling the most houses. We
-can introduce the GROUP BY clause::
+can introduce the ``GROUP BY`` clause::
 
   > SELECT suburb, count(*)
   . FROM residentialproperty
@@ -225,12 +225,12 @@ We can combine this with what we have already learned to create useful reports::
   Woburn              10   390000    582000.0    760000      370000
   Woodridge           2    500000    565000.0    630000      130000
   York Bay            1    510000    510000.0    510000      0
-  </code></pre>
 
 Dates
 -----
 
-Databases also generally know quite a bit about dates. For example, the following function tries to see how current the listing date is::
+Databases also generally know quite a bit about dates. For example, the following 
+function tries to see how current the listing date is::
 
     > SELECT (
     .           strftime('%s', datetime('now')) - 
@@ -238,24 +238,24 @@ Databases also generally know quite a bit about dates. For example, the followin
     .        ) / 60 / 60 / 24
     . FROM residentialproperty
     . WHERE start_date > datetime(1, 'unixepoch')
-    .   AND end_date > datetime(1, 'unixepoch'); 
+    .   AND end_date   > datetime(1, 'unixepoch'); 
 
 This example is a little bit messier than the others. That's probably because
-of the <code>strftime</code> function that's inserted there.
-<code>strftime</code> is a function that takes a <b>str</b>ing and
-<b>f</b>ormats it to time. We are using <code>'%s'</code> as the format,
+of the ``strftime`` function that's inserted there.
+``strftime`` is a function that takes a string and
+formats it to time. We are using ``'%s'`` as the format,
 telling the function to convert things to seconds.
 
-The SELECT clause is converting the current time and the auction's listing date
+The ``SELECT`` clause is converting the current time and the auction's listing date
 into seconds. It then divides this into days. I've left this as multiple divide
-operations for readability. The WHERE clause is similar to asking for greater
+operations for readability. The ``WHERE`` clause is similar to asking for greater
 than zero. A quirk of my processing was that empty dates were sent to the
-database as 1 Jan 1970, which is second 0 of the [UNIX
-epoch](http://en.wikipedia.org/wiki/Unix_time). Omitting this would really skew
+database as 1 Jan 1970, which is second 0 of the `UNIX
+epoch`_. Omitting the ``datetime(1, 'unixepoxh')` would really skew
 the results.
 
 Knowing about dates could be handy if we wanted to model data that is no more
-than 90 days old. To do that, move our "dates from today" function to the WHERE
+than 90 days old. To do that, move our "dates from today" function to the ``WHERE``
 clause and add a comparison::
 
     > SELECT suburb, rateable_value, bedrooms, bathrooms
@@ -288,7 +288,7 @@ without for loops or nested if statements." I know that programming can be
 intimidating. However, for ad-hoc data analysis, SQL can provide a lot of
 benefit.
 
-I have put the computationally intensive operation at the end of the WHERE
+I have put the computationally intensive operation at the end of the ``WHERE``
 clause. This is so that this processing only needs to occur on those rows which
 have passed the suitability test.
 
@@ -297,7 +297,7 @@ Exporting Data
 
 Sending data to your application is probably one of the easiest things that you
 can do. Once you have your query in the way that you want it, you just set the
-mode to CSV output to a file:
+mode to CSV output to a file::
 
     > .mode csv
     > .output results.csv
@@ -328,11 +328,11 @@ When not to use this approach
 =============================
 
 SQL does not tolerate messy data. When data are irregular, use something like
-Google Refine to clean it up.
+`Open Refine`_ to clean it up.
 
-Take some time to understand the behaviour of NULL. It is the placeholder for
-missing values. We have ignored talking about the complexities of NULL in this
-article.
+Take some time to understand the behaviour of ``NULL``. It is the placeholder for
+missing values. We have ignored talking about the complexities of ``NULL`` in this
+article but it can be a real trap for newcomers.
 
 Further Reading
 ===============
@@ -341,6 +341,14 @@ I have left out a fews things which are really important. Most importantly, how
 to deal with multiple relations/tables. I've also omitted string functions.
 These two resources go over these points really well:
 
-* [A Gentle Introduction to SQL using SQLite](https://github.com/tthibo/SQL-Tutorial) by Toby Thibodeaux. This is one of the most readable tutorials I've encountered. It will really whet your appetite.
-* [Command Line Shell For SQLite](http://www.sqlite.org/sqlite.html) by D. Richard Hipp et al. 
+* `A Gentle Introduction to SQL using SQLite <https://github.com/tthibo/SQL-Tutorial>`_ by Toby Thibodeaux. This is one of the most readable tutorials I've encountered. It will really whet your appetite.
+* `Command Line Shell For SQLite <http://www.sqlite.org/sqlite.html>`_ by D. Richard Hipp et al. 
 
+.. _api: http://developer.trademe.co.nz
+.. _open refine: https://github.com/OpenRefine
+.. _unix epoch: http://en.wikipedia.org/wiki/Unix_time
+.. _rates: http://en.wikipedia.org/wiki/Rates_%28tax%29#New_Zealand
+.. _sqlite3: http://www.sqlite.org
+.. _SQLite3 has its own command line shell: http://www.sqlite.org/sqlite.html
+.. _tim mcnamara: http://twitter.com/timClicks
+.. _trademe: http://www.trademe.co.nz
