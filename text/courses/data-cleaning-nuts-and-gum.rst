@@ -76,9 +76,9 @@ When you’re finished making a mess, consider how you would undo it and persuad
 A longer task (30-60 minutes)
 _____________________________
 
-* From the Data Wrangling Handbook Recipe on Data Cleaning, run through `Problem 1: Showing the data plainly`_ using the GRAIN data.This shows you how to remove formatting quickly. It is the first part of a longer ‘recipe’ on data cleaning.        
+* From the Data Wrangling Handbook Recipe on Data Cleaning, run through Problem 1:`Showing the data plainly`_ using the GRAIN data.This shows you how to remove formatting quickly. It is the first part of a longer ‘recipe’ on data cleaning.        
 
-.. _Problem 1: Showing the data plainly: http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/#problem-1-showing-the-data-plainly
+.. _Showing the data plainly: http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/#problem-1-showing-the-data-plainly
 
 Reading list
 ------------
