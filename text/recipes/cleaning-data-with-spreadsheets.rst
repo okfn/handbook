@@ -217,8 +217,9 @@ In many spreadsheets you come across there will be empty (“blank”) cells. Th
 
 What’s the solution?
 ____________________
-Use the COUNTBLANK function 
+Use the `COUNTBLANK`_ function 
 ***************************
+.. _COUNTBLANK: http://www.myonlinetraininghub.com/excel-count-counta-and-countblank-functions
 
 This will enable you to show the number of blank cells, which helps you figure out the size of the potential problem:
 
@@ -226,8 +227,10 @@ This will enable you to show the number of blank cells, which helps you figure o
 #. In the same row copy the formula you just created across rows B to I. This will show you a count of the blank entries in the other columns. 
 #. You can see that by far the most blank cells are in column G, ‘Projected Investment’.
 
-Use the ISBLANK function with the Conditional Formatting feature
+Use the `ISBLANK`_ function with the Conditional Formatting feature
 ****************************************************************
+.. _ISBLANK: http://wiki.openoffice.org/wiki/Documentation/How_Tos/Calc:_ISBLANK_function
+
 Blank cells can also be highlighted using conditional formatting and the ISBLANK function, changing the background colour of blank cells, so you can see where they are:
 
 #. Select the dataset (cells A1 to I417), and open the ‘Conditional Formatting’ menu (**Format → Conditional Formatting → Conditional Formatting**). This spreadsheet feature allows you to automatically change the formatting (eg. font size, cell style, background colours etc) depending on the criteria you specify. 
@@ -271,15 +274,15 @@ The GRAIN dataset has a column called Proposed Investment. This records the amou
 So the problem is twofold: there is no consistent unit, and there are data other than the currency in the cell. Ideally, what we would have are data like this:
 
 
-=================================== =
+=================================== 
 Projected investment (US$ millions)
-=================================== =
+=================================== 
 77
 32.5
 1500
 2000
 0.057600
-=================================== =
+=================================== 
 
 
 What’s the solution?
@@ -357,7 +360,8 @@ row G               Formula in column I   Outcome in column I
 24  US$45 million   =LEFT(G24,5)          US$45 
 === =============== ===================== ======================
 
-Building the formula this way enables it to be copied down a column, as the cell numbers will update automatically as the position of the formula changes. We can further improve the formula and remove some of the text that we ask LEFT to analyse. This is where the SUBSTITUTE function is useful. Here’s how it works, then we’ll apply it in combination with the LEFT function:
+Building the formula this way enables it to be copied down a column, as the cell numbers will update automatically as the position of the formula changes. We can further improve the formula and remove some of the text that we ask LEFT to analyse. This is where the `SUBSTITUTE`_ function is useful. Here’s how it works, then we’ll apply it in combination with the LEFT function:
+.. _SUBSTITUTE: http://wiki.openoffice.org/wiki/Documentation/How_Tos/Calc:_SUBSTITUTE_function
 
 
 === =============== ========================= ======================
@@ -398,7 +402,8 @@ row G               Formula in column I                Outcome in column I
 Uh oh! You can clearly see there are mistakes in the outcome column. This is because we have told LEFT to show only 2 characters each time (remember we have removed the “US$” using SUBSTITUTE, so LEFT doesn’t count those). However, to show the correct figure for “US$7710 million” in row 22, LEFT would have to count 4 characters. So how can we give LEFT the correct number of characters? 
 
 Look at the values again. They have something else in common: yes, they
-have **a space separating the number from the text “millions”**. Its position will vary each time but we can find it tell the LEFT function to show it where the number ends in each case.  The SEARCH function can be used to do this.  It works by looking through data you give it for a character you specify, and then tells you the position of that character:
+have **a space separating the number from the text “millions”**. Its position will vary each time but we can find it tell the LEFT function to show it where the number ends in each case.  The `SEARCH`_ function can be used to do this.  It works by looking through data you give it for a character you specify, and then tells you the position of that character:
+.. _SEARCH: http://wiki.openoffice.org/wiki/Documentation/How_Tos/Calc:_SEARCH_function
 
 
 === =============== ================================== ======================
