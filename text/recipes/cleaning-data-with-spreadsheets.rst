@@ -1,4 +1,4 @@
-﻿Using a spreadsheet to clean up a dataset about land-grabbing
+Using a spreadsheet to clean up a dataset about land-grabbing
 =============================================================
 
 This recipe was created for the School of Data by `Tactical Technology
