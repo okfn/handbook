@@ -218,8 +218,9 @@ In many spreadsheets you come across there will be empty (“blank”) cells. Th
 
 What’s the solution?
 ____________________
-Use the COUNTBLANK function 
+Use the `COUNTBLANK`_ function 
 ***************************
+.. _COUNTBLANK: http://www.myonlinetraininghub.com/excel-count-counta-and-countblank-functions
 
 This will enable you to show the number of blank cells, which helps you figure out the size of the potential problem:
 
@@ -227,8 +228,10 @@ This will enable you to show the number of blank cells, which helps you figure o
 #. In the same row copy the formula you just created across rows B to I. This will show you a count of the blank entries in the other columns. 
 #. You can see that by far the most blank cells are in column G, ‘Projected Investment’.
 
-Use the ISBLANK function with the Conditional Formatting feature
+Use the `ISBLANK`_ function with the Conditional Formatting feature
 ****************************************************************
+.. _ISBLANK: http://wiki.openoffice.org/wiki/Documentation/How_Tos/Calc:_ISBLANK_function
+
 Blank cells can also be highlighted using conditional formatting and the ISBLANK function, changing the background colour of blank cells, so you can see where they are:
 
 #. Select the dataset (cells A1 to I417), and open the ‘Conditional Formatting’ menu (**Format → Conditional Formatting → Conditional Formatting**). This spreadsheet feature allows you to automatically change the formatting (eg. font size, cell style, background colours etc) depending on the criteria you specify. 
@@ -272,15 +275,15 @@ The GRAIN dataset has a column called Proposed Investment. This records the amou
 So the problem is twofold: there is no consistent unit, and there are data other than the currency in the cell. Ideally, what we would have are data like this:
 
 
-=================================== =
+=================================== 
 Projected investment (US$ millions)
-=================================== =
+=================================== 
 77
 32.5
 1500
 2000
 0.057600
-=================================== =
+=================================== 
 
 
 What’s the solution?
@@ -358,7 +361,8 @@ row G               Formula in column I   Outcome in column I
 24  US$45 million   =LEFT(G24,5)          US$45 
 === =============== ===================== ======================
 
-Building the formula this way enables it to be copied down a column, as the cell numbers will update automatically as the position of the formula changes. We can further improve the formula and remove some of the text that we ask LEFT to analyse. This is where the SUBSTITUTE function is useful. Here’s how it works, then we’ll apply it in combination with the LEFT function:
+Building the formula this way enables it to be copied down a column, as the cell numbers will update automatically as the position of the formula changes. We can further improve the formula and remove some of the text that we ask LEFT to analyse. This is where the `SUBSTITUTE`_ function is useful. Here’s how it works, then we’ll apply it in combination with the LEFT function:
+.. _SUBSTITUTE: http://wiki.openoffice.org/wiki/Documentation/How_Tos/Calc:_SUBSTITUTE_function
 
 
 === =============== ========================= ======================
@@ -399,7 +403,8 @@ row G               Formula in column I                Outcome in column I
 Uh oh! You can clearly see there are mistakes in the outcome column. This is because we have told LEFT to show only 2 characters each time (remember we have removed the “US$” using SUBSTITUTE, so LEFT doesn’t count those). However, to show the correct figure for “US$7710 million” in row 22, LEFT would have to count 4 characters. So how can we give LEFT the correct number of characters? 
 
 Look at the values again. They have something else in common: yes, they
-have **a space separating the number from the text “millions”**. Its position will vary each time but we can find it tell the LEFT function to show it where the number ends in each case.  The SEARCH function can be used to do this.  It works by looking through data you give it for a character you specify, and then tells you the position of that character:
+have **a space separating the number from the text “millions”**. Its position will vary each time but we can find it tell the LEFT function to show it where the number ends in each case.  The `SEARCH`_ function can be used to do this.  It works by looking through data you give it for a character you specify, and then tells you the position of that character:
+.. _SEARCH: http://wiki.openoffice.org/wiki/Documentation/How_Tos/Calc:_SEARCH_function
 
 
 === =============== ================================== ======================
@@ -467,7 +472,7 @@ Use a Pivot Table to find errors and Autofilter to help fix them
    .. image:: http://farm9.staticflickr.com/8324/8388491003_8ed9e5762a_o_d.png
 
    **Select Count.** Then click **Okay** in the pivot table window. A new worksheet will appear, containing a list of unique values from column G, along with the number of times each occurs. 
-#. This view of the data enables us to quickly scan down the list and see the problems. The count lets us know how much work it is likely to be to fix them. So, with a quick bit of analysis of this pivot table, we can see that of a total 416 rows of data in the GRAIN dataset only 106 values (that is 416 minus the 310 where data are not present) are recorded in the column for Projected investment. Of these 106, only 14 are NOT uniform like “US$34 million” or “US$1,876 million”.  Here are the offending entries, which we’ve pulled out into a table[a]:
+#. This view of the data enables us to quickly scan down the list and see the problems. The count lets us know how much work it is likely to be to fix them. So, with a quick bit of analysis of this pivot table, we can see that of a total 416 rows of data in the GRAIN dataset only 106 values (that is 416 minus the 310 where data are not present) are recorded in the column for Projected investment. Of these 106, only 14 are NOT uniform like “US$34 million” or “US$1,876 million”.  Here are the offending entries, which we’ve pulled out into a table:
 
 +-------------------------------------------------------------------------------------------+---+
 |Value                                                                                      |   |
@@ -505,6 +510,7 @@ Use a Pivot Table to find errors and Autofilter to help fix them
 
 
    US$30-35 mil → hand correct into  an average: US$32.5 million → Formula returns 32.5 
+   
    US$2 billion → hand correct in US$2,000 million → Formula returns 2,000
         
    ...and so on.
