@@ -466,7 +466,7 @@ Use a Pivot Table to find errors and Autofilter to help fix them
    .. image:: http://farm9.staticflickr.com/8324/8388491003_8ed9e5762a_o_d.png
 
    **Select Count.** Then click **Okay** in the pivot table window. A new worksheet will appear, containing a list of unique values from column G, along with the number of times each occurs. 
-#. This view of the data enables us to quickly scan down the list and see the problems. The count lets us know how much work it is likely to be to fix them. So, with a quick bit of analysis of this pivot table, we can see that of a total 416 rows of data in the GRAIN dataset only 106 values (that is 416 minus the 310 where data are not present) are recorded in the column for Projected investment. Of these 106, only 14 are NOT uniform like “US$34 million” or “US$1,876 million”.  Here are the offending entries, which we’ve pulled out into a table[a]:
+#. This view of the data enables us to quickly scan down the list and see the problems. The count lets us know how much work it is likely to be to fix them. So, with a quick bit of analysis of this pivot table, we can see that of a total 416 rows of data in the GRAIN dataset only 106 values (that is 416 minus the 310 where data are not present) are recorded in the column for Projected investment. Of these 106, only 14 are NOT uniform like “US$34 million” or “US$1,876 million”.  Here are the offending entries, which we’ve pulled out into a table:
 
 +-------------------------------------------------------------------------------------------+---+
 |Value                                                                                      |   |
@@ -504,6 +504,7 @@ Use a Pivot Table to find errors and Autofilter to help fix them
 
 
    US$30-35 mil → hand correct into  an average: US$32.5 million → Formula returns 32.5 
+   
    US$2 billion → hand correct in US$2,000 million → Formula returns 2,000
         
    ...and so on.
@@ -511,8 +512,11 @@ Use a Pivot Table to find errors and Autofilter to help fix them
 
    **Tip:** as you are updating original data, you may wish to keep a note of what you changed. Either create a column called “Notes”, and record the data there. Or, duplicate column G and name this new column “Projected Investment (un-altered)”. Or, where appropriate update the column called “Summary” with the data, which is the approach we have taken. 
 
+
 #. There are a few final steps to take to make the numbers in column H usable. Currently, our data in column G is a **calculated value**, not a number: in spreadsheet language, this means we can’t add them up yet! We need to **replace the formula with its result**. This is easily done with the Paste Special feature we noted above.
+   
    * Select the whole of column H (or just H1 to H417 if you prefer). 
+   
    * Copy it (Shortcut: Ctrl-C). Put the cursor at the top of column H, selecting Cell H1. Go to Edit → Paste Special. A window will appear, like this:
      
      .. image:: http://farm9.staticflickr.com/8223/8388491067_493294ac44_b_d.jpg
@@ -522,7 +526,7 @@ Use a Pivot Table to find errors and Autofilter to help fix them
      .. image:: http://farm9.staticflickr.com/8223/8388491067_493294ac44_b_d.jpg
    
    * Edit one of the cells in column H. You should see that the formula is gone, and there is only a number. Sometimes, after a Paste Special operation, when you edit a cell you may also see an apostrophe has been inserted into the number. This is an infamous bug. You can remove the apostrophes by selecting the column, going to Data → Text to Columns. Just select OK, and the problem will be fixed.
-   * Finally, format your column of numbers correctly. Select the column (or range H1:H417), right click on the selected area to bring up the secondary menu. Choose “Format Cells”. In Numbers, select the category ‘Numbers’, and choose -1234, and then change the value for Decimal places to read “1”. Then click OK.
+   * Finally, format your column of numbers correctly. Select the column (or range H1:H417), right click on the selected area to bring up the secondary menu. Choose “**Format Cells**”. In Numbers, select the category ‘Numbers’, and choose -1234, and then change the value for Decimal places to read “1”. Then click OK.
 
      .. image:: http://farm9.staticflickr.com/8358/8389578588_d47863e0f8_b_d.jpg
 
@@ -547,15 +551,15 @@ Look closely at column F of your increasingly clean GRAIN dataset. This contains
 
 In some cells there are single values, like just Oil palm. In others, the picture of how land is used is more complicated and there are more values. At a simple level, this data means we can do some basic analysis. Try this:
 
-#. Let’s try and find all the land deals where Alfalfa was to be produced. Select the complete dataset. Go to Data → Filter → Autofilter. You’ll see the little triangles appear on the column headings, like so:
+#. Let’s try and find all the land deals where Alfalfa was to be produced. Select the complete dataset. Go to **Data → Filter → Autofilter**. You’ll see the little triangles appear on the column headings, like so:
 
-   ..image:: http://farm9.staticflickr.com/8374/8388704689_d48cb327cc_o_d.png
+   .. image::image:: http://farm9.staticflickr.com/8374/8388704689_d48cb327cc_o_d.png
 
 #. Select the little triangle, and a selection list will appear, which contains a list of all the values column F, listed alphabetically and without duplicates. Choosing from this list will change what data is shown in the spreadsheet:
 
    .. image:: http://farm9.staticflickr.com/8355/8388491119_570cc1027e_o_d.png
 
-#. In this lists, untick Alfalfa. If you clicked “OK” now, the spreadsheet would show all rows of data that have everything but Alfalfa in column F.  We can reverse this by unchecking Alfalfa and selecting the reverse button . This reverses things, and shows only the unselected values. Click “OK”, and you will see only rows of data where the single word Alfalfa is present in column F. There are only two.
+#. In this list, untick **Alfalfa**. If you clicked “**OK**” now, the spreadsheet would show all rows of data that have **everything but** Alfalfa in column F.  We can reverse this by unchecking Alfalfa and selecting the reverse button (at the bottom right of the window above you see two pictoral buttons, choose the left one). This reverses things, and shows only the unselected values. Click “OK”, and you will see only rows of data where the single word Alfalfa is present in column F. There are only two.
 #. There are clearly other records where Alfalfa is recorded in Production. Repeat the above steps but include the items on the list that say “Alfalfa,crops,livestock” and “Alfalfa,maize,sunflower”. With this filter there are 2 more rows of data, showing us 4 deals where Alfalfa was grown.
 #. To remove the filter and again show all your data, go to **Data → Filter → Remove Filter**.
 
@@ -570,7 +574,7 @@ So we can do some useful basic stuff. But there are problems that will affect th
 What’s the solution?
 ____________________
 
-In a spreadsheet this can be partially overcome using the standard filter, which is more flexible than an autofilter
+In a spreadsheet this can be partially overcome using the standard filter, which is more flexible than an autofilter.
 
 Use standard filters for a more flexible search
 ***********************************************
@@ -583,14 +587,14 @@ Use standard filters for a more flexible search
 
    .. image:: http://farm9.staticflickr.com/8500/8388491143_d7c5eb7ffc_b_d.jpg
 
-#. This returns only 2 results. 
-#. To remove the filter, go to Data → Filter → Remove.
+#. This returns only two results. 
+#. To remove the filter, go to **Data → Filter → Remove**.
 
 
 Why this is only a part solution
 ********************************
 
-Again, it’s sort-of-useful but quite limited for the same reasons as autofilter: mis-spellings, alternative wording, not having a complete list to choose from.  At root this is a very difficult problem to solve with a spreadsheet: data on Production is what we call a repeatable field, in that buyers of land can have many equally important uses for the land. This is a different dimension of data: it’s called  a one-to-many relationship. There is no easy way to structure data for a spreadsheet to make this data easy to use with any accuracy.
+Again, it’s sort-of-useful but quite limited for the same reasons as autofilter: mis-spellings, alternative wording, not having a complete list to choose from.  At root this is a very difficult problem to solve with a spreadsheet: data on Production is what we call a **repeatable field**, in that buyers of land can have many equally important uses for the land. This is a different dimension of data: it’s called  a one-to-many relationship. There is no easy way to structure data for a spreadsheet to make this data easy to use with any accuracy.
 
 
 A common mis-step at this point is to start adding columns to allow multiple data to be recorded. This isn’t any better than recording it all in one cell, because of the way spreadsheet filters work. For example:
@@ -660,7 +664,7 @@ As we discussed above in the section on structural problems, different pieces of
 
    .. image:: http://farm9.staticflickr.com/8213/8389578712_0e279456e4_b_d.jpg
 
-   Select Okay, and watch what happens. Here’s how your data now looks:
+   Select **Okay**, and watch what happens. Here’s how your data now looks:
    
    .. image:: http://farm9.staticflickr.com/8495/8389578760_7de4ab8c8a_b_d.jpg
 
@@ -708,27 +712,28 @@ We’ll go through these one by one.
 * Copy the list of items from the Pivot Table you made above and add it into a new worksheet. Use CLEAN and TRIM on it, and then sort it alphabetically in ascending order. 
 * Insert a row at the top. Label column A “Category”, Column B “Issue”, Column C “New Term”.
 
-** Identifying terms that mean the same thing **
+**Identifying terms that mean the same thing**
 
-* Go down the list and look for terms that mean the same thing. Here are some things that should alert your suspicion about a term:
+#. Go down the list and look for terms that mean the same thing. Here are some things that should alert your suspicion about a term:
   * Spelling mistakes e.g. “bananas” vs “banabas”
   * Differences in case: “fruit” vs “Fruit”. Choose your case and stick to it.
   * Multiples: “fruits” vs “fruit”. Choose which one you want to use. Adjectives: “sweet sorghum”, “winter barley”. If there’s a similar category, like just “barley”, it may make sense to remove this more specific category.
   * Additional terms: “and” in the text eg. “Dairy and Grain farms”; “Citrus and Olives”; “Crops (sorghum)”. The rule is to have only one category in each cell. So delete one of the terms and add it to the list on its own if it doesn’t exist.
   * Qualifying terms eg “beef cattle” vs “beef”. “Crops” vs “food crops”. Choose which one.
-* In column B record what you think is the problem e.g. Near match, none, Spelling error. This will just help you keep track of the changes you make. 
-* When you’ve gone down the list and identified the problems, then make the changes in column C. Here’s what we did (we also ringed the suspected duplicates as we went along):
+#. In column B record what you think is the problem e.g. Near match, none, Spelling error. This will just help you keep track of the changes you make. 
+#. When you’ve gone down the list and identified the problems, then make the changes in column C. Here’s what we did (we also ringed the suspected duplicates as we went along):
 
   .. image:: http://farm9.staticflickr.com/8087/8389578800_12eb291429_o_d.png
 
-* Once you’ve done this, run **Data → Pivot Table** on your list of new terms (in Column C). You’ll see a huge difference. 
-* By removing duplicates, spelling and grammar differences and so on we have cut down the categories from 149 to 88, which is still quite an extensive list! Anyhow, we have a more useful controlled vocabulary. The next step is to apply this to the data, so it can help us with our analysis. 
+#. Once you’ve done this, run **Data → Pivot Table** on your list of new terms (in Column C). You’ll see a huge difference. 
+#. By removing duplicates, spelling and grammar differences and so on we have cut down the categories from 149 to 88, which is still quite an extensive list! Anyhow, we have a more useful controlled vocabulary. The next step is to apply this to the data, so it can help us with our analysis. 
 
 **Edit the data to fit the more accurate list of categories**
 
 So in order to create a more accurate analysis of the GRAIN dataset we have narrowed down the categories used to describe the sorts of land use to which transacted land is put. The last step is to bring the data into compliance with these new terms. We can do this using a combination of three useful features of the spreadsheet:
 
-* **Conditional formatting:** we mentioned this above [link]. It changes the formatting of a cell based on a rule that you give it eg. turn any cell in a given range red if it has the word “Sheep” in it. We can use this to highlight production categories that are not in our new improved list of categories.
+* **Conditional formatting:** we mentioned this `above`_. It changes the formatting of a cell based on a rule that you give it eg. turn any cell in a given range red if it has the word “Sheep” in it. We can use this to highlight production categories that are not in our new improved list of categories.
+.. _above: https://github.com/okfn/datawrangling/blob/master/text/recipes/cleaning-data-with-spreadsheets.rst#use-the-isblank-function-with-the-conditional-formatting-feature
 * **Data validation:** this enables you to restrict what data is entered into a cell. So you specify a list of allowed values, and rather than type what you like into a cell you choose from a list. We can use this to make the changes to the data to bring it in line with the new categories, whilst reducing the risk of introducing more errors. 
 * **Concatenation:** this merges the contents of cells together. We will use it to put the improved data about production back together 
 
@@ -748,25 +753,25 @@ We can use the spreadsheet to find the items that need correcting by comparing t
 
    .. image:: http://farm9.staticflickr.com/8075/8388491329_6b3748ece6_o_d.png
 
-#. You’ve already selected the list of categories, which you can see displayed in the Range area. Type ProductionCategories into the Name area and then select Add. We can now use this range.
-#. Select all the data (Shortcut: Ctrl-A) in the worksheet called “Split”, where the data about production use is split across different columns. Go to Format → Conditional Formatting and make it look like the image below. 
+#. You’ve already selected the list of categories, which you can see displayed in the Range area. Type **ProductionCategories** into the Name area and then select Add. We can now use this range.
+#. Select all the data (Shortcut: Ctrl-A) in the worksheet called “Split”, where the data about production use is split across different columns. Go to **Format → Conditional Formatting** and make it look like the image below. 
 
    .. image:: http://farm9.staticflickr.com/8078/8389578860_39d7fafce2_b_d.jpg
 
-The formula to use is COUNTIF(ProductionCategories,A1)=0. Also, select “New Style”. A new window called “Cell Style” will pop up. In the “Font Effects” tab choose a colour and then select okay. We chose red, which is shown below:
+The formula to use is **COUNTIF(ProductionCategories,A1)=0**. Also, select “New Style”. A new window called “Cell Style” will pop up. In the “Font Effects” tab choose a colour and then select okay. We chose red, which is shown below:
 
    .. image:: http://farm9.staticflickr.com/8195/8389578898_688b1d2a79_b_d.jpg
 
-Select OK. This highlights in red the text in cells that are not found in the data range we have called “ProductionCategories”. The effect this has is to highlight the entries that we have to now correct. You spreadsheet will look like this:
+Select **OK**. This highlights in red the text in cells that are not found in the data range we have called “ProductionCategories”. The effect this has is to highlight the entries that we have to now correct. You spreadsheet will look like this:
 
    .. image:: http://farm9.staticflickr.com/8512/8388491409_4c1a55b745_o_d.png
 
 Step 2: Correct these entries
 *****************************
-Now we know where to look, we can make corrections to the data. The way to do this is to introduce data validation to the spreadsheet. This restricts the data that can be entered into a cell. 
+Now we know where to look, we can make corrections to the data. The way to do this is to introduce **data validation** to the spreadsheet. This restricts the data that can be entered into a cell. 
 
 
-#. Select the complete dataset in the worksheet called ‘Split”, where you’ve just highlighted the values that don’t appear on the improved list of categories. Go to Data → Validity.
+#. Select the complete dataset in the worksheet called ‘Split”, where you’ve just highlighted the values that don’t appear on the improved list of categories. Go to **Data → Validity**.
 #. In the window that opens, make the fields look like those in the image below:
 
    .. image:: http://farm9.staticflickr.com/8497/8388491429_da4c5f4870_b_d.jpg
@@ -775,7 +780,7 @@ Now we know where to look, we can make corrections to the data. The way to do th
 
    .. image:: http://farm9.staticflickr.com/8355/8389578926_0b0b8a93fc_b_d.jpg
 
-   Click okay, and go to a cell with red text in it and click on it. You’ll see that a little drop down selector on the right hand side of the cell. 
+   Click **OK**, and go to a cell with red text in it and click on it. You’ll see that a little drop down selector on the right hand side of the cell. 
    
    .. image:: http://farm9.staticflickr.com/8496/8389578938_39ff64b4c3_o_d.png
 
@@ -784,8 +789,11 @@ Now we know where to look, we can make corrections to the data. The way to do th
    .. image:: http://farm9.staticflickr.com/8377/8388491469_c58926e217_o_d.png
 
 You can now go through the data, correcting it to remove the errors and make it more useful for analysis. There are a few things to watch out for:
+
 * As you go through, increasingly you can use keyboard shortcuts and auto-complete and rely on the validation to tell you when you’ve typed a wrong entry.
+
 * When you have changed a value, notice that the text changes to colour to show that it is now a recognised term. When there’s no more red, you’re done.
+
 * With values like “Soyabean and other crops”, you should change it to “Soybean” and then add a new entry for “Crops”. Don’t forget!
 
 Step 3: put it all back together again
@@ -817,7 +825,8 @@ T2 (formula)                                                                    
 ==================================================================================================================== =========================================
 
 
-* It looks messy, but follow the logic. It looks across row 2 in columns G to S for data, and then prints it with a comma in between. We don’t know which cells have data in them precisely, so there is a list of trailing commas which print where a cell is empty. We can get rid of these easily with the LEFT and SEARCH formulas we used above [link]. In cell U2:
+* It looks messy, but follow the logic. It looks across row 2 in columns G to S for data, and then prints it with a comma in between. We don’t know which cells have data in them precisely, so there is a list of trailing commas which print where a cell is empty. We can get rid of these easily with the LEFT and SEARCH formulas we used `above`_. In cell U2:
+.. _above: https://github.com/okfn/datawrangling/blob/master/text/recipes/cleaning-data-with-spreadsheets.rst#what%E2%80%99s-the-solution-3
 
 ========================================= ============================ ==========================
 T2 (output)                               U2  (formula)                U2 (Output)
@@ -838,7 +847,7 @@ You can repeat the steps that we outlined in Problem 4 above, using the standard
 Finishing touches
 -----------------
 
-* Columns A and C of the GRAIN data both record names of states. To check for errors here we copied the data from both columns into a single column, and created a pivot table that showed the list of unique values recored in both columns. The only errors were a mis-spelling of Germany (“Gemany”) and the use of “West Africa”, which is a region not a state. We corrected both, including a note in the “Summary” cell if further clarity was needed. 
-* To complete this applied the cleaning process outlined here in Problem 5 above to Column D of the original GRAIN dataset, which records data about the sector. But for some issues with lower and upper case it does not share the same problem as the data about Production in column F. There are not obviously overlapping categories. To be certain, we ran CLEAN and TRIM again, and converted everything to sentence case (the formula is =PROPER(CLEAN(TRIM(cell reference))). 
-* In Column H (Status of Deal), we altered three entries that had additional text not in the categories Done, In Process, Proposed, Suspended, MOU signed. The information carried by this text was already contined in the Summary (column I)
+* Columns A and C of the GRAIN data both record names of states. To check for errors here we copied the data from both columns into a single column, and created a pivot table that showed the list of unique values recorded in both columns. The only errors were a mis-spelling of Germany (“Gemany”) and the use of “West Africa”, which is a region not a state. We corrected both, including a note in the “Summary” cell if further clarity was needed. 
+* To complete this, apply the cleaning process outlined in Problem 5 above to Column D of the original GRAIN dataset, which records data about the sector. But for some issues with lower and upper case it does not share the same problem as the data about Production in column F. There are not obviously overlapping categories. To be certain, we ran CLEAN and TRIM again, and converted everything to sentence case (the formula is =PROPER(CLEAN(TRIM(cell reference))). 
+* In Column H (Status of Deal), we altered three entries that had additional text not in the categories Done, In Process, Proposed, Suspended, MOU signed. The information carried by this text was already continued in the Summary (column I).
 
