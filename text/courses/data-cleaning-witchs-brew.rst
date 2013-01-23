@@ -5,6 +5,7 @@ Introduction
 ------------
 
 .. figure:: http://farm9.staticflickr.com/8075/8408290470_cf9905fb04_d.jpg
+
   `Image source`_ (with adaptations). `Public Domain licensed`_.
 
 .. _Image source: http://www.wpclipart.com/fictional_characters/witches/witches_with_cauldron.jpg
@@ -19,6 +20,7 @@ start making an **evil witch’s brew**, as depicted above. Here's how you and y
 
 
 .. figure:: http://farm9.staticflickr.com/8514/8408290492_c3cd31ba41_o_d.png
+
   (If the witches in Shakespeare's Macbeth (see IV, i, 14-15) had a spreadsheet it would look like the above).
 
 
@@ -77,11 +79,14 @@ Reading list
 
 * Here's a detailed run through of the different `basic number formats`_ that are available in Excel.
 * These basic practical spreadsheet skills are useful in exploring and testing out the data:
+
   * `Adding up a column of numbers`_, using Google Spreadsheet as an example
   * `Sorting data`_, using Google Spreadsheet as an example
   * Here's how to `apply auto-filter`_ in Excel.
   * The `sort and filter`_ course in data fundamentals.
+
 * Many people find problems with data types when they start using forms of numbers that are very particular, such as organisational reference numbers, like social security or national identity numbers, telephone numbers, locational information like latitude and longitude. Spreadsheets can build “Custom number formats”. Here's some reading about them.
+
   * A simple example from TechRepublic of how custom number formats `solve annoying`_ problems in spreadsheets.
   * A detailed note about how `custom number formats`_ work, by Ozgrid.
   * A nicely put together `reference for common custom number formats`_ in Excel, by Simon Page.
@@ -109,7 +114,7 @@ If you’re keen for more, then head over to the fourth section of this course, 
 
 .. raw:: html
   
-    <a href="../data-cleaning-invisible-man-in-spreadsheets/" class="btn
+    <a href="../data-cleaning-wrong-suitcase/" class="btn
     btn-primary btn-large">Next Course
      <span
        class="icon-arrow-right"></span></a>
