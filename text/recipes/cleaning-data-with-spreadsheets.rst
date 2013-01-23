@@ -275,15 +275,19 @@ The GRAIN dataset has a column called Proposed Investment. This records the amou
 So the problem is twofold: there is no consistent unit, and there are data other than the currency in the cell. Ideally, what we would have are data like this:
 
 
-=================================== 
-Projected investment (US$ millions)
-=================================== 
-77
-32.5
-1500
-2000
-0.057600
-=================================== 
++-----------------------------------+
+|Projected investment (US$ millions)|
++===================================+
+|77                                 |
++-----------------------------------+
+|32.5                               |
++-----------------------------------+
+|1500                               |
++-----------------------------------+
+|2000                               |
++-----------------------------------+
+|0.057600                           |
++-----------------------------------+
 
 
 What’s the solution?
