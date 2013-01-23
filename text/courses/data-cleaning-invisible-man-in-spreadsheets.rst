@@ -48,13 +48,18 @@ A quick task (15 minutes)
 _________________________
 
 * Download and open this sample spreadsheet [link to datahub copy] on your computer. In column A is the data from above, with different sorts of non-printable characters. In columns B-E are four easy methods of removing non-printable characters from your data using:
-  * the TRIM function (in column B)
-  * the CLEAN function (in column C)
-  * the TRIM and CLEAN functions …. together! (in column D)
-  * the “Paste Special” feature (in column E)
+  
+  - the TRIM function (in column B)
+
+  - the CLEAN function (in column C)
+
+  - the TRIM and CLEAN functions …. together! (in column D)
+
+  - the “Paste Special” feature (in column E)
+
 * Apply an “AutoFilter” to the data (Data → Filter → AutoFilter). Click on the little downwards-pointing arrows and a selection list will pop up displaying the number of distinct entries in each column. If you click on the autofilter for each of columns A through to E you can see the effect of the different methods of removing non-printable characters. 
 * Double click on cells to view the formulas see how the functions work in practice. There is more information on each of them in the 'Study' section below.
-* Now try it yourself. Create or find a single column of data on your own. Apply these four methods in the same format as our sample the your spreadsheet. 
+* **Now try it yourself.** Create or find a single column of data on your own. Apply these four methods in the same format as our sample the your spreadsheet. 
 
 
 Use the discussion area below to share your work and any observations about this task.
@@ -72,9 +77,9 @@ Reading list
 ------------
 
 * Watch  this useful YouTube video from `Excel is Fun`_ about using CLEAN and TRIM. 
-* Read Microsoft's surprisingly helpful help page on removing extra spaces and non-printable characters, `here`_. Much of this will work in LibreOffice and Google Spreadsheets, though there are differences. Cast your eye over the Function documentation: TRIM (Excel, `LibreOffice <https://help.libreoffice.org/Calc/Text_Functions#TRIM>`_, Google Docs) and CLEAN (Excel, `LibreOffice <https://help.libreoffice.org/Calc/Text_Functions#CLEAN>`_, Google Docs).         
+* Read Microsoft's surprisingly helpful help page on removing extra spaces and non-printable characters `here`_. Much of this will work in LibreOffice and Google Spreadsheets, though there are differences. Cast your eye over the Function documentation: TRIM (Excel, `LibreOffice <https://help.libreoffice.org/Calc/Text_Functions#TRIM>`_, Google Docs) and CLEAN (Excel, `LibreOffice <https://help.libreoffice.org/Calc/Text_Functions#CLEAN>`_, Google Docs).         
 * Read the Feature documentation: Paste Special (Excel, `LibreOffice <https://help.libreoffice.org/Common/Paste_Special>`_, Google Docs), Autofilter (Excel, `LibreOffice <https://help.libreoffice.org/Calc/Applying_AutoFilter>`_, Google Docs)        
-* For advanced Invisible Man hunters you can read up about using regular  expressions in LibreOffice, `here <http://www.oooninja.com/2007/12/example-regular-expressions-for-writer.html>`_. We also cover this in the longer task above, but it's not straightforward.
+* For advanced Invisible Man hunters you can read up about using regular expressions in LibreOffice `here <http://www.oooninja.com/2007/12/example-regular-expressions-for-writer.html>`_. We also cover this in the longer task above, but it's not straightforward.
 
 .. _Excel is Fun: http://www.youtube.com/watch?v=o-dBCS2wgO4&feature=plcp
 .. _here: http://office.microsoft.com/en-us/excel-help/top-ten-ways-to-clean-your-data-HA010221840.aspx#BMremoving_spaces_and_nonprinting_chara
@@ -91,7 +96,7 @@ The Invisible Man can appear at any time, so we must be vigilant.
 Post your thoughts in the discussion area.
 
 
-Then get moving to the third section in this course on data cleaning,called “Your data is a witch’s brew”
+Then get moving to the third section in this course on data cleaning, called “Your data is a witch’s brew”
 
 
 .. raw:: html
