@@ -46,7 +46,7 @@ _________________________
 
 Download this `sample worksheet`_ and work through the steps below. This section uses some spreadsheet features for which some help can be found in the study section below. But give it a try first.
 
-.. _sample worksheet: https://docs.google.com/document/d/1TqMbwuDg6HD-SXspY03AviZGYMm3bZiSCn4jHGaaCfM/edit
+.. _sample worksheet: http://datahub.io/dataset/data-structures
 
 To start with, apply an AutoFilter to the data. Keep going back to the AutoFilter to see how the data changes with each step. 
 
@@ -96,11 +96,11 @@ A longer task (30 minutes - 2 hours)
 ____________________________________
 
 From the Data Wrangling Handbook Recipe on Data Cleaning, run through
-“Problem 5: `Structural problems - data in inconvenient places
+`“Problem 5: Structural problems - data in inconvenient places
 <http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/#problem-5-structural-problems-data-in-inconvenient-places>`_” using the GRAIN dataset. This is a more detailed exercise that looks at what investors in large-scale land deals have said they will do with the land. It shows how this issue is being categorised, and the difficulties that spreadsheets have in recording multiple uses of land. It shows you how to use filtering to overcome difficulties in badly structured data.
 
 
-If you are feeling very brave, also try “Problem 6: `from “banabas” to
+If you are feeling very brave, also try `“Problem 6: from “banabas” to
 “bananas” - dealing with inconsistencies in data
 <http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/#problem-6-from-banabas-to-bananas-dealing-with-inconsistencies-in-data>`_”. This is an advanced exercise that walks you through the process of exploding, correcting and then reassembling a problem-ridden dataset to help you get more out of it. It makes use of a range of spreadsheet features including text-to-columns, regular expressions, pivot tables, conditional formatting, data validation and concatenation. It’s hard going, but at the end you’ll see data differently!
 
