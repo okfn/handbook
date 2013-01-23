@@ -39,7 +39,7 @@ Some work
 To do both the quick and longer tasks below you’ll need:
 
 #. A spreadsheet tool, such as Excel or Libre Office.
-#. A copy of the sample dataset for this section.
+#. A copy of the `sample spreadsheet`_ for this section.
 #. A copy of the course dataset, which is GRAIN’s data on “`land grabbing`_”.
 
 .. _land grabbing: http://datahub.io/dataset/grain-landgrab-data
@@ -47,7 +47,8 @@ To do both the quick and longer tasks below you’ll need:
 A quick task (15 minutes)
 _________________________
 
-* Download and open this sample spreadsheet [link to datahub copy] on your computer. In column A is the data from above, with different sorts of non-printable characters. In columns B-E are four easy methods of removing non-printable characters from your data using:
+* Download and open this `sample spreadsheet`_ on your computer. In column A is the data from above, with different sorts of non-printable characters. In columns B-E are four easy methods of removing non-printable characters from your data using:
+.. _sample spreadsheet: http://datahub.io/dataset/theinvisibleman
   * the TRIM function (in column B)
   * the CLEAN function (in column C)
   * the TRIM and CLEAN functions …. together! (in column D)
