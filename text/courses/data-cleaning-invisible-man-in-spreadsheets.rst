@@ -96,7 +96,7 @@ Then get moving to the third section in this course on data cleaning,called “Y
 
 .. raw:: html
   
-    <a href="../data-cleaning-witches-brew/" class="btn
+    <a href="../data-cleaning-witchs-brew/" class="btn
     btn-primary btn-large">Next Course <span
       class="icon-arrow-right"></span></a>
 
