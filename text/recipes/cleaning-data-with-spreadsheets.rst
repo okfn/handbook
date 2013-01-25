@@ -53,7 +53,7 @@ The recipe also makes use of forumulas that use some different spreadsheet funct
 The recipe is a complete process, showing every step. It can be a useful
 learning aid, guide or reference point for you in managing your own
 datasets. Finally, this recipe is the ‘textbook’ for a School of Data
-Course called `A Gentle Introduction to Data Cleaning`  which is a more accessible and engaging way into this quite dry topic.
+Course called `A Gentle Introduction to Data Cleaning`_ which is a more accessible and engaging way into this quite dry topic.
 
 .. _A Gentle Introduction to Data Cleaning: /handbook/courses/gentle-introduction-data-cleaning/
  
@@ -365,8 +365,8 @@ row G               Formula in column I   Outcome in column I
 24  US$45 million   =LEFT(G24,5)          US$45 
 === =============== ===================== ======================
 
-Building the formula this way enables it to be copied down a column, as the cell numbers will update automatically as the position of the formula changes. We can further improve the formula and remove some of the text that we ask LEFT to analyse. This is where the `SUBSTITUTE`_ function is useful. Here’s how it works, then we’ll apply it in combination with the LEFT function:
-.. _SUBSTITUTE: http://wiki.openoffice.org/wiki/Documentation/How_Tos/Calc:_SUBSTITUTE_function
+Building the formula this way enables it to be copied down a column, as the cell numbers will update automatically as the position of the formula changes. We can further improve the formula and remove some of the text that we ask LEFT to analyse. This is where the `SUBSTITUTE <http://wiki.openoffice.org/wiki/Documentation/How_Tos/Calc:_SUBSTITUTE_function>`_ function is useful. Here’s how it works, then we’ll apply it in combination with the LEFT function:
+
 
 
 === =============== ========================= ======================
@@ -407,8 +407,8 @@ row G               Formula in column I                Outcome in column I
 Uh oh! You can clearly see there are mistakes in the outcome column. This is because we have told LEFT to show only 2 characters each time (remember we have removed the “US$” using SUBSTITUTE, so LEFT doesn’t count those). However, to show the correct figure for “US$7710 million” in row 22, LEFT would have to count 4 characters. So how can we give LEFT the correct number of characters? 
 
 Look at the values again. They have something else in common: yes, they
-have **a space separating the number from the text “millions”**. Its position will vary each time but we can find it tell the LEFT function to show it where the number ends in each case.  The `SEARCH`_ function can be used to do this.  It works by looking through data you give it for a character you specify, and then tells you the position of that character:
-.. _SEARCH: http://wiki.openoffice.org/wiki/Documentation/How_Tos/Calc:_SEARCH_function
+have **a space separating the number from the text “millions”**. Its position will vary each time but we can find it tell the LEFT function to show it where the number ends in each case.  The `SEARCH <http://wiki.openoffice.org/wiki/Documentation/How_Tos/Calc:_SEARCH_function>`_ function can be used to do this.  It works by looking through data you give it for a character you specify, and then tells you the position of that character:
+
 
 
 === =============== ================================== ======================
