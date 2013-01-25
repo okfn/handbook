@@ -82,9 +82,9 @@ The course content is as follows:
 * Accompanying these sections is a `step-by-step recipe`_ for cleaning a dataset. This is an extensive, handbook-style resource which we refer to in each section. It takes a set of ‘dirty’ data and moves it through the different steps to make it ‘clean’.
 
 .. _Nuts and chewing gum: ../data-cleaning-nuts-and-gum/
-.. _The Invisible Man is in your spreadsheet ../data-cleaning-invisible-man-in-spreadsheets/
-.. _Your data is a witch’s brew ../data-cleaning-witchs-brew/
-.. _Did you bring the wrong suitcase (again)?  ../data-cleaning-wrong-suitcase/
+.. _The Invisible Man is in your spreadsheet: ../data-cleaning-invisible-man-in-spreadsheets/
+.. _Your data is a witch’s brew: ../data-cleaning-witchs-brew/
+.. _Did you bring the wrong suitcase (again)?:  ../data-cleaning-wrong-suitcase/
 .. _step-by-step recipe: ../../recipes/cleaning-data-with-spreadsheets/
 
 Each section of this course contains:
