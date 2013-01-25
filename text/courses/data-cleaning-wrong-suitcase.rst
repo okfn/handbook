@@ -6,7 +6,7 @@ Introduction
 
 All our spreadsheet wants from us is each cell of data to be organised like a briefcase of money ready to be deposited by an investment banker into an offshore tax haven:
 
-.. figure:: 
+.. figure:: http://farm9.staticflickr.com/8071/8413876946_529bb56d80_z_d.jpg
 
    Image by `Hair in the Gate`_. License unspecified: permission asked for in comments field (01/2013)
 
@@ -14,7 +14,7 @@ All our spreadsheet wants from us is each cell of data to be organised like a br
 
 It has one type of item, arranged in a perfect, predictable way, in standard units. It probably even smells nice. The spreadsheet is happy with this situation, and will reward us by counting, sorting, charting and so on. However, what we often give to our spreadsheet is more like a toddler’s choice of essential items to take on a day out to the coast:
 
-.. figure::
+.. figure:: http://farm9.staticflickr.com/8372/8412778391_56424a2a10_o_d.jpg
 
   Image by `Science Education Resource Centre`_. License CC-NC-SA 3.0.
 
@@ -53,7 +53,7 @@ To start with, apply an AutoFilter to the data. Keep going back to the AutoFilte
 
 To demonstrate this problem, let’s say that we are collecting data and tracking who in the office attends daily meetings (I do hope your organisation doesn’t work with this terrible lack of trust!). The intuitive way to do it would be this way, as in the sample worksheet:
 
-.. image:: 
+.. image:: http://farm9.staticflickr.com/8352/8413876968_4c80101fd5_o_d.png
 
 
 **But spreadsheets aren’t intuitive**. You couldn’t easily use this data to
@@ -66,7 +66,7 @@ single type in one cell**.
 
 So, let’s separate out the data, firstly into different columns. This can be done automatically using the Text to Columns feature in spreadsheets. Select the data in column B, and hit Data → Text to Columns. Select a comma to be the ‘separator’. You’ll get something like this (you’ll have to label the columns yourself):
 
-.. image:: 
+.. image:: http://farm9.staticflickr.com/8331/8413876976_7cf07b0fbb_o_d.png
 
 
 (After doing this, you’ll also have some whitespace. Refresh your memory on
@@ -77,7 +77,7 @@ Invisible Man`_...)
 
 So, splitting the text across columns improves the chances of being able to analyse the data, but not by much. If you had a larger team, it would quickly become very tedious to use. What about taking the original data and arranging it down the column? This is called “transposition”. You can do it manually, or try it automatically using the “Paste Special” feature:
 
-.. image:: 
+.. image:: http://farm9.staticflickr.com/8213/8412778355_1dfb32daef_o_d.png
 
 
 
@@ -87,7 +87,7 @@ column. This is terrible (for why, see the section called `Nuts and Gum`_). We�
 
 .. _Nuts and Gum: ../data-cleaning-nuts-and-gum/
 
-.. image::
+.. image:: http://farm9.staticflickr.com/8351/8412778335_22c13b66d6_o_d.png
 
 This approach allows the spreadsheet to sort, filter and pivot the data accurately. Try it! We can easily produce reports for who attended each meeting, which meeting each staffer attended, and also count and visualise it easily. 
 
