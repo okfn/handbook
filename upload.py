@@ -17,6 +17,7 @@ import itertools
 from pyquery import PyQuery
 import re
 import pprint
+import datetime
 
 
 def strip_if_not_pre(lines):
@@ -56,6 +57,8 @@ def prepare_html(fileobj):
 
     # now various regex
     
+    out.append("<p><small>Last update: %s</small></p>"%(
+    datetime.datetime.now().strftime("%Y-%m-%d")))
     out=out.outerHtml()
     # replace .html with / and index.html with simple ./
     pattern = '(internal" href=".[^"]*)index\.html"'
@@ -68,7 +71,8 @@ def prepare_html(fileobj):
     out = re.sub(pattern, '\\1/#\\2"', out)
     pattern = '(internal" href="[^"]*/)index/#([^"]*)"'
     out = re.sub(pattern, '\\1/#\\2"', out)
-
+    
+    
     return (out, title)
 
 def upload(wordpress_site_url='', handbook_path='/handbook/'):
