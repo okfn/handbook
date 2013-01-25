@@ -92,7 +92,7 @@ The Invisible Man can appear at any time, so we must be vigilant.
 Post your thoughts in the discussion area.
 
 
-Then get moving to the third section in this course on data cleaning,called “Your data is a witch’s brew”
+Then get moving to the third section in this course on data cleaning, called “Your data is a witch’s brew”.
 
 
 .. raw:: html
