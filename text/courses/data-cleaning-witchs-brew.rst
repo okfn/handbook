@@ -27,10 +27,10 @@ start making an **evil witch’s brew**, as depicted above. Here's how you and y
 With spreadsheets, there are three basic data formats. Or in other words, three ways you can enter data into a spreadsheet cell:
 
 * as a **number**, like 100.
-* as **text**, like one hundred
-* as a **formula**, like =SUM(99+1), which creates a “calculated value”
+* as **text**, like one hundred.
+* as a **formula**, like =SUM(99+1), which creates a “calculated value”.
 
-To avoid creating a witches brew in your spreadsheet, follow two basic rules of thumb: 
+To avoid creating a witch's brew in your spreadsheet, follow two basic rules of thumb: 
 
 * Be consistent and **don't mix them up** in a column of data.
 * Let the spreadsheet know **what type of data** is in each column.
