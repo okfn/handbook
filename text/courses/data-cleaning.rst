@@ -1,9 +1,20 @@
-﻿Course outline: a gentle introduction to cleaning data
-======================================================
+﻿
+.. raw:: html 
+
+  <div class="well">
 
 This course was created for the School of Data by `Tactical Technology Collective`_. Tactical Tech is an international NGO working at the point where rights advocacy meets information and technology.
 
 .. _Tactical Technology Collective: http://tacticaltech.org
+
+.. raw:: html
+
+  </div>
+
+
+Course outline: a gentle introduction to cleaning data
+======================================================
+
 
 
 It’s quite hard to get emotional about data, but let’s try. Stop what you’re doing for a minute. Look at the picture below. What  joy! The yellow smiling bears … what a scene! All that’s missing is fireworks.
