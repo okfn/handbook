@@ -18,7 +18,7 @@ the world’s largest ice cream cake had been ruined because of a
 **spreadsheet error** caused by a single blank space in the column called
 “quantities of ice cream”.  It’s not a nice feeling is it? (Luckily this
 didn’t happen, and probably nobody got fired, and everyone is very happy
-with the truly meaningful achievement of creating an `8 ton ice cream cake_`.)
+with the truly meaningful achievement of creating an `8 ton ice cream cake`_.)
 
 .. _8 ton ice cream cake: http://thelargest.net/ice-cream-cake
 
