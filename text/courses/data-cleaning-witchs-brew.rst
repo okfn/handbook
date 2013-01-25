@@ -71,7 +71,7 @@ A longer task (an hour)
 _______________________
 
 From the Data Wrangling Handbook Recipe on Data Cleaning, run through
-“Problem 4: `Fixing Numbers that aren't numbers
+“`Problem 4: Fixing Numbers that aren't numbers
 <http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/#problem-4-fixing-numbers-that-arent-numbers>`_” using the GRAIN dataset. This step-by-step exercise explores the specific problem of how data on the size of investments in different land deals has been recorded in the dataset. It explains how you can detect and solve the problem using formulas, and use features like Pivot Tables to check your solutions are working. It will give you a strong idea of how to combine different spreadsheet functions and features.
 
 Reading list
