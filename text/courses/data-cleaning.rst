@@ -75,16 +75,16 @@ The course content is as follows:
 
 
 * The Course Outline, which is this page you’re reading now.  
-* Section 1: `Nuts and chewing gum`_ looks at the the way data is presented in spreadsheets and how it might cause errors.
-* Section 2: `The Invisible Man is in your spreadsheet`_ is concerned with the problems of white spaces and non-printable characters and how they affect our ability to use the data.
-* Section 3: `Your data is a witch’s brew`_ deals with consistency in data entry, and how to choose the right unit and format for data.
-* Section 4: `Did you bring the wrong suitcase (again)?`_ is about where to put data, and how to structure it.
+* `Section 1: Nuts and chewing gum`_ looks at the the way data is presented in spreadsheets and how it might cause errors.
+* `Section 2: The Invisible Man is in your spreadsheet`_ is concerned with the problems of white spaces and non-printable characters and how they affect our ability to use the data.
+* `Section 3: Your data is a witch’s brew`_ deals with consistency in data entry, and how to choose the right unit and format for data.
+* `Section 4: Did you bring the wrong suitcase (again)?`_ is about where to put data, and how to structure it.
 * Accompanying these sections is a `step-by-step recipe`_ for cleaning a dataset. This is an extensive, handbook-style resource which we refer to in each section. It takes a set of ‘dirty’ data and moves it through the different steps to make it ‘clean’.
 
-.. _Nuts and chewing gum: ../data-cleaning-nuts-and-gum/
-.. _The Invisible Man is in your spreadsheet ../data-cleaning-invisible-man-in-spreadsheets/
-.. _Your data is a witch’s brew ../data-cleaning-witchs-brew/
-.. _Did you bring the wrong suitcase (again)?  ../data-cleaning-wrong-suitcase/
+.. _Section 1: Nuts and chewing gum: ../data-cleaning-nuts-and-gum/
+.. _Section 2: The Invisible Man is in your spreadsheet: ../data-cleaning-invisible-man-in-spreadsheets/
+.. _Section 3: Your data is a witch’s brew: ../data-cleaning-witchs-brew/
+.. _Section 4: Did you bring the wrong suitcase (again)?: ../data-cleaning-wrong-suitcase/
 .. _step-by-step recipe: ../../recipes/cleaning-data-with-spreadsheets/
 
 Each section of this course contains:
