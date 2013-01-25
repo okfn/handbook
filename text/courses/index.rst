@@ -133,6 +133,21 @@ don't worry were there to guide you through.
   
   </div>
 
+A Gentle Introduction to Data Cleaning
+--------------------------------------
+This School of Data course is a gentle introduction to reducing errors by
+cleaning data. It was created by the `Tactical Technology Collective`_ and
+gives you a clear overview what can go wrong in spreadsheets and how to fix
+it (if it does). Take this course if you want to learn why it is important
+to clean data and how to do it.
+
+.. raw:: html
+  
+  <a href="data-cleaning/" class="btn btn-primary">Start Course</a>
+
+
+.. _Tactical Technology Collective: http://tacticaltech.org
+
 Advanced Courses
 ----------------
 
