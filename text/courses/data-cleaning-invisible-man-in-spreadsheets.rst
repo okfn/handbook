@@ -73,10 +73,7 @@ Reading list
 ------------
 
 * Watch  this useful YouTube video from `Excel is Fun`_ about using CLEAN and TRIM. 
-* Read Microsoft's surprisingly helpful help page on removing extra spaces and non-printable characters, `here`_. Much of this will work in LibreOffice and Google Spreadsheets, though there are differences. Cast your eye over the Function documentation: TRIM (Excel, `LibreOffice <https://help.libreoffice.org/Calc/Text_Functions#TRIM>`_, Google Docs) and CLEAN (Excel, `LibreOffice <https://help.libreoffice.org/Calc/Text_Functions#CLEAN>`_, Google Docs).         
-
-.. _here: http://office.microsoft.com/en-us/excel-help/top-ten-ways-to-clean-your-data-HA010221840.aspx#BMremoving_spaces_and_nonprinting_chara
-
+* Read Microsoft's surprisingly helpful help page on removing extra spaces and non-printable characters, `here <http://office.microsoft.com/en-us/excel-help/top-ten-ways-to-clean-your-data-HA010221840.aspx#BMremoving_spaces_and_nonprinting_chara>`_. Much of this will work in LibreOffice and Google Spreadsheets, though there are differences. Cast your eye over the Function documentation: TRIM (Excel, `LibreOffice <https://help.libreoffice.org/Calc/Text_Functions#TRIM>`_, Google Docs) and CLEAN (Excel, `LibreOffice <https://help.libreoffice.org/Calc/Text_Functions#CLEAN>`_, Google Docs).         
 * Read the Feature documentation: Paste Special (Excel, `LibreOffice <https://help.libreoffice.org/Common/Paste_Special>`_, Google Docs), Autofilter (Excel, `LibreOffice <https://help.libreoffice.org/Calc/Applying_AutoFilter>`_, Google Docs)        
 * For advanced Invisible Man hunters you can read up about using regular  expressions in LibreOffice, `here <http://www.oooninja.com/2007/12/example-regular-expressions-for-writer.html>`_. We also cover this in the longer task above, but it's not straightforward.
 
