@@ -35,7 +35,7 @@ Some work
 To do both the quick and longer tasks below you’ll need:
 
 * a spreadsheet tool, such as Excel or Libre Office.
-* a copy of the course dataset, which is GRAIN’s data on “land grabbing”.  (available `here`_)
+* a copy of the course dataset, which is GRAIN’s data on “land grabbing”  (available `here`_).
 
 .. _here: http://datahub.io/dataset/grain-landgrab-data/resource/af57b7b2-f4e7-4942-88d3-83912865d116
 
@@ -76,9 +76,9 @@ When you’re finished making a mess, consider how you would undo it and persuad
 A longer task (30-60 minutes)
 _____________________________
 
-* From the Data Wrangling Handbook Recipe on Data Cleaning, run through Problem 1:`Showing the data plainly`_ using the GRAIN data.This shows you how to remove formatting quickly. It is the first part of a longer ‘recipe’ on data cleaning.        
+* From the Data Wrangling Handbook Recipe on Data Cleaning, `run through Problem 1: Showing the data plainly using the GRAIN data`_. This shows you how to remove formatting quickly. It is the first part of a longer ‘recipe’ on data cleaning.        
 
-.. _Showing the data plainly: http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/#problem-1-showing-the-data-plainly
+.. _run through Problem 1: Showing the data plainly using the GRAIN data: http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/#problem-1-showing-the-data-plainly
 
 Reading list
 ------------
