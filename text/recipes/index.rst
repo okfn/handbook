@@ -15,6 +15,7 @@ find out!
     howtogetdata.rst
     searching-for-raw-data.rst
     liberating-html-tables.rst
+    cleaning-data-with-spreadsheets
     scraping.rst
     liberating-access-databases.rst
     archiving-twitter.rst
