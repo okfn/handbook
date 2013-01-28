@@ -66,9 +66,9 @@ A longer task (30-60 minutes)
 _____________________________
 
 From the Data Wrangling Handbook Recipe on Data Cleaning, run through
-`Problem 2: Whitespace and new lines - data that shouldn’t be there`_ using the GRAIN dataset. This goes into more detail about the CLEAN and TRIM functions.
+Problem 2: `Whitespace and new lines - data that shouldn’t be there`_ using the GRAIN dataset. This goes into more detail about the CLEAN and TRIM functions.
 
-.. _Problem 2: Whitespace and new lines - data that shouldn’t be there: http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/#problem-2-whitespace-and-new-lines-data-that-shouldnt-be-there
+.. _Whitespace and new lines - data that shouldn’t be there: http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/#problem-2-whitespace-and-new-lines-data-that-shouldnt-be-there
 
 Reading list
 ------------
