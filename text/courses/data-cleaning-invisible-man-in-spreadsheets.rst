@@ -31,7 +31,7 @@ They’re called “non-printable” characters, and aren’t displayed all the 
 
 In the film, the police set up traps to catch the invisible man. We can do the same in our spreadsheets. By the end of this section you should have:
 
-* some knowledge about how non-printable character cause errors in data
+* some knowledge about how non-printable characters cause errors in data
 * tried out different functions and features of the spreadsheet that will remove them
 
 Some work
@@ -42,13 +42,14 @@ To do both the quick and longer tasks below you’ll need:
 #. A copy of the `sample spreadsheet`_ for this section.
 #. A copy of the course dataset, which is GRAIN’s data on “`land grabbing`_”.
 
+.. _sample spreadsheet: http://datahub.io/dataset/theinvisibleman
+
 .. _land grabbing: http://datahub.io/dataset/grain-landgrab-data
 
 A quick task (15 minutes)
 _________________________
 
 * Download and open this `sample spreadsheet`_ on your computer. In column A is the data from above, with different sorts of non-printable characters. In columns B-E are four easy methods of removing non-printable characters from your data using:
-.. _sample spreadsheet: http://datahub.io/dataset/theinvisibleman
   * the TRIM function (in column B)
   * the CLEAN function (in column C)
   * the TRIM and CLEAN functions …. together! (in column D)
@@ -65,9 +66,9 @@ A longer task (30-60 minutes)
 _____________________________
 
 From the Data Wrangling Handbook Recipe on Data Cleaning, run through
-“Problem 2: `Whitespace and new lines - data that shouldn’t be there`_ ” using the GRAIN dataset. This goes into more detail about the CLEAN and TRIM functions.
+`Problem 2: Whitespace and new lines - data that shouldn’t be there`_ using the GRAIN dataset. This goes into more detail about the CLEAN and TRIM functions.
 
-.. _Whitespace and new lines - data that shouldn’t be there: http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/#problem-2-whitespace-and-new-lines-data-that-shouldnt-be-there
+.. _Problem 2: Whitespace and new lines - data that shouldn’t be there: http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/#problem-2-whitespace-and-new-lines-data-that-shouldnt-be-there
 
 Reading list
 ------------
