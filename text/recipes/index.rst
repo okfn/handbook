@@ -15,11 +15,12 @@ find out!
     howtogetdata.rst
     searching-for-raw-data.rst
     liberating-html-tables.rst
-    cleaning-data-with-spreadsheets
     scraping.rst
     liberating-access-databases.rst
     archiving-twitter.rst
     accessing-data-from-google-storage.rst
+    cleaning-data-with-spreadsheets
+    reconciling-data-with-nomenklatura
     sql-for-data-manipulation.rst
     sql-tips.rst
     publishing-data-on-the-datahub.rst
