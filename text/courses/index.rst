@@ -148,11 +148,3 @@ to clean data and how to do it.
 
 .. _Tactical Technology Collective: http://tacticaltech.org
 
-Advanced Courses
-----------------
-
-.. toctree::
-  :maxdepth: 1
-
-  scraping
-  extracting-data-from-pdf
