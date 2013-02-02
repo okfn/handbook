@@ -1,5 +1,5 @@
-Using a spreadsheet to clean up a dataset about land-grabbing
-=============================================================
+Using a spreadsheet to clean up a dataset
+=========================================
 
 This recipe was created for the School of Data by `Tactical Technology
 Collective`_. Tactical Tech is an international NGO working at the point where rights advocacy meets information and technology.

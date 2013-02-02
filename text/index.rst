@@ -29,10 +29,10 @@ Table of Contents
    courses/index.rst
    tools/index.rst
    recipes/index.rst
-   reference/index.rst
    appendix/index.rst
 
 ..
+    reference/index.rst
     ======================================================
     OLDER OUTLINE, to be incorporated into above outline:
     ======================================================
