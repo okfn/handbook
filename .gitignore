@@ -4,3 +4,4 @@ sandbox/*
 venv/
 *.pyc
 config.ini
+.DS_Store
