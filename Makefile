@@ -130,5 +130,5 @@ doctest:
 	      "results in $(BUILDDIR)/doctest/output.txt."
 
 upload: html
-	python2 upload.py upload
+	python upload.py upload
 

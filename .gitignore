@@ -3,3 +3,4 @@ build/*
 sandbox/*
 venv/
 *.pyc
+config.ini
