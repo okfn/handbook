@@ -2,20 +2,25 @@
 Welcome to the School of Data Handbook
 =======================================
 
-The Data Wrangling Handbook is a companion text to the `School of Data`_. Its
-function is something like a traditional textbook - it will provide the detail
-and background theory to support the School of Data courses and challenges.
+Hi, there. Whether you want to teach basic data literacy or learn about
+what you can do with data - this book is for you! 
 
-The Data Wrangling Handbook is currently in an early stage of development. Over
-the coming months we intend to write more chapters and flesh out this skeleton
-with content and detail. We also hope to expand and improve upon this basic
-outline, so if there's a section that you currently feel is missing, please do
-let us know!
+Our aim at the `School of Data`_ is to promote data skills to journalists,
+civil society organizations and interested people around the world. 
 
-The Data Wrangling Handbook should be accessible to all learners. It comes
-with a :doc:`appendix/glossary` explaining the important terms and concepts. If you
+The School of Data Handbook should be accessible to all learners. It comes
+with a :doc:`glossary` explaining the important terms and concepts. If you
 stumble across an unexplained term or a concept that requires more explanation,
 please do get in touch.
+This book has several sections: 
+
+* **Introduction** tells you who this book is for and how to use it
+* **The data pipeline** explains you what to do with data step by step
+* **Recipes** give you practial instructions for performing the steps
+* **How to run a Workshop** helps you to organize a teaching event in your area
+
+So go ahead and dive in! 
+
 
 .. _School of Data: http://schoolofdata.org/
 
@@ -25,9 +30,14 @@ Table of Contents
 .. toctree::
    :maxdepth: 2
 
-   introduction/index.rst
+   introduction
+   the-data-pipeline/index
+   recipes/index.rst
+   glossary
+
+.. 
+  
+  Not indexed:
    courses/index.rst
    tools/index.rst
-   recipes/index.rst
-   appendix/index.rst
 
