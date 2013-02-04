@@ -34,6 +34,7 @@ Resources
 :Mailing List:  http://lists.okfn.org/mailman/listinfo/school-of-data
 :Source:        https://github.org/okfn/datawrangling
 :Translations:  coming soon
+:Sphinx Introduction: http://sphinx-doc.org/rest.html
 
 
 About our tools
