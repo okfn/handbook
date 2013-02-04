@@ -33,11 +33,11 @@ Table of Contents
    introduction
    the-data-pipeline/index
    recipes/index.rst
+   how-to-run-an-event
    glossary
 
-.. 
-  
-  Not indexed:
+.. Not indexed:
+   Not indexed:
    courses/index.rst
    tools/index.rst
 
