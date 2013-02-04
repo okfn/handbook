@@ -25,9 +25,7 @@ Table of Contents
 .. toctree::
    :maxdepth: 2
 
-   introduction/index.rst
    courses/index.rst
-   tools/index.rst
    recipes/index.rst
    appendix/index.rst
 
