@@ -12,10 +12,10 @@ The Data Pipeline
  why-work-with-data
  what-is-data
  finding-a-good-question
+ data-storytelling
  finding-data
- basic-orientation
+ getting-a-feel-for-the-data
  cleaning-data
  basic-analysis
- visualizing-data
+ presenting-data
  common-pitfalls
- packaging-a-story
