@@ -54,4 +54,4 @@ contribute:
   Issue a pull-request so we can look at what you've done and add it back
 * Subscribe to the Mailinglist: If you want to be involved further - 
   subscribe to our 
-  `mailinglist <http://lists.okfn.org/listinfo/school-of-data>`_
+  `mailinglist <http://lists.okfn.org/mailman/listinfo/school-of-data>`_
