@@ -1,16 +1,19 @@
 Courses
 =======
 
+<p>Welcome to the School of Data courses. School of Data produces two types of material: 
+
+<strong>Courses:</strong> explain *why* something is important and help you to understand the basic decisions involved in picking particular tools or approaches and where it is worth investing your time.  
+<strong>Recipes</strong> - explain *how* to do something and may advocate using a particular tool or method to do so. 
+
+Data might sound scary sometimes - don’t worry, we're there to guide you through! If you have any questions about the material, simply drop us a line via the <a href="http://lists.okfn.org/mailman/listinfo/school-of-data" title="mailing list">mailing list</a>.
+
 Data Fundamentals
 ------------------------
 
-Welcome to the first Courses of the School of Data. These modules
-provide a solid overview over the workflow with data and help you
-understand what data wrangling is about. Data might sound scary sometimes -
-don't worry were there to guide you through.
-
-
 .. raw:: html
+
+The Data Fundamental modules provide a solid overview over the workflow with data guiding you from what data is, to how to make your data tell a story. The courses listed below should be seen as a whole, a quick overview of the elements involved in working with data. 
 
   <ul class="thumbnails">
     <li class="span4" >
@@ -18,9 +21,10 @@ don't worry were there to guide you through.
         <img src="http://farm9.staticflickr.com/8301/7871270682_d1da172951_q_d.jpg" alt="">
         <h3>What is Data?</h3>
         <p>This course gives a short introduction in the world of data. If
-        you start your journey into this wonderful land start here. The
+        you are starting your journey into this wonderful land, this course is for you. The
         course covers basic concepts, different types of data and gives an
         introduction to machine readable data. <br/>
+        <p></p>
         <a href="what-is-data" class="btn btn-primary">Take Course</a>
         </p>
       </div>
@@ -33,7 +37,8 @@ don't worry were there to guide you through.
         <p>
         Don't know where to start looking for data? This course gives an
         introduction to data portals and different data sources. Finally we
-        will walk you through one sample data portal. <br/>
+        will walk you through how to use one sample data portal. <br/>
+        <p></p>
         <a href="finding-data" class="btn btn-primary">Take Course</a>
         </p>
       </div>
@@ -63,6 +68,7 @@ don't worry were there to guide you through.
         to understand what your data might mean. It also introduces
         spreadsheet formulas and helps you calculate more values out of
         what you already have. <br/>
+        <p></p>
         <a href="analyzing-data" class="btn btn-primary">Take Course</a>
         </p>
       </div>
