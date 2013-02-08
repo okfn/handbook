@@ -11,9 +11,10 @@ Data might sound scary sometimes - don’t worry, we're there to guide you throu
 Data Fundamentals
 ------------------------
 
+The Data Fundamental modules provide a solid overview over the workflow with data guiding you from what data is, to how to make your data tell a story. The courses listed below should be seen as a whole, a quick overview of the elements involved in working with data. 
+
 .. raw:: html
 
-The Data Fundamental modules provide a solid overview over the workflow with data guiding you from what data is, to how to make your data tell a story. The courses listed below should be seen as a whole, a quick overview of the elements involved in working with data. 
 
   <ul class="thumbnails">
     <li class="span4" >
