@@ -109,9 +109,7 @@ Multiplication and division challenge
 
   <div class="well">
 
-**Task:**
-
-Using the data from the World Bank (if you don't have it already, download it `here`_.). In the data we have figures for healthcare only as a % of GDP. Calculate the full amount of private health expenditure in Afghanistan in 2001 in USD. If your percentages are rusty - check out the formulae section in the Handbook.
+**Task:** Using the data from the World Bank (if you don't have it already, download it `here`_.). In the data we have figures for healthcare only as a % of GDP. Calculate the full amount of private health expenditure in Afghanistan in 2001 in USD. If your percentages are rusty - check out the formulae section in the Handbook.
 
 .. _here: http://dump.tentacleriot.eu/wb-gdp-health-life.csv
 
@@ -123,9 +121,7 @@ Using the data from the World Bank (if you don't have it already, download it `h
 
   <div class="well">
   
-**Task:**
-
-Still using the World Bank Data. Find out how much money (USD) is spent on healthcare per person in Albania in 2000.
+**Task:** Still using the World Bank Data. Find out how much money (USD) is spent on healthcare per person in Albania in 2000.
 
 .. raw:: html
 

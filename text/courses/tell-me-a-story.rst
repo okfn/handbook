@@ -24,7 +24,7 @@ Sometimes you will start out to explore a dataset with a given question in mind.
 
 Making the data relevant and close to issues that people care about is one of the hardest things to get right, and the best way to learn is to look for inspiration from people who are really good at it. Here's a small list to start you thinking:
 
-* **Making a policy point with impact** Hans Rosling has made a career out of his theatrical way of bringing data about Global Development Data to life. His are now amongst the most watched TED talks. In the recipes section, you will learn how to make interactive bubble diagrams such as the ones he displays here.
+* **Making a policy point with impact**: Hans Rosling has made a career out of his theatrical way of bringing data about Global Development Data to life. His are now amongst the most watched TED talks. In the recipes section, you will learn how to make interactive bubble diagrams such as the ones he displays here.
 
 .. raw:: html
 
