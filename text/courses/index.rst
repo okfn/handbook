@@ -1,17 +1,6 @@
 Courses
 =======
 
-<<<<<<< HEAD
-Welcome to the School of Data courses. School of Data produces two types of material: 
-
-**Courses:** explain *why* something is important and help you to understand the basic decisions involved in picking particular tools or approaches and where it is worth investing your time.  
-
-**Recipes** - explain *how* to do something and may advocate using a particular tool or method to do so. 
-
-Data might sound scary sometimes - don’t worry, we're there to guide you
-through! If you have any questions about the material, simply drop us a
-line via the `mailing list <http://lists.okfn.org/mailman/listinfo/school-of-data>`_ 
-=======
 Welcome to the School of Data courses. School of Data produces two types of material:
 
 **Courses:** explain *why* something is important and help you to understand the basic decisions involved in picking particular tools or approaches and where it is worth investing your time.
@@ -20,7 +9,6 @@ Welcome to the School of Data courses. School of Data produces two types of mate
 Data might sound scary sometimes - don’t worry, we're there to guide you through! If you have any questions about the material, simply drop us a line via the `mailing list`_
 
 .. _mailing list: http://lists.okfn.org/mailman/listinfo/school-of-data
->>>>>>> Changes to the handbook - various
 
 Data Fundamentals
 ------------------------
