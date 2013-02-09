@@ -24,7 +24,7 @@ Sometimes you will start out to explore a dataset with a given question in mind.
 
 Making the data relevant and close to issues that people care about is one of the hardest things to get right, and the best way to learn is to look for inspiration from people who are really good at it. Here's a small list to start you thinking:
 
-* **Making highly detailed information about development comprehensible to the average citizen** Hans Rosling has made a career out of his theatrical way of bringing data about Global Development Data to life. His are now amongst the most watched TED talks. In the recipes section, you will learn how to make interactive bubble diagrams such as the ones he displays here.
+* **Making a policy point with impact** Hans Rosling has made a career out of his theatrical way of bringing data about Global Development Data to life. His are now amongst the most watched TED talks. In the recipes section, you will learn how to make interactive bubble diagrams such as the ones he displays here.
 
 .. raw:: html
 
@@ -32,7 +32,7 @@ Making the data relevant and close to issues that people care about is one of th
 
 * **Data Driven Journalism**: If you want to get the hang of data storytelling, take a lesson from the people it comes naturally to: journalists. The `Data Journalism Handbook`_ highlights some of the best data stories and details how and why they were produced in the words of leading Data Journalists from around the world.
 * **Storytelling for campaigns**: Tactical Technology Collective have produced an excellent guide to how to target visual information to get your message across and correctly target your audience. `Drawing By Numbers`_ teaches people to identify how much detail a reader desires or requires, so that people are neither overwhelmed or bored by the the amount of data they are given. They group information design around three basic principles. Your approach should be targeted at whether your audience wants to: *Get* the idea, *Get* the picture or *Get* the detail). They also give some great examples of visual campaigns with real impact.
-* **Making data personal**: Who are you trying to connect to when you present your data? Will the average citizen be able to relate to spending numbers of the UK government in billions, or would it be more helpful to break them down into numbers that they can relate to and mean something to them? For example, `Where Does My Money Go?`_ shows the user, on a daily basis, how much tax they contribute to various sectors of society and presents the user with numbers they can better relate to.
+* **Making data personal**: Who are you trying to connect to when you present your data? Will the average citizen be able to relate to spending numbers of the UK government in billions, or would it be more helpful to break them down into numbers that they can relate to and mean something to them? For example, `Where Does My Money Go?`_ shows the user, on a daily basis, how much tax they contribute to various spending areas and presents the user with numbers they can better relate to.
 
 .. _Data Journalism Handbook: http://datajournalismhandbook.org/
 .. _Drawing By Numbers: http://drawingbynumbers.org/
