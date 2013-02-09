@@ -2,7 +2,7 @@
 Getting data from the World Bank
 ================================
 
-We started out with the question how healthcare spending affects life expectancy around the world. This is one of the answers we can find looking at data from the World Bank.
+In Data Fundamental, we address the question of how healthcare spending affects life expectancy around the world. This is one of the answers we can find looking at data from the World Bank.
 
 Walkthrough: Downloading Data from the World Bank
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -34,7 +34,7 @@ Walkthrough: Downloading Data from the World Bank
 
    .. image:: http://farm9.staticflickr.com/8451/8051099565_9274f466e7_b_d.jpg
 #. Click on ``Next`` to select the years we are interested in.
-#. To keep things simle, select the years 2000-2012 (you can do multiple
+#. To keep things simple, select the years 2000-2012 (you can do multiple
    selections by either pressing ``ctrl`` or ``shift``). And click ``next``,
 #. You’ll see an overview screen now on the top left there is a rough layout of how your downloaded file will look like. You’ll see “time” in the columns bit and “series” in the rows bit - this influences how the spreadsheet will look like.
 
