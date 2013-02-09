@@ -2,7 +2,9 @@
 Creating Line Charts
 =====================
 
-**This tutorial uses Google spreadsheets to create a line chart. There is sample data for this tutorial `here`_ .**
+**This tutorial uses Google spreadsheets to create a line chart.**
+
+There is sample data for this tutorial `here`_ .
 
 .. _here: http://dump.tentacleriot.eu/wb-gdp-health-life.csv
 
