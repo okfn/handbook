@@ -67,7 +67,7 @@ In the "What is Data" course, we talked briefly about the importance of :term:`m
 .. raw:: html
 
   <div class="centered"><iframe src="http://p2pu.schoolofdata.org/tip/find-data-with-google.html"
-  width="480" height="250" style="border: none;" align="middle"></iframe></div>
+  width="480" height="290" style="border: none;" align="middle"></iframe></div>
 
 
 Using data to answer your question
