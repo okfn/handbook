@@ -4,7 +4,8 @@ Getting data from the World Bank
 
 We started out with the question how healthcare spending affects life expectancy around the world. This is one of the answers we can find looking at data from the World Bank.
 
-**Walkthrough:** Downloading Data from the World Bank
+Walkthrough: Downloading Data from the World Bank
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Open the World Bank data portal: it lives in http://data.WorldBank.org
 #. Select ``Data Catalog`` from the menu on the top.

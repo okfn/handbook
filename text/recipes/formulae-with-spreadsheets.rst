@@ -2,9 +2,7 @@
 Spreadsheet Formulae
 ====================
 
-**This tutorial uses Google spreadsheets to analyse data. Other spreadsheet programs work in a similar way - play around and see how they differ.**
-
-There is sample data for this tutorial `here <https://docs.google.com/spreadsheet/ccc?key=0AlgwwPNEvkP7dFBxSFp1c096V19zNnI2TF9yLWVUMkE#gid=0>`_
+**This tutorial uses Google spreadsheets to analyse data. Other spreadsheet programs work in a similar way - play around and see how they differ. There is sample data for this tutorial `here <https://docs.google.com/spreadsheet/ccc?key=0AlgwwPNEvkP7dFBxSFp1c096V19zNnI2TF9yLWVUMkE#gid=0>`_ .**
 
 A quick introduction to common spreadsheet symbols
 --------------------------------------------------

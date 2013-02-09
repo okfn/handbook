@@ -1,12 +1,13 @@
-============
-Sorting Data
-============
+==============================
+Sorting Data with Spreadsheets
+==============================
 
 **This tutorial uses Google spreadsheets to sort data. Other spreadsheet programs work in a similar way - play around and see how they differ.**
 
 There is sample data for this tutorial `here`_.
 
-**Walkthrough:** Sorting a dataset.
+Walkthrough: Sorting a dataset.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Select the whole sheet you want to sort. Do this by clicking on the right upper grey field, between the row and column names.
 

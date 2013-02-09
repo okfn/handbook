@@ -2,6 +2,10 @@
 Creating an Interactive Bubble Chart
 ====================================
 
+**This tutorial uses Google spreadsheets to create an Interactive Bubble Chart. There is sample data for this tutorial `here`_ .**
+
+.. _here: http://dump.tentacleriot.eu/wb-gdp-health-life.csv
+
 #. Start with the World Bank dataset.
 #. Select all years and all countries (except the names that are definitely not countries: such as world, North America and son on).
 #. Copy the data to a new sheet.

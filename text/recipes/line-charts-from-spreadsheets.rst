@@ -2,7 +2,11 @@
 Creating Line Charts
 =====================
 
- So let’s create a line chart. Let’s say we want to see how healthcare expenditure evolved in Luxembourg, our top spending country.
+**This tutorial uses Google spreadsheets to create a line chart. There is sample data for this tutorial `here`_ .**
+
+.. _here: http://dump.tentacleriot.eu/wb-gdp-health-life.csv
+
+So let’s create a line chart. Let’s say we want to see how healthcare expenditure evolved in Luxembourg, our top spending country.
 
  #. Go back to your World Bank data sheet.
  #. Remove the filter for years and filter for a single country: Luxembourg (you can do so by clicking the “clear” label in the filtering menu - then type Luxem and you’ll see Luxembourg appear - select it).

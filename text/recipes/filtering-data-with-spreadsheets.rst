@@ -6,9 +6,12 @@ Filtering Data
 
 There is sample data for this tutorial `here`_.
 
+.. _here: http://dump.tentacleriot.eu/wb-gdp-health-life.csv
+
 Filtering data in a spreadsheet allows you to shut out the values you don't want to see. For example, in the sample data, some “Country Names” are actually not countries? You'll find things like “World”, “North America” and “Arab World”. Let's filter them out.
 
-**Walkthrough:** Filtering Data
+Walkthrough: Filtering Data
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Select the whole table.
 #. Select “Filter” from the “Data” menu.

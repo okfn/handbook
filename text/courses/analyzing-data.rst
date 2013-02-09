@@ -143,7 +143,7 @@ Calculate the :term:`mean` and :term:`median` values for all the columns.
     <div class="well">
 
 **Task:**
-What is the formula for healthcare expenditure per capita? Can you modify it so it’s only calculated when both values are present (i.e. neither cell is blank).?
+What is the formula for healthcare expenditure per capita? Can you modify it so it’s only calculated when both values are present (i.e. neither cell is blank)?
 
 .. raw:: html
 

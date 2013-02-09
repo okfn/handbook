@@ -2,6 +2,10 @@
 Creating a Choropleth map
 ===========================
 
+**This tutorial uses Google spreadsheets to create a choropleth map. There is sample data for this tutorial `here`_ .**
+
+.. _here: http://dump.tentacleriot.eu/wb-gdp-health-life.csv
+
 #. Filter for a single year (e.q. 2009) insert a new sheet and copy the filtered data into it.
 #. As with all previous charts also here the columns need to be in a special position.
 #. Move your data column (the one you want to use to display) right next to the country names.

@@ -48,7 +48,7 @@ It is aimed at people who are familiar with spreadsheets, and requires no knowle
 #. Text-to-Columns - split up cells of data that have more than one entry in them
 
 
-The recipe also makes use of forumulas that use some different spreadsheet functions, including CLEAN, CONCATENATE, COUNTA, IFBLANK, LEFT, SEARCH, SUBSTITUTE, and TRIM. You may not have known these existed, but they can speed up a lot of the most difficult and time-consuming parts of removing errors from a dataset.
+The recipe also makes use of forumulae that use some different spreadsheet functions, including CLEAN, CONCATENATE, COUNTA, IFBLANK, LEFT, SEARCH, SUBSTITUTE, and TRIM. You may not have known these existed, but they can speed up a lot of the most difficult and time-consuming parts of removing errors from a dataset.
 
 
 The recipe is a complete process, showing every step. It can be a useful
