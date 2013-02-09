@@ -1,6 +1,6 @@
-###############
+===============
 How to get data
-###############
+===============
 
 .. sectionauthor:: Tim McNamara <tim.mcnamara@okfn.org>
 

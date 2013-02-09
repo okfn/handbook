@@ -16,7 +16,7 @@ Glossary
     able to have their data extracted by computer programs easily. PDF 
     documents are not machine readable. Computers can display the text 
     nicely, but have great difficulty understanding the context that 
-    surrounds the text.
+    surrounds the text. Common machine-readable file formats are :term:`CSV` and Excel Files.
   
   Readme
     A file (usually named ``README`` or ``README.txt``) that explains new
@@ -37,6 +37,9 @@ Glossary
     Although it is derived from Javascript, libraries to parse JSON data
     exist for many programming languages. Its compact style and ease of use
     has made it widespread.
+
+  GDP
+    Gross domestic product (GDP) is the market value of all officially recognized goods and services produced within a country in a given period of time. GDP per capita is often considered an indicator of a country's standard of living. (Source: Wikipedia.)
 
   GeoJSON
     GeoJSON is a format for encoding a variety of geographic data
@@ -139,7 +142,7 @@ Glossary
     A choropleth map is a map where value are encoded onto regions using
     colormapping. The whole region is colored using the underlying value.
 
-  Average
+  Mean
     The arithmetic mean of a set of values. Calculated by summing up all
     values and then dividing by the number of values.
   
@@ -177,3 +180,6 @@ Glossary
     Numerical data that, if you plot all possible values, has no gaps. E.g.
     Sizes (you can be 155.55 or 155.56cm tall etc.) Compare to
     :term:`Discrete Data`
+
+  Boolean logic
+    A form of algebra in which all values are reduced to either TRUE or FALSE.

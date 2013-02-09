@@ -53,7 +53,7 @@ Now go back to the original salaries (1€, 2€, 3€ etc) and add 10€ only t
   
   </div>
 
-Economists recognise this and have added another value. The “ `GINI-Coefficient`_ ” tells you something about the distribution of income. The “GINI-Coefficient is a little complicated to calculate and beyond the scope of this basic introduction. However, it is worth knowing it exists. A lot of information gets lost when we only calculate an average. Keep your eyes peeled as you read the news and browse online. 
+Economists recognise this and have added another value. The “ `GINI-Coefficient`_ ” tells you something about the distribution of income. The “GINI-Coefficient"" is a little complicated to calculate and beyond the scope of this basic introduction. However, it is worth knowing it exists. A lot of information gets lost when we only calculate an average. Keep your eyes peeled as you read the news and browse online.
 
 .. _GINI-Coefficient: http://en.wikipedia.org/wiki/Gini_coefficient
 
@@ -91,7 +91,7 @@ Imagine the headlines for these two graphs. For the graph on the left, you might
 
   <div class="well">
 
-**Task:** Can you spot the mistakes?
+**Task:** Can you spot why the data is misleading?
 
 .. raw:: html
   
@@ -121,7 +121,7 @@ The simple “reflect the size” rule becomes even more difficult in 2 dimensio
 
   </div>
 
-Answer: The diagram on the right.
+**Answer:** The diagram on the right.
 
 Remember the formula for calculating the area of a circle? (Area = πr² If this doesn’t look familiar, see `here`_). In the left hand diagram, the radius of A (r) was doubled. This means that the total area goes up by a scale factor of four! This is wrong. If B is to represent a number twice the size of A, we need the area of B to be double the area of A. To correctly calculate this, we need to adjust the length of the radius by ⎷2. This gives us a realistic change in size. 
 
@@ -154,12 +154,16 @@ Context, context, context
 
 One thing incredibly important for data is context: A number or quality doesn’t mean a thing if you don’t give context. So explain what you are showing - explain how it is read, explain where the data comes from and explain what you did with it. If you give the proper context the conclusion should come right out of the data. 
 
-Percent versus Percentatge points change
+Percent versus Percentage points change
 ----------------------------------------
 
 This is a common pitfall for many of us. If a value changes from 5% to 10% how many percent is the change? 
 
 If you answered 5% - I’m afraid you’re wrong! The answer is 100% (10% is 200% of 5%). It’s a change in 5 percentage points. So take care the next time people try to report on elections, surveys and the like - can you spot their errors?
+
+Need a refresher on how to calculate percentage change? Check out the "Maths is Fun" `page`_ on it.
+
+.. _page: http://www.mathsisfun.com/numbers/percentage-change.html
 
 
 Catching the thief - sensitivity and large numbers

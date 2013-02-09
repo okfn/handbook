@@ -15,38 +15,29 @@ The process of telling a story with data is very similar to this track. It inclu
 #. Wrangle the Data - bring it to a format that is useable
 #. Merge Datasets - Bring different datasets together
 #. Filter and sort the Data - Pick the data that is interesting
-#. Analyze Data - Is there something to it
-#. Visualize Data - If so: how can we best see it, and show it to others?
+#. Analyze Data - Is there something to it?
+#. Visualize Data - If there is something interesting in the data how can we best showcase it to others?
 
 Finding a Story in Data
 ----------------------------
 Sometimes you will start out to explore a dataset with a given question in mind. Sometimes you start with a dataset and want to find a story hidden in it. In both cases visualizing the data will be helpful to find the interesting parts. A good way to discover stories is to have interactive visualizations. Live bubble charts are great to do so -since we can compare multiple values at once.
 
-**Walkthrough:** Interactive bubble chart
+Making the data relevant and close to issues that people care about is one of the hardest things to get right, and the best way to learn is to look for inspiration from people who are really good at it. Here's a small list to start you thinking:
 
-#. Start with the worldbank dataset.
-#. Select all years and all countries (except the names that are definitely not countries: such as world, North America and son on).
-#. Copy the data to a new sheet.
-#. In order to do animated bubble plots you'll need to order your columns so that is country names, B is year and the rest are values you're interested in. The column order will affect the way the gadget is set up per default.
-
-   .. image:: http://farm9.staticflickr.com/8453/7982243972_2913843fa7_o.png
-#. Now mark the whole sheet and click "insert" "gadget"
-#. Select "charts" and "motion chart".
-
-   .. image:: http://farm9.staticflickr.com/8463/8112394477_f78ca0eecf_o.png
-#. You'll see the chart loading.
-#. You can adjust the values for each of the axis and the size. And you can slide through the years.
-#. Click on play and see how the world changes in 10 years.
+* **Making highly detailed information about development comprehensible to the average citizen** Hans Rosling has made a career out of his theatrical way of bringing data about Global Development Data to life. His are now amongst the most watched TED talks. In the recipes section, you will learn how to make interactive bubble diagrams such as the ones he displays here.
 
 .. raw:: html
-  
-  <div class="well">
 
-**Task:** Look at life expectancy over total healthcare expenditure per person. Look at Botswana and Swaziland. Do you notice something? What is the story there?
+  <iframe src="http://embed.ted.com/talks/hans_rosling_the_good_news_of_the_decade.html" width="560" height="315" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-.. raw:: html
-  
-  </div>
+* **Data Driven Journalism**: If you want to get the hang of data storytelling, take a lesson from the people it comes naturally to: journalists. The `Data Journalism Handbook`_ highlights some of the best data stories and details how and why they were produced in the words of leading Data Journalists from around the world.
+* **Storytelling for campaigns**: Tactical Technology Collective have produced an excellent guide to how to target visual information to get your message across and correctly target your audience. `Drawing By Numbers`_ teaches people to identify how much detail a reader desires or requires, so that people are neither overwhelmed or bored by the the amount of data they are given. They group information design around three basic principles. Your approach should be targeted at whether your audience wants to: *Get* the idea, *Get* the picture or *Get* the detail). They also give some great examples of visual campaigns with real impact.
+* **Making data personal**: Who are you trying to connect to when you present your data? Will the average citizen be able to relate to spending numbers of the UK government in billions, or would it be more helpful to break them down into numbers that they can relate to and mean something to them? For example, `Where Does My Money Go?`_ shows the user, on a daily basis, how much tax they contribute to various sectors of society and presents the user with numbers they can better relate to.
+
+.. _Data Journalism Handbook: http://datajournalismhandbook.org/
+.. _Drawing By Numbers: http://drawingbynumbers.org/
+.. _Where Does My Money Go?: http://wheredoesmymoneygo.org/dailybread.html
+
 
 Telling the story
 -------------------
@@ -56,44 +47,22 @@ Once you're through the steps: How do you frame your data? How do you provide th
 
   <div class="well">
 
-**Task:** What stories can be told from data above and can you identify
+**Task:** What stories can be told from the World Bank data and can you identify
 additional information or data to tell better stories?
 
 .. raw:: html
   
   </div>
 
-Publishing our results
-----------------------
-Now let's go ahead and publish our results on a webpage. This will get a bit techy but don't worry we'll guide you through. We will create a small web page containing some of the visualizations we created using a simple online tool called pastehtml. Pastehtml allows you to create html websites easily by simply editing the text online and then saving it for sharing.
+Publishing your results online
+------------------------------
 
-**Walkthrough:** Presenting our information as a webpage
+Once you've gone to all of the effort of finding the juicy parts in your data - you're ready to get your results online. Many services allow easy ways to embed visualisations & data, such as iframes which you can copy and paste into a blog or website. However, if you are not given an easy way to get your material online, we've put together a quick recipe to help you publish your results directly as a webpage.
 
-#. To start a webpage simply visit pastehtml.com
-#. See the input box with all the brackets? This is html code and we'll be editing it to present your results. (If you want to learn more about html code head to the `school of webcraft <https://p2pu.org/en/schools/school-of-webcraft/>`_
-
-   .. image:: http://farm9.staticflickr.com/8470/8112394583_9c6c439893_o.png
-#. First let's change the title of the webpage: This is the bit between "<title>" and "</title>". Edit it so it is appropriate. 
-#. Then let's go and edit the content for a webpage (this is the part between "<body>" and "</body>"). See the text between "<p>" this defines a paragraph. Go ahead and edit it!
-#. You can click on "Publish page" to see how your page will look like (approximately).
-#. On the top you'll always have the possibility to go back and edit.
-
-#. Now let's add some charts we made.
-#. Go back to one of the charts in the spreadsheet.
-#. Click on the chart. See the small triangle top right of the chart: this is the options menu.
-#. Go and select "Publish chart\'85".There will be a popup with a lot of code in a grey box:
-
-   .. image:: http://farm9.staticflickr.com/8195/8112418106_fac64f623f_o.png
-#. Copy this code and paste it into the pastehtml (somewhere between <body> and </body>). Now if you go and look at your page, the chart should be there.
-
-   .. image:: http://farm9.staticflickr.com/8050/8112418146_72872fde90_o.png
-#. Once you are finished, click on publish and you'll get a url to your webpage. use this to share your results with your friends.
-
-Of course if you already have a blog or something similar you can share the results there.
 
 Summary
 -----------
-Throughout this course we started out acquiring and storing a dataset in a spreadsheet, exploring it and calculating new values, visualizing and finally telling a story about it. Of course there is much more to data than we covered in this basic course. You won't be on your own though the School of Data is here to help. Now go out, look at what others have done and explore data!
+Throughout the Data Fundamentals series we started out acquiring and storing a dataset in a spreadsheet, exploring it and calculating new values, visualizing and finally telling a story about it. Of course there is much more to data than we covered in this basic course. You won't be on your own though the School of Data is here to help. Now go out, look at what others have done and explore data!
 
 .. raw:: html
 

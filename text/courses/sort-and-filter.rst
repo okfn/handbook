@@ -3,33 +3,27 @@
 
 Introduction
 ------------
-In this tutorial, we will look at the basics of spreadsheets. Spreadsheets are a powerful tool for a Data Wrangler. Data contained in a spreadsheet is in a structured, machine-readable format. You can quickly begin to process data once it is in a spreadsheet - whether by sorting and filtering, carrying out simple sums (finding the total, the average etc.), applying bulk processes, or pulling out different graphs and charts.
-
+The most basic tool used for data wrangling is a spreadsheet. Data contained in a spreadsheet is in a structured, machine-readable format and hence can quickly be sorted and filtered. In other recipes in the handbook, you'll learn how to use the humble spreadsheet as a power tool for carrying out simple sums (finding the total, the average etc.), applying bulk processes, or pulling out different graphs and charts.
 
 By the end of the module, you will have learned how to download data, how to import it into a spreadsheet, and how to begin cleaning and interpreting it using the ‘sort’ and ‘filter’ functions.
-
-
-
 
 Spreadsheets: An Overview
 -------------------------
 
-Data wranglers use a range of software to work with data. Data varies in its extent and complexity - and depending on the nature of the data, we need different approaches and tools to process it. In the beginning, we will focus on data which can be handled quite easily. As you progress, we will look at more powerful ways of handling data.
+Nowadays spreadsheets are widespread so a lot of people are familiar with them already. A variety of spreadsheet programs and applications exist. For example Microsoft's Office package comes with Excel, the OpenOffice package comes with Calc and so on. Not surprisingly, Google decided to add spreadsheets to their documents package. Since it does not require you to purchase or install any additional software, we will be using Google Spreadsheets for this course.
 
-The most basic tool used for data wrangling is a spreadsheet. Nowadays spreadsheets are widespread so a lot of processes involve them. You may well be familiar with them already. A variety of spreadsheet programs and applications exist. For example Microsoft's Office package comes with Excel, the OpenOffice package comes with Calc and so on. Not surprisingly, Google decided to add spreadsheets to their documents package. Since it does not require you to purchase or install any additional software, we will be using Google Spreadsheets for this course.
-
-Depending on what you want to do you might consider using different spreadsheet software:
+Depending on what you want to do you might consider using different spreadsheet software. Here are some of the considerations you might make when picking your weapon of choice:
 
 =====================  ======================  ============================  ============================
 Spreadsheet            Google Spreadsheets     Open(Libre)Office             Microsoft Excel
 =====================  ======================  ============================  ============================
 Usage                  Free (as in Beer)       Free (as in Freedom)          Commercial
-Data Storage           Google Drive            your harddisk                 your harddisk
+Data Storage           Google Drive            Your hard disk                Your hard disk
 Needs Internet         Yes                     No                            No
 Installation required  No                      Yes                           Yes
 Collaboration          Yes                     No                            No
 Sharing results         Easy                    Harder                        Harder
-Visualizations         Large range             Basic                         Basic
+Visualizations         Large range             Basic charts                  Basic charts
 =====================  ======================  ============================  ============================
 
 Creating a spreadsheet and uploading data
@@ -45,8 +39,8 @@ In this course we will use Google docs for our data-wrangling - it allows you to
 
    .. image:: http://farm9.staticflickr.com/8448/7871786616_ef5892fe33_o_d.jpg
 #. Doing so will create a new spreadsheet for you.
-#. let’s upload some data.
-#. You will need the file we downloaded from the worldbank in the last tutorial. If you haven’t done the
+#. Let’s upload some data.
+#. You will need the file we downloaded from the World Bank in the last tutorial. If you haven’t done the
    tutorial or lost the file: download it `here`_
 #. In your spreadsheet select ``import`` from the ``file`` menu. This will open a dialog for you.
 #. Select the file you downloaded.
@@ -92,13 +86,14 @@ Locking Rows and Columns
 The spreadsheet we are working on is quite large. You will notice, that while scrolling the column with the column labels will frequently disappear, leaving you quite lost. The same with the country names. To avoid this you can “lock” rows and columns so they don't disappear.
 
 
-**Walkthrough:** Locking the top row
+Walkthrough: Locking the top row
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Go to the Spreadsheet with our data and scroll to the top
-#. On the top left, where the column and row labels are you'll see a small striped area
+#. Go to the Spreadsheet with our data and scroll to the top.
+#. On the top left, where the column and row labels are you'll see a small striped area.
    
    .. image:: http://farm9.staticflickr.com/8322/8070104022_e233a65687_o_d.png
-#. Take the one facing the row labels and drag it one row down
+#. Hover over the striped bar on top of box showing row "1". A hand shaped cursor should appear, click and drag it down one row.
 #. Your result should look like this: 
    
    .. image:: http://farm9.staticflickr.com/8176/8070115059_d960b3d09e_o_d.png
@@ -108,9 +103,10 @@ Sorting Data
 ------------
 The first thing to do when looking at a new dataset is to orient yourself. This involves at looking at maximum/minimum values and sorting the data so it makes sense. Let's look at the columns. We have data about the GDP, healthcare expenditure and life expectancy. Now let's explore the range of data by simply sorting.
 
-**Walkthrough:** Sorting a dataset.
+Walkthrough: Sorting a dataset
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Select the whole sheet you want to sort. Do this by clicking on the right upper gray field, between the row and column names.
+#. Select the whole sheet you want to sort. Do this by clicking on the right upper grey field, between the row and column names.
    
    .. image:: http://farm9.staticflickr.com/8322/8070104022_e233a65687_o_d.png 
 #. Select “Sort Range...” from the “Data” menu – this will open an additional Selection
@@ -121,15 +117,17 @@ The first thing to do when looking at a new dataset is to orient yourself. This 
 #. Try to sort by GDP – Which country has the lowest?
 #. Try again with different values, can you sort ascending and descending?
 
-
 **Tip:** Be careful! A common mistake is to forget to select *all* the data. If you sort without selecting all the data, the rows will no longer match up.
+
+*A version of this recipe can also be found in the Handbook.*
 
 Filtering Data
 --------------
 The next thing commonly done with datasets is to filter out the values you don't want to see. Did you notice that some “Country Names” are actually not countries? You'll find things like “World”, “North America” and “Arab World”. Let's filter them out.
 
 
-**Walkthrough:** Filtering Data
+Walkthrough: Filtering Data
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Select the whole table.
 #. Select “Filter” from the “Data” menu.
@@ -142,6 +140,8 @@ The next thing commonly done with datasets is to filter out the values you don't
 #. Now you have successfully filtered your dataset.
 #. Go ahead and play with it - the data will not be deleted, it’s just not displayed.
 
+*A version of this recipe can also be found in the Handbook.*
+
 Summary
 -------
 In this module we talked about basic spreadsheet skills. We talked about
@@ -150,10 +150,8 @@ the `next course`_ we will talk about data analysis and introduce you to formula
 
 Further Reading and References
 ------------------------------
-#. The School of Data Handbook on `spreadsheets`_.
 #. `Google help`_ on spreadsheets
 
-.. _spreadsheets: http://schoolofdata.org/handbook/tools/spreadsheet/
 .. _Google help: http://support.google.com/drive/bin/topic.py?hl=en&topic=2811806&parent=2811739&ctx=topi
 .. _next course: http://schoolofdata.org/handbook/course/analyzing-data/
 

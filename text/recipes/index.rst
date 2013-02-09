@@ -12,5 +12,13 @@ find out!
 .. toctree::
     :maxdepth: 3
 
+    getting-data-from-world-bank
+    sorting-data-with-spreadsheets
+    filtering-data-with-spreadsheets
+    formulae-with-spreadsheets
     cleaning-data-with-spreadsheets
+    line-charts-from-spreadsheets
+    scatterplots-from-spreadsheets
+    interactive-bubble-charts
+    publishing-work-online
 

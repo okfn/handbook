@@ -21,7 +21,7 @@ Whether you began with a question or not, you should always keep your eyes open 
 
 In this course we will start with a question and then explore a dataset with this question in mind. We will also roam around and explore whether there is something interesting hidden in the data.
 
-The question for these tutorials will be: How does healthcare spending influence life expectancy? 
+**The question we will focus on for the Data Fundamentals Course will be: How does healthcare spending influence life expectancy?**
 
 .. raw:: html
   
@@ -93,7 +93,7 @@ Unstructured vs. Structured data
 --------------------------------
 A plain sentence - “we have 5 white used golf balls with a diameter of 43mm at 50 cents each” - might be easy to understand, but for a computer this is hard to understand. The above sentence is what we call unstructured data. Unstructured has no fixed underlying structure - the sentence could easily be changed and it’s not clear which word refers to what exactly. A table such as the one we did above would be more structured. 
 
-Computers are inherently different from humans. It can be exceptionally hard to make computers extract information from certain sources. Some tasks that humans find easy are still difficult to automate with computers. For example, interpreting text that is presented as an image is still a challenge for a computer (have you ever signed up to a website and had to type some words which were presented to you as an image? This is because it’s so hard for computers to do so and so easy for you - proving that you’re not a machine). If you want your computer to process and analyse your data, it has to be able to read and process the data. This means it needs to be structured and in a machine-readable form.
+Computers are inherently different from humans. It can be exceptionally hard to make computers extract information from certain sources. Some tasks that humans find easy are still difficult to automate with computers. For example, interpreting text that is presented as an image is still a challenge for a computer (have you ever signed up to a website and had to type some words which were presented to you as an image? This is because it’s so hard for computers to do so and so easy for you - proving that you’re not a machine). If you want your computer to process and analyse your data, it has to be able to read and process the data. This means it needs to be structured and in a :term:`machine-readable` form.
 
 One of the most commonly used formats for exchanging data is CSV. CSV
 stands for comma separated values. The same thing expressed as CSV can look
