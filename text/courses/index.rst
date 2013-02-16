@@ -28,7 +28,7 @@ The Data Fundamental modules provide a solid overview over the workflow with dat
         course covers basic concepts, different types of data and gives an
         introduction to machine readable data. <br/>
         <p></p>
-        <a href="what-is-data" class="btn btn-primary">Take Course</a>
+        <a href="what-is-data" class="btn btn-primary">Go to section</a>
         </p>
       </div>
     </li>
@@ -38,11 +38,11 @@ The Data Fundamental modules provide a solid overview over the workflow with dat
         src="http://farm9.staticflickr.com/8070/8261230486_cd9aa3ebd5_q_d.jpg" alt="">
         <h3><a href="finding-data">Finding Data</a></h3>
         <p>
-        Don't know where to start looking for data? This course gives an
+        Don't know where to start looking for data? This section gives an
         introduction to data portals and different data sources. Finally we
         will walk you through how to use one sample data portal. <br/>
         <p></p>
-        <a href="finding-data" class="btn btn-primary">Take Course</a>
+        <a href="finding-data" class="btn btn-primary">Go to section</a>
         </p>
       </div>
     </li>
@@ -57,7 +57,7 @@ The Data Fundamental modules provide a solid overview over the workflow with dat
         Google Spreadsheets, this Course introduces the basic functions as
         well how to sort and filter data to find what you might be
         interested in....<br/>
-        <a href="sort-and-filter" class="btn btn-primary">Take Course</a>
+        <a href="sort-and-filter" class="btn btn-primary">Go to section</a>
         </p>
       </div>
     </li>
@@ -72,7 +72,7 @@ The Data Fundamental modules provide a solid overview over the workflow with dat
         spreadsheet formulas and helps you calculate more values out of
         what you already have. <br/>
         <p></p>
-        <a href="analyzing-data" class="btn btn-primary">Take Course</a>
+        <a href="analyzing-data" class="btn btn-primary">Go to section</a>
         </p>
       </div>
     </li>
@@ -83,11 +83,11 @@ The Data Fundamental modules provide a solid overview over the workflow with dat
         <h3><a href="data-to-diagrams">From Data to Diagrams</a></h3>
         <p>
         A picture says more than a thousand words - yeah but how do we turn
-        a thousand words into a picture? This course will help you to
+        a thousand words into a picture? This section will help you to
         understand basic data visualization and create them using Google
         spreadsheets. Visualizing data will help you to better understand
         the data you are handling.<br/>
-        <a href="data-to-diagrams" class="btn btn-primary">Take Course</a>
+        <a href="data-to-diagrams" class="btn btn-primary">Go to section</a>
         </p>
       </div>
     </li>
@@ -102,7 +102,7 @@ The Data Fundamental modules provide a solid overview over the workflow with dat
         and how to avoid them. It can help you avoid the mistakes made as
         well as read other peoples claims more carefully. If you want to
         learn what to watch out for: join in! <br/>
-        <a href="common-misconceptions" class="btn btn-primary">Take Course</a>
+        <a href="common-misconceptions" class="btn btn-primary">Go to section</a>
         </p>
       </div>
     </li>
@@ -113,11 +113,11 @@ The Data Fundamental modules provide a solid overview over the workflow with dat
         <h3><a href="tell-me-a-story">Tell me a Story</a></h3>
         <p>
         Data alone is meaningless and often boring. To understand it better
-        you will need context. In this course we will talk about how to
+        you will need context. In this section we will talk about how to
         publish the data we worked on throughout the basic track. We will
         talk about how to identify key points of your data to help you use
         data to make your voice heard. <br/>
-        <a href="tell-me-a-story" class="btn btn-primary">Take Course</a>
+        <a href="tell-me-a-story" class="btn btn-primary">Go to section</a>
         </p>
       </div>
     </li>
@@ -150,10 +150,77 @@ gives you a clear overview what can go wrong in spreadsheets and how to fix
 it (if it does). Take this course if you want to learn why it is important
 to clean data and how to do it.
 
-.. raw:: html
-  
-  <a href="data-cleaning/" class="btn btn-primary">Start Course</a>
-
-
 .. _Tactical Technology Collective: http://tacticaltech.org
 
+.. raw:: html
+  
+  <ul class="thumbnails">
+      <li class="span4" >
+        <div class="thumbnail" style="height: 425px;">
+          <img src="http://farm9.staticflickr.com/8219/8412778423_2b06c83e7b_o_d.jpg" alt="">
+          <h3> <a href="data-cleaning">An Introduction to Data Cleaning</a></h3>
+          <p>In this section, learn about the “horror stories” of where data errors in spreadsheets have led to real consequences and how you can avoid them yourself.  <br/>
+          <p></p>
+          <a href="data-cleaning/" class="btn btn-primary">Go to section</a>
+          </p>
+        </div>
+      </li>
+      <li class="span4" >
+          <div class="thumbnail" style="height: 425px;">
+            <img src="http://farm9.staticflickr.com/8503/8401143543_a8a9b1bb41_c_d.jpg" alt="">
+            <h3> <a href="data-cleaning-nuts-and-gum">Formatting spreadsheets</a></h3>
+            <p>In this section, you'll gain practical knowledge of common formatting and layout features of spreadsheets and some ideas about how to present your raw data to others so they will love you! <br/>
+            <p></p>
+            <a href="data-cleaning-nuts-and-gum/" class="btn btn-primary">Go to section</a>
+            </p>
+          </div>
+        </li>
+        <li class="span4" >
+              <div class="thumbnail" style="height: 425px;">
+                <img src="http://farm9.staticflickr.com/8086/8402327534_fb1e33e0a7_o_d.png" alt="">
+                <h3> <a href="data-cleaning-invisible-man-in-spreadsheets">The Invisible Man in Spreadsheets</a></h3>
+                <p>In this section, you'll learn how even characters which you cannot see can cause havoc in data analysis. The section will teach you to ghostbust white space and other non-printable characters such as carriage returns, spaces and tabs. Once you have removed them, you can get on with your analysis in peace.<br/>
+                <p></p>
+                <a href="data-cleaning-invisible-man-in-spreadsheets" class="btn btn-primary">Go to section</a>
+                </p>
+              </div>
+        </li>
+        <li class="span4" >
+              <div class="thumbnail" style="height: 425px;">
+                <img src="http://farm9.staticflickr.com/8514/8408290492_c3cd31ba41_o_d.png" alt="">
+                <h3> <a href="data-cleaning-witchs-brew">Your Data is a Witch's Brew</a></h3>
+                <p>Three is not a number. Nor is a million. At least not when they are typed in as text in a cell in a spreadsheet. Your spreadsheet is pedantic and needs everything to be precise and consistent. Read on to learn more. <br/>
+                <p></p>
+                <a href="data-cleaning-witchs-brew" class="btn btn-primary">Go to section</a>
+                </p>
+              </div>
+        </li>
+        <li class="span4" >
+                  <div class="thumbnail" style="height: 425px;">
+                    <img src="http://farm9.staticflickr.com/8071/8413876946_529bb56d80_z_d.jpg" alt="">
+                    <h3> <a href="data-cleaning-wrong-suitcase">The wrong suitcase</a></h3>
+                    <p>All our spreadsheet wants from us is each cell of data to be organised and neatly packed. In this section, you will analyse data to highlight problems in the way it has been structured so as to avoid them in your own work with data. <br/>
+                    <p></p>
+                    <a href="data-cleaning-wrong-suitcase" class="btn btn-primary">Go to section</a>
+                    </p>
+                  </div>
+         </li>
+  </ul>
+
+.. raw:: html
+  
+  <div class="hidden" style="display: none;">
+
+.. toctree::
+  :maxdepth: 1
+
+  data-cleaning
+  data-cleaning-nuts-and-gum
+  data-cleaning-invisible-man-in-spreadsheets
+  data-cleaning-witchs-brew
+  data-cleaning-wrong-suitcase
+  
+
+.. raw:: html
+  
+  </div>

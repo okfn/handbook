@@ -1,5 +1,5 @@
-﻿Nuts and chewing gum
-====================
+﻿Section 1: Nuts and chewing gum
+================================
 Introduction
 ------------
 
