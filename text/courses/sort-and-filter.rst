@@ -30,7 +30,8 @@ Creating a spreadsheet and uploading data
 -----------------------------------------
 In this course we will use Google docs for our data-wrangling - it allows you to start right away without need of installing software. Since the data we are working with is already public we also don’t need to worry about the fact that it is not stored on our local drive.
 
-**Walktrough:** Creating a Spreadsheet and uploading data.
+Walktrough: Creating a Spreadsheet and uploading data.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Head over to Google docs.
 #. If you are not yet logged in to Google docs, you need to login.
@@ -41,13 +42,12 @@ In this course we will use Google docs for our data-wrangling - it allows you to
 #. Doing so will create a new spreadsheet for you.
 #. Let’s upload some data.
 #. You will need the file we downloaded from the World Bank in the last tutorial. If you haven’t done the
-   tutorial or lost the file: download it `here`_
+   tutorial or lost the file: download it `here`_ .
 #. In your spreadsheet select ``import`` from the ``file`` menu. This will open a dialog for you.
 #. Select the file you downloaded.
 #. Don’t forget to select ``insert new sheets``, and click ``import``
 
    .. image:: http://farm9.staticflickr.com/8306/7872679284_c321614681_b_d.jpg
-
 
 .. _here: http://dump.tentacleriot.eu/wb-gdp-health-life.csv
 

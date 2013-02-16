@@ -12,6 +12,7 @@ find out!
     :maxdepth: 3
 
     getting-data-from-world-bank
+    liberating-html-tables
     sorting-data-with-spreadsheets
     filtering-data-with-spreadsheets
     formulae-with-spreadsheets
@@ -19,5 +20,6 @@ find out!
     line-charts-from-spreadsheets
     scatterplots-from-spreadsheets
     interactive-bubble-charts
+    choropleth-maps-from-spreadsheets
     publishing-work-online
 
