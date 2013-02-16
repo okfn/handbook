@@ -109,7 +109,7 @@ Well, you must now be exhausted, so letâ€™s pause a little and consider what weâ
 Talk about it in the comments threads if you like. 
 
 
-And now hurry on to the next installment of this course, The Invisible Man is in your spreadsheet, messing with your data.
+And now hurry on to the next instalment of this course, The Invisible Man is in your spreadsheet, messing with your data.
 
 
 .. raw:: html
