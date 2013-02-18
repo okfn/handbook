@@ -36,7 +36,11 @@ Glossary
     JavaScript Object Notation. A common format to exchange data.
     Although it is derived from Javascript, libraries to parse JSON data
     exist for many programming languages. Its compact style and ease of use
-    has made it widespread.
+    has made it widespread. To make viewing JSON in a browser easier you can
+    install a plugin such as `JSONView in Chrome
+    <https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc>`_
+    and `JSONView in Firefox
+    <https://addons.mozilla.org/en-us/firefox/addon/jsonview/>`_.
 
   GDP
     Gross domestic product (GDP) is the market value of all officially recognized goods and services produced within a country in a given period of time. GDP per capita is often considered an indicator of a country's standard of living. (Source: Wikipedia.)
