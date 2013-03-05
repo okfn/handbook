@@ -103,7 +103,9 @@ def upload(wordpress_site_url='', handbook_path='/handbook/'):
             (out, title) = prepare_html(open(path))
             pages[urlpath] = {
                 'title': title,
-                'description': out
+                'description': out,
+                # http://codex.wordpress.org/XML-RPC_WordPress_API/Pages#wp.newPage
+                'mt_allow_comments': 'open'
             }
 
     # do the upload
