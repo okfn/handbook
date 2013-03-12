@@ -48,7 +48,7 @@ Even unremarkable objects have a lot of data attached to them. You too: you have
 
 In the example above, we can already see that there are different types of data. The two major categories are qualitative and quantitative data. 
 
-:term:`Qualitative data` is everything that refers to the quality of something: The color, the texture, the feel, a description of experiences, and interview are all qualitative data.
+:term:`Qualitative data` is everything that refers to the quality of something: A description of colours, texture and feel of an object , a description of experiences, and interview are all qualitative data.
 
 :term:`Quantitative data` is data that refers to a number. E.g. the number of golf balls, the size, the price, a score on a test etc. 
 
