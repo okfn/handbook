@@ -57,8 +57,7 @@ def prepare_html(fileobj):
 
     # now various regex
     
-    out.append("<p><small>Last update: %s</small></p>"%(
-    datetime.datetime.now().strftime("%Y-%m-%d")))
+    out.append("<p><small>%s</small></p>"%pq("p.meta").text())
     out=out.outerHtml()
     # replace .html with / and index.html with simple ./
     pattern = '(internal" href=".[^"]*)index\.html"'
