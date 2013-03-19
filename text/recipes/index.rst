@@ -17,6 +17,7 @@ find out!
     filtering-data-with-spreadsheets
     formulae-with-spreadsheets
     cleaning-data-with-spreadsheets
+    cleaning-data-with-refine
     line-charts-from-spreadsheets
     scatterplots-from-spreadsheets
     interactive-bubble-charts
