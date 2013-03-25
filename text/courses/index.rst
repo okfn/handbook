@@ -213,7 +213,7 @@ to clean data and how to do it.
                 </a>
               </li>
               <li>
-                <a href="data-cleaning-nuts-and-gums" class="thumbnail sidelink">
+                <a href="data-cleaning-nuts-and-gum" class="thumbnail sidelink">
                   <div class="row">
                   <div class="span2">
             <img src="http://farm9.staticflickr.com/8503/8401143543_a8a9b1bb41_c_d.jpg" alt="">
