@@ -296,9 +296,12 @@ to clean data and how to do it.
 .. raw:: html
 
     </div>
- School of Data Journalism
- -------------------------
- 
+
+School of Data Journalism
+-------------------------
+
+.. raw:: html
+
  <div>
  <ul>
  <li>
@@ -319,12 +322,12 @@ to clean data and how to do it.
        <div class="row">
        <div class="span2">
          <img src="http://farm8.staticflickr.com/7224/7351794700_3ebce21da5.jpg" alt="">
-</div>        
-<div class="caption offset2">
+  </div>        
+  <div class="caption offset2">
          <h3>Spending Stories</h3>
          <p>How do you work with, clean up and present your government's spending information. A quick overview of a fantastic tool for working with government spending information. An introduction to Europe's Financial Transparency Information System. </p>
        </div>
-</div>
+  </div>
      </a>
    </li>
    <li>
@@ -353,13 +356,13 @@ to clean data and how to do it.
                </div>
                     </a>
         </li>
-</ul> 
+  </ul> 
 
 .. raw:: html
 
     <div class="hidden" style="display: none;">
 
-  .. toctree::
+.. toctree::
     :maxdepth: 1
 
    getting-stories-from-data
