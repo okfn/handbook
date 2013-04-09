@@ -302,8 +302,8 @@ School of Data Journalism
 
 .. raw:: html
 
- <div>
- <ul>
+  [raw]
+ <ul class="thumbnails">
  <li>
          <a href="getting-stories-from-data" class="thumbnail sidelink">
            <div class="row">
@@ -357,6 +357,7 @@ School of Data Journalism
                     </a>
         </li>
   </ul> 
+  [/raw]
 
 .. raw:: html
 

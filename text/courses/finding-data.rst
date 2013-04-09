@@ -99,8 +99,10 @@ At the beginning of Data Fundamentals, we posed ourselves a question: ‘How doe
 Extra Reading
 -------------
 
-1. How to upload data to datahub.io http://vimeo.com/45913395 
-2. The `Data Journalism Handbook`_ has lots of handy tips for finding useful data sources in a "Five Minute Field Guide"
+#. `How to get data from the world bank data portal </handbook/recipes/getting-data-from-world-bank/>`_
+#. How to upload data to datahub.io http://vimeo.com/45913395 
+#. The `Data Journalism Handbook`_ has lots of handy tips for finding useful data sources in a "Five Minute Field Guide"
+
 
 .. _Datacatalogs.org: http://datacatalogs.org
 .. _Data Journalism Handbook: http://datajournalismhandbook.org/1.0/en/getting_data_0.html
