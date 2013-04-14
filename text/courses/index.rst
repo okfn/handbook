@@ -334,11 +334,11 @@ School of Data Journalism
            <a href="making-data-pretty" class="thumbnail sidelink">
              <div class="row">
              <div class="span2">
-               <img src="http://farm7.staticflickr.com/6194/6152461532_13af9c9414_q.jpg" alt="">
+               <img src="http://farm7.staticflickr.com/6103/6322529463_34cb825b79_t.jpg" alt="">
       </div>        
       <div class="caption offset2">
                <h3>Making Data Pretty</h3>
-               <p> There are many fantastic off-the-shelf tools for visualising data. Join Dan Ngyuen, Mirko Lorenz and Simon Rogers for a whistlestop tour through some of the staples of a data journalist's workbench.</p>
+               <p> There are many fantastic off-the-shelf tools for visualising data. Join Dan Nguyen, Mirko Lorenz and Simon Rogers for a whistlestop tour through some of the staples of a data journalist's workbench.</p>
              </div>
       </div>
            </a>
@@ -347,7 +347,7 @@ School of Data Journalism
                     <a href="asking-for-data" class="thumbnail sidelink">
                       <div class="row">
                       <div class="span2">
-                        <img src="http://farm7.staticflickr.com/6194/6152461532_13af9c9414_q.jpg" alt="">
+                        <img src="http://farm7.staticflickr.com/6107/6315300499_e890a5c1e8_q.jpg" alt="">
                </div>        
                <div class="caption offset2">
                         <h3>Asking for Data</h3>
