@@ -63,7 +63,7 @@ Upon completion of this course, you will:
 Course requirements
 ___________________
 
-A gentle Introduction to descriptive analysis builds on two earlier School of Data courses: 
+A gentle introduction to exploring and understanding your data builds on two earlier School of Data courses: 
 
 #. `Data Fundamentals`_, which covers the basics of data, and how to work with a spreadsheet. 
 #. A `Gentle Introduction to Cleaning Data`_, which looks at the four most common ways that data gets messy and dirty, and outlines practical solutions to them using a spreadsheet.
@@ -109,12 +109,12 @@ Section 1: Getting started
 --------------------------
 
 
-Make sure you’ve got copies of `the sample dataset`_ and the GRAIN dataset
-on `landgrabbing`_ open in your copy of LibreOffice.
+Make sure you’ve got copies of `the sample dataset`_ and the `GRAIN dataset`_
+on landgrabbing open in your copy of LibreOffice.
 
 
 .. _the sample dataset: https://ckannet-storage.commondatastorage.googleapis.com/2013-03-09T023150/pivot_building_sample20130309.xls
-.. _landgrabbing: https://ckannet-storage.commondatastorage.googleapis.com/2012-10-31T183207/Original+clean_GRAIN_dataset_20121003.xls
+.. _GRAIN dataset: https://ckannet-storage.commondatastorage.googleapis.com/2012-10-31T183207/Original+clean_GRAIN_dataset_20121003.xls
 
 A quick task
 ____________
@@ -129,7 +129,7 @@ Start by building a pivot table using the data from the sample sheets:
 #. Select all the data. You can do this by selecting cell A1 and dragging the mouse to cell D9, or holding down Ctrl-A (Cmd-A on Apple Mac computers).
 #. With the data now selected choose **Data → Pivot Table → Create** from the spreadsheet’s top menu. A pop-up window will appear asking if you want to use the ‘current selection’. Choose **OK**.
 #. As illustrated below, you’ll see some grey tiles that correspond with the column headings from your raw data. 
-#. Let’s pivot them, that is, turn a column into a row. Select and hold the tile labelled **Snack** and drag it into the white areas called **Row Field**, as illustrated below:
+#. Let’s pivot them, that is, turn a column into a row. Select and hold the tile labelled **Snack** and drag it into the white area called **Row Field**, as illustrated below:
 
    .. image:: http://farm9.staticflickr.com/8259/8650783239_013f6acaf3_b_d.jpg
 
@@ -153,7 +153,7 @@ Pivot tables can be created with more than one **Row Field**. Using the sample d
 
    .. image:: http://farm9.staticflickr.com/8254/8651881506_4358fa812e_o_d.png
 
-#. Select **Edit Layout**. This will open the Pivot Table editor again.  This time, drag **Ingredient** into the **Row Fields** area, then click on **OK**. The data produced by the pivot table will now look different:
+#. Select **Edit Layout**. This will open the pivot table editor again.  This time, drag **Ingredient** into the **Row Fields** area, then click on **OK**. The data produced by the pivot table will now look different:
 
    .. image:: http://farm9.staticflickr.com/8405/8651881524_aca9fa03a0_o_d.png
 
@@ -208,7 +208,7 @@ To create a pivot table in the GRAIN dataset the steps are the same:
 #. In the window that appears, choose “Current selection” and then click “OK”.
 #. Choose the layout of your pivot table by dragging the ‘tiles’ representing the different columns of data into different parts of the pivot table layout.
 #. When you’re happy, select ‘OK’ to create the pivot table.
-#. If you want to change the layout of a pivot table, right click on the pivot table to bring up a secondary menu, and select “Edit Layout”. 
+#. If you want to change the layout of a pivot table, right click on the pivot table to bring up a secondary menu, and select 'Edit Layout'. 
 
 
 The GRAIN dataset has nine columns of data. In this lesson, we’ll just add
@@ -218,13 +218,13 @@ different combinations of fields into the **Row Fields** part of the pivot table
 We’ll walk through one of the questions to get you started: **“In which
 countries has land been acquired?”**
 
-#. The data you need to answer this is in column A, labelled “Landgrabbed”.
+#. The data you need to answer this is in column A, labelled 'Landgrabbed'.
 #. Select the complete dataset. Go to Data → Pivot Table → Create.
-#. Choose “Current selection” and the empty layout window will appear, as below:
+#. Choose 'Current selection' and the empty layout window will appear, as below:
    
    .. image:: http://farm9.staticflickr.com/8264/8651881598_507370689f_b_d.jpg
 
-#. Uh oh! As you can see, there are two tiles that are labelled the same. This is because there are two columns that are very similar - ‘LandgrabbeD’ and ‘LandgrabbeR’ - and the pivot table layout unhelpfully trims the label side. Hover your mouse over the tile to reveal the full name of the column of data you want to add, as below:
+#. Uh oh! As you can see, there are two tiles that are labelled the same. This is because there are two columns that are very similar - ‘LandgrabbeD’ and ‘LandgrabbeR’ - and the pivot table layout unhelpfully trims the label. Hover your mouse over the tile to reveal the full name of the column of data you want to add, as below:
 
    .. image:: http://farm9.staticflickr.com/8262/8650783349_4a70be6197_o_d.png
 
@@ -264,7 +264,7 @@ Now you’re pretty much an expert, here are a few more questions that you can a
 #. In which countries are investors based (their base)?
 #. In which countries are investors based, and where did they acquire land?
 #. Which investors are working in which sectors? 
-#. Which investors are working in which sectors, and how did they use the land they had purchased? Tip: data on how acquired land was used is in the column called ‘Production’.
+#. Which investors are working in which sectors, and how did they use the land they purchased? Tip: data on how acquired land was used is in the column called ‘Production’.
 #. Which companies work in which sectors, broken down by base country?
 #. What are the names of investors that have made similar sized land acquisitions, and in which countries did they make those acquisitions?
 #. What were similar sized land acquisitions used for, and in which country, and what is the status of the deal?
@@ -285,7 +285,8 @@ In **Section 1** we tried out building sorted and grouped lists that can use you
 A quick task
 ____________
 
-Build a pivot of the different types of snack again, as outlined in Section 1 above. This time however, we’ll add in a “Data Field”  that will calculate how many of each type of snack there are: 
+Build a pivot table of the different types of snack again, as outlined in Section 1 above. This time however, we’ll add in a “Data Field”  that will calculate how many of each type of snack there are: 
+
 #. Your pivot table layout should look like the image below:
 
    .. image:: http://farm9.staticflickr.com/8522/8650783577_b64b706933_b_d.jpg
@@ -323,7 +324,7 @@ We can apply the same steps to the GRAIN dataset on landgrabbing to create more 
 
    .. image:: http://farm9.staticflickr.com/8100/8651881912_e6857dcf86_b_d.jpg
 
-   Note: in the image above, the tile in Row fields is ‘Landgrabbed’. As noted above, the layout editor shortens it in an annoying manner. Hover your mouse over it to show the full fieldname.
+   Note: in the image above, the tile in Row Fields is ‘Landgrabbed’. As noted above, the layout editor shortens it in an annoying manner. Hover your mouse over it to show the full fieldname.
 
 
 #. The effect is the same as with the example above in the short task. The data in the **Row Field** is summarised and grouped to show a list of countries, without duplicates. The data in the **Data Field** has been added up to give a total figure for each country. Here are some sample rows of what this pivot table will produce: 
@@ -355,14 +356,14 @@ Using your knowledge of choosing Row Fields, and now adding Data Fields, try cre
 Bonus features: change which aspects of data are shown
 ______________________________________________________
 
-The fields that you add to pivot tables have two useful features you should know about. We’ll give a workthrough below, but here’s an overview:
+The fields that you add to pivot tables have two useful features you should know about. We’ll provide a workthrough below, but here’s an overview:
 
 
 #. The data that we have positioned in the Data Field of the pivot table is often just added up - that is, where there are multiple values they are added together to show the “sum”. However, the pivot table can show this data differently by:
 
-   #. picking out the **highest** (the “max”) or **lowest** (the “min”) values from a list.
-   #. giving a total of the number of values (the “count”).
-   #. calculating the data as a percentage or running total.
+   a. picking out the **highest** (the “max”) or **lowest** (the “min”) values from a list.
+   b. giving a total of the number of values (the “count”).
+   c. calculating the data as a percentage or running total.
 
    This feature is activated by double-clicking on any tile that you’ve dragged into any area of the pivot table layout editor. 
 #. As with the **Row Fields**, you can have more than one data field in a pivot table. This means you can display different aspects of the same data next to each other. To use it, just drag another fieldname into the **Data Fields** area.
@@ -390,6 +391,7 @@ Here’s an example pivot table layout that demonstrates both these features.
 #. This pivot table will show four pieces of data for each country where land has been acquired: the number (or ‘count’) of deals where the amount of land is recorded, the largest acquisition (‘max’), the smallest acquisition (‘min’) and the total amount of land (‘sum’). Here’s a clipping from the pivot table which shows the entry for Argentina:
 
    .. image:: http://farm9.staticflickr.com/8536/8650783799_e5f073b57f_o_d.png
+
 
 
 Section 3: Adding columns to pivot tables
@@ -474,6 +476,7 @@ pivot table data is the **standard filter**. We can use this to exercise far mor
 
 #. This will filter the data to show only those deals that are equal to or larger than (>= in mathematical notation) 100,000 ha. 
 #. The filter can be removed by opening the Filter Criteria window and selecting ‘none’ in the field name drop-down menu.
+
 
 
 Section 4: Adding charts to pivot tables
