@@ -9,24 +9,25 @@ Geocoding is a common need when working with data as you may only have human-rea
 Online geocoding
 ----------------
 
-In theory, to do geocoding we just need a database that lists place names and their corresponding coordinates. Several, such `open databases`_ exist including [geonames](http://geonames.org/) and [Open Street Map][osm].
-
-[osm]: http://openstreetmap.org/
+In theory, to do geocoding we just need a database that lists place names and their corresponding coordinates. Several, such `open databases`_ exist including `geonames`_ and `OpenStreetMap`_.
 
 .. _open databases: http://opendefinition.org
+.. _geonames: http://geonames.org/
+.. _OpenStreetMap: http://openstreetmap.org/
+
 
 However, we don't want to have to do the lookups ourselves - that would either involve programming or a lot of very tedious scrolling.
 
-As a result, various web services have been built which allow look ups online or over a [web API][]. These services also assist in find the *best match* for a given name -- for a given simple place name such as London there may be several matching locations (e.g. London, UK and London, Ontario) and one needs some way to match and rank these alternatives.
+As a result, various web services have been built which allow look ups online or over a `web API`_. These services also assist in find the *best match* for a given name -- for a given simple place name such as London there may be several matching locations (e.g. London, UK and London, Ontario) and one needs some way to match and rank these alternatives.
 
-[web API]: http://schoolofdata.org/handbook/appendix/glossary/#term-web-api
+.. _web API: http://schoolofdata.org/handbook/appendix/glossary/#term-web-api
 
 Nominatim - An Open Geocoding Service
 -------------------------------------
 
-There are a variety of Geocoding services. We recommend using one based on **open data** such as the [MapQuest Nominatim][mapquest] service which uses the [Open Street Map][osm] database. This service provides both "human-readable" service (HTML) and a "machine-readable" API (JSON and XML) for automated Geocoding.
+There are a variety of Geocoding services. We recommend using one based on **open data** such as the `MapQuest Nominatim`_ service which uses the `Open Street Map`_ database. This service provides both "human-readable" service (HTML) and a "machine-readable" API (JSON and XML) for automated Geocoding.
 
-[mapquest]: <http://open.mapquestapi.com/nominatim/v1/>
+.. _MapQuest Nominatim: http://open.mapquestapi.com/nominatim/v1/
 
 Geocoding - The challenge
 --------------------
@@ -34,30 +35,30 @@ Geocoding - The challenge
 Right, so now it's time to get your hands dirty.
 
 a) Pick a dataset with locations you would like to geocode
-b) Follow the [recipe][georecipe] in the handbook to show you how to geolocate.
-c) If you like - go one step further and put your data on a map. There are lots of great services available to do this, [Tilemill][tilemill] by Mapbox is very elegant, allowing you to customise your map to your house style - the documentation is also very clear and accessible, [Google Fusion Tables][fusion] also allows you to easily plot points on a map and is a popular choice with many data journalists for it's ease of getting started.
+b) Follow the `recipe`_ in the handbook to show you how to geolocate.
+c) If you like - go one step further and put your data on a map. There are lots of great services available to do this, `Tilemill`_ by Mapbox is very elegant, allowing you to customise your map to your house style - the documentation is also very clear and accessible, `Google Fusion Tables`_ also allows you to easily plot points on a map and is a popular choice with many data journalists for it's ease of getting started.
 
-[georecipe]: <http://schoolofdata.org/2013/02/19/geocoding-part-ii-geocoding-data-in-a-google-docs-spreadsheet/>
-[tilemill]: <http://mapbox.com/tilemill/>
-[fusion]: <http://support.google.com/fusiontables/answer/2571232?hl=en>
+.. _recipe: http://schoolofdata.org/2013/02/19/geocoding-part-ii-geocoding-data-in-a-google-docs-spreadsheet/
+.. _Tilemill: http://mapbox.com/tilemill/
+.. _Google Fusion Tables: http://support.google.com/fusiontables/answer/2571232?hl=en
 
 Once you've finished - drop us a link to what you have produced in the comments below - that could just be a full geocoded dataset - or a beautiful map, go as far as you need!
 
 
 Example - Human-readable HTML
------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 <http://open.mapquestapi.com/nominatim/v1/?q=London>
 
-<img src="http://i.imgur.com/zCpzg8a.jpg" alt="" />
+  .. image:: http://i.imgur.com/zCpzg8a.jpg
 
 Example - Machine-readable JSON
--------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-(JSON is also [human-readable if you have a plugin][json-ref])
+(JSON is also [human-readable if you have a `plugin`_)
 
 <http://open.mapquestapi.com/nominatim/v1/?format=json&q=London>
 
-<img src="http://i.imgur.com/SjoQuYP.png" alt="" />
+  .. image:: http://i.imgur.com/SjoQuYP.png
 
-[json-ref]: http://schoolofdata.org/handbook/appendix/glossary/#term-json
+.. _plugin: http://schoolofdata.org/handbook/appendix/glossary/#term-json
