@@ -19,7 +19,7 @@ Table of Contents
 _________________
 
 * `Introduction <#introduction>`_
-* `Section 1: Getting Startet <#section-1-getting-started>`_
+* `Section 1: Getting Started <#section-1-getting-started>`_
 * `Section 2: Make a pivot table even more useful by adding 'data fields' <#section-2-make-a-pivot-table-even-more-useful-by-adding-data-fields>`_
 * `Section 3: Adding columns to pivot tables <#id5>`_
 * `Section 4: Adding charts to pivot tables <#id8>`_
