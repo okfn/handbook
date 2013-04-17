@@ -16,6 +16,7 @@ find out!
     sorting-data-with-spreadsheets
     filtering-data-with-spreadsheets
     formulae-with-spreadsheets
+    geocoding
     cleaning-data-with-spreadsheets
     cleaning-data-with-refine
     line-charts-from-spreadsheets
