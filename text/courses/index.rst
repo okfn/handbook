@@ -297,6 +297,45 @@ to clean data and how to do it.
 
     </div>
 
+A Gentle introduction to exploring and understanding data
+---------------------------------------------------------
+
+The second course by `Tactical Technology Collective <http://tacticaltech.org>`_ 
+shows how to use pivot tables to explore your data and gain insights
+quickly.
+
+.. raw:: html
+
+  <ul class="thumbnails">
+              <li>
+                <a href="gentle-introduction-exploring-and-understanding-data" class="thumbnail sidelink">
+                  <div class="row">
+                  <div class="span2">
+          <img src="http://farm9.staticflickr.com/8114/8651881402_513a3b89ac_q_d.jpg" alt="">
+          </div>
+  <div class="caption offset2">
+                    <h3>A gentle introduction to exploring and understanding data</h3>
+          <p>What if we told you, there is a quick way, your computer can help you to summarize and understand data? Wouldn't this be great? Check this course to learn how to use pivot tables to do this!</p>
+                  </div>
+  </div>
+                </a>
+              </li>
+ 
+
+.. raw:: html
+
+  <div class="hidden" style="display:none;">
+
+  .. toctree::
+    :maxdepth: 1
+
+    gentle-introduction-exploring-and-understanding-data
+
+.. raw:: html
+
+  </div>
+
+
 School of Data Journalism
 -------------------------
 
