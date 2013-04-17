@@ -9,9 +9,11 @@ Geocoding is a common need when working with data as you may only have human-rea
 Online geocoding
 ----------------
 
-In theory, to do geocoding we just need a database that lists place names and their corresponding coordinates. Several, such [open databases](http://opendefinition.org) exist including [geonames](http://geonames.org/) and [Open Street Map][osm].
+In theory, to do geocoding we just need a database that lists place names and their corresponding coordinates. Several, such `open databases`_ exist including [geonames](http://geonames.org/) and [Open Street Map][osm].
 
 [osm]: http://openstreetmap.org/
+
+.. _open databases: http://opendefinition.org
 
 However, we don't want to have to do the lookups ourselves - that would either involve programming or a lot of very tedious scrolling.
 
