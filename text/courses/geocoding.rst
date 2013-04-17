@@ -32,7 +32,7 @@ Geocoding - The challenge
 Right, so now it's time to get your hands dirty.
 
 a) Pick a dataset with locations you would like to geocode
-b) Follow the [recipe][georecipe]
+b) Follow the [recipe][georecipe] in the handbook to show you how to geolocate.
 c) If you like - go one step further and put your data on a map. There are lots of great services available to do this, [Tilemill][tilemill] by Mapbox is very elegant, allowing you to customise your map to your house style - the documentation is also very clear and accessible, [Google Fusion Tables][fusion] also allows you to easily plot points on a map and is a popular choice with many data journalists for it's ease of getting started.
 
 [georecipe]: <http://schoolofdata.org/2013/02/19/geocoding-part-ii-geocoding-data-in-a-google-docs-spreadsheet/>
