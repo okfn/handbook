@@ -92,11 +92,13 @@ from being reviewed by human eyes, this may be an option for you.
 Alternatively, there are a small number of commercial firms providing this 
 service. The most well known is Amazon's Mechanical Turk. They providing 
 something of a wholesale service. You may be better off using a service such
-as Cloudflower or Microtask. Microtask also has the ethical advantage of not
+as `Cloudflower`_ or `Microtask`_. Microtask also has the ethical advantage of not
 providing service below the minimum wage. Instead, they team up with video 
 game sellers to provide in-game rewards. 
 
 .. _TaskMeUp: https://bitbucket.org/waj/taskmeup
+.. _Cloudflower: http://crowdflower.com/
+.. _Microtask: http://www.microtask.com/
 
 Challenge: Free the Budgets
 ---------------------------
