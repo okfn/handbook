@@ -38,7 +38,7 @@ I’m always interested in politics - and parliaments websites are great places 
    
    .. image:: http://farm9.staticflickr.com/8481/8163612088_fa538861bc_o_d.png
 
-#. Once you’ve done this, filter the constituency field for “(blank)” values - this will give you all the letter headings (If you’re not sure how to do this - check out this course (link to spreadsheets intro sort&filter)
+#. Once you’ve done this, filter the constituency field for “(blank)” values - this will give you all the letter headings (If you’re not sure how to do this - check out `this course </handbook/courses/sort-and-filter>`_ 
 #. Delete the rows (you can simply select all and right click on the rows to delete them)
 #. Turn off the filter to see the remaining rows
 #. Notice how the first column contains three pieces of information (Surname, Name and Party). Let’s split this up
