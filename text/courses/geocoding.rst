@@ -38,7 +38,7 @@ a) Pick a dataset with locations you would like to geocode
 b) Follow the `recipe`_ in the handbook to show you how to geolocate.
 c) If you like - go one step further and put your data on a map. There are lots of great services available to do this, `Tilemill`_ by Mapbox is very elegant, allowing you to customise your map to your house style - the documentation is also very clear and accessible, `Google Fusion Tables`_ also allows you to easily plot points on a map and is a popular choice with many data journalists for it's ease of getting started.
 
-.. _recipe: http://schoolofdata.org/2013/02/19/geocoding-part-ii-geocoding-data-in-a-google-docs-spreadsheet/
+.. _recipe: http://schoolofdata.org/handbook/recipes/geocoding/
 .. _Tilemill: http://mapbox.com/tilemill/
 .. _Google Fusion Tables: http://support.google.com/fusiontables/answer/2571232?hl=en
 

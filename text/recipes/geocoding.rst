@@ -25,6 +25,8 @@ This formula uses the ImportXML function to look up XML data from the `Mapquest 
 
 .. _Mapquest Nominatim geocoding service: http://open.mapquestapi.com/
 
+.. image:: http://i.imgur.com/9ZCchXY.png
+
 In reality we want both latitude and longitude, so let’s change it to::
 
   =ImportXML("http://open.mapquestapi.com/search?format=xml&q=London", "//place[1]/@lat | //place[1]/@lon")
