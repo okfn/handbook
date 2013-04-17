@@ -647,25 +647,4 @@ if you take the time to learn asynchronous programming.
 .. _ScraperWiki: http://www.scraperwiki.com/
 .. _scrapemark: https://github.com/arshaw/scrapemark
 
-========================================================
-Case study: How to build your city's open data catalogue
-========================================================
-
-Max Ogden has a great post about the practical steps needed to build 
-an open data API for a city.
-
-
-=======================
-How to clean your data
-=======================
-
-Whether you have gathered your data from an open data catalogue or have
-scraped it yourself, it's likely that it will be in an inconsistent 
-state.
-
-Tools to use
-------------
-
-- Google Refine
-- 
 

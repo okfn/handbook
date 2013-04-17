@@ -1,0 +1,1 @@
+http://schoolofdata.org/2013/03/26/using-sql-for-lightweight-data-analysis/
