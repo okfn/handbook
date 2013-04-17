@@ -45,20 +45,19 @@ c) If you like - go one step further and put your data on a map. There are lots 
 Once you've finished - drop us a link to what you have produced in the comments below - that could just be a full geocoded dataset - or a beautiful map, go as far as you need!
 
 
-Example - Human-readable HTML
+Example - `Human-readable HTML`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-<http://open.mapquestapi.com/nominatim/v1/?q=London>
 
   .. image:: http://i.imgur.com/zCpzg8a.jpg
 
-Example - Machine-readable JSON
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. _Human Readable: http://open.mapquestapi.com/nominatim/v1/?q=London
 
-(JSON is also [human-readable if you have a `plugin`_)
+Example - `Machine-readable JSON`_
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-<http://open.mapquestapi.com/nominatim/v1/?format=json&q=London>
+(JSON is also human-readable if you have a `plugin`_)
 
   .. image:: http://i.imgur.com/SjoQuYP.png
 
+.. _Machine-readable JSON : http://open.mapquestapi.com/nominatim/v1/?format=json&q=London
 .. _plugin: http://schoolofdata.org/handbook/appendix/glossary/#term-json
