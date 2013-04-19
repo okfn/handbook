@@ -107,7 +107,7 @@ Find yourselves some PDFs to bust!
 
 For example, there are many PDFs which need your help in the `Budget Library of the International Budget Partnership`_
 
-.._Budget Library of the International Budget Partnership:https://docs.google.com/folder/d/0ByA9wmvBrAnZN3ZrdzNzcS1JZzg/edit?pli=1
+.. _Budget Library of the International Budget Partnership: https://docs.google.com/folder/d/0ByA9wmvBrAnZN3ZrdzNzcS1JZzg/edit?pli=1
 
 Remember - once you've liberated your data, share it and save someone else the job! Why not upload to `the OpenSpending group on the datahub`_ and drop the `OpenSpending Mailing List`_ a line to say you have done so, people are always looking for raw data to visualise and explain. 
 
