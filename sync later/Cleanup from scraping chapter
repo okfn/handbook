@@ -1,0 +1,37 @@
+Import HTML v2 to extract - split cell columns 
+
+**Walkthrough:** Importing HTML tables into Google Spreadsheets. 
+
+#. Go to http://drive.google.com, log in and create a new spreadsheet
+#. Edit cell A1 (the top left cell)
+#. Let’s import the table of UK MPs
+#. Enter the following formula into the cell: =importHTML(“http://www.parliament.uk/mps-lords-and-offices/mps/”,”table”,2) (The last number indicates the number of the table in the document, just try them out and find the matching one...)
+   .. image:: http://farm9.staticflickr.com/8224/8290901806_cffa226b9b_o_d.png        
+
+#. Press Enter
+#. Wait for a while and see the a table magically appear
+
+   .. image:: http://farm9.staticflickr.com/8484/8163577989_c7dddb34ae_o_d.png
+#. Now let’s do a little cleanup: Delete all heading rows (the ones containing *A* *B* and so on)
+#. Notice how if you work with the sheet, the deleted rows appear again and again? This is because the formula keeps refreshing the content.
+#. In order to change the content or delete it, we’ll need to copy the content of the first sheet into another sheet
+#. Select the two columns that were imported in the spreadsheet
+#. Copy them using “ctrl”+”c”
+#. Create a new sheet in your spreadsheet
+
+#. Notice how the first column contains three pieces of information (Surname, Name and Party). Let’s split this up
+#. The surname is separated from the name and the party by a simple comma - let’s split it here.
+#. The formula you’re going to use is =SPLIT(). It takes two values: 1. the String to be split 2. the delimiter.
+#. Label the third column “Surname”. This is where our surname is going to be
+#. In the second row enter =SPLIT(A2,”,”) and press enter
+   
+   .. image:: http://farm9.staticflickr.com/8478/8163612150_8a7579f818_o_d.png
+#. This will split up the second row for Surname and Firstname (Party)
+#. Extend the formula all the way down.
+#. Now you can do the same with the first name (split with “(“ as delimiter)
+#. Last let’s remove the trailing parenthesis from the party name
+#. We are going to combine two formulas: =LEFT and =LEN. =LEFT gives us n characters of a text and LEN gives us the length of the text. We want all characters except the last one - so the formula is =LEFT(F2,LEN(F2)-1)
+   
+   .. image:: http://farm9.staticflickr.com/8070/8163612170_111f78b9fc_o_d.png
+#. If you hide the columns you’re not interested in, you will end up with a sheet having Constituency, Surname and Name and Party of the MP.
+

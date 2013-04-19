@@ -415,3 +415,77 @@ School of Data Journalism
 
     </div>
 
+A Gentle Introduction to Geocoding
+----------------------------------
+
+.. raw:: html
+
+  [raw]
+ <ul class="thumbnails">
+ <li>
+         <a href="geocoding" class="thumbnail sidelink">
+           <div class="row">
+           <div class="span2">
+             <img src="http://farm8.staticflickr.com/7279/7850933238_eda901aeec_q.jpg" alt="">
+    </div>        
+    <div class="caption offset2">
+             <h3>A gentle introduction to Geocoding</h3>
+             <p>Need to put your data on a map but it doesn't contain Latitude and Longitude values? Read on!</p>
+           </div>
+    </div>
+         </a>
+       </li>
+ </ul>
+
+[/raw]
+
+.. raw:: html
+
+    <div class="hidden" style="display: none;">
+
+.. toctree::
+    :maxdepth: 1
+
+   geocoding
+
+.. raw:: html
+
+    </div>
+
+A Gentle Introduction to Getting Data From the Web
+--------------------------------------------------
+
+.. raw:: html
+
+  [raw]
+ <ul class="thumbnails">
+ <li>
+         <a href="scraping" class="thumbnail sidelink">
+           <div class="row">
+           <div class="span2">
+             <img src="http://farm9.staticflickr.com/8243/8612339019_555d1f312c_q.jpg" alt="">
+    </div>        
+    <div class="caption offset2">
+             <h3>A gentle introduction to Extracting Data from Websites</h3>
+             <p>Learn how to scrape without code in 5 minutes and when you might need to invest time in more sophisticated techniques. </p>
+           </div>
+    </div>
+         </a>
+       </li>
+ </ul>
+
+[/raw]
+
+.. raw:: html
+
+    <div class="hidden" style="display: none;">
+
+.. toctree::
+    :maxdepth: 1
+
+   scraping
+
+.. raw:: html
+
+    </div>
+
