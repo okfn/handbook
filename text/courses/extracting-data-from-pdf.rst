@@ -76,7 +76,7 @@ The three main contenders in the free and open source world are:
 
 .. _unpaper: http://unpaper.berlios.de/
 .. _command line: http://en.wikipedia.org/wiki/Command-line_interface
-.. _Tessaract OCR: https://code.google.com/p/tesseract-ocr/wiki/ReadMe
+.. _Tesseract OCR: https://code.google.com/p/tesseract-ocr/wiki/ReadMe
 .. _Ocropus: https://code.google.com/p/ocropus/
 .. _GNU Ocrad: http://www.gnu.org/software/ocrad/ 
 
