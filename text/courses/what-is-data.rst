@@ -42,7 +42,7 @@ Data is all around us. But what exactly is it? Data is a value assigned to a thi
 
   Golf balls at a market (CC) by Kaptain Kobold on Flickr.
 
-What can we say about these? They are golf balls, right? So one of the first data points we have is that they are used for golf. Golf is a category of sport, so this helps us to put the ball in a taxonomy. But there is more to them. We have the color: “white”, the condition “used”. They all have a size, there is a certain number of them and they probably have some monetary value, and so on. 
+What can we say about these? They are golf balls, right? So one of the first data points we have is that they are used for golf. Golf is a category of sport, so this helps us to put the ball in a taxonomy. But there is more to them. We have the colour: “white”, the condition “used”. They all have a size, there is a certain number of them and they probably have some monetary value, and so on. 
 
 Even unremarkable objects have a lot of data attached to them. You too: you have a name (most people have given and family names) a date of birth, weight, height, nationality etc. All these things are data. 
 
@@ -78,7 +78,7 @@ From Data to Information to Knowledge.
 Data, when collected and structured suddenly becomes a lot more useful. Let’s do this in the table below.
 
 ================  ============
-Color             White
+Colour             White
 Category          Sport - Golf
 Condition         Used
 Diameter          43mm 
@@ -91,9 +91,16 @@ Let’s take the size: A diameter of 43mm doesn’t tell us much. It is only mea
 
 Unstructured vs. Structured data
 --------------------------------
-A plain sentence - “we have 5 white used golf balls with a diameter of 43mm at 50 cents each” - might be easy to understand, but for a computer this is hard to understand. The above sentence is what we call unstructured data. Unstructured has no fixed underlying structure - the sentence could easily be changed and it’s not clear which word refers to what exactly. A table such as the one we did above would be more structured. 
 
-Computers are inherently different from humans. It can be exceptionally hard to make computers extract information from certain sources. Some tasks that humans find easy are still difficult to automate with computers. For example, interpreting text that is presented as an image is still a challenge for a computer (have you ever signed up to a website and had to type some words which were presented to you as an image? This is because it’s so hard for computers to do so and so easy for you - proving that you’re not a machine). If you want your computer to process and analyse your data, it has to be able to read and process the data. This means it needs to be structured and in a :term:`machine-readable` form.
+Data for Humans
+^^^^^^^^^^^^^^^
+
+A plain sentence - “we have 5 white used golf balls with a diameter of 43mm at 50 cents each” - might be easy to understand for a human, but for a computer this is hard to understand. The above sentence is what we call unstructured data. Unstructured has no fixed underlying structure - the sentence could easily be changed and it’s not clear which word refers to what exactly. Likewise, PDFs and scanned images may contain information which is pleasing to the human-eye as it is laid-out nicely, but they are not :term:`machine-readable`. 
+
+Data for Computers
+^^^^^^^^^^^^^^^^^^^ 
+
+Computers are inherently different from humans. It can be exceptionally hard to make computers extract information from certain sources. Some tasks that humans find easy are still difficult to automate with computers. For example, interpreting text that is presented as an image is still a challenge for a computer. If you want your computer to process and analyse your data, it has to be able to read and process the data. This means it needs to be structured and in a :term:`machine-readable` form.
 
 One of the most commonly used formats for exchanging data is CSV. CSV
 stands for comma separated values. The same thing expressed as CSV can look

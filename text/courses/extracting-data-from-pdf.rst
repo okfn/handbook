@@ -3,7 +3,7 @@ Extracting Data from PDFs
 
 It's happened to all of us, we want some nice, fresh data that we can sort, analyse and visualise and instead, we get a PDF. What a disappointment. 
 
-This course will guide you through the main decisions involved in choosing how to rectify this situation and point you to some useful recipes to help you on your way. 
+This course will guide you through the main decisions involved in getting data out of PDFs into a format that you can easily use in data projects. 
 
 .. raw:: html
 
@@ -12,9 +12,14 @@ This course will guide you through the main decisions involved in choosing how t
 
 Navigate the slideshow with the arrow keys.
 
-When cut and paste fail, you'll sometimes need to resort to more powerful means. Below is a little more information on the two most complex paths highlighted by the flowchart above. 
+When cut and paste fail, you'll sometimes need to resort to more powerful means. Below is a little more information on the two of the trickiest paths highlighted by the flowchart above. 
 
-(Recipes modified from text contributed by Tim McNamara)
+Note: Bad PDFs and worse PDFs 
+=============================
+
+PDFs are not all the same, some are generated from computer programs (best case scenario) but frequently, they are scanned copies of images. Worst case scenario, they are smudged, tea stained, crooked scans of images. In the latter case - your job will be considerably harder. Nevertheless, there are a couple of tips you can take to make your job easier, read on! 
+
+(Modified from text contributed by Tim McNamara)
 
 Path 1: OCR 
 ===========
@@ -23,16 +28,10 @@ The OCR Pipeline
 ----------------
 
 Creating a system for Optical Character Recognition (OCR) can be challenging.
-In most circumstances, the `Data Science Toolkit` will be able to extract
+In most circumstances, the `Data Science Toolkit`_ will be able to extract
 text from files that you are looking for.
 
-An excellent free tool is called `OCRFeeder`_. It is available in Ubuntu as 
-the `ocrfeeder` package. To get a feel for how to use it, there is a 
-`5 minute video tutorial`_ on its usage.
-
 .. _Data Science Toolkit: http://www.datasciencetoolkit.org/
-.. _5 minute video tutorial: http://vimeo.com/3760126
-.. _ocrfeeder: http://code.google.com/p/ocrfeeder/
 
 OCR largely involves creating a conveyor belt of programming tools (but read on and you will discover a couple which don't) The whole process can include several steps:
 
@@ -52,9 +51,8 @@ and the printed text. One of the best free tools for this is `unpaper`_.
 File type conversion
 ^^^^^^^^^^^^^^^^^^^^
 
-One thing to note is that many OCR engines only support a small number of 
-input file types. Typically, you will need to convert your images to
-.ppm files.
+One thing to note is that many OCR engines only support a small number of input file types. Typically, you will need to convert your images to
+portable pixmap format (.ppm) files.
 
 In this section, we'll highlight a few of the options for extracting data or text out of a PDF. We don't want to reinvent the wheel, with all of these options, you'll need to read the manuals for the individual piece of software - we aim here to merely serve as a guide to help you choose your weapon! 
 
@@ -76,7 +74,7 @@ The three main contenders in the free and open source world are:
 
 .. _unpaper: http://unpaper.berlios.de/
 .. _command line: http://en.wikipedia.org/wiki/Command-line_interface
-.. _Tessaract OCR: https://code.google.com/p/tesseract-ocr/wiki/ReadMe
+.. _Tesseract OCR: https://code.google.com/p/tesseract-ocr/wiki/ReadMe
 .. _Ocropus: https://code.google.com/p/ocropus/
 .. _GNU Ocrad: http://www.gnu.org/software/ocrad/ 
 
@@ -103,13 +101,21 @@ game sellers to provide in-game rewards.
 Challenge: Free the Budgets
 ---------------------------
 
-Find yourselves some PDFs to bust!
+.. raw:: html
 
-For example, there are many PDFs which need your help in the `Budget Library of the International Budget Partnership`_
+  <div class="well">
 
-.._Budget Library of the International Budget Partnership:https://docs.google.com/folder/d/0ByA9wmvBrAnZN3ZrdzNzcS1JZzg/edit?pli=1
+**Task:**   Find yourselves some PDFs to bust!
 
-Remember - once you've liberated your data, share it and save someone else the job! Why not upload to `the OpenSpending group on the datahub`_ and drop the `OpenSpending Mailing List`_ a line to say you have done so, people are always looking for raw data to visualise and explain. 
+  For example, there are many PDFs which need your help in the `Budget Library of the International Budget Partnership`_
 
-.. _the OpenSpending group on the datahub: http://datahub.io/dataset?groups=openspending&q=openspending 
-.. _OpenSpending Mailing List: http://lists.okfn.org/mailman/listinfo/openspending 
+  ..  _Budget Library of the International Budget Partnership: https://docs.google.com/folder/d/0ByA9wmvBrAnZN3ZrdzNzcS1JZzg/edit?pli=1
+
+  Remember - once you've liberated your data, share it and save someone else the job! Why not upload to `the OpenSpending group on the datahub`_ and drop the `OpenSpending Mailing List`_ a line to say you have done so, people are always looking for raw data to visualise and explain. 
+
+  .. _the OpenSpending group on the datahub: http://datahub.io/dataset?groups=openspending&q=openspending 
+  .. _OpenSpending Mailing List: http://lists.okfn.org/mailman/listinfo/openspending
+.. raw:: html
+  
+  </div>
+

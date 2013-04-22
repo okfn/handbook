@@ -82,8 +82,10 @@ Create a formula to calculate the total amount of apples and plums sold during t
 
 **Did you add all of the cells up manually?:**
 That's a lot of clicking - for big spreadsheets, adding each cell manually could take a long time.
-Take a look at the "spreadsheet formulae" section in the Handbook - can you see a way add a range of
+Take a look at the "`spreadsheet formulae`_" section in the Handbook - can you see a way add a range of
 cells or entire columns simply?
+
+.. _spreadsheet formulae: http://schoolofdata.org/handbook/recipes/formulae-with-spreadsheets/
 
 .. raw:: html
 
@@ -92,13 +94,15 @@ cells or entire columns simply?
 Where Next?
 ===========
 
-Once you've got the hang of building a basic formula - the sky is your limit! The School of Data Handbook will additionally walk you through:
+Once you've got the hang of building a basic formula - the sky is your limit! The `School of Data Handbook`_ will additionally walk you through:
 
 * Multiplication using spreadsheets
 * Division using spreadsheets
 * Copying formulae sideways
 * Calculating minimum and maximum values
 * Dealing with empty cells in your data (complex formulae). This stage uses :term:`Boolean logic` .
+
+.. _School of Data Handbook: http://schoolofdata.org/handbook/recipes/formulae-with-spreadsheets/
 
 You may need to refer to these chapters to complete the following challenges.
 
