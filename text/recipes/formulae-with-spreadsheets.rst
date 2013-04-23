@@ -62,6 +62,11 @@ Let’s calculate the total of fruits sold.
   #. You can type each formula individually, but it also possible to cut and paste or drag formulas across a range of cells.
   #. Copy the formula you have just written (using ``ctrl`` + ``c`` ) and paste it into the cell below (using ``ctrl`` + ``v`` ), you will get the sum of the two numbers on the row below.
   #. Alternatively click on the lower right corner of the cell (the blue square), and drag the formula down to the bottom of the column. Watch the ``‘total’`` column update. Feels like magic!
+  
+Walkthrough: Using a spreadsheet to subtract values.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Take a look at the above example - it's exactly the same, apart from you use a ``-`` instead of a ``+``. Easy! Find the difference between the two columns in the example above. 
 
 Walkthrough: Multiplication and Division
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

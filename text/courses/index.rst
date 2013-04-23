@@ -46,11 +46,25 @@ The Data Fundamental modules provide a solid overview over the workflow with dat
                     <p>This course gives a short introduction in the world
   of data. If you are starting your journey into this wonderful land, this
   course is for you. The course covers basic concepts, different types of
-  data and gives an introduction to machine readable data</p>
+  data and gives an introduction to machine readable data.</p>
                   </div>
   </div>
                 </a>
               </li>
+              <li>
+                  <a href="data-provenance" class="thumbnail sidelink">
+                    <div class="row">
+                    <div class="span2">
+                    <img alt=""
+    src="http://farm9.staticflickr.com/8245/8612464961_9ff555410d_q.jpg">
+            </div>        
+    <div class="caption offset2">
+                      <h3>Documenting your process</h3>
+                      <p>To make a credible and sustainable data project, you need to document your steps right from the beginning. This course contains tips and tricks and tools for doing so.</p>
+                    </div>
+    </div>
+                  </a>
+                </li>
               <li>
                 <a href="finding-data" class="thumbnail sidelink">
                   <div class="row">
@@ -173,6 +187,7 @@ The Data Fundamental modules provide a solid overview over the workflow with dat
   :maxdepth: 1
 
   what-is-data
+  data-provenance
   finding-data
   sort-and-filter
   analyzing-data
@@ -452,8 +467,8 @@ A Gentle Introduction to Geocoding
 
     </div>
 
-A Gentle Introduction to Getting Data From the Web
---------------------------------------------------
+A Gentle Introduction to Extracting Data
+----------------------------------------
 
 .. raw:: html
 
@@ -472,6 +487,19 @@ A Gentle Introduction to Getting Data From the Web
     </div>
          </a>
        </li>
+       <li>
+                <a href="extracting-data-from-pdf" class="thumbnail sidelink">
+                  <div class="row">
+                  <div class="span2">
+                    <img src="http://farm9.staticflickr.com/8246/8664057416_20602746f7_q.jpg" alt="">
+           </div>        
+           <div class="caption offset2">
+                    <h3>PDF busters</h3>
+                    <p>Far too much data is trapped in PDFs. In order to be able to work with, analyse and visualise data, we need it in machine-readable formats. It's often not easy to the data out again, but sometimes possible - find out how here.</p>
+                  </div>
+           </div>
+                </a>
+              </li>
  </ul>
 
 [/raw]
@@ -484,6 +512,90 @@ A Gentle Introduction to Getting Data From the Web
     :maxdepth: 1
 
    scraping
+   extracting-data-from-pdf
+
+.. raw:: html
+
+    </div>
+    
+Working with Budgets and Spending Data
+---------------------------------------
+
+In this course, we will take you through the steps involved working with budget and spending data. In the process, you'll learn how to wrangle and clean up some of the most common errors which we see in spending and budget data, as well as doing some dataset gymnastics, such as transposition and cleanup before creating a simple visualisation at the end.
+
+If you don't have your data yet, or don't have it in machine-readable format - take a look at the two courses above on extracting data, we start from cleaning up and formatting your data. 
+
+.. raw:: html
+
+  [raw]
+ <ul class="thumbnails">
+ <li>
+         <a href="budgets-and-spending-intro" class="thumbnail sidelink">
+           <div class="row">
+           <div class="span2">
+             <img src="http://farm9.staticflickr.com/8460/7976488712_9b16eb14b7_q.jpg" alt="">
+    </div>        
+    <div class="caption offset2">
+             <h3>Spending vs. Budgets</h3>
+             <p>Before we begin working with the data, let's take a closer look at the difference between budgets and spending data - what questions is it possible to answer with this data? </p>
+           </div>
+    </div>
+         </a>
+       </li>
+       <li>
+                <a href="categorisation-and-reference-data" class="thumbnail sidelink">
+                  <div class="row">
+                  <div class="span2">
+                    <img src="http://farm9.staticflickr.com/8460/7976488712_9b16eb14b7_q.jpg" alt="">
+           </div>        
+           <div class="caption offset2">
+                    <h3>Categorisation and Reference Data</h3>
+                    <p>The most interesting data work happens when you combine more than one type of data. In this section, we introduce you to reference data, highlighting a couple of examples particularly relevant to spending and budgets. </p>
+                  </div>
+           </div>
+                </a>
+              </li>
+              <li>
+                          <a href="cleaning-spending-data" class="thumbnail sidelink">
+                            <div class="row">
+                            <div class="span2">
+                              <img src="http://farm9.staticflickr.com/8265/8664673857_f85a156945_q.jpg" alt="">
+                     </div>        
+                     <div class="caption offset2">
+                              <h3>Cleaning Data</h3>
+                              <p>A quick introduction to why spending data often needs cleaning, following into a recipe for cleaning spending data with Open Refine. </p>
+                            </div>
+                     </div>
+                          </a>
+                        </li>
+                        <li>
+                                      <a href="classifying-financial-data" class="thumbnail sidelink">
+                                        <div class="row">
+                                        <div class="span2">
+                                          <img src="http://farm9.staticflickr.com/8025/7315254516_dd997967a2_q.jpg" alt="">
+                                 </div>        
+                                 <div class="caption offset2">
+                                          <h3>Classifying financial data</h3>
+                                          <p>Sometimes you will need to classify your financial data, for example, to reflect services that people care about or to conform to internationally recognised standards.  </p>
+                                        </div>
+                                 </div>
+                                      </a>
+                                    </li>
+ </ul>
+
+[/raw]
+
+.. raw:: html
+
+    <div class="hidden" style="display: none;">
+
+.. toctree::
+    :maxdepth: 1
+
+   budgets-and-spending-intro
+   categorisation-and-reference-data
+   cleaning-spending-data
+   classifying-financial-data
 
 .. raw:: html
 
