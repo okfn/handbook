@@ -19,29 +19,29 @@ All of the following is illustrated live in this `google spreadsheet`_.
 
 We start with a formula like the following::
 
-  =ImportXML("http://open.mapquestapi.com/search?format=xml&q=London", "//place[1]/@lat")
+  =ImportXML("http://open.mapquestapi.com/nominatim/v1/search?format=xml&q=London", "//place[1]/@lat")
 
 This formula uses the ImportXML function to look up XML data from the `Mapquest Nominatim geocoding service`_ (see the previous tutorial for more about geocoding services). The first argument to ImportXML is the URL to fetch (in this case the results from querying the geocoding service) and the second part is an XPath expression to select data from that returned XML. In this case, the XPath looks up the first place object in the results: place[1] and then gets the lat (latitude) attribute. To understand this more clearly, here’s the XML returned by that XML query:
 
-.. _Mapquest Nominatim geocoding service: http://open.mapquestapi.com/
+.. _Mapquest Nominatim geocoding service: http://open.mapquestapi.com/nominatim/
 
 .. image:: http://i.imgur.com/9ZCchXY.png
 
 In reality we want both latitude and longitude, so let’s change it to::
 
-  =ImportXML("http://open.mapquestapi.com/search?format=xml&q=London", "//place[1]/@lat | //place[1]/@lon")
+  =ImportXML("http://open.mapquestapi.com/nominatim/v1/search?format=xml&q=London", "//place[1]/@lat | //place[1]/@lon")
 
 This uses an “or” || expression in XPath and the result will now be an array of results that Google Docs will put in 2 cells (one below another). You can see this in Column C of the example spreadsheet.
 
 What happens if we wanted the data in just one cell, with the two values separated by commas, for example? We could use the JOIN function::
 
-  =JOIN(",", ImportXML("http://open.mapquestapi.com/search?format=xml&q=London", "//place[1]/@lat | //place[1]/@lon"))
+  =JOIN(",", ImportXML("http://open.mapquestapi.com/nominatim/vi/search?format=xml&q=London", "//place[1]/@lat | //place[1]/@lon"))
 
 Lastly, we’d like to geocode based on a place name in an another cell in the spreadsheet. To do this we just need to add the place name to our API request to MapQuest’s Nominatim service using the CONCATENATE function (this example assures the value is in cell A2)::
 
-  =ImportXML(CONCATENATE("http://open.mapquestapi.com/search?format=xml&q=", A2), "//place[1]/@lat")
+  =ImportXML(CONCATENATE("http://open.mapquestapi.com/nominatim/v1/search?format=xml&q=", A2), "//place[1]/@lat")
 
-  =JOIN(",", ImportXML(CONCATENATE("http://open.mapquestapi.com/search?format=xml&q=",A2), "//place[1]/@lat | //place[1]/@lon"))
+  =JOIN(",", ImportXML(CONCATENATE("http://open.mapquestapi.com/nominatim/v1/search?format=xml&q=",A2), "//place[1]/@lat | //place[1]/@lon"))
 
 App Script
 ----------
