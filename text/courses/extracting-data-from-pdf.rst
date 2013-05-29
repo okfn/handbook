@@ -60,23 +60,27 @@ Without learning to code, the options on this front are unfortunately somewhat l
 
 * `Tabula`_ - currently causing a lot of buzz and excitement, but you currently need to install your own version, which makes the barrier to entry quite high. 
 * `ABBYY Finereader`_ - unfortunately not free but highly regarded by many as a powerful piece of kit for busting data out of its PDF prisons.  
+* `CometDocs`_ - an internet based service
 
 .. _Tabula: http://tabula.nerdpower.org/
 .. _ABBYY Finereader: http://finereader.abbyy.com/ 
+.. _CometDocs: http://www.cometdocs.com/
 
 Warning - the tools below require you to open your `command line`_ to install and run. And some require knowledge of code to use. We mention them here so that you get an idea of what is possible.  
 
-The three main contenders in the free and open source world are:
+The main contenders in the code-based ones are:
 
 * `Tesseract OCR`_
 * `Ocropus`_
 * `GNU Ocrad`_
+* `PDF2HTML`_
 
 .. _unpaper: http://unpaper.berlios.de/
 .. _command line: http://en.wikipedia.org/wiki/Command-line_interface
 .. _Tesseract OCR: https://code.google.com/p/tesseract-ocr/wiki/ReadMe
 .. _Ocropus: https://code.google.com/p/ocropus/
 .. _GNU Ocrad: http://www.gnu.org/software/ocrad/ 
+.. _PDF2HTML:http://pdf2htmlex.blogspot.de/
 
 Path 2: Transcription and Microtasking
 ======================================
