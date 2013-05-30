@@ -79,7 +79,7 @@ A gentle introduction to exploring and understanding your data builds on two ear
 #. A `Gentle Introduction to Cleaning Data`_, which looks at the four most common ways that data gets messy and dirty, and outlines practical solutions to them using a spreadsheet.
 
 .. _Data Fundamentals: /handbook/courses/#data-fundamentals
-.. _Gentle Introduction to Cleaning Data: /handbook/courses/cleaning-data
+.. _Gentle Introduction to Cleaning Data: /handbook/courses/data-cleaning/
 
 To do this course you will require the following:
 
