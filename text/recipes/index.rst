@@ -17,6 +17,7 @@ find out!
     scraper-extension-for-chrome
     introduction-to-html
     scraping-beyond-the-basics
+    scraping-multiple-pages-with-refine-and-scraper
     cleaning-data-scraped-from-the-web
     sorting-data-with-spreadsheets
     filtering-data-with-spreadsheets
