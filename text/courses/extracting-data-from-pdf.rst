@@ -80,7 +80,7 @@ The main contenders in the code-based ones are:
 .. _Tesseract OCR: https://code.google.com/p/tesseract-ocr/wiki/ReadMe
 .. _Ocropus: https://code.google.com/p/ocropus/
 .. _GNU Ocrad: http://www.gnu.org/software/ocrad/ 
-.. _PDF2HTML:http://pdf2htmlex.blogspot.de/
+.. _PDF2HTML: http://pdf2htmlex.blogspot.de/
 
 Path 2: Transcription and Microtasking
 ======================================
