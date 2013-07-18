@@ -65,3 +65,8 @@ The IATI project for aid transparency is working towards similar standards for o
 
 
 
+.. raw:: html
+
+  <div class="alert alert-info">Any questions? Got stuck? <a class="btn
+  btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!
+  </a></div>

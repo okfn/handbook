@@ -198,3 +198,8 @@ In this module we reviewed a few common mistakes made when presenting data. When
    <a href="../tell-me-a-story/" class="btn btn-primary btn-large">Next 
      Course<span class="icon-arrow-right"></span></a> 
 
+.. raw:: html
+
+  <div class="alert alert-info">Any questions? Got stuck? <a class="btn
+  btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!
+  </a></div>

@@ -147,3 +147,8 @@ This course was created for the School of Data by `Tactical Technology Collectiv
 
 .. _Tactical Technology Collective: http://tacticaltech.org
 
+.. raw:: html
+
+  <div class="alert alert-info">Any questions? Got stuck? <a class="btn
+  btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!
+  </a></div>

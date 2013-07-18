@@ -318,3 +318,8 @@ if you take the time to learn asynchronous programming.
 .. _scrapemark: https://github.com/arshaw/scrapemark
 
 
+.. raw:: html
+
+  <div class="alert alert-info">Any questions? Got stuck? <a class="btn
+  btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!
+  </a></div>

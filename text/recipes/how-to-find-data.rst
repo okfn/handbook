@@ -37,3 +37,8 @@ to this topic which are being continually updated. Some examples include:
 .. _Quora: http://www.quora.com
 .. _What are some free, public data sets?: http://www.quora.com/Data/What-are-some-free-public-data-sets
 .. _Where can I get large datasets open to the public?: http://www.quora.com/Data/Where-can-I-get-large-datasets-open-to-the-public
+.. raw:: html
+
+  <div class="alert alert-info">Any questions? Got stuck? <a class="btn
+  btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!
+  </a></div>

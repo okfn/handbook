@@ -133,3 +133,8 @@ Further Reading
 .. _Scraping for Journalists: https://leanpub.com/scrapingforjournalists
 .. _Scrape the Web: http://pyvideo.org/video/256/pycon-2010--scrape-the-web--strategies-for-progra
 .. _An Introduction to Compassionate Screen Scraping: http://lethain.com/an-introduction-to-compassionate-screenscraping/
+.. raw:: html
+
+  <div class="alert alert-info">Any questions? Got stuck? <a class="btn
+  btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!
+  </a></div>

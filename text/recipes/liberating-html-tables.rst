@@ -40,3 +40,8 @@ As if by magic, a data table appears in the spreadsheet, pulled in directly from
 .. image:: http://farm9.staticflickr.com/8425/7850932816_b5598830e0_o_d.jpg
 
 If the data in the HTML table is updated, the data in the spreadsheet will also be updated when you refresh or call the spreadsheet page.
+.. raw:: html
+
+  <div class="alert alert-info">Any questions? Got stuck? <a class="btn
+  btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!
+  </a></div>

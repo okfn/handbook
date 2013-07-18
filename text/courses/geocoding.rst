@@ -61,3 +61,8 @@ Example - `Machine-readable JSON`_
 
 .. _Machine-readable JSON : http://open.mapquestapi.com/nominatim/v1/?format=json&q=London
 .. _plugin: http://schoolofdata.org/handbook/appendix/glossary/#term-json
+.. raw:: html
+
+  <div class="alert alert-info">Any questions? Got stuck? <a class="btn
+  btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!
+  </a></div>

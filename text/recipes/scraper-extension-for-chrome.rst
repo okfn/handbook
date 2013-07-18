@@ -77,3 +77,8 @@ kinds of data on this is the IMDB (You can also search on sites like
    .. image:: http://farm9.staticflickr.com/8347/8263441355_89f4315a78_o_d.png
 #. Click on scrape and see how the year is added
 #. See how easily we got information out of a less structured webpage?
+.. raw:: html
+
+  <div class="alert alert-info">Any questions? Got stuck? <a class="btn
+  btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!
+  </a></div>

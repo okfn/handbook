@@ -213,3 +213,8 @@ Did you notice some of the minimum values are 0? Do you really believe there are
 
 
 If you look at the data you will quickly find out that countries with higher number of people spend more on healthcare than countries with lower number of people. Intuitive isn’t it. So how to compare the countries more directly? Break it down to healthcare expenditure per person!. This step is called normalization and is a step often done when comparing different entities - such as countries etc.
+.. raw:: html
+
+  <div class="alert alert-info">Any questions? Got stuck? <a class="btn
+  btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!
+  </a></div>

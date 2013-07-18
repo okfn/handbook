@@ -15,3 +15,8 @@ So let’s create a scatterplot.
 #. Click ``insert`` ``charts...`` and select “scatter plot” from charts.
 #. Select the first one, since this is what we want to do.
 #. And there you go: simply adapt the scatterplot so it looks nice. Don’t forget to label axes. Try to make the dots smaller if there is significant overlap.
+.. raw:: html
+
+  <div class="alert alert-info">Any questions? Got stuck? <a class="btn
+  btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!
+  </a></div>

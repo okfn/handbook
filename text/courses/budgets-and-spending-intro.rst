@@ -98,3 +98,8 @@ Save your file online somewhere. You may like to add it to the OpenSpending grou
 .. raw:: html
   
   </div>
+.. raw:: html
+
+  <div class="alert alert-info">Any questions? Got stuck? <a class="btn
+  btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!
+  </a></div>

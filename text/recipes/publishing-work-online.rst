@@ -27,4 +27,8 @@ Walkthrough: Presenting our information as a webpage
    .. image:: http://farm9.staticflickr.com/8050/8112418146_72872fde90_o.png
 #. Once you are finished, click on publish and you'll get a url to your webpage. use this to share your results with your friends.
 
-Of course if you already have a blog or something similar you can share the results there.
+Of course if you already have a blog or something similar you can share the results there... raw:: html
+
+  <div class="alert alert-info">Any questions? Got stuck? <a class="btn
+  btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!
+  </a></div>

@@ -48,3 +48,8 @@ Walkthrough: Downloading Data from the World Bank
 #. If you click on the ``Export`` button a pop up will appear asking you
    for the format. Select ``CSV``.
 #. You will then be able to download a file - store and name it in a folder so you remember where it comes from and what it is for.
+.. raw:: html
+
+  <div class="alert alert-info">Any questions? Got stuck? <a class="btn
+  btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!
+  </a></div>
