@@ -18,6 +18,7 @@ find out!
     introduction-to-html
     scraping-beyond-the-basics
     scraping-multiple-pages-with-refine-and-scraper
+    extracting-data-from-pdf-with-tabula
     cleaning-data-scraped-from-the-web
     sorting-data-with-spreadsheets
     filtering-data-with-spreadsheets
