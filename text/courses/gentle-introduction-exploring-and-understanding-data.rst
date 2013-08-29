@@ -529,6 +529,12 @@ ____________
 Try to create a pivot table with a chart showing which investors have acquired the most land.
 
 
+
+.. raw:: html
+  
+  <iframe src="http://okfnlabs.org/scodaquiz/howyoufeel.html#exploring-data-pivot"
+  width="510" height="310" frameborder="0"></iframe>
+
 .. raw:: html
 
   <div class="alert alert-info">Any questions? Got stuck? <a class="btn

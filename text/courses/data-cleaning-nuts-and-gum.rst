@@ -122,6 +122,14 @@ This course was created for the School of Data by `Tactical Technology
 Collective`_. Tactical Tech is an international NGO working at the point where rights advocacy meets information and technology.
 
 .. _Tactical Technology Collective: http://tacticaltech.org
+
+.. raw:: html
+
+  .. raw:: html
+
+    <iframe src="http://okfnlabs.org/scodaquiz/howyoufeel.html#nuts-and-gum"
+      width="510" height="310" frameborder="0"></iframe>
+
 .. raw:: html
 
   <div class="alert alert-info">Any questions? Got stuck? <a class="btn

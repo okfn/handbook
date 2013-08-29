@@ -149,6 +149,12 @@ This course was created for the School of Data by `Tactical Technology Collectiv
 
 .. raw:: html
 
+  <iframe src="http://okfnlabs.org/scodaquiz/howyoufeel.html#wrong-suitcase"
+    width="510" height="310" frameborder="0"></iframe>
+
+
+.. raw:: html
+
   <div class="alert alert-info">Any questions? Got stuck? <a class="btn
   btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!
   </a></div>

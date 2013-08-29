@@ -127,6 +127,12 @@ This course was created for the School of Data by `Tactical Technology Collectiv
 
 .. _Tactical Technology Collective: http://tacticaltech.org
 
+
+.. raw:: html
+
+  <iframe src="http://okfnlabs.org/scodaquiz/howyoufeel.html#witchs-brew"
+    width="510" height="310" frameborder="0"></iframe>
+
 .. raw:: html
 
   <div class="alert alert-info">Any questions? Got stuck? <a class="btn

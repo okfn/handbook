@@ -109,6 +109,13 @@ Collective`_. Tactical Tech is an international NGO working at the point where r
 
 .. _Tactical Technology Collective: http://tacticaltech.org
 
+
+.. raw:: html
+
+  <iframe src="http://okfnlabs.org/scodaquiz/howyoufeel.html#invisible-man"
+    width="510" height="310" frameborder="0"></iframe>
+
+    
 .. raw:: html
 
   <div class="alert alert-info">Any questions? Got stuck? <a class="btn
