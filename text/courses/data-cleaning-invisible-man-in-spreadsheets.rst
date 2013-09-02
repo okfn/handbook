@@ -97,6 +97,11 @@ Then get moving to the third section in this course on data cleaning, called “
 
 
 .. raw:: html
+
+  <iframe src="http://okfnlabs.org/scodaquiz/howyoufeel.html#invisible-man"
+    width="510" height="310" frameborder="0"></iframe>
+
+.. raw:: html
   
     <a href="../data-cleaning-witchs-brew/" class="btn
     btn-primary btn-large">Next Course <span
@@ -109,11 +114,6 @@ Collective`_. Tactical Tech is an international NGO working at the point where r
 
 .. _Tactical Technology Collective: http://tacticaltech.org
 
-
-.. raw:: html
-
-  <iframe src="http://okfnlabs.org/scodaquiz/howyoufeel.html#invisible-man"
-    width="510" height="310" frameborder="0"></iframe>
 
     
 .. raw:: html

@@ -227,6 +227,7 @@ Note: You'll notice that the first two cells in the first two columns are blank.
 Both datasets from start and end of this recipe can be found on the `DataHub`_: 
 
 .. _DataHub: http://datahub.io/dataset/sample-spending-data-for-school-of-data-tutorial
+
 .. raw:: html
 
   <div class="alert alert-info">Any questions? Got stuck? <a class="btn

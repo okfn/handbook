@@ -113,6 +113,11 @@ And now hurry on to the next instalment of this course, The Invisible Man is in 
 
 
 .. raw:: html
+
+    <iframe src="http://okfnlabs.org/scodaquiz/howyoufeel.html#nuts-and-gum"
+      width="510" height="310" frameborder="0"></iframe>
+
+.. raw:: html
   
   <a href="../data-cleaning-invisible-man-in-spreadsheets/" class="btn btn-primary btn-large">Next Course <span
   class="icon-arrow-right"></span></a>
@@ -123,12 +128,6 @@ Collective`_. Tactical Tech is an international NGO working at the point where r
 
 .. _Tactical Technology Collective: http://tacticaltech.org
 
-.. raw:: html
-
-  .. raw:: html
-
-    <iframe src="http://okfnlabs.org/scodaquiz/howyoufeel.html#nuts-and-gum"
-      width="510" height="310" frameborder="0"></iframe>
 
 .. raw:: html
 

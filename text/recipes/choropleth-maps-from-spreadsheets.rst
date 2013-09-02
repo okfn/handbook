@@ -15,6 +15,7 @@ Creating a Choropleth map
 #. Under “Charts” select “Map” and then “geo chart - regions”.
 #. You’ll see a preview. Play with the settings in customize to change the map, the colour-scale etc.
 #. A note on colours: the red-green scale that is selected by default is not the best scale. So select a different one showing contrasts nicely.
+
 .. raw:: html
 
   <div class="alert alert-info">Any questions? Got stuck? <a class="btn

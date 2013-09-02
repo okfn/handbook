@@ -19,6 +19,7 @@ Creating an Interactive Bubble Chart
 #. You'll see the chart loading.
 #. You can adjust the values for each of the axis and the size. And you can slide through the years.
 #. Click on play and see how the world changes in 10 years.
+
 .. raw:: html
 
   <div class="alert alert-info">Any questions? Got stuck? <a class="btn

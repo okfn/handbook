@@ -22,7 +22,9 @@ Walkthrough: Sorting a dataset.
 
 **Tip:** Be careful! A common mistake is to forget to select *all* the data. If you sort without selecting all the data, the rows will no longer match up.
 
-.. _here: http://dump.tentacleriot.eu/wb-gdp-health-life.csv.. raw:: html
+.. _here: http://dump.tentacleriot.eu/wb-gdp-health-life.csv
+
+.. raw:: html
 
   <div class="alert alert-info">Any questions? Got stuck? <a class="btn
   btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!

@@ -22,7 +22,9 @@ Walkthrough: Filtering Data
    .. image:: http://farm9.staticflickr.com/8316/8070573150_2cf29b914f_o_d.png
 #. Find those that are not a country and click on them (the green check mark will disappear).
 #. Now you have successfully filtered your dataset.
-#. Go ahead and play with it - the data will not be deleted, it’s just not displayed... raw:: html
+#. Go ahead and play with it - the data will not be deleted, it’s just not displayed.
+
+.. raw:: html
 
   <div class="alert alert-info">Any questions? Got stuck? <a class="btn
   btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!

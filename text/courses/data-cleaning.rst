@@ -106,6 +106,12 @@ Set up? Ready to go?
 
 Good. Say hello and introduce yourself in the discussion area, and then get cracking with Section 1: Nuts and chewing gum.
 
+
+.. raw:: html
+
+  <iframe src="http://okfnlabs.org/scodaquiz/howyoufeel.html#data-cleaning"
+    width="510" height="310" frameborder="0"></iframe>
+
 .. raw:: html 
 
   <a href="../data-cleaning-nuts-and-gum/" class="btn

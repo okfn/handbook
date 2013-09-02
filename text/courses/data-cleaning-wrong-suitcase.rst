@@ -133,6 +133,10 @@ Rest and reflect
 
 What does the “wrong suitcase” problem tell us about recording data in spreadsheets? 
 
+.. raw:: html
+
+  <iframe src="http://okfnlabs.org/scodaquiz/howyoufeel.html#wrong-suitcase"
+    width="510" height="310" frameborder="0"></iframe>
 
 .. raw:: html 
  
@@ -147,10 +151,6 @@ This course was created for the School of Data by `Tactical Technology Collectiv
 
 .. _Tactical Technology Collective: http://tacticaltech.org
 
-.. raw:: html
-
-  <iframe src="http://okfnlabs.org/scodaquiz/howyoufeel.html#wrong-suitcase"
-    width="510" height="310" frameborder="0"></iframe>
 
 
 .. raw:: html

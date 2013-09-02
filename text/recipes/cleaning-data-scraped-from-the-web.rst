@@ -183,7 +183,9 @@ Example code::
         default = datetime(year=1, month=1, day=1)
         return str(parser.parse(datestring, default=default))
   
-.. _mature date parser: http://www.labix.org/python-dateutil.. raw:: html
+.. _mature date parser: http://www.labix.org/python-dateutil
+
+.. raw:: html
 
   <div class="alert alert-info">Any questions? Got stuck? <a class="btn
   btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!

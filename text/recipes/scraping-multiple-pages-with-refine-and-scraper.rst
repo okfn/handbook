@@ -147,6 +147,7 @@ Walkthrough: Scraping multiple pages using Refine
 #. Wonderful - There is still some things wrong: e.g. the special spanish characters don’t translate well - now you know how to use the replace function to replace them.
 #. The last thing we do is remove the columns we don’t need anymore: `URL` , `Page` and `Row`
 #. Congratulations you’ve scraped and cleaned up a large dataset from several pages on the web.
+
 .. raw:: html
 
   <div class="alert alert-info">Any questions? Got stuck? <a class="btn

@@ -52,6 +52,7 @@ If you want an even more powerful approach you can use a Google App Script. In p
 Find the `script plus instructions`_ online.
 
 .. _script plus instructions: https://github.com/mapbox/geo-googledocs
+
 .. raw:: html
 
   <div class="alert alert-info">Any questions? Got stuck? <a class="btn

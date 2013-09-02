@@ -113,6 +113,11 @@ Use the discussion area to share your thoughts on this section.
 If you’re keen for more, then head over to the fourth section of this course, called “Did you bring the wrong suitcase (again)?”
 
 .. raw:: html
+
+  <iframe src="http://okfnlabs.org/scodaquiz/howyoufeel.html#witchs-brew"
+    width="510" height="310" frameborder="0"></iframe>
+
+.. raw:: html
   
     <a href="../data-cleaning-wrong-suitcase/" class="btn
     btn-primary btn-large">Next Course
@@ -128,10 +133,6 @@ This course was created for the School of Data by `Tactical Technology Collectiv
 .. _Tactical Technology Collective: http://tacticaltech.org
 
 
-.. raw:: html
-
-  <iframe src="http://okfnlabs.org/scodaquiz/howyoufeel.html#witchs-brew"
-    width="510" height="310" frameborder="0"></iframe>
 
 .. raw:: html
 
