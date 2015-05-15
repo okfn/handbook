@@ -1,3 +1,16 @@
+
+
+TODO MARKDOWN:
+
++ raw conversion for /recipes
++ add metadata, headings and layout references
++ clean up
+
+
+----
+
+
+
 Some proposed chapters:
 
  * Types of data
