@@ -1,5 +1,1 @@
-Github repo for [Data Patterns][dp] - a collection of tips and tricks for data
-work.
-
-[dp]: http://okfnlabs.org/datapatterns/
-
+Github repo for [Data Patterns](http://okfnlabs.org/datapatterns/) (aka the School of Data handbook) - a collection of tips and tricks for data work.
