@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title> 
+    {{site.title}} - Open Knowledge Foundation
+  </title>
+  <meta name="author" content="{{site.author}}" />
+  <meta name="description" content="{{site.title}}" />
+
+
+  {% if site.openknowledgeribbon %}
+  <!-- okf ribbon -->
+  <link rel="stylesheet" href="http://assets.okfn.org/themes/okfn/okf-panel.css"/>
+  {% endif %}
+
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+  <link rel="stylesheet" href="http://okfnlabs.org/jekyll-template/css/style-v2.css" />
+
+  <!-- This should be set to any local css you have -->
+  <link rel="stylesheet" href="{{site.baseurl}}/css/style-v2.css" />
+</head>
+<body>
+{% if site.openknowledgeribbon %}
+<!-- OKF Panel -->
+<div class="absolute-okf-panel">
+  <div id="okf-panel" class="collapse">
+    <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+  </div>
+  <div class="container">
+    <div class="okfn-ribbon">
+      <a href="http://okfn.org/" data-toggle="collapse" data-target="#okf-panel" title="Part of the Open Knowledge Foundation Network">An Open Knowledge Foundation Site</a>
+    </div>
+  </div>
+</div>
+<!-- End OKF Panel -->
+{% endif %}
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="{{site.baseurl}}/">
+        <img src="http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png" alt="" />
+        {{site.title}}
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="main-navbar-collapse">
+      <ul class="nav navbar-nav navbar-right {% if site.openknowledgeribbon %}open-knowledge-ribbon{% endif %}">
+        {% if site.mailinglist %}
+        <li class="divider-vertical"></li>
+        <li>
+          <a href="{{site.mailinglist}}" title="Join the discussion">List</a>
+        </li>
+        {% endif %}
+        {% if site.github %}
+        <li class="divider-vertical"></li>
+        <li>
+          <a href="{{site.github}}"><i class="fa fa-github"></i> Repo</a>
+        </li>
+        {% endif %}
+        {% if site.twitter %}
+        <li class="divider-vertical"></li>
+        <li>
+          <a href="https://twitter.com/{{site.twitter}}"><i class="fa fa-twitter"></i> @{{site.twitter}}</a>
+        </li>
+        {% endif %}
+        <li class="divider-vertical"></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="content">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        {% if page.notitle != true %}
+        <div class="page-header">
+          <h1>
+            {{page.title}}
+            {% if page.subtitle %}
+            <br />
+            <small>{{page.subtitle}}</small>
+            {% endif %}
+          </h1>
+        </div>
+        {% endif %}
+
+        {{content}}
+      </div>
+    </div>
+  </div>
+</div><!-- /container -->
+
+<footer>
+  <div class="container">
+    <p>
+    This service is run by the <a href="{{site.authorurl}}">{{site.author}}</a>
+      &ndash;
+      <a href="{{site.github}}">Source Code</a>
+    </p>
+    <p>
+      <a href="http://opendefinition.org/ossd/" title="Open Online Software Service">
+        <img src="http://assets.okfn.org/images/ok_buttons/os_80x15_orange_grey.png" alt="" border="" />
+      </a>
+      <a href="http://opendefinition.org/" title="Open Online Software Service">
+        <img src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png" alt="" border="" />
+      </a>
+      <a href="http://opendefinition.org/" title="Open Content">
+        <img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" alt="" border="" />
+      </a>
+      &ndash;
+      <a href="http://creativecommons.org/licenses/by/3.0/">Content Licensed under a CC Attribution</a>
+    </p>
+  </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+{% if site.openknowledgeribbon %}
+<script src="http://assets.okfn.org/themes/okfn/collapse.min.js" type="text/javascript"></script>
+<script src="http://assets.okfn.org/themes/okfn/okf-panel.js" type="text/javascript"></script>
+{% endif %}
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!--script src="js/bootstrap.min.js"></script-->
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '{{site.googleanalytics}}']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>
+</html>
+
