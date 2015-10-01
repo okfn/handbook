@@ -1,10 +1,6 @@
-=={.meta}
 ---
-title: sectionauthor:: Tony Hirst (psychemedia@twitter)
+title: Liberating HTML Data Tables
 ---
-
-Liberating HTML Data Tables
-===========================
 
 It's not uncommon to see small data sets published on the web using an HTML table element. If you have a quick click around Wikipedia, you're likely to find a wide variety of examples. Some sites will use Javascript libraries to enhance the presentation or usability of a table, for example, by making columns sortable; but most of the time, we are faced with a flat HTML table, and the data locked in it.
 
@@ -41,4 +37,3 @@ As if by magic, a data table appears in the spreadsheet, pulled in directly from
 
 
 If the data in the HTML table is updated, the data in the spreadsheet will also be updated when you refresh or call the spreadsheet page.
-

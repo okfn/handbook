@@ -1,10 +1,6 @@
-=={.meta}
 ---
-title: sectionauthor:: Rufus Pollock (rufuspollock@twitter)
+title: Liberating Data from Microsoft Access Databases
 ---
-
-Liberating Data from Microsoft Access Databases
-===============================================
 
 Use the [`mdbtools library`](http://mdbtools.sourceforge.net/). On Ubuntu / Debian you can install this via:
 ```bash
@@ -59,4 +55,3 @@ $ python script.py {path-to-access-database}
 ```
 
 CSV files will be written to the current directory.
-
