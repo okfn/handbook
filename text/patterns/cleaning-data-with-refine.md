@@ -1,5 +1,6 @@
-Cleaning Data with Refine
-=========================
+---
+title: Cleaning Data with Refine
+---
 
 What you’ll need
 ----------------

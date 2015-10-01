@@ -1,5 +1,6 @@
-Sorting Data with Spreadsheets
-==============================
+---
+title: Sorting Data with Spreadsheets
+---
 
 **This tutorial uses Google spreadsheets to sort data. Other spreadsheet programs work in a similar way - play around and see how they differ.**
 

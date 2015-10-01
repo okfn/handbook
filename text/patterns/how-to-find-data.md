@@ -1,5 +1,6 @@
-How to find data
-================
+---
+title: How to find data
+---
 
 If you are looking for further inspiration on how to find data beyond the ways highlighted in the [course](http://schoolofdata.org/handbook/courses/finding-data/) on finding data, read on!
 

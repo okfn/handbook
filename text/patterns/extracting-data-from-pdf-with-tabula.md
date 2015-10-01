@@ -1,5 +1,6 @@
-Extracting Data from PDFs using Tabula
-======================================
+---
+title: Extracting Data from PDFs using Tabula
+---
 
 PDFs can be all forms and shapes - if you’re facing a nicely formatted
 PDF that is not scanned give Tabula a shot to extract the information.

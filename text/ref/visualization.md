@@ -1,6 +1,6 @@
-
-Visualization: Tools Reference
-==============================
+---
+title: "Visualization: Tools Reference"
+---
 
 Visual representation is a time-tested way of making large, complex bodies of information manageable – whether in the form of maps, timelines, graphs, or charts. Emerging digital technologies have revolutionised what is possible in
 this domain.

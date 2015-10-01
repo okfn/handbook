@@ -1,5 +1,6 @@
-Cleaning spending data with Open Refine
-=======================================
+---
+title: Cleaning spending data with Open Refine
+---
 
 In this tutorial - you will learn how to turn data, laid out for human consumption into something suitable for importing into a database such as [OpenSpending](http://openspending.org/) and to make in computer-friendly for in-depth analysis.
 

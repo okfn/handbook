@@ -1,6 +1,6 @@
-
-How to get data
-===============
+---
+title: How to get data
+---
 
 =={.meta}
 sectionauthor:: Tim McNamara <tim.mcnamara@okfn.org>

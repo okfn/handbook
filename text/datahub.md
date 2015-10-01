@@ -1,6 +1,6 @@
-
-Publishing a Dataset on the DataHub
-===================================
+---
+title: Publishing a Dataset on the DataHub
+---
 
 This tutorial will show you how to publish a dataset online using the DataHub.
 

@@ -1,5 +1,6 @@
-Scraping multiple Pages using the Scraper Extension and Refine
-==============================================================
+---
+title: Scraping multiple Pages using the Scraper Extension and Refine
+---
 
 Many times you’ll not have one single page to scrape. For example the Chilean Government has a very nice [transparency site](http://www.gobiernotransparentechile.cl/directorio/entidad) and offers the income statistics for many departments - let’s get them all!
 

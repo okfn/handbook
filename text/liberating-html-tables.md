@@ -1,7 +1,7 @@
-
 =={.meta}
-sectionauthor:: Tony Hirst (psychemedia@twitter)
-==
+---
+title: sectionauthor:: Tony Hirst (psychemedia@twitter)
+---
 
 Liberating HTML Data Tables
 ===========================

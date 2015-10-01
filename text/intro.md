@@ -1,6 +1,6 @@
-
-Introduction
-============
+---
+title: Introduction
+---
 
 
 Note on the term 'pattern'

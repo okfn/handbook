@@ -1,6 +1,6 @@
-
-Cleaning up Data Scraped from the Web
-=====================================
+---
+title: Cleaning up Data Scraped from the Web
+---
 
 =={.meta}
 sectionauthor:: Tim McNamara <tim.mcnamara@okfn.org>

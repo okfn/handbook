@@ -1,5 +1,6 @@
-Mapping
-=======
+---
+title: Mapping
+---
 It's very common for data wranglers to use mapping as a tool. The majority of datasets are in some way related to people and objects in the real world, and if we can figure out their real world location, a latitude and longitude or some other geo-locating property, then we can plot points on a map. This can be a quick and easy way to transform a tabular dataset into a visually compelling display, but mapping doesn't end there. In fact mapping technology, "geo-technology", can let us filter and connect data in powerful ways without even involving a visual map.
 
 Web map mashup

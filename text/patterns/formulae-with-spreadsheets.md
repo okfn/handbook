@@ -1,5 +1,6 @@
-Spreadsheet Formulae
-====================
+---
+title: Spreadsheet Formulae
+---
 
 **This tutorial uses Google spreadsheets to analyse data. Other spreadsheet programs work in a similar way - play around and see how they differ.**
 

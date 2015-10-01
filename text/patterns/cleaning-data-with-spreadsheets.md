@@ -1,5 +1,6 @@
-Using a spreadsheet to clean up a dataset
-=========================================
+---
+title: Using a spreadsheet to clean up a dataset
+---
 
 This recipe was created for the School of Data by [Tactical Technology Collective](https://www.tacticaltech.org/). Tactical Tech is an international NGO working at the point where rights advocacy meets information and technology.
 

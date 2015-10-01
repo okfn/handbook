@@ -1,5 +1,6 @@
-Keeping the data around
-=======================
+---
+title: Keeping the data around
+---
 
 As you retrieve data from the government (or other sources), it's easy to just consider the websites it has been released on as a permanent resource. Still, experience has shown that data does go away: whether it is through government re-designing its web sites, new policies that retract transparency rules or simple system failures.
 

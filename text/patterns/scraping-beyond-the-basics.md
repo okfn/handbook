@@ -1,5 +1,6 @@
-Scraping - Beyond the Basics
-============================
+---
+title: Scraping - Beyond the Basics
+---
 
 This guide focuses on how you can extract data from web sites and web services. We will go over the various resources at your disposal to find sources which are useful to you.
 

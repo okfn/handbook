@@ -1,5 +1,6 @@
-Freedom of information
-======================
+---
+title: Freedom of information
+---
 
 Even before the rise of open data, many countries decided to increase the transparency of their governments by introducing freedom of information (FoI) legislation. Such laws enable every citizen to request documents and other material from parts of the government which do not merit special protection (e.g. due to concerns over privacy, national security or commercial confidentiality).
 

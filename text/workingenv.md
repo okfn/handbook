@@ -1,5 +1,6 @@
-Set up a working environment
-============================
+---
+title: Set up a working environment
+---
 
  * virtualenv & virtualenvwrapper
  * ipython, ipdb

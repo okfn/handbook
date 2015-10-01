@@ -1,6 +1,6 @@
-
-Archiving Twitter
-=================
+---
+title: Archiving Twitter
+---
 
 Twitter data is only available via the search API for up to 7 days. Data for a given account only goes back a few thousand tweets. Thus archiving tweets can be a useful activity. This entry details a few options and in the process shows some neat tips and tricks for pulling down data.
 
@@ -35,4 +35,3 @@ Using Javascript and the DataHub
 --------------------------------
 
 See https://github.com/OKFN-BR/BusaoSP/blob/master/getdata.js
-

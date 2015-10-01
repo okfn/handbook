@@ -1,6 +1,6 @@
-
-Creating a Choropleth map
-=========================
+---
+title: Creating a Choropleth map
+---
 
 **This tutorial uses Google spreadsheets to create a choropleth map. There is sample data for this tutorial [`here`](http://dump.tentacleriot.eu/wb-gdp-health-life.csv)
 

@@ -1,5 +1,6 @@
-Filtering Data
-==============
+---
+title: Filtering Data
+---
 
 **This tutorial uses Google spreadsheets to filter data. Other spreadsheet programs work in a similar way - play around and see how they differ.**
 

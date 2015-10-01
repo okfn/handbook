@@ -1,5 +1,6 @@
-A short introduction to HTML
-============================
+---
+title: A short introduction to HTML
+---
 
 Getting data from websites might seem a little complicated at first - but rest assured, once you’ve done it a couple of times it will be similar. To extract data from websites we need to peek under the hood and look at the underlying HTML code. Don’t worry you don’t need to understand every detail of it just to be able to do so.
 

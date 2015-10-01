@@ -1,5 +1,6 @@
-What is an API and how to use one
-=================================
+---
+title: What is an API and how to use one
+---
 
 In some cases, open data is provided through an application programming interface (API), often a web-based method for retrieving, searching or even updating the available information dynamically. APIs provide up-to-date data in a granular and filtered form, removing the need to repeatedly process and update source files.
 

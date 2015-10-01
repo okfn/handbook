@@ -1,5 +1,6 @@
-Creating an Interactive Bubble Chart
-====================================
+---
+title: Creating an Interactive Bubble Chart
+---
 
 **This tutorial uses Google spreadsheets to create an Interactive Bubble Chart. There is sample data for this tutorial [here](http://dump.tentacleriot.eu/wb-gdp-health-life.csv) .**
 

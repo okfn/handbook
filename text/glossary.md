@@ -1,6 +1,6 @@
-
-Glossary
-========
+---
+title: Glossary
+---
 
 ## Open Data
 Open data is data that can be used, reused and redistributed freely by anyone for any purpose. More details can be found at at [`opendefinition.org`](http://www.opendefinition.org/).

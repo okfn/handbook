@@ -1,6 +1,6 @@
-
-Introducing SQL for Lightweight Data Manipulation
-=================================================
+---
+title: Introducing SQL for Lightweight Data Manipulation
+---
 
 =={.meta}
 *Author: Tim McNamara*

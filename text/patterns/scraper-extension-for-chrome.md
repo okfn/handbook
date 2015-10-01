@@ -1,5 +1,6 @@
-Scraping websites using the Scraper extension for Chrome
-========================================================
+---
+title: Scraping websites using the Scraper extension for Chrome
+---
 
 If you are using Google Chrome there is a browser extension for scraping web pages. It’s called “Scraper” and it is easy to use. It will help you scrape a website’s content and upload the results to google docs.
 

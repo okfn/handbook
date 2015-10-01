@@ -1,5 +1,6 @@
-Creating Line Charts
-====================
+---
+title: Creating Line Charts
+---
 
 **This tutorial uses Google spreadsheets to create a line chart.**
 

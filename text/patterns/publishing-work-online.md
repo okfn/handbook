@@ -1,6 +1,6 @@
-
-Publishing our results
-======================
+---
+title: Publishing our results
+---
 
 Now let's go ahead and publish our results on a webpage. This will get a bit techy but don't worry we'll guide you through. We will create a small web page containing some of the visualizations we created using a simple online tool called pastehtml. Pastehtml allows you to create html websites easily by simply editing the text online and then saving it for sharing.
 

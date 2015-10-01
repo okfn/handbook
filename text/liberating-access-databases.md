@@ -1,7 +1,7 @@
-
 =={.meta}
-sectionauthor:: Rufus Pollock (rufuspollock@twitter)
-==
+---
+title: sectionauthor:: Rufus Pollock (rufuspollock@twitter)
+---
 
 Liberating Data from Microsoft Access Databases
 ===============================================

@@ -1,5 +1,6 @@
-Walkthrough: Scatterplot
-========================
+---
+title: "Walkthrough: Scatterplot"
+---
 
 **This tutorial uses Google spreadsheets to create a scatterplot. There is sample data for this tutorial
 [here](http://dump.tentacleriot.eu/wb-gdp-health-life.csv) .**
@@ -15,4 +16,3 @@ So let’s create a scatterplot.
 Don’t forget to label axes. Try to make the dots smaller if there is significant overlap.
 
 <div class="alert alert-info">Any questions? Got stuck? <a class="btn btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!</a></div>
-

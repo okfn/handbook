@@ -1,5 +1,6 @@
-Geocoding Data in a Google Docs Spreadsheet
-===========================================
+---
+title: Geocoding Data in a Google Docs Spreadsheet
+---
 
 A very common need is to geocode data in a Google Spreadsheet (for example, in creating TimeMaps with the [Timeliner](http://timeliner.okfnlabs.org/) project). There are several options here:
 

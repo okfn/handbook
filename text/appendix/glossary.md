@@ -1,6 +1,6 @@
-
-Glossary
-========
+---
+title: Glossary
+---
 
 Open Data
 ---------

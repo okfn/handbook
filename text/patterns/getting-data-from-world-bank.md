@@ -1,5 +1,6 @@
-Getting data from the World Bank
-================================
+---
+title: Getting data from the World Bank
+---
 
 In Data Fundamental, we address the question of how healthcare spending affects life expectancy around the world. This is one of the answers we can find looking at data from the World Bank.
 

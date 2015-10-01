@@ -1,6 +1,6 @@
-
-An Introduction to Data Wrangling
-=================================
+---
+title: An Introduction to Data Wrangling
+---
 
 A introduction to data wrangling covers obtaining, cleaning and using data. It's organized as a series of simple tasks that you work through.
 

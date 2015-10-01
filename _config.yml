@@ -7,4 +7,10 @@ github: http://github.com/okfn/datapatterns
 mailinglist: http://lists.okfn.org/mailman/listinfo/okfn-labs
 twitter: OKFNLabs
 openknowledgeribbon: true
-# googleanalytics: 
+# googleanalytics:
+defaults:
+  -
+    scope:
+      path: "text"
+    values:
+      layout: "default"
