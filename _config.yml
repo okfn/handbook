@@ -1,16 +1,31 @@
 title: Data Patterns
-author: Open Knowledge Labs
-authorurl: http://okfnlabs.org/
-# baseurl: /my-subsite
-# optional links (will go in navbar and footer)
-github: http://github.com/okfn/datapatterns
-mailinglist: http://lists.okfn.org/mailman/listinfo/okfn-labs
-twitter: OKFNLabs
+short_title: Data Patterns
+description: "A collection of tips, tricks and patterns for data work."
+baseurl: ""
+issues_url: http://github.com/okfn/datapatterns/issues
+url: "http://datapatterns.org/"
+github_username: okfn
+github_repo: datapatterns
+paypal: admin@okfn.org
+contact: "https://discuss.okfn.org/c/open-knowledge-labs"
+gems:
+  - jekyll-redirect-from
+  - jekyll-mentions
+devs:
+  -
+      name: Sam Smith
+      github: mintcanary
+  -
+      name: Dan Fowler
+      github: danfowler
+
+permalink: pretty
 openknowledgeribbon: true
-# googleanalytics:
+
 defaults:
   -
     scope:
-      path: "text"
+      path: "" # an empty string here means all files in the project
     values:
-      layout: "default"
+      layout: "page"
+      edit: true

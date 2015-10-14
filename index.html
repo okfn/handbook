@@ -1,0 +1,41 @@
+---
+layout: default
+js:
+ - vendor/jquery.adaptive-backgrounds.min
+ - home
+---
+
+<div class="home">
+  <section class="banner" data-adaptive-background='1' data-ab-css-background='1'>
+    <div class="wrapper">
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
+    </div>
+  </section>
+
+  <div class="wrapper">
+
+    <div>
+      <h2>About DataPatterns</h2>
+      <p>DataPatterns is a collection of tips and tricks for data work.</p>
+    </div>
+
+    <div>
+      <div>
+        <h2>Get Involved</h2>
+        <p>If you have some good hacks and would like to share them,
+          please contribute a patch</p>
+        <a href="https://github.com/{{site.github_username}}/{{site.github_repo}}">DataPatterns repository</a>
+      </div>
+    </div>
+    <div>
+      <div>
+        <h2>Help &amp; Guides</h2>
+        <p>Whether you wish to find, clean, add, or use spending data with DataPatterns we’ve got you covered.</p>
+        <a href="{{ "/patterns/" | prepend: site.baseurl }}">Read more</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>

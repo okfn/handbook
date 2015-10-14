@@ -17,15 +17,15 @@ will scrape a table from an HTML web page into a Google spreadsheet. The URL of 
 
 So for example, have a look at the following Wikipedia page – [`List of largest United Kingdom settlements by population`](http://en.wikipedia.org/wiki/List_of_largest_United_Kingdom_settlements_by_population) (found using a search on Wikipedia for uk city population):
 
-![image](images/wikipediaTable.jpg)
+![image](../images/wikipediaTable.jpg)
 
 Grab the URL, fire up a new Google spreadsheet, and start to enter the formula `*=importHTML*` into one of the cells:
 
-![image](images/gssImportFormula.jpg)
+![image](../images/gssImportFormula.jpg)
 
 Autocompletion works a treat, so finish off the expression and add in the URL and table number:
 
-![image](images/gssImportFormulaFull.jpg)
+![image](../images/gssImportFormulaFull.jpg)
 
 ```
 =ImportHtml("http://en.wikipedia.org/wiki/List_of_largest_United_Kingdom_settlements_by_population","table",1)
@@ -33,7 +33,7 @@ Autocompletion works a treat, so finish off the expression and add in the URL an
 
 As if by magic, a data table appears in the spreadsheet, pulled in directly from the Wikipedia page:
 
-![image](images/gssImportedHTMLTable.jpg)
+![image](../images/gssImportedHTMLTable.jpg)
 
 
 If the data in the HTML table is updated, the data in the spreadsheet will also be updated when you refresh or call the spreadsheet page.

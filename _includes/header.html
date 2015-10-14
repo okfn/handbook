@@ -1,0 +1,66 @@
+{% assign url_parts = page.url | split: '/' %}
+{% assign url_last = url_parts |last  %}
+
+<header class="site-header">
+  <a href="#menu" class="show-menu"><span class="text">Open the menu</span></a>
+  <a class="site-title" href="{{ site.baseurl }}/">{{ site.short_title }}</a>
+</header>
+
+<nav id="menu">
+  <ul>
+    <li>
+      <a href="{{ site.baseurl }}/">Home</a>
+    </li>
+    <li {% if page.url contains 'patterns' %}class="Selected"{% endif %}>
+      <a href="{{ site.baseurl }}/patterns/">Patterns</a>
+      <ul>
+        <li {% if url_last == 'csv' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/patterns/csv/">
+            CSV: Lingua Data
+          </a>
+        </li>
+        <li {% if url_last == 'workingenv' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/patterns/workingenv/">
+            Set up a working environment
+          </a>
+        </li>
+
+        <li {% if url_last == 'howtogetdata' %}class="Selected"{% endif %}>
+          <a href="{{site.baseurl}}/patterns/howtogetdata/">
+            How to get data
+          </a>
+        </li>
+        <li {% if url_last == 'scraping' %}class="Selected"{% endif %}>
+          <a href="{{site.baseurl}}/patterns/scraping/">
+            Scraping web sites
+          </a>
+        </li>
+        <li {% if url_last == 'liberating-html-tables' %}class="Selected"{% endif %}>
+          <a href="{{site.baseurl}}/patterns/liberating-html-tables/">
+            Liberating HTML Data Tables
+          </a>
+        </li>
+        <li {% if url_last == 'liberating-access-databases' %}class="Selected"{% endif %}>
+          <a href="{{site.baseurl}}/patterns/liberating-access-databases/">
+            Liberating Data from Microsoft Access Databases
+          </a>
+        </li>
+        <li {% if url_last == 'geocoding' %}class="Selected"{% endif %}>
+          <a href="{{site.baseurl}}/patterns/geocoding/">
+            Geocoding / Georeferencing Data
+          </a>
+        </li>
+        <li {% if url_last == 'datahub' %}class="Selected"{% endif %}>
+          <a href="{{site.baseurl}}/patterns/datahub/">
+            Publishing a Dataset on the DataHub
+          </a>
+        </li>
+        <li {% if url_last == 'visualization' %}class="Selected"{% endif %}>
+          <a href="{{site.baseurl}}/patterns/ref/visualization/">
+            Visualization: Tools Reference
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>

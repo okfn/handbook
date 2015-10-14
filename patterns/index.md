@@ -20,8 +20,8 @@ The Data Wrangling Handbook should be accessible to all learners. If you stumble
 Overview of Concepts, Tools and Technologies
 --------------------------------------------
 
-[csv](csv.md)
-[workingenv](workingenv.md)
+[csv](csv/)
+[workingenv](workingenv/)
 
 * SQL, JSON, CSV ...
 * Types of Data
@@ -37,7 +37,7 @@ Overview of Concepts, Tools and Technologies
 How to find stuff! (aka Discovery and Acquisition)
 --------------------------------------------------
 
-[howtogetdata](howtogetdata.md)
+[howtogetdata](howtogetdata/)
 
 * Searching and Finding
 * Crowd Sourcing
@@ -47,8 +47,8 @@ How to find stuff! (aka Discovery and Acquisition)
 Extraction
 ----------
 
-[scraping](scraping.md)
-[liberating-html-tables](liberating-html-tables.md)
+[scraping](scraping/)
+[liberating-html-tables](liberating-html-tables/)
 
 * Scraping and Parsing
 * Automation
@@ -66,9 +66,9 @@ Extraction
 Cleaning, Transforming & Integrating
 ------------------------------------
 
-[geocoding](geocoding.md)
-[datahub](datahub.md)
-[ref/visualization](ref/visualization.md)
+[geocoding](geocoding/)
+[datahub](datahub/)
+[ref/visualization](ref/visualization/)
 
 
 * Data Formats and Standards
@@ -88,7 +88,7 @@ Cleaning, Transforming & Integrating
 Storing and publishing data
 ---------------------------
 
-[datahub](datahub.md)
+[datahub](datahub/)
 
 * Publishing Online
 * Bulk storage versus structured storage
@@ -106,7 +106,7 @@ Analysis
 Presentation
 ------------
 
-[ref/visualization](ref/visualization.md)
+[ref/visualization](ref/visualization/)
 
 * Viz
 * Mapping ...
@@ -114,8 +114,5 @@ Presentation
 Recipes
 -------
 
-[liberating-html-tables](liberating-html-tables.md)
-[liberating-access-databases](liberating-access-databases.md)
-
-
-
+[liberating-html-tables](liberating-html-tables/)
+[liberating-access-databases](liberating-access-databases/)
