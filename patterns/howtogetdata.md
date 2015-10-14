@@ -1,10 +1,7 @@
 ---
 title: How to get data
+author: Tim McNamara
 ---
-
-=={.meta}
-sectionauthor:: Tim McNamara <tim.mcnamara@okfn.org>
-==
 
 This guide focuses on how you can extract data from web sites and web services. We will go over the various resources at your disposal to find sources which are useful to you.
 
@@ -97,7 +94,7 @@ def clean_page(html, pretty_print=False):
 
 ### Converting yes/no to Boolean values
 
-Computers are far better at interpreting Boolean values when they are 
+Computers are far better at interpreting Boolean values when they are
 consistently provided. Irrespective of the programming language, normalising
 these values will make any automatic comparisions much richer::
 
@@ -509,4 +506,3 @@ Tools to use
 ------------
 
 - Google Refine
-
