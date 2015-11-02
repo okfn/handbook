@@ -2,56 +2,57 @@
 title: Liberating Data from Microsoft Access Databases
 ---
 
-Use the [`mdbtools library`](http://mdbtools.sourceforge.net/). On Ubuntu / Debian you can install this via:
-```bash
-apt-get install mdbtools
-```
+Use the [`mdbtools library`](http://mdbtools.sourceforge.net/). On
+Ubuntu / Debian you can install this via:
+
+    apt-get install mdbtools
+
+It is also available via [Homebrew](http://brew.sh/) on the Mac:
+
+    brew install mdbtools
 
 Key functions:
 
 + Get an SQL schema
-```bash
-$ mdb-schema {database-name}
-```
+
+    `$ mdb-schema {database-name}`
+
 + Get a list of the table names
-```bash
-$ mdb-tables {database-name}
-```
+
+    `$ mdb-tables {database-name}`
+
 + Export a table as a CSV file
-```bash
-$ mdb-export {databbase-name} {table-name}
-```
 
-Here's an example script to extract all of the data from the Access database into CSV files::
+    `$ mdb-export {databbase-name} {table-name}`
 
-```python
-import os, sys, subprocess
+Here's an example script to extract all of the data from the Access
+database into CSV files:
 
-# Get database name from arguments passed to the script
-# Alternative you could set explicitly e.g. DATABASe = 'my-access-db.mdb'
-DATABASE = sys.argv[1]
+    #!/usr/bin/env python
+    import os, sys, subprocess
 
-# Get table names using mdb-tables
-table_names = subprocess.Popen(['mdb-tables', '-1', DATABASE], stdout=subprocess.PIPE).communicate()[0]
-tables = table_names.split('\n')
+    # Get database name from arguments passed to the script
+    # Alternative you could set explicitly e.g. `DATABASE = 'my-access-db.mdb'`
 
-# Walk through each table and dump as CSV file using 'mdb-export'
-# Replace ' ' in table names with '_' when generating CSV filename
-for table in tables:
-  if table != '':
-	  filename = table.replace(' ','_') + '.csv'
-	  file = open(filename, 'w')
-	  print('Exporting ' + table)
-	  contents = subprocess.Popen(['mdb-export', DATABASE, table], stdout=subprocess.PIPE).communicate()[0]
-	  file.write(contents)
-	  file.close()
-```
+    DATABASE = sys.argv[1]
 
+    # Get table names using mdb-tables
+    table_names = subprocess.Popen(['mdb-tables', '-1', DATABASE], stdout=subprocess.PIPE).communicate()[0]
+    tables = table_names.split('\n')
 
-If you save this script as script.py you can use it as follows::
+    # Walk through each table and dump as CSV file using 'mdb-export'
+    # Replace ' ' in table names with '_' when generating CSV filename
+    for table in tables:
+      if table != '':
+    	  filename = table.replace(' ','_') + '.csv'
+    	  file = open(filename, 'w')
+    	  print('Exporting ' + table)
+    	  contents = subprocess.Popen(['mdb-export', DATABASE, table], stdout=subprocess.PIPE).communicate()[0]
+    	  file.write(contents)
+    	  file.close()
 
-```bash
-$ python script.py {path-to-access-database}
-```
+If you save this script as `script.py`, you can use it as follows::
+
+    $ python script.py {path-to-access-database}
 
 CSV files will be written to the current directory.
