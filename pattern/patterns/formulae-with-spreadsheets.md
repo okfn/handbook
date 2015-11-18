@@ -58,7 +58,7 @@ Take a look at the above example - it's exactly the same, apart from you use a `
 
 **Math recap:** If you have a percentage and the value it is associated with you can calculate the value of the percentage. e.q. let’s say 25% of people in a town of 1000 inhabitants are below 15 years. You can calculate the number of inhabitants by using the following formula:
 
-```excel
+```
 number of inhabitants in a town x (25 ÷ 100)
 ```
 
@@ -128,19 +128,19 @@ If you follow us through you’ll notice you can create quite complex formulas a
 5. To put it another way: **only if** a value for both GDP and healthcare expenditure is present should the spreadsheet carry out the calculation; **otherwise** it should leave the cell blank.
 6. The formula to express this condition is ‘IF’. (You can find an overview on formulas like this on the [google doc help](https://support.google.com/docs/bin/static.py?hl=en&topic=25273&page=table.cs).)
 7. The formula asks us to fill out the three things: (1) Condition, (2) value if the condition is true, (3) value if the condition is false.
-```excel
+```
 =IF(Condition, Value if condition is true, Value if condition is false)
 ```
 8. In our case we know parts (2) and (3). (2) is the formula we used above this is the calculation we want to carry out if both values are present in the spreadsheet.
-```excel
+```
 =IF(Condition, $E3*H3/100, Value if condition is false)
 ```
 9. (3) is a blank - if the numbers aren’t there, we don’t want to display anything, so we fill in that value with nothing at all.
-```excel
+```
 =IF(Condition, $E3*H3/100,)
 ```
 10. So now we just need to work out (1), the condition.
-```excel
+```
 =IF(Condition, $E3*G3/100,)
 ```
 11. Remember that we want the condition to be that BOTH the GDP and healthcare expenditure values are a number. The formula to see whether a cell is a number is: `ISNUMBER`.
@@ -150,17 +150,17 @@ If you follow us through you’ll notice you can create quite complex formulas a
 14. We need to combine the results of both `ISNUMBER(GDP)` and `ISNUMBER(healthcare expenditure)` together. The formula to do so is AND. This will simply say `TRUE` if both of them are `TRUE` (i.e. both of them numbers) or `FALSE` if either one or both of them is `FALSE`.
 ![image](http://farm9.staticflickr.com/8332/8076444273_f554a395cc_o_d.png)
 15. Which is exactly what we need. So our condition will be:
-```excel
+```
 AND(ISNUMBER(gdp),ISNUMBER(healthcare expenditure))
 ```
 16. or, to use our cells from before
-```excel
+```
 AND(ISNUMBER($E3),ISNUMBER(H3))
 ```
 ![image](http://farm9.staticflickr.com/8186/8076443230_8ef7b909e6_b_d.jpg)
 
 17. Phew! So now we can put parts (1), (2) and (3) from above all together in one big formula, using ‘IF’
-```excel
+```
 =IF(Condition, $E2*H2/100,)
 =IF(AND(ISNUMBER($E2),ISNUMBER(H2)),$E2*H2/100,)
 ```

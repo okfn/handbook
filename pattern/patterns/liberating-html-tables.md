@@ -11,7 +11,7 @@ Screenscraping HTML Tables Using Google Spreadsheets
 
 The Google spreadsheet formula:
 
-```excel
+```
 =importHTML("","table",N)
 ```
 will scrape a table from an HTML web page into a Google spreadsheet. The URL of the target web page, and the target table element both need to be in double quotes. The number N identifies the N'th table in the page (counting starts at 1) as the target table for data scraping.

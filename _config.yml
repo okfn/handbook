@@ -8,6 +8,8 @@ github_username: okfn
 github_repo: datapatterns
 paypal: admin@okfn.org
 contact: "https://discuss.okfn.org/c/open-knowledge-labs"
+markdown: redcarpet
+highlighter: pygments
 gems:
   - jekyll-redirect-from
   - jekyll-mentions
