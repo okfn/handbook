@@ -70,3 +70,4 @@ This will create (or clone) the repository locally.
 
 You can then do the changes you want and then perform the same `git status - git add - git commit -m - git pish` routine previously described.
 
+One last thing, howeever: After pushing your changes to your repository, you have to create a pull request to merge everything in the main repository. To do it, go the repository page on GitHub (your repository, not the main one) and then click "Pull Request". The menus are very self-explainatory, so you should find no trouble doing it. 
