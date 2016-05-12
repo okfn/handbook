@@ -1,6 +1,6 @@
 title: Data Patterns
-short_title: Data Patterns
-description: "A collection of tips, tricks and patterns for data work."
+short_title: Labs Handbook
+description: "A collection of guides, counselling and other advise to participate in OKFN Labs"
 baseurl: ""
 issues_url: http://github.com/okfn/datapatterns/issues
 url: "http://datapatterns.org/"
@@ -20,6 +20,9 @@ devs:
   -
       name: Dan Fowler
       github: danfowler
+
+      name: Gustavo Silva
+      github: gsilvapt
 
 permalink: pretty
 openknowledgeribbon: true
