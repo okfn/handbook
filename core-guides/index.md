@@ -6,7 +6,7 @@ If you wish to contribute to the Core Datasets project, this is the place to sta
 
 ## What is Core Datasets? Why is it any different than the rest?
 
-[OKFN Labs](http://okfnlabs.org/) is the base project that is supporting many other initiatives. The idea there is to build the needed tools so that others can create data packages and make then available. Afterall, that is [OKFN's mission and ultimate goal](https://okfn.org/about/)
+[OKFN Labs](http://okfnlabs.org/) is the base project that is supporting many other initiatives. The idea there is to build the needed tools so that others can create data packages and make then available. Afterall, that is [OKFN's mission and ultimate goal](https://okfn.org/about/).
 
 
 One of the main projects is the [Core Datasets](http://data.okfn.org/roadmap/core-datasets). The idea is to ensure we have **core** datasets available for everyone. This means then, we apply [open standards](http://opendefinition.org/) and thus we ensure everyone, or at least their computer, can read that dataset.
