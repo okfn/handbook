@@ -1,12 +1,55 @@
 ---
-title: Welcome, Data Curators
+title: Data Curators & Data Curator Managers
 ---
 
 As mentioned in the introductory page, one key issue is that the problem with open data is not a matter of *creation*, rather *curation*. This means the role of a Data Curator is to take data from known (quality-proven and reliable) sources and transform that into data packages.
 
 This guide will introduce you to key routines we usually do, before publishing any data package.
 
-# Getting data
+## Quick Links
+
+- [Discussion forum](http://discuss.okfn.org/category/open-knowledge-labs/core-datasets) - discussion takes place here by default 
+   - This is the place to ask questions, get help etc - just open a new topic 
+- [Introduction to Core Datasets Project](http://data.okfn.org/roadmap/core-datasets) 
+   - [Join the Team Post](http://okfnlabs.org/blog/2015/01/03/data-curators-wanted-for-core-datasets.html) 
+- [Packaging Queue (Github Issues Tracker)](https://github.com/datasets/registry/issues) 
+- [Publish Data Packages Documentation on Frictionless Data Site](http://data.okfn.org/doc/publish) 
+
+## Getting Started
+
+The first thing you should if you are interested in contributing to the OKFN Labs project as a data curator is to take two minutes to introduce yourself in the [discussion forum](http://discuss.okfn.org/t/core-data-curators-introductions/145) so that other team members can get to know you
+The second step is to read the contributing guide below so you can understand:
+* The details of the curator workflow
+* Can work out where you'd like to contribute
+
+1. *Stop: Have you read the contributing guide? The next items only make sense if you have!*
+2. Now you can dive in with one or both of:
+
+- Researching: start reviewing the [current queue](https://github.com/datasets/registry/issues) - add new items, comment on existing ones etc 
+- Packaging:  check out the [“Ready to Package”](https://github.com/datasets/registry/labels/Status%3A%20Ready%20to%20Package) section of the queue and assign yourself (drop a comment in the issue claiming it)
+
+# Contributors Guide
+
+<img src="https://docs.google.com/drawings/d/1Emi_N9GTv95Z_STW7XO2PVo0ykZgbgKvT30b1tpuXqI/pub?w=1136&h=318" alt="" style="min-width: 950px; margin-left: -200px;" />
+*Fig 1: Overview of the Curation Workflow [[Source Drawing - Full Size](https://docs.google.com/a/okfn.org/drawings/d/1Emi_N9GTv95Z_STW7XO2PVo0ykZgbgKvT30b1tpuXqI/edit)]*
+
+There are 2 areas of activity:
+
+1. Preparing datasets as Core Data Packages - finding them, cleaning them, data-packaging them 
+2. Maintaining Core Data Packages - keeping them up to date with the source dataset, handling changes, responding to user queries 
+
+There are different areas where people can contribute:
+
+1. Research
+2. Packaging up data
+3. Quality assurance
+4. Publishing 
+
+Often you will contribute in all 4 by taking a dataset all the way from a suggestion to a fully packaged data package published online.
+
+#### 1. Research 
+
+This involves researching and selecting datasets as core datasets and add them to the queue for packaging - no coding or data wrangling skills needed.
 
 The first step is, naturally, finding data to work with. There are two common ways you can do this:
 
@@ -18,28 +61,14 @@ Which one you should go to first is really up to you. The difference, however, i
 
 Other than that, the workflow and requirements is pretty much the same.
 
-## Following Priorities
+#### 2. Packaging up data
 
-The main advantage of working with a previously open issue is the fact you are introduced to some work that is already developed. Chances are that someone has already took care of finding the best source, convert it to CSV and JSON formats, using a scripting method, and then your work is reduced significantly.
+Once we have a suggested dataset marked as "ready to package" we can move to packaging it up.
 
-## Your Own Taste
-
-You can also search for topics of your preference, or even suggest them in the issues page if they are not there already.
+How to package up data is covered in the [general publishing guide](http://data.okfn.org/doc/publish).
 
 
-# Preparing the Data
-
-Now, back to the workflow. This is the troublesome part. The job is to, first, find the best and most reliable source, convert if to CSV or XLSX and then work on preparing the data package. If you do not know what `CSV` is, we advise you to read the [Data Guides](data-guides/).
-
-## Convert to .CSV
-
-As mentioned before, the first step is to have a source `csv` file and you can do that, for instance, by click in the right tab in the [World Bank of Data](http://data.worldbank.org/). See picture below:
-
-![image]({{ site.url }}/images/export.jpg)
-
-Chances are, many world data references have a similar option.
-
-## Directory structure
+##### Directory structure
 
 In order to keep everything organized and as "universal" as possible, we have found a structure that pleases the most of us that any contributor should also go by:
 
@@ -81,18 +110,7 @@ data:
             .PHONY: all data clean
 ```
 
-## Quality Assurance
-
-At this stage, you are ready for loading the source `csv` file and check for any inconsistencies, blank spaces and other things that are important to ensure the data package is machine readible. Here follows a list of things you must pay attention to:
-
-* The common structure of these packages is `COUNTRY,YEAR,VALUE`. This is not static though. The World Bank of Data usually provides such structure that we generally use `COUNTRY,COUNTRY CODE, YEAR, VALUE`. 
-* We prefer using `.` rather than `,` to separate decimal values. We also want to avoid using certain symbols such as `%, &, #, ;, :, ` and a few others that can interfere with the data package.
-* If data is not available, you either make that cell as `0` or `NaN`.
-* The data package name should be `your-package.csv`. We rather use `-` (underscores) to refer to spaces.
-
-By now you can understand why we use programming skills here. The workflow at this stage is: 1) Download the source `CSV` file which you can do directly in your programming environment (like in Python, R, ...); 2) Prepare a small and quick Python script to search for these small inconsistencies and remove/change them so that there are no problems in the and, 3) Run the `Makefile` in the terminal (in Linux, you can do that by simply changing to the directory of the package - `sudo cd ~/path/to/package` - and then by running `make`. You should see no error messages.) to ensure the script is working flawlessly.
-
-### Unpivoting Tables
+##### Unpivoting Tables
 
 This is usually the most difficult part - initially! If you read the [Data Guides](data-guides/), you know by now what pivot tables are. Even though those are more human-friendly, if you check one carefully, you can see they are exactly the opposite of clean and machine readable formats. 
 
@@ -115,9 +133,9 @@ df.to_csv('data/package-name.csv', sep=",", index=False)
 This is the code we usually run to unpivot and reoder the entire frame. This is just an example and this is scalable. Under `id_vars`, you can add as many variables as you want - as long they have matching data in the dataframe you have loaded.
 
 
-## The JSON format
+##### The JSON format
 
-When you have your `CSV`file ready, you sure want to create the `datapackage.json` file. Now, there are two ways to do this:
+When you have your `CSV` file ready, you sure want to create the `datapackage.json` file. Now, there are two ways to do this:
 
 * Manually, implying you know `[JSON](http://www.json.org/)` and its structure (you should look at their website).
 * Using the [Data Package Manager](https://github.com/okfn-oe/datapackage-validator), which creates the file and the main fields automatically.
@@ -134,16 +152,50 @@ In either case, we advise you to go through the document and make sure everythin
 * As for the license, we truly advise you to use [ODC-PDDL-1.0](http://opendatacommons.org/licenses/pddl/1-0/)
 
 
-# Preparing to announce your data package
+#### 3. Quality Assurance
 
-After making sure everything is in place, then you are ready to announce your package. You should go the `[datasets/registry issues page](https://github.com/datasets/registry/issues)` and, either look for the package you tried to resolve or, if you decided to go on your own, open a new issue entitled as your package.
+This involves validating and checking packaged datasets to ensure they are of high quality and ready to publish.
 
-Stuff to include in your post:
+At this stage, you are ready to load the source `csv` file and check for any inconsistencies, blank spaces and other things that are important to ensure the data package is machine readible. Here follows a list of a few things you can look up to:
+
+* The common structure of these packages is `COUNTRY,YEAR,VALUE`. This is not static though. The World Bank of Data usually provides such structure that we generally use `COUNTRY,COUNTRY CODE, YEAR, VALUE`. 
+* We prefer using `.` rather than `,` to separate decimal values. We also want to avoid using certain symbols such as `%, &, #, ;, :, ` and a few others that can interfere with the data package.
+* If data is not available, you either make that cell as `0` or `NaN`.
+* The data package name should be `your-package.csv`. We rather use `-` (underscores) to refer to spaces.
+
+By now you can understand why we use programming skills here. The workflow at this stage is: 1) Download the source `CSV` file which you can do directly in your programming environment (like in Python, R, ...); 2) Prepare a small and quick Python script to search for these small inconsistencies and remove/change them so that there are no problems in the and, 3) Run the `Makefile` in the terminal (in Linux, you can do that by simply changing to the directory of the package - `sudo cd ~/path/to/package` - and then by running `make`. You should see no error messages.) to ensure the script is working flawlessly.
+
+
+Finally, we use two tools to validate the quality of our packages, namely the [Data Package Validator](http://data.okfn.org/tools/validate) and [Daa PAckage Viewer](http://data.okfn.org/tools/view) the data in the Data Package. You should keep these links because you will need them in the next task.
+
+
+
+#### 4. Publishing
+
+After making sure everything is in place, then you are ready to announce your package. You should go the [datasets/registry issues page](https://github.com/datasets/registry/issues) and, in the issue related to your package:
+
 * Package Name (eg. GINI Index)
 * [Data Package Validator link](http://data.okfn.org/tools/validate) - just paste your GitHub repository here and copy the link afterwards
 * [Data Package Viewer link](http://data.okfn.org/tools/view) - same as with the validator
 * The link to your repository
 
-If you do not have experience working with GitHub, the following topic will cover the basics of working with GitHub and Git to publish datasets online.
+If you do not have experience working with GitHub, [this](/core-guides/working-with-git) should help you understand and perform the basic tasks with Git, within the terminal and in the browser. 
 
+# Guide for Managing Curators
+
+### Intro Email for New Joiners
+
+You are being added to the Core Data Curators mailing list as you indicated your interest in the project through the online form.
+
+This list is announce-only and will be used rarely. General discussion takes place in the public forum:
+
+http://discuss.okfn.org/category/open-knowledge-labs/core-datasets
+
+**Getting Started**
+
+To kick-off your core data curatorship we encourage you to:
+
+1. Introduce yourself in forum here: http://discuss.okfn.org/t/core-data-curators-introductions/145/24
+
+2. Take a look at the Core Data Curators guide: http://data.okfn.org/doc/core-data-curators
 
