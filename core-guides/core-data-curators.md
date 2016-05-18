@@ -100,7 +100,7 @@ They usually have it in a tabular format, lots of columns - and most of the cell
 
 You can work these manually, in Excel or using Python, R or whatever suite you prefer. 
 
-In Python, we recommend using the `[pandas](http://pandas.pydata.org/)` package, as it eases off the work significantly.
+In Python, we recommend using the [pandas](http://pandas.pydata.org/) package, as it eases off the work significantly.
 
 To "unpivot" a table, you can simply run the following snippet:
 
