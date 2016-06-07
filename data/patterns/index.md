@@ -8,25 +8,12 @@ This section contains small snippets that will help you in the process of data w
 
 The term pattern has developed a very specific meaning in software engineering. While we use the term in this sense, the tricks presented are not defined as a pattern using any of the formal templates that have developed for software design patterns.
 
-
-+ [how-to-find-data]()
-+ [getting-data-from-world-bank]()
-+ [liberating-html-tables]()
-+ [scraper-extension-for-chrome]()
-+ [introduction-to-html]()
-+ [scraping-beyond-the-basics]()
-+ [scraping-multiple-pages-with-refine-and-scraper]()
-+ [extracting-data-from-pdf-with-tabula]()
-+ [cleaning-data-scraped-from-the-web]()
-+ [sorting-data-with-spreadsheets]()
-+ [filtering-data-with-spreadsheets]()
-+ [formulae-with-spreadsheets]()
-+ [geocoding]()
-+ [cleaning-data-with-spreadsheets]()
-+ [cleaning-data-with-refine]()
-+ [line-charts-from-spreadsheets]()
-+ [scatterplots-from-spreadsheets]()
-+ [interactive-bubble-charts]()
-+ [choropleth-maps-from-spreadsheets]()
-+ [publishing-work-online]()
+<ul>
+{% assign sorted_pages = (site.pages | sort: 'title') %}
+{% for page in sorted_pages %}
+{% if page.section == 'patterns' and page.name != 'index.md' %}
+<li><a href="{{ page.url | prepend: site.baseurl }}">{{page.title}}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
 
