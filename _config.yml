@@ -31,3 +31,9 @@ defaults:
     values:
       layout: "page"
       edit: true
+  - 
+    scope:
+      path: "data/patterns"
+    values:
+      section: "patterns"
+
