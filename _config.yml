@@ -9,7 +9,7 @@ github_repo: handbook
 paypal: admin@okfn.org
 contact: "https://discuss.okfn.org/c/open-knowledge-labs"
 markdown: kramdown 
-highlighter: pygments
+highlighter: rouge
 gems:
   - jekyll-redirect-from
 devs:
@@ -20,6 +20,7 @@ devs:
       name: Gustavo Silva
       github: gsilvapt
 
+googleanalytics: UA-8271754-43
 permalink: pretty
 openknowledgeribbon: true
 
