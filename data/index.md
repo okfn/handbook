@@ -1,32 +1,18 @@
 ---
-title: Welcome to the Labs Handbook!
+title: Welcome to the Data Wrangling Handbook!
 ---
 
-The Labs Handbook is a companion text to the [`School of Data`](http://schoolofdata.org/). Its function is something like a 
-traditional textbook - it will provide the detail and background theory to support the School of Data courses and challenges.
+*Data wrangling for fun and profit*
 
-The Labs Handbook is currently in an early stage of development. Over the coming months we intend to write more chapters and 
-flesh out this skeleton with content and detail. We also hope to expand and improve upon this basic outline, so if there's a 
-section that you currently feel is missing, please do [let us know!](https://discuss.okfn.org/c/open-knowledge-labs)
+This handbook is not a finished document but a collection of opinions and evolving best practices. The purpose is not to present all available options and technologies but to pick one and follow it through.
 
-The Labs Handbook is a collaborative endeavour, and we welcome all feedback and contributions. To contribute to the Labs 
-Handbook you can:
+The Handbook is also a collaborative effort: if you have a recipe, a tool or a howto and would like to share them, please contribute a patch or make a suggestion:
 
-* Edit directly on the [`Handbook Github Repository`](https://github.com/okfn/handbook)
-
-* Submit an issue to our [`issue tracker`](https://github.com/okfn/handbook/issue)
-
-* Write a new contribution - you can do this in the format and editor of your choice (Google Docs, Open Office, Word, Latex ...) and then email it to `schoolofdata [@] okfn.org`
-
-* Email us ideas and suggestions at `schoolofdata [@] okfn.org`
-
-* Send tweets to [`@SchoolOfData`](http://twitter.com/SchoolOfData)
-
-The Labs Handbook should be accessible to all learners. If you stumble across an unexplained term or a concept that requires more explanation, please do get in touch.
+* Edit directly on the [Handbook Github Repository](https://github.com/okfn/handbook)
+* Submit an issue to our [Issue Tracker](https://github.com/okfn/handbook/issue)
 
 
-Overview of Concepts, Tools and Technologies
---------------------------------------------
+## Overview of Concepts, Tools and Technologies
 
 [csv](csv/)
 [workingenv](workingenv/)
@@ -42,8 +28,7 @@ Overview of Concepts, Tools and Technologies
 * Programming Basics
 * Advanced Programming
 
-How to find stuff! (aka Discovery and Acquisition)
---------------------------------------------------
+## How to find stuff! (aka Discovery and Acquisition)
 
 [howtogetdata](howtogetdata/)
 
@@ -52,8 +37,7 @@ How to find stuff! (aka Discovery and Acquisition)
   * Manual Digitisation
   * Bulk Digitsation
 
-Extraction
-----------
+## Extraction
 
 [scraping](scraping/)
 [liberating-html-tables](liberating-html-tables/)
@@ -71,8 +55,7 @@ Extraction
 	* Text Normalization
 	* Calais and Auto-Tagging
 
-Cleaning, Transforming & Integrating
-------------------------------------
+## Cleaning, Transforming & Integrating
 
 [geocoding](geocoding/)
 [datahub](datahub/)
@@ -93,16 +76,14 @@ Cleaning, Transforming & Integrating
 * Concept Modelling
 * Fuzzy Matching
 
-Storing and publishing data
----------------------------
+## Storing and publishing data
 
 [datahub](datahub/)
 
 * Publishing Online
 * Bulk storage versus structured storage
 
-Analysis
---------
+## Analysis
 
 * Visualisation and Plotting
 * Sorting, Filtering and Pivoting
@@ -111,16 +92,14 @@ Analysis
 * Map Geo-Tagging - short section in DWH
 * Other potential sections: NetworkX / graphviz + Gephi / Mapping / Dataviz (invite)
 
-Presentation
-------------
+## Presentation
 
 [ref/visualization](ref/visualization/)
 
 * Viz
 * Mapping ...
 
-Recipes
--------
+## Recipes
 
 [liberating-html-tables](liberating-html-tables/)
 [liberating-access-databases](liberating-access-databases/)

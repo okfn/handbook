@@ -1,11 +1,11 @@
-title: Data Patterns
+title: Open Knowledge Labs Handbook
 short_title: Labs Handbook
 description: "A collection of guides and advice to participate in Open Knowledge Labs"
 baseurl: "/handbook"
-issues_url: http://github.com/okfn/datapatterns/issues
+issues_url: http://github.com/okfn/handbook/issues
 url: "http://datapatterns.org/"
 github_username: okfn
-github_repo: datapatterns
+github_repo: handbook
 paypal: admin@okfn.org
 contact: "https://discuss.okfn.org/c/open-knowledge-labs"
 markdown: kramdown 
@@ -13,9 +13,6 @@ highlighter: pygments
 gems:
   - jekyll-redirect-from
 devs:
-  -
-      name: Sam Smith
-      github: mintcanary
   -
       name: Dan Fowler
       github: danfowler
