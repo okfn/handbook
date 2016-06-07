@@ -6,11 +6,14 @@ title: Welcome to the Data Wrangling Handbook!
 
 This handbook is not a finished document but a collection of opinions and evolving best practices. The purpose is not to present all available options and technologies but to pick one and follow it through.
 
-The Handbook is also a collaborative effort: if you have a recipe, a tool or a howto and would like to share them, please contribute a patch or make a suggestion:
+The Handbook is also a collaborative effort: if you have a recipe, a tool or a howto and would like to share them, please contribute a patch or make a suggestion.
 
-* Edit directly on the [Handbook Github Repository](https://github.com/okfn/handbook)
-* Submit an issue to our [Issue Tracker](https://github.com/okfn/handbook/issue)
+The Handbook consists of two main parts:
 
+* The Guide: A guide that walks you the main aspects of data wrangling
+* The [Patterns](patterns/): A set of "patterns" or recipes for doing specific tasks from scraping an HTML table to geocoding in a spreadsheet
+
+# Guide
 
 ## Overview of Concepts, Tools and Technologies
 
@@ -99,7 +102,9 @@ The Handbook is also a collaborative effort: if you have a recipe, a tool or a h
 * Viz
 * Mapping ...
 
-## Recipes
 
-[liberating-html-tables](liberating-html-tables/)
-[liberating-access-databases](liberating-access-databases/)
+# Contributing
+
+* Edit directly on the [Handbook Github Repository](https://github.com/okfn/handbook)
+* Submit an issue to our [Issue Tracker](https://github.com/okfn/handbook/issue)
+

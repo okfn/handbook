@@ -1,8 +1,12 @@
 ---
-title: Recipes
+title: Patterns
 ---
 
-Sometimes you're not hungry for a background heavy lunch but like to snack on something fast: Here are some recipes! This section contains small snippets that will help you in the process of data wrangling. They might be small useful tips of full blown tutorials on tools or topics. Come in and find out!
+This section contains small snippets that will help you in the process of data wrangling. They might be small useful tips of full blown tutorials on tools or topics.
+
+**Note on the term 'pattern'**
+
+The term pattern has developed a very specific meaning in software engineering. While we use the term in this sense, the tricks presented are not defined as a pattern using any of the formal templates that have developed for software design patterns.
 
 
 + [how-to-find-data]()
