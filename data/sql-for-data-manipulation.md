@@ -1,10 +1,7 @@
 ---
 title: Introducing SQL for Lightweight Data Manipulation
+author: Tim McNamara
 ---
-
-=={.meta}
-*Author: Tim McNamara*
-==
 
 This article introduces the SQL language as a tool for people interested in using data to create visualisations and other forms of data analysis.
 

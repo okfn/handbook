@@ -7,7 +7,7 @@ this domain.
 
 This page documents open-source software for visualisation.
 
-See also: [`open-visualisation mailing list`](http://lists.okfn.org/cgi-bin/mailman/listinfo/open-visualisation).
+See also: [open-visualisation mailing list](http://lists.okfn.org/cgi-bin/mailman/listinfo/open-visualisation).
 
 
 Software
@@ -26,7 +26,7 @@ Field meanings:
 Hosted
 ------
 
-* [`Google Fusion Tables`](http://www.google.com/fusiontables/)  - Geospatial, Graphing etc - Free - Not open source - Active
+* [Google Fusion Tables](http://www.google.com/fusiontables/)  - Geospatial, Graphing etc - Free - Not open source - Active
 * [ManyEyes](http://www.ibm.com/software/data/cognos/manyeyes/) - Geospatial, Graphing etc - Free - Not open source - Active
 * [Wordle](http://www.wordle.net) - Word Clouds - Free - Not open source - Active
 * [Datawrapper](http://www.datawrapper.de) - Creating interactive charts - Free - Open source - Active
@@ -36,7 +36,7 @@ JavaScript-Libraries
 --------------------
 
 * [d3js](http://d3js.org) - SVG graphing and viz - Free - Open Source
-* [`JavaScript InfoVis Toolkit`](http://thejit.org/) - Treemap, Hierarchy, Line charts - Free - Open Source (BSD)
+* [JavaScript InfoVis Toolkit](http://thejit.org/) - Treemap, Hierarchy, Line charts - Free - Open Source (BSD)
 * [processingjs](http://ejohn.org/blog/processingjs) - JavaScript port of Processing
 * [Raphaël](http://raphaeljs.com/ ) - Library for creating interactive, cross-browser SVG graphics - Free - Open Source (MIT)
 * [Flot](http://code.google.com/p/flot/) - Charting (Bar, Pie, Line) - Free - Open Source (BSD)
