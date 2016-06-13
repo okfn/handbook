@@ -10,6 +10,7 @@ title: Contributing to the Core Datasets
   - [Join the Team Post](http://okfnlabs.org/blog/2015/01/03/data-curators-wanted-for-core-datasets.html) 
 - [Packaging Queue (Github Issues Tracker)](https://github.com/datasets/registry/issues) 
 - [Publish Data Packages Documentation on Frictionless Data Site](http://data.okfn.org/doc/publish) 
+- [What is a Data Package](http://frictionlessdata.io/guides/data-package/)
 
 ## Quick Start
 
