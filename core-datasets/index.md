@@ -1,5 +1,4 @@
 ---
-layout: page
 Title: Intro to Core Datasets
 ---
 
