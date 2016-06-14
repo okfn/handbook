@@ -37,7 +37,7 @@ There are 2 areas of activity:
 
 Each of these have sub-steps which we detail below and you can contribute in any and all of these. [In fact given how many of us there are you will almost end up doing several of these at once!]
 
-### Preparing Datasets as Core Data Packages
+### Preparing Datasets as Core Data Packages ###
 
 There are different areas where people can contribute:
 
@@ -48,7 +48,7 @@ There are different areas where people can contribute:
 
 Often you will contribute in all 4 by taking a dataset all the way from a suggestion to a fully packaged data package published online.
 
-#### 1. Research
+#### 1. Research
 
 This involves researching and selecting datasets as core datasets and adding them to the queue for packaging - no coding or data wrangling skill is needed for this 
 
@@ -57,7 +57,6 @@ This involves researching and selecting datasets as core datasets and adding the
   * To propose a dataset you do not have to know where to get the data from (e.g. you could suggest “US GDP” as a core dataset without yet knowing where to get the data from) 
 * Discuss with Queue Manager(s) (they will spot your submission and start commenting in the GitHub issue)
 * If good =&gt; Shortlist for Packaging - add [Label “Status: Ready to Package”](https://github.com/datasets/registry/labels/Status%3A%20Ready%20to%20Package) 
-
 
 ##### 1.1 Retrieving Data From the World Bank's API
 
@@ -84,7 +83,7 @@ giniIndex.to_csv('archive/gini-index.csv', sep=",", index_col=0, index=False)
 print("Saved archive CSV file.")
 ```
 
-#### 2. Packaging up data
+#### 2. Packaging up data
 
 Once we have a suggested dataset marked as "ready to package" we can move to packaging it up.
 
@@ -132,7 +131,7 @@ data:
 
 Assuming you have a Python script that fetches data from an API, it is easy for a managing curator to update your data package by just running the make file from the terminal, using `make` as you are telling Python where everything is stored.
 
-#### 3. Quality Assurance
+#### 3. Quality Assurance
 
 This involves validating and checking packaged datasets to ensure they are of high quality and ready to publish.
 
@@ -150,10 +149,10 @@ One common task at this stage is to "*unpivot*" tables, since you do not have th
 The easiest way to do it is using `pandas.melt` function.
 
 ```python
-df = pd.melt(df, id_vars=['Country Name', 'Country Code'], var_name="Year", value_name="Value")     # Unpivoting
-df = df.sort_values(by=['Country Name', 'Year'], ascending=[True, True]) # Sorting by country
+df = pd.melt(df, id_vars=['Country Name', 'Country Code'], var_name="Year", value_name="Value")     
+df = df.sort_values(by=['Country Name', 'Year'], ascending=[True, True])
 
-df.dropna().to_csv('data/gini-index.csv', sep=",", index=False)   # Saving CSV
+df.dropna().to_csv('data/gini-index.csv', sep=",", index=False)   
 ```
 
 The first will reorganize the table so that the first two columns match the structure we reviewed a moment ago. The second is there to organize the data frame accordingly. Ordering it alphabetically and in ascending order seems the most adequate. At the end of this, it makes sense to store the data in the `.CSV` format we have been discussing and that is the code you will be usually looking for.  
@@ -163,7 +162,7 @@ By now you can understand what and where programming skills are needed. The work
 1. [Validate](http://data.okfn.org/tools/validate) the Data Package and [review](http://data.okfn.org/tools/view) the data in the Data Package 
 2. Post a validation link and a view link in the comments for the issue in the Registry related to your Data Package. 
 
-#### 4. Publishing 
+#### 4. Publishing
 
 We have a few extra specific requirements:
 
@@ -173,7 +172,6 @@ We have a few extra specific requirements:
 * Add to the [catalog list](https://github.com/datasets/registry/blob/master/catalog-list.txt) **and** the [core list](https://github.com/datasets/registry/blob/master/core-list.txt) **and** the associated csv files: [catalog-list.csv](https://github.com/datasets/registry/blob/master/data/catalog-list.csv) and [core-list.csv](https://github.com/datasets/registry/blob/master/data/core-list.csv). 
 * Reload [http://data.okfn.org/data/](http://data.okfn.org/data/) by visiting <http://data.okfn.org/admin/reload/>
 * If you have access, tweet from the @OKFNLabs account a link to the http://data.okfn.org/data/ page for the dataset. 
-
 
 ### Maintaining Data Packages
 
@@ -185,8 +183,7 @@ We need people to become the "maintainer" for a given dataset and keep it up to 
 
 [maintainer]: https://github.com/datasets/registry/labels/Status%3A%20Maintainer%20Wanted
 
-
-### Core Data Assessment Criteria
+### Core Data Asseessment Criteria
 
 For a dataset to be designated as "core" it should meet the following criteria:
 
