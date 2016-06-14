@@ -5,10 +5,10 @@ title: Contributing to the Core Datasets
 ## Quick Links
 
 - [Discussion forum](http://discuss.okfn.org/category/open-knowledge-labs/core-datasets) - discussion takes place here by default 
-  - This is the place to ask questions, get help etc - just open a new topic 
+  - This is the place to ask questions, get help etc. - just open a new topic 
 - [Introduction to Core Datasets Project](http://data.okfn.org/roadmap/core-datasets) 
   - [Join the Team Post](http://okfnlabs.org/blog/2015/01/03/data-curators-wanted-for-core-datasets.html) 
-- [Packaging Queue (Github Issues Tracker)](https://github.com/datasets/registry/issues) 
+- [Packaging Queue (GitHub Issues Tracker)](https://github.com/datasets/registry/issues) 
 - [Publish Data Packages Documentation on Frictionless Data Site](http://data.okfn.org/doc/publish) 
 - [What is a Data Package](http://frictionlessdata.io/guides/data-package/)
 
@@ -21,7 +21,7 @@ title: Contributing to the Core Datasets
 3.  **Stop: have you read the contributing guide? The next items only make sense if you have!**
 4.  Now you can dive in with one or both of:
 
-  - Researching: start reviewing the [current queue](https://github.com/datasets/registry/issues) - add new items, comment on existing ones etc 
+  - Researching: start reviewing the [current queue](https://github.com/datasets/registry/issues) - add new items, comment on existing ones etc. 
   - Packaging:  check out the [“Ready to Package”](https://github.com/datasets/registry/labels/Status%3A%20Ready%20to%20Package) section of the queue and assign yourself (drop a comment in the issue claiming it) 
 
 ## Contributor Guide
@@ -55,14 +55,40 @@ This involves researching and selecting datasets as core datasets and adding the
 * To propose a dataset for addition you [open an issue in the Registry](https://github.com/datasets/registry/issues/new) with the details of the proposed dataset. 
 * Identify relevant source or sources for the dataset 
   * To propose a dataset you do not have to know where to get the data from (e.g. you could suggest “US GDP” as a core dataset without yet knowing where to get the data from) 
-* Discuss with Queue Manager(s) (they will spot your submission and start commenting in the github issue)
+* Discuss with Queue Manager(s) (they will spot your submission and start commenting in the GitHub issue)
 * If good =&gt; Shortlist for Packaging - add [Label “Status: Ready to Package”](https://github.com/datasets/registry/labels/Status%3A%20Ready%20to%20Package) 
+
+
+##### 1.1 Retrieving Data From the World Bank's API
+
+Since the World Bank is one of the most reliable sources of information, knowing how to get data from their databases is a useful skill. Having a script that fetches data automatically also helps automating the process of maintaining a data package.
+The following paragraphs describe how you can write a small Python script to automatically get data about an indicator.
+
+Using the `csv, numpy` and `pandas` packages, you can easily retrieve data from the API.
+
+```python 
+apiBase = "http://api.worldbank.org/indicator/";
+apiIndicator = "SI.POV.GINI";    # This can be changed to any other indicator
+FILE_NAME = 'gini-index.csv';
+source = apiBase+apiIndicator+"?format=csv";
+```
+
+The first line represents the base link of the API, while you should place the indicator you want in the second variable. Third, name your file. 
+Afterwards, what you need to tell Python is to go the link and retrieve something. 
+
+You can do that with:
+
+```python
+giniIndex = pd.read_csv(source)
+giniIndex.to_csv('archive/gini-index.csv', sep=",", index_col=0, index=False) 
+print("Saved archive CSV file.")
+```
 
 #### 2. Packaging up data
 
 Once we have a suggested dataset marked as "ready to package" we can move to packaging it up.
 
-Assuming you already have a `.CSV` file with the data you fetched from the source and that it is ready to be packaged, the goal now is to have it under a structure such that allows for a standardization of the datapackages.
+Assuming you already have a `.CSV` file with the data you fetched from the source and that it is ready to be packaged, the goal now is to have it under a structure such that allows for a standardization of the data packages.
 
 You should be looking to have something similar to this:
 
@@ -117,7 +143,22 @@ Here is a list of things you must pay attention to in your `.CSV` file, before s
 * If data is not available, you either make that cell as `0` or `NaN`.
 * The data package name should be `your-package.csv`. We rather use `-` (underscores) to refer to spaces.
 
-By now you can understand why we use programming skills here. The workflow at this stage is: 1) Download the source `CSV` file which you can do directly in your programming environment (like in Python, R, ...); 2) Prepare a small and quick Python script to search for these small inconsistencies and remove/change them so that there are no problems in the and, 3) Run the `Makefile` in the terminal (in Linux, you can do that by simply changing to the directory of the package - `sudo cd ~/path/to/package` - and then by running `make`. You should see no error messages.) to ensure the script is working flawlessly.
+##### 3.1 Working with Pivot Tables with Python
+
+One common task at this stage is to "*unpivot*" tables, since you do not have the data in a format that is considered machine readable. 
+
+The easiest way to do it is using `pandas.melt` function.
+
+```python
+df = pd.melt(df, id_vars=['Country Name', 'Country Code'], var_name="Year", value_name="Value")     # Unpivoting
+df = df.sort_values(by=['Country Name', 'Year'], ascending=[True, True]) # Sorting by country
+
+df.dropna().to_csv('data/gini-index.csv', sep=",", index=False)   # Saving CSV
+```
+
+The first will reorganize the table so that the first two columns match the structure we reviewed a moment ago. The second is there to organize the data frame accordingly. Ordering it alphabetically and in ascending order seems the most adequate. At the end of this, it makes sense to store the data in the `.CSV` format we have been discussing and that is the code you will be usually looking for.  
+
+By now you can understand what and where programming skills are needed. The workflow at this stage is: 1) Download the source `CSV` file which you can do directly in your programming environment (like in Python, R, ...); 2) Prepare a small and quick Python script to search for these small issues and remove/change them so that there are no problems in the end, and, 3) Run the `Makefile` in the terminal (in Linux, you can do that by simply changing to the directory of the package - `sudo cd ~/path/to/package` - and then by running `make`. You should see no error messages.) to ensure the script is working flawlessly.
 
 1. [Validate](http://data.okfn.org/tools/validate) the Data Package and [review](http://data.okfn.org/tools/view) the data in the Data Package 
 2. Post a validation link and a view link in the comments for the issue in the Registry related to your Data Package. 
@@ -126,7 +167,7 @@ By now you can understand why we use programming skills here. The workflow at th
 
 We have a few extra specific requirements:
 
-* All Data Packages must (ultimately) be stored in a public github repo
+* All Data Packages must (ultimately) be stored in a public GitHub repo
   * First publish to your own repository
   * Then arrange a move the repository to [github.com/datasets/ organization](https://github.com/datasets/) - as the owner of a repository you can initiate a transfer request to github.com/datasets/ which can then be approved 
 * Add to the [catalog list](https://github.com/datasets/registry/blob/master/catalog-list.txt) **and** the [core list](https://github.com/datasets/registry/blob/master/core-list.txt) **and** the associated csv files: [catalog-list.csv](https://github.com/datasets/registry/blob/master/data/catalog-list.csv) and [core-list.csv](https://github.com/datasets/registry/blob/master/data/core-list.csv). 
