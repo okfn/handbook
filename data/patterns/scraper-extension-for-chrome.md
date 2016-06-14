@@ -62,5 +62,4 @@ Easy wasn’t it? Now let’s do something a little more complicated. Let’s sa
 25. Click on scrape and see how the year is added
 26. See how easily we got information out of a less structured webpage?
 
-<div class="alert alert-info">Any questions? Got stuck? <a class="btn btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!</a></div>
 

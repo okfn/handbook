@@ -15,4 +15,3 @@ So let’s create a scatterplot.
 5. And there you go: simply adapt the scatterplot so it looks nice.
 Don’t forget to label axes. Try to make the dots smaller if there is significant overlap.
 
-<div class="alert alert-info">Any questions? Got stuck? <a class="btn btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!</a></div>

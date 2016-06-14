@@ -110,5 +110,4 @@ Requesting 1 or 2 pages a second (throttle delay of 1000 or 500 milliseconds) sh
 55. The last thing we do is remove the columns we don’t need anymore: URL , Page and Row
 56. Congratulations you’ve scraped and cleaned up a large dataset from several pages on the web.
 
-<div class="alert alert-info">Any questions? Got stuck? <a class="btn btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!</a></div>
 

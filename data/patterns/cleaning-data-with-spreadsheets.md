@@ -614,5 +614,4 @@ Finishing touches
 - To complete this, apply the cleaning process outlined in Problem 5 above to Column D of the original GRAIN dataset, which records data about the sector. But for some issues with lower and upper case it does not share the same problem as the data about Production in column F. There are not obviously overlapping categories. To be certain, we ran CLEAN and TRIM again, and converted everything to sentence case (the formula is =PROPER(CLEAN(TRIM(cell reference))).
 - In Column H (Status of Deal), we altered three entries that had additional text not in the categories Done, In Process, Proposed, Suspended, MOU signed. The information carried by this text was already continued in the Summary (column I).
 
-<div class="alert alert-info">Any questions? Got stuck? <a class="btn btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!</a></div>
 

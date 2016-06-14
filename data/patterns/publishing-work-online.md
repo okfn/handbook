@@ -26,4 +26,3 @@ Walkthrough: Presenting our information as a webpage
 Of course if you already have a blog or something similar you can share the results there
 
 
-<div class="alert alert-info">Any questions? Got stuck?<a class="btn btn-large btn-info" href="<http://ask.schoolofdata.org>">Ask School of Data!</a></div>

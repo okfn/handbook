@@ -216,5 +216,3 @@ By being part of the community, you increase your profile, learn much more and b
 
 Network programming is inherently wasteful in many ways. Your processor is consistently waiting for things to arrive from other parts of the world. Therefore, you can speed up the processing steps of your scrapers significantly if you take the time to learn asynchronous programming.
 
-<div class="alert alert-info">Any questions? Got stuck? <a class="btn btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!</a></div>
-

@@ -29,5 +29,4 @@ Waltkthrough: Extracting data from PDF tables
     ![image](http://farm8.staticflickr.com/7397/9500458755_4e9e802e54_o_d.png)
 10. Fantastic you liberated the table from the PDF. Quick and easy wasn’t it?
 
-<div class="alert alert-info">Any questions? Got stuck? <a class="btn btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!</a></div>
 

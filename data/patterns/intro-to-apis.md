@@ -8,5 +8,4 @@ A common use case for APIs is relatively time-sensitive information, such as pro
 
 [TODO - how to use one]
 
-<div class="alert alert-info">Any questions? Got stuck? <a class="btn btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!</a></div>
 

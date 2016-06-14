@@ -168,4 +168,3 @@ def date_to_iso(datestring):
 	return str(parser.parse(datestring, default=default))
 ```
 
-<div class="alert alert-info">Any questions? Got stuck? <a class="btn btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!</a></div>
