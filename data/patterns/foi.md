@@ -16,5 +16,4 @@ A good example of this process is the Sunlight Foundation's request for informat
 
 Wanting to submit a request, but not sure where to start, who to address your request to or how to write it? Access Info ([](http://www.access-info.org/)) are an organisation who work to help people obtain the information they require from the public bodies that hold it. They have also produced a toolkit ([](http://www.legalleaks.info/toolkit.html)) to using FoIs. It's primarily aimed at Journalists, but most of the tips are equally relevant for CSOs.
 
-<div class="alert alert-info">Any questions? Got stuck? <a class="btn btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!</a></div>
 
