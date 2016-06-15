@@ -8,16 +8,13 @@ We focus on making things - whether that’s apps, insights or tools. We have a 
 
 We are part of [Open Knowledge International](https://okfn.org/) and operate as a collaborative community which anyone can join. Labs is organized through a public [GitHub Repository](https://github.com/okfn/okfn.github.com).
 
-## Types of Activities
-
-### Data Wrangling
+## Data Wrangling
 
 Data wrangling can be described as the process of getting, cleaning and using data. The following list covers almost all activities we do.
 
-LIST
+Click [here]({{site.baseurl}}/data/) to find more about data wrangling, getting, cleaning and publishing data online.
 
-Clicking [here]({{site.baseurl}}/data/tutorial), you can find a walk-through of the process of getting, cleaning and publishing data online. 
-#### Skills required
+### Skills required
 
 This site is for anyone interested in working with data. It assumes you have a basic working knowledge of UNIX shell commands, the Python programming language, networking, SQL and common file formats like HTML, CSV or XML. If you are not familiar with these technologies, start by working through a tutorial on Python, such as Zed Shaw's [`Learn Python the Hard Way`](http://learnpythonthehardway.org/) and then pick up the others as you need them.
 
