@@ -40,3 +40,5 @@ We need a variety of roles from identifying new "core" datasets to packaging the
 * Scraping using a command line tool or (even better) by coding yourself
 * Know what a Data Package and a Tabular Data Package are
 * Know what a text editor is (e.g. notepad, textmate, vim, emacs, ...) and know how to use it (useful for both working with data and for editing Data Package metadata)
+
+If you would like to know more about this project, feel free to read about it [here]({{site.baseurl}}/core-datasets/guide).
