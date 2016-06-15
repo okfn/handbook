@@ -16,5 +16,4 @@ One of the [largest directories of open data repositories](http://oad.simmons.ed
 - [What are some free, public data sets?](http://www.quora.com/Data/What-are-some-free-public-data-sets)
 - [Where can I get large datasets open to the public?](http://www.quora.com/Data/Where-can-I-get-large-datasets-open-to-the-public)
 
-<div class="alert alert-info">Any questions? Got stuck? <a class="btn btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!</a></div>
 

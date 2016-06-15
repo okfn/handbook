@@ -177,4 +177,3 @@ If you look at the “Name” column in our dataset you’ll notice that the nam
 
 However there is even more you can do with Refine: For example did you notice how there is always a number next to the categories in the facet - telling you how many rows are in that category? By combining two facets, can you find out how many clinics the government owns? And who owns the Provincial Hospitals?
 
-<div class="alert alert-info">Any questions? Got stuck? <a class="btn btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!</a></div>

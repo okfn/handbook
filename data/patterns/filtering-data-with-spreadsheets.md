@@ -21,5 +21,4 @@ Walkthrough: Filtering Data
 7.  Now you have successfully filtered your dataset.
 8.  Go ahead and play with it - the data will not be deleted, it’s just not displayed.
 
-<div class="alert alert-info">Any questions? Got stuck? <a class="btn btn-large btn-info" href="http://ask.schoolofdata.org">Ask School of Data!</a></div>
 
