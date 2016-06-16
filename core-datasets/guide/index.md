@@ -73,9 +73,15 @@ source = apiBase+apiIndicator+"?format=csv";
 ```
 
 The first line represents the base link of the API, while you should place the indicator you want in the second variable. Third, name your file. 
-Afterwards, what you need to tell Python is to go the link and retrieve something. 
 
-You can do that with:
+
+##### 1.2 With the source .CSV
+
+Additionally, you can retrieve data from the World Bank manually, by downloading the `.CSV` version.
+
+![Download GINI in CSV]({{site.baseurl}}/core-datasets/images/export.jpg)
+
+In any case, now you need to tell Python to read the data. Here is an example using the previous API query:
 
 ```python
 giniIndex = pd.read_csv(source)
@@ -85,9 +91,7 @@ print("Saved archive CSV file.")
 
 #### 2. Packaging up data
 
-Once we have a suggested dataset marked as "ready to package" we can move to packaging it up.
-
-Assuming you already have a `.CSV` file with the data you fetched from the source and that it is ready to be packaged, the goal now is to have it under a structure such that allows for a standardization of the data packages.
+Assuming you already have the `.CSV` file with the data you fetched from the source and that it is ready to be packaged, the next step is to structure the entire project in the standardized method we use at the Core Datasets.
 
 You should be looking to have something similar to this:
 
@@ -110,7 +114,7 @@ In summary, you should fit under `data` the final CSV that you will use for your
 
 *Note for Python users:* Do not forget to create the `requirements.txt` if you use any special Python package. 
 
-As for the Makefile, which is the easiest part, the common Makefile structure is as follows:
+As for the Makefile, which allows us to automate the process of curating a package, you should create a small script similar to:
 
 ```
 version="0.1.0"
@@ -129,13 +133,13 @@ data:
             .PHONY: all data clean
 ```
 
-Assuming you have a Python script that fetches data from an API, it is easy for a managing curator to update your data package by just running the make file from the terminal, using `make` as you are telling Python where everything is stored.
+This script will tell Python where the directories are and will automatically remove all the previously stored files, replacing them with more recent ones.
 
 #### 3. Quality Assurance
 
-This involves validating and checking packaged datasets to ensure they are of high quality and ready to publish.
+This next part involves validating and ensuring all packages are machine readable. 
 
-Here is a list of things you must pay attention to in your `.CSV` file, before submitting your package for final appreciation:
+Here is a list of things we commonly have to look for before submitting for final appreciation:
 
 * The common structure of these packages is `COUNTRY,YEAR,VALUE`. This is not static though. The World Bank of Data usually provides such structure that we generally use `COUNTRY,COUNTRY CODE, YEAR, VALUE`. For country codes, we use the ones promoted by [SMDG](https://github.com/datasets/country-codes)
 * We prefer using `.` rather than `,` to separate decimal values. We also want to avoid using certain symbols such as `%, &, #, ;, :, ` and a few others that can interfere with the data package.
@@ -144,9 +148,9 @@ Here is a list of things you must pay attention to in your `.CSV` file, before s
 
 ##### 3.1 Working with Pivot Tables with Python
 
-One common task at this stage is to "*unpivot*" tables, since you do not have the data in a format that is considered machine readable. 
+One common problem is that you find pivot tables available and we want the opposite, so that it is machine readable. 
 
-The easiest way to do it is using `pandas.melt` function.
+The easiest way to do it is using `pandas.melt` function. Using the same example as above (the GINI Index), you can do that by running:
 
 ```python
 df = pd.melt(df, id_vars=['Country Name', 'Country Code'], var_name="Year", value_name="Value")     
@@ -167,8 +171,8 @@ By now you can understand what and where programming skills are needed. The work
 We have a few extra specific requirements:
 
 * All Data Packages must (ultimately) be stored in a public GitHub repo
-  * First publish to your own repository
-  * Then arrange a move the repository to [github.com/datasets/ organization](https://github.com/datasets/) - as the owner of a repository you can initiate a transfer request to github.com/datasets/ which can then be approved 
+  * First publish to your own repository - Here is a quick reference list of guides on [how to work with Git and GitHub.]({{site.baseurl}}/core-datasets/working-with-git.md)
+  * Then arrange a move the repository to [github.com/datasets/ organization](httpss://github.com/datasets/) - as the owner of a repository you can initiate a transfer request to github.com/datasets/ which can then be approved 
 * Add to the [catalog list](https://github.com/datasets/registry/blob/master/catalog-list.txt) **and** the [core list](https://github.com/datasets/registry/blob/master/core-list.txt) **and** the associated csv files: [catalog-list.csv](https://github.com/datasets/registry/blob/master/data/catalog-list.csv) and [core-list.csv](https://github.com/datasets/registry/blob/master/data/core-list.csv). 
 * Reload [http://data.okfn.org/data/](http://data.okfn.org/data/) by visiting <http://data.okfn.org/admin/reload/>
 * If you have access, tweet from the @OKFNLabs account a link to the http://data.okfn.org/data/ page for the dataset. 
