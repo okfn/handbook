@@ -13,12 +13,12 @@ The Handbook consists of two main parts:
 * Guides and Tutorials: Guides and tutorials that walks you the main aspects of data wrangling
 * [Patterns](patterns/): A set of "patterns" or recipes for doing specific tasks from scraping an HTML table to geocoding in a spreadsheet
 
-## Guides and Tutorials
+## Guides and Tutorials
 
 * [SQL for Data Manipulation](sql-for-data-manipulation/)
 * [Introduction CSV - the Lingua Franca of Data](csv/)
 * [Glossary of Terms](glossary/)
-
+* [Walk-through of some Data Wrangling basic tasks]({{site.baseurl}}/data/tutorial/)
 
 ## Contributing
 
