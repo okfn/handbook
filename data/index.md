@@ -15,10 +15,10 @@ The Handbook consists of two main parts:
 
 ## Guides and Tutorials
 
+* [Walk-through of some Data Wrangling basic tasks]({{site.baseurl}}/data/tutorial/)
 * [SQL for Data Manipulation](sql-for-data-manipulation/)
 * [Introduction CSV - the Lingua Franca of Data](csv/)
 * [Glossary of Terms](glossary/)
-* [Walk-through of some Data Wrangling basic tasks]({{site.baseurl}}/data/tutorial/)
 
 ## Contributing
 
